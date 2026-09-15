@@ -1,4 +1,4 @@
-# Matte Neutral 12
+# 12色 大号/小号 哑光中性盘 Matte Neutral
 ![id](id.jpg)
 ## Shade 1: Saumon/Canelle — Deep peach wth a matte finish. 
 ![Shade 1 Saumon](./slices/01.png)

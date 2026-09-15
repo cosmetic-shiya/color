@@ -288,6 +288,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "哑光大盘",
         "en_name": "Grande Pro 1X",
     },
+    "middle-4-violetta": {
+        "shade_count": "4色",
+        "size_label": "中号",
+        "cn_name": "紫罗兰盘",
+        "en_name": "Petits Fours Violetta",
+    },
     "small-12-matte-cool": {
         "shade_count": "12色",
         "size_label": "小号",
@@ -329,6 +335,7 @@ HOMEPAGE_LABELS = {
     "big-12-editorial-brights": "12色 大号/小号 哑光亮彩盘 Editorial Brights",
     "big-12-mattes-dark": "12色 大号/小号 哑光深调盘 Mattes Dark",
     "middle-35-pro-x1": "35色 中号 哑光大盘 Pro X1",
+    "middle-4-violetta": "4色 中号 紫罗兰盘 Petits Fours Violetta",
     "small-12-matte-cool": "12色 小号 哑光冷调盘 Petites Mattes Cool",
     "small-12-shimmers-paris-nudes": "12色 小号 巴黎裸光盘 Petites Shimmers Paris Nudes",
     "middle-12-cashmerie-charmeuse-etendu": "12色 中号 羊绒魅缎盘 Cashmerie Charmeuse Etendu",
@@ -343,6 +350,7 @@ HOMEPAGE_SECTION = "### 眼影 Viseart"
 PRODUCT_URLS = {
     "small-12-matte-cool": "https://viseartparis.com/en-de/products/petites-mattes-cool",
     "small-12-shimmers-paris-nudes": "https://viseartparis.com/en-de/products/petites-shimmers-paris-nudes?_pos=67&_sid=7a187920b&_ss=r",
+    "middle-4-violetta": "https://viseartparis.com/en-de/products/petits-fours-violetta?_pos=79&_sid=7a187920b&_ss=r",
     "big-12-mattes-neutral": "https://viseartparis.com/en-de/products/petites-mattes-neutral",
     "big-12-mattes-cool-original": "https://viseartparis.com/en-de/collections/visepro/products/visepro-cool-mattes-original",
     "big-12-editorial-brights": "https://viseartparis.com/en-de/products/visepro-editorial-brights?_pos=8&_sid=0596684ea&_ss=r",
@@ -751,6 +759,8 @@ def parse_shades(source_path: Path) -> tuple[str, list[Shade]]:
 def infer_grid(shade_count: int) -> tuple[int, int]:
     if shade_count == 12:
         return 4, 3
+    if shade_count == 4:
+        return 2, 2
     if shade_count == 35:
         return 7, 5
     raise ValueError(f"No default grid for {shade_count} shades. Use --grid COLS ROWS.")

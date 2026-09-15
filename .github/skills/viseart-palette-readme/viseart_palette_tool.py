@@ -105,6 +105,18 @@ NAME_TRANSLATIONS = {
     "Abricot Doré": "金杏釉",
     "Cacao Serein": "静夜可可",
     "Ganache Noire": "黑甘纳许",
+    "Lunaision": "月雾",
+    "Séléné": "月神",
+    "Veillée": "守夜灰棕",
+    "Éther": "以太米杏",
+    "Aube": "晨曦玫瑰",
+    "Nocturne": "夜曲",
+    "Lunaire": "月辉紫",
+    "Étoilée": "星夜枪灰",
+    "Rêve": "幻梦钢蓝",
+    "Nuit": "夜幕黑莓",
+    "Noctis": "暗夜银灰",
+    "Envoûté": "迷魅浓咖",
 }
 
 
@@ -205,6 +217,17 @@ DESCRIPTION_TRANSLATIONS = {
     "Iced apricot glaze with a satin finish.": "冰杏釉光色，缎光质地。",
     "Midtone brown-plum with a matte finish.": "中调棕梅子色，哑光质地。",
     "Dark cocoa brown with a satin finish.": "深可可棕色，缎光质地。",
+    "Muted dusty mauve with a matte finish.": "柔雾灰豆沙色，哑光质地。",
+    "Cool, light beige with a matte finish.": "冷调浅米色，哑光质地。",
+    "Midtone cool grey taupe with a matte finish.": "中调冷灰棕色，哑光质地。",
+    "Midtone neutral beige with a matte finish.": "中调中性米色，哑光质地。",
+    "Burgundy rose with a satin shimmer finish.": "酒红玫瑰色，缎闪质地。",
+    "Deep violet with a duochromatic finish.": "深紫色，双偏光质地。",
+    "Deep gunmetal brown with a satin metallic finish.": "深枪灰棕色，缎金属质地。",
+    "Steel French blue with a matte finish.": "钢感法式蓝，哑光质地。",
+    "Smoked blackberry with a matte finish.": "烟熏黑莓色，哑光质地。",
+    "Deep grey with a crystalline metallic finish.": "深灰色，晶亮金属质地。",
+    "Deep espresso brown with a matte finish.": "深浓缩咖棕色，哑光质地。",
 }
 
 
@@ -290,6 +313,18 @@ USE_TRANSLATIONS = {
     "This iced apricot shade can be used as an all-over lid colour, to highlight the brow bone and inner corners of the eyes, as a blush on light to medium complexions, or as a highlighter on medium to deep complexions. Use with a mixing medium for a foiled effect or mix into gloss for a luminous sheen. Pair with shades ‘Abricotine Fraîche’ and ‘Abricot Givré’ for a glacé peach look, cool and softly luminous. Apply with a brush for your desired level of intensity.": "可作全眼铺色，用于眉骨和眼头提亮；浅至中等肤色可作腮红，中等至深肤色可作高光。搭配调和液可获得箔光效果，也可混入唇蜜增添明亮釉泽。与 `Abricotine Fraîche` 和 `Abricot Givré` 搭配，可呈现清凉柔亮的冰蜜桃妆感。可用刷具按需叠加显色度。",
     "This midtone brown-plum shade can be used as an all over lid colour, as a transition shade to build out the crease and socket, as a soft liner, or as a base tone beneath complementary tones for increased depth and saturation. Pair with shades ‘Nectar Brûlé’ and ‘Ganache Noire’ for a rich and sumptuous look inspired by the indulgence of a chocolate ganache dessert. Apply with a brush for your desired level of intensity.": "可作全眼铺色、眼窝过渡色、柔和眼线色，或作为互补色下方的打底加深色，增强深度与饱和度。与 `Nectar Brûlé` 和 `Ganache Noire` 搭配，可呈现如巧克力甘纳许甜点般浓郁丰厚的妆效。可用刷具按需叠加显色度。",
     "This dark cocoa-brown shade can be used to create depth and dimension in the crease, socket, and lash line. Build up the colour in the outer corners of the eyes for a boldly pigmented finish or use with a mixing medium and liner brush for a graphic finish. Pairs perfectly with ‘Nougatine’ and ‘Bois d’Ambre’ for a richly pigmented, duochromatic look. Use a brush for your desired level of intensity.": "适合用于眼窝、轮廓和睫毛根部加深，增强深邃度与立体感。可在眼尾逐步叠加做出高显色效果，也可搭配调和液和眼线刷完成更利落的图形眼线。与 `Nougatine` 和 `Bois d’Ambre` 搭配，可呈现高显色的双偏光深邃妆感。可用刷具按需叠加显色度。",
+    "Use this dusty mauve shade as an all-over lid color on all complexions, in the crease and outer corners of the eyes as a transitional mid-tone hue, or a neutral base beneath complementary tones. Can also be used as a blush tone on light to medium complexions. Apply with a brush for your desired level of intensity. Pair with shades ‘Aube’ and ‘Nocturne’ for a rose-toned reverie.": "可作全眼铺色，用于眼窝与眼尾作为中间过渡色，或作为互补色下方的中性色打底；浅至中等肤色也可作腮红。可用刷具按需叠加显色度。与 `Aube` 和 `Nocturne` 搭配，可呈现柔雾玫瑰调妆感。",
+    "Use this cool light beige tone as an all-over lid color on all complexions, in the crease and outer corners of the eyes as a transitional mid-tone hue, or a neutral base beneath complementary tones. Apply with a brush for your desired level of intensity. Wear with shades ‘Veillée’ and ‘Nocturne’ for a soft-sculpted, naturally defined look.": "可作全眼铺色，用于眼窝与眼尾作为过渡中间色，或作为互补色下方的中性色打底。可用刷具按需叠加显色度。与 `Veillée` 和 `Nocturne` 搭配，可打造柔和自然的轮廓眼妆。",
+    "Use this cool grey taupe shade as an all-over lid color on all complexions, in the crease as a transitional crease shade, or to build out depth and dimension in the outer corners of the eyes. Can be used as a soft eyeliner on all skin tones, in the brows and hairline, or as a subtle contour shade on light to medium complexions. Apply with a brush for your desired level of intensity. Wear as a base tone beneath shades ‘Étoilée’ and ‘Envoûté’ for smoldering depth and drama.": "可作全眼铺色、眼窝过渡色，或用于眼尾叠出深度与立体感。适合所有肤色作柔和眼线，也可用于眉部、发际线；浅至中等肤色还可作自然修容。可用刷具按需叠加显色度。叠在 `Étoilée` 和 `Envoûté` 下方，可强化深邃烟熏感。",
+    "Use this midtone neutral beige shade as an all-over lid color on all complexions, in the crease and outer corners of the eyes as a transitional crease shade, or to build out depth and dimension in the outer corners of the eyes. Can be used in the brows, hairline, or as a contour shade on light to medium complexions. Apply with a brush for your desired level of intensity. Pairs perfectly with shades ‘Séléné’ and ‘Étoilée’ for a seamless, effortlessly elevated eye look.": "可作全眼铺色，用于眼窝与眼尾作为过渡色，或叠出柔和层次。也可用于眉部、发际线，浅至中等肤色还可作修容。可用刷具按需叠加显色度。与 `Séléné` 和 `Étoilée` 搭配，可完成自然衔接的精致眼妆。",
+    "Wear this burgundy rose shade alone for a striking monochromatic glow, or layer over deeper tones for a veil of rose-lit shimmer. Can also be used as liner or worn as a shimmering blush on medium to deep complexions. Apply with a brush for your desired level of intensity. Blend with shades ‘Éther’ and ‘Nocturne’ to sculpt a multi-dimensional, rich, and rosy look.": "可单独使用打造吸睛单色光泽，也可叠加在深色之上，罩出玫瑰微闪层次。中等至深肤色可作微闪腮红，也可作眼线色。可用刷具按需叠加显色度。与 `Éther` 和 `Nocturne` 搭配，可塑造浓郁立体的玫瑰调妆感。",
+    "Wear this champagne rose shade as an all-over lid color on all complexions or layered over complementary tones for a refined wash of reflectivity. Can also be used as a highlighter in the center of the lids or to brighten the inner corners of the eyes. Use this shade with a mixing medium for a foiled effect. Apply with a brush for your desired level of intensity. Pair with shades ‘Séléné’ and ‘Nuit’ for a blackberry-mauve look kissed by twilight’s final glow.": "可作全眼铺色，或叠加在互补色之上，带出细腻反光层次；也可点在眼皮中央或眼头提亮。搭配调和液可获得箔光效果。可用刷具按需叠加显色度。与 `Séléné` 和 `Nuit` 搭配，可呈现暮光亲吻般的黑莓豆沙妆感。",
+    "Use this violet duochromatic shade as an all-over lid colour, layered over complementary tones for a high-impact reflective finish, or blended with deeper shades to create a sultry, smoldering effect. Can be used as a liner or with a mixing medium for a foiled appearance. Apply with a brush for your desired level of intensity. Blend with ‘Éther’ and ‘Nuit’ for a multi-chrome, smoked blackberry look with a prismatic shift.": "可作全眼铺色，或叠加在互补色上，打造高冲击反光效果；与深色晕染则能呈现魅惑烟熏感。可作眼线色，也可搭配调和液获得箔光质感。可用刷具按需叠加显色度。与 `Éther` 和 `Nuit` 搭配，可做出带棱彩偏光的黑莓烟熏妆效。",
+    "This deep gunmetal brown shade can be used as an all-over lid colour, layered over complementary tones for a reflective finish, or blended with deeper shades to create a smokey, seductive effect. Use this shade with a mixing medium for a foiled appearance. Apply with a brush for your desired level of intensity. Pair with shades “Éther” and “Envoûté” for a soft smokescape in twilight taupe.": "可作全眼铺色，或叠加在互补色之上加强反光，也可与更深色晕染出深邃烟熏效果。搭配调和液可获得箔光质感。可用刷具按需叠加显色度。与 `Éther` 和 `Envoûté` 搭配，可呈现暮色灰棕调的柔烟妆感。",
+    "Use this matte steel blue as an all-over lid color, as a richly saturated base beneath complementary tones, or to define the outer corners of the eyes for a cool-toned smokey look. Can also be worn as a bold, graphic liner. Apply with a brush for your desired level of intensity. Pair with shades ‘Séléné’ and ‘Noctis’ for a luminous look evocative of a midnight lagoon.": "可作全眼铺色，或作为互补色下方的高饱和打底色，也可用于眼尾勾勒冷调烟熏轮廓。也适合画出利落图形眼线。可用刷具按需叠加显色度。与 `Séléné` 和 `Noctis` 搭配，可呈现午夜泻湖般的冷光妆感。",
+    "Use this smoked blackberry as an all-over lid, as a richly saturated base beneath complementary tones, or to define the outer corners of the eyes for a cool-toned smokey look. Can also be worn as a bold, graphic liner. Apply with a brush for your desired level of intensity. Layer with shades ‘Nocturne’ and “Lunaire”’ for a violet veil of shimmer, smoke, and celestial elegance.": "可作全眼铺色，或作为互补色下方的高饱和打底色，也可用于眼尾勾勒冷调烟熏层次。也适合画出利落图形眼线。可用刷具按需叠加显色度。叠加 `Nocturne` 和 `Lunaire`，可营造紫调微闪与烟雾交织的星夜妆感。",
+    "Use this deep grey metallic shade as an all-over lid color, layered over complementary tones for dimensional depth, or in the outer corners of the eyes to line and define. Can also be used with a mixing medium for a foiled effect. Apply with a brush for your desired level of intensity. Layer over shade ‘Veillée’ and blend with shade ‘Envoûté’ to create a steel-toned smokey eye with dramatic depth.": "可作全眼铺色，或叠加在互补色之上增强立体深度，也可用于眼尾与睫毛根部勾勒轮廓。搭配调和液可获得箔光效果。可用刷具按需叠加显色度。叠在 `Veillée` 上并与 `Envoûté` 晕染，可做出钢感烟熏妆效。",
+    "Use this deep espresso brown shade as an all-over lid color for all complexions, a transitional crease shade, or to build out depth and dimension in the outer corners of the eyes. This shade can be used to create a deep smokey eye all over the lid, as eyeliner, or to fill in brows and hairlines on complementary hair tones. Can be layered with mattes and shimmers for a multitude of different looks. Apply with a brush for your desired level of intensity. Pair with shades ‘Rêve’ and ‘Noctis’ for a cool-toned, gunmetal gaze where steel meets shadow.": "可作全眼铺色、眼窝过渡色，或用于眼尾加深立体感。也适合铺满眼皮打造深烟熏效果，或作眼线、眉部与发际线修饰。可与哑光和珠光色叠搭，延展出多种妆效。可用刷具按需叠加显色度。与 `Rêve` 和 `Noctis` 搭配，可完成冷调枪灰感的深邃眼妆。",
 }
 
 
@@ -384,6 +419,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "杏光流辉盘",
         "en_name": "Apricotine Lumière Étendu",
     },
+    "middle-12-paris-nuit-etoilee-etendu": {
+        "shade_count": "12色",
+        "size_label": "中号",
+        "cn_name": "巴黎星夜盘",
+        "en_name": "Paris Nuit Étoilée Étendu",
+    },
 }
 
 
@@ -403,6 +444,7 @@ HOMEPAGE_LABELS = {
     "middle-12-sireneuse-etendu": "12色 中号 海妖绮梦盘 Sireneuse Etendu",
     "middle-12-sireneuse-nocturne-etendu": "12色 中号 海妖夜曲盘 Sireneuse Nocturne Etendu",
     "middle-12-apricotine-lumiere-etendu": "12色 中号 杏光流辉盘 Apricotine Lumière Étendu",
+    "middle-12-paris-nuit-etoilee-etendu": "12色 中号 巴黎星夜盘 Paris Nuit Étoilée Étendu",
 }
 
 
@@ -423,6 +465,7 @@ PRODUCT_URLS = {
     "middle-12-sireneuse-etendu": "https://viseartparis.com/en-de/products/visepro-sireneuse-etendu",
     "middle-12-sireneuse-nocturne-etendu": "https://viseartparis.com/en-de/products/sireneuse-nocturne-etendu",
     "middle-12-apricotine-lumiere-etendu": "https://viseartparis.com/en-de/products/apricotine-lumiere-etendu?_pos=75&_sid=7a187920b&_ss=r",
+    "middle-12-paris-nuit-etoilee-etendu": "https://viseartparis.com/en-de/products/paris-nuit-etoilee-etendu?_pos=73&_sid=7a187920b&_ss=r",
 }
 
 

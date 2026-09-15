@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+from collections import deque
 import html
 import re
 import unicodedata
@@ -10,6 +11,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from PIL import Image
+from PIL import ImageDraw
 
 
 SHADE_RE = re.compile(r"^(?:##\s+)?Shade\s+(\d+):\s+(.*?)\s+(?:-|—)\s+(.*)$")
@@ -83,6 +85,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "哑光冷调盘",
         "en_name": "Petites Mattes Cool",
     },
+    "middle-12-cashmerie-charmeuse-etendu": {
+        "shade_count": "12色",
+        "size_label": "中号",
+        "cn_name": "羊绒魅缎盘",
+        "en_name": "Cashmerie Charmeuse Etendu",
+    },
 }
 
 
@@ -91,6 +99,7 @@ HOMEPAGE_LABELS = {
     "big-12-matte-neutral": "12色大号/小号中性盘 Matte Neutral",
     "middle-35-pro-x1": "35色中号铁盘哑光盘 Pro X1",
     "small-12-matte-cool": "12色小号 哑光冷调盘 Petites Mattes Cool",
+    "middle-12-cashmerie-charmeuse-etendu": "12色中号 羊绒魅缎盘 Cashmerie Charmeuse Etendu",
 }
 
 
@@ -100,6 +109,7 @@ HOMEPAGE_SECTION = "### 眼影 Viseart"
 PRODUCT_URLS = {
     "small-12-matte-cool": "https://viseartparis.com/en-de/products/petites-mattes-cool",
     "big-12-matte-neutral": "https://viseartparis.com/en-de/products/petites-mattes-neutral",
+    "middle-12-cashmerie-charmeuse-etendu": "https://viseartparis.com/en-de/products/cashmerie-charmeuse-etendu",
 }
 
 
@@ -203,6 +213,23 @@ def parse_args() -> argparse.Namespace:
         nargs=4,
         metavar=("LEFT", "TOP", "RIGHT", "BOTTOM"),
         help="Optional manual crop box override for slicing difficult source images.",
+    )
+    parser.add_argument(
+        "--first-row-mask-px",
+        type=int,
+        default=0,
+        help="Optional number of pixels to paint black at the top of first-row slices when the lid occludes the top edge.",
+    )
+    parser.add_argument(
+        "--trim-to-pan-boxes",
+        action="store_true",
+        help="Trim each slice to the detected visible pan area instead of keeping the full grid cell.",
+    )
+    parser.add_argument(
+        "--pan-border-px",
+        type=int,
+        default=2,
+        help="Black border in pixels to add around each detected pan crop when using --trim-to-pan-boxes.",
     )
     return parser.parse_args()
 
@@ -425,6 +452,31 @@ def fitted_bbox(bbox: tuple[int, int, int, int], cols: int, rows: int) -> tuple[
     return (left, top, left + fitted_width, top + fitted_height)
 
 
+def fitted_cover_bbox_from_bottom_rows(
+    bbox: tuple[int, int, int, int], cols: int, rows: int
+) -> tuple[int, int, int, int]:
+    left, top, right, bottom = bbox
+    width = right - left
+    height = bottom - top
+    fitted_width = (width // cols) * cols
+    left += (width - fitted_width) // 2
+    right = left + fitted_width
+
+    if rows != 3:
+        fitted_height = (height // rows) * rows
+        top = bottom - fitted_height
+        return (left, top, right, bottom)
+
+    lower_two_rows_top = top + height // 3
+    lower_two_rows_height = bottom - lower_two_rows_top
+    row_height = (lower_two_rows_height // 2)
+    if row_height <= 0:
+        return fitted_bbox((left, top, right, bottom), cols, rows)
+
+    full_top = bottom - row_height * rows
+    return (left, full_top, right, bottom)
+
+
 def palette_bbox_from_cover(image: Image.Image, threshold: int = 80) -> tuple[int, int, int, int]:
     rgb = image.convert("RGB")
     outer_left, outer_top, outer_right, outer_bottom = content_bbox(rgb)
@@ -498,6 +550,82 @@ def translate_use(text: str) -> str:
     for source, target in replacements:
         result = re.sub(source, target, result, flags=re.IGNORECASE)
     return result
+
+
+def detect_visible_pan_bbox(tile: Image.Image, ignore_top_px: int = 0) -> tuple[int, int, int, int] | None:
+    rgb = tile.convert("RGB")
+    width, height = rgb.size
+    pixels = rgb.load()
+    visited: set[tuple[int, int]] = set()
+    best_bbox: tuple[int, int, int, int] | None = None
+    best_area = 0
+
+    def is_pan_pixel(x: int, y: int) -> bool:
+        red, green, blue = pixels[x, y]
+        avg = (red + green + blue) // 3
+        return 18 < avg < 250
+
+    for y in range(ignore_top_px, height):
+        for x in range(width):
+            point = (x, y)
+            if point in visited:
+                continue
+            visited.add(point)
+            if not is_pan_pixel(x, y):
+                continue
+
+            queue = deque([point])
+            min_x = max_x = x
+            min_y = max_y = y
+            area = 0
+
+            while queue:
+                current_x, current_y = queue.popleft()
+                area += 1
+                min_x = min(min_x, current_x)
+                max_x = max(max_x, current_x)
+                min_y = min(min_y, current_y)
+                max_y = max(max_y, current_y)
+
+                for next_x, next_y in (
+                    (current_x + 1, current_y),
+                    (current_x - 1, current_y),
+                    (current_x, current_y + 1),
+                    (current_x, current_y - 1),
+                ):
+                    if not (0 <= next_x < width and 0 <= next_y < height):
+                        continue
+                    next_point = (next_x, next_y)
+                    if next_point in visited:
+                        continue
+                    visited.add(next_point)
+                    if is_pan_pixel(next_x, next_y):
+                        queue.append(next_point)
+
+            bbox = (min_x, min_y, max_x + 1, max_y + 1)
+            bbox_width = bbox[2] - bbox[0]
+            bbox_height = bbox[3] - bbox[1]
+            if bbox_width < width * 0.28 or bbox_height < height * 0.28:
+                continue
+            if area > best_area:
+                best_area = area
+                best_bbox = bbox
+
+    return best_bbox
+
+
+def crop_tile_to_pan(tile: Image.Image, border_px: int, ignore_top_px: int = 0) -> Image.Image:
+    bbox = detect_visible_pan_bbox(tile, ignore_top_px=ignore_top_px)
+    if not bbox:
+        return tile
+
+    cropped = tile.crop(bbox)
+    if border_px <= 0:
+        return cropped
+
+    framed = Image.new("RGB", (cropped.width + border_px * 2, cropped.height + border_px * 2), (0, 0, 0))
+    framed.paste(cropped.convert("RGB"), (border_px, border_px))
+    return framed
 
 
 def build_readme(
@@ -595,6 +723,9 @@ def save_slices(
     slice_name_mode: str,
     use_cover_palette_bbox: bool,
     crop_bbox: tuple[int, int, int, int] | None,
+    first_row_mask_px: int,
+    trim_to_pan_boxes: bool,
+    pan_border_px: int,
 ) -> list[str]:
     image = Image.open(icons_path)
     if crop_bbox:
@@ -606,12 +737,16 @@ def save_slices(
         bbox = scaled_reference_bbox(reference, image)
     else:
         bbox = content_bbox(image)
-    bbox = fitted_bbox(bbox, cols, rows)
+    if use_cover_palette_bbox:
+        bbox = fitted_cover_bbox_from_bottom_rows(bbox, cols, rows)
+    else:
+        bbox = fitted_bbox(bbox, cols, rows)
 
     left, top, right, bottom = bbox
     content = image.crop((left, top, right, bottom))
     cell_width = content.width // cols
     cell_height = content.height // rows
+    first_row_offset = cell_height // 5 if use_cover_palette_bbox and rows == 3 else 0
 
     output_dir.mkdir(parents=True, exist_ok=True)
     names: list[str] = []
@@ -623,7 +758,19 @@ def save_slices(
         crop_top = row * cell_height
         crop_right = crop_left + cell_width
         crop_bottom = crop_top + cell_height
+        if first_row_offset and row == 0:
+            crop_top = min(content.height - cell_height, crop_top + first_row_offset)
+            crop_bottom = crop_top + cell_height
         tile = content.crop((crop_left, crop_top, crop_right, crop_bottom))
+        if trim_to_pan_boxes:
+            tile = crop_tile_to_pan(
+                tile,
+                border_px=pan_border_px,
+                ignore_top_px=first_row_mask_px if row == 0 else 0,
+            )
+        elif first_row_mask_px and row == 0:
+            draw = ImageDraw.Draw(tile)
+            draw.rectangle((0, 0, tile.width, min(first_row_mask_px, tile.height)), fill=(0, 0, 0))
 
         prefix = f"{shade.number:02d}"
         if slice_name_mode == "number-name":
@@ -718,6 +865,9 @@ def main() -> None:
         slice_name_mode=args.slice_name_mode,
         use_cover_palette_bbox=use_cover_palette_bbox,
         crop_bbox=tuple(args.crop_bbox) if args.crop_bbox else None,
+        first_row_mask_px=args.first_row_mask_px,
+        trim_to_pan_boxes=args.trim_to_pan_boxes,
+        pan_border_px=args.pan_border_px,
     )
 
     readme_body = build_readme(title, cover_path.name, shades, slice_names, slice_context)

@@ -135,6 +135,7 @@ Preferred strategies:
 - Split only the tray region into the expected grid.
 - Expect weaker results than a real `icons.*` board because the first row may be partially covered by the lid.
 - When this happens, record the limitation in `README.md` and prefer a later re-run from `icons.*`.
+- For 3-row palettes, align rows 2 and 3 first from the lower visible area, then derive row 1 using the same row height.
 
 ### 3.5. Download source assets from the product page when needed
 If local assets are incomplete, prefer the official product page as the source of truth.

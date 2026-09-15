@@ -250,8 +250,8 @@ ls docs/viseart/<palette-slug>/slices | wc -l
 
 ## Existing Assets in This Repo
 Potential references:
-- `docs/viseart/big-12-matte-neutral/README.md`
-- `docs/viseart/big-12-matte-neutral/icons.png`
+- `docs/viseart/big-12-mattes-neutral/README.md`
+- `docs/viseart/big-12-mattes-neutral/icons.png`
 - `docs/viseart/middle-35-pro-x1/README.md`
 - `.github/skills/viseart-palette-readme/viseart_palette_tool.py`
 
@@ -280,8 +280,8 @@ Example for a 12-shade palette:
 
 ```bash
 python .github/skills/viseart-palette-readme/viseart_palette_tool.py \
-  docs/viseart/big-12-matte-cool2 \
-  --reference-icons docs/viseart/big-12-matte-neutral/icons.png \
+  docs/viseart/big-12-mattes-cool2 \
+  --reference-icons docs/viseart/big-12-mattes-neutral/icons.png \
   --rewrite-readme \
   --update-docs-index
 ```

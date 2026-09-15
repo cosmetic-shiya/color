@@ -10,6 +10,7 @@ import urllib.request
 from dataclasses import dataclass
 from pathlib import Path
 from urllib.parse import urlsplit
+from typing import cast
 
 from PIL import Image
 from PIL import ImageDraw
@@ -97,19 +98,19 @@ USE_TRANSLATIONS = {
 
 
 PALETTE_TITLE_PARTS = {
-    "big-12-matte-cool2": {
+    "big-12-mattes-cool2": {
         "shade_count": "12色",
         "size_label": "大号",
         "cn_name": "哑光冷调盘",
         "en_name": "Matte Cool 2",
     },
-    "big-12-warm-mattes": {
+    "big-12-mattes-warm": {
         "shade_count": "12色",
         "size_label": "大号",
         "cn_name": "哑光暖调盘",
         "en_name": "Warm Mattes",
     },
-    "big-12-matte-neutral": {
+    "big-12-mattes-neutral": {
         "shade_count": "12色",
         "size_label": "大号/小号",
         "cn_name": "哑光中性盘",
@@ -137,9 +138,9 @@ PALETTE_TITLE_PARTS = {
 
 
 HOMEPAGE_LABELS = {
-    "big-12-matte-cool2": "12色大号 哑光冷调盘 Matte Cool 2",
-    "big-12-warm-mattes": "12色大号 哑光暖调盘 Warm Mattes",
-    "big-12-matte-neutral": "12色大号/小号中性盘 Matte Neutral",
+    "big-12-mattes-cool2": "12色大号 哑光冷调盘 Matte Cool 2",
+    "big-12-mattes-warm": "12色大号 哑光暖调盘 Warm Mattes",
+    "big-12-mattes-neutral": "12色大号/小号中性盘 Matte Neutral",
     "middle-35-pro-x1": "35色中号铁盘哑光盘 Pro X1",
     "small-12-matte-cool": "12色小号 哑光冷调盘 Petites Mattes Cool",
     "middle-12-cashmerie-charmeuse-etendu": "12色中号 羊绒魅缎盘 Cashmerie Charmeuse Etendu",
@@ -151,8 +152,8 @@ HOMEPAGE_SECTION = "### 眼影 Viseart"
 
 PRODUCT_URLS = {
     "small-12-matte-cool": "https://viseartparis.com/en-de/products/petites-mattes-cool",
-    "big-12-matte-neutral": "https://viseartparis.com/en-de/products/petites-mattes-neutral",
-    "big-12-warm-mattes": "https://viseartparis.com/en-de/products/visepro-warm-mattes",
+    "big-12-mattes-neutral": "https://viseartparis.com/en-de/products/petites-mattes-neutral",
+    "big-12-mattes-warm": "https://viseartparis.com/en-de/products/visepro-warm-mattes",
     "middle-12-cashmerie-charmeuse-etendu": "https://viseartparis.com/en-de/products/cashmerie-charmeuse-etendu",
 }
 
@@ -521,7 +522,7 @@ def content_bbox(image: Image.Image, threshold: int = 245) -> tuple[int, int, in
 
     for y in range(height):
         for x in range(width):
-            red, green, blue = rgb.getpixel((x, y))
+            red, green, blue = cast(tuple[int, int, int], rgb.getpixel((x, y)))
             if red < threshold or green < threshold or blue < threshold:
                 xs.append(x)
                 ys.append(y)
@@ -600,7 +601,7 @@ def palette_bbox_from_cover(image: Image.Image, threshold: int = 80) -> tuple[in
     for y in range(outer_top, outer_bottom):
         active_pixels = 0
         for x in range(outer_left, outer_right):
-            red, green, blue = rgb.getpixel((x, y))
+            red, green, blue = cast(tuple[int, int, int], rgb.getpixel((x, y)))
             average = (red + green + blue) // 3
             if average < 245:
                 active_pixels += 1
@@ -682,7 +683,7 @@ def detect_visible_pan_bbox(tile: Image.Image, ignore_top_px: int = 0) -> tuple[
     best_area = 0
 
     def is_pan_pixel(x: int, y: int) -> bool:
-        red, green, blue = rgb.getpixel((x, y))
+        red, green, blue = cast(tuple[int, int, int], rgb.getpixel((x, y)))
         avg = (red + green + blue) // 3
         return 18 < avg < 250
 

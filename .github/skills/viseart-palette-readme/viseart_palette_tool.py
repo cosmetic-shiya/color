@@ -681,6 +681,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "魅惑微光盘",
         "en_name": "Petites Shimmers Sultry Muse",
     },
+    "small-12-mattes-paris-cherubine": {
+        "shade_count": "12色",
+        "size_label": "小号",
+        "cn_name": "巴黎小天使哑光盘",
+        "en_name": "Petites Paris Chérubine Mattes",
+    },
     "middle-12-cashmerie-charmeuse-etendu": {
         "shade_count": "12色",
         "size_label": "中号",
@@ -759,6 +765,7 @@ HOMEPAGE_LABELS = {
     "small-12-matte-cool": "12色 小号 哑光冷调盘 Petites Mattes Cool",
     "small-12-shimmers-paris-nudes": "12色 小号 巴黎裸光盘 Petites Shimmers Paris Nudes",
     "small-12-shimmers-sultry-muse": "12色 小号 魅惑微光盘 Petites Shimmers Sultry Muse",
+    "small-12-mattes-paris-cherubine": "12色 小号 巴黎小天使哑光盘 Petites Paris Chérubine Mattes",
     "middle-12-cashmerie-charmeuse-etendu": "12色 中号 羊绒魅缎盘 Cashmerie Charmeuse Etendu",
     "middle-12-sireneuse-etendu": "12色 中号 海妖绮梦盘 Sireneuse Etendu",
     "middle-12-sireneuse-nocturne-etendu": "12色 中号 海妖夜曲盘 Sireneuse Nocturne Etendu",
@@ -800,6 +807,7 @@ HOMEPAGE_GROUP_HEADINGS = {
     "small-12-matte-cool": "#### 12色 小号 Petites",
     "small-12-shimmers-paris-nudes": "#### 12色 小号 Petites",
     "small-12-shimmers-sultry-muse": "#### 12色 小号 Petites",
+    "small-12-mattes-paris-cherubine": "#### 12色 小号 Petites",
 }
 
 
@@ -810,6 +818,7 @@ PRODUCT_URLS = {
     "small-12-matte-cool": "https://viseartparis.com/en-de/products/petites-mattes-cool",
     "small-12-shimmers-paris-nudes": "https://viseartparis.com/en-de/products/petites-shimmers-paris-nudes?_pos=67&_sid=7a187920b&_ss=r",
     "small-12-shimmers-sultry-muse": "https://viseartparis.com/en-de/products/petites-shimmer-sultry-muse?_pos=78&_sid=7a187920b&_ss=r",
+    "small-12-mattes-paris-cherubine": "https://viseartparis.com/en-de/products/paris-cherubine-mattes?_pos=95&_sid=a44f35d0c&_ss=r",
     "middle-4-violetta": "https://viseartparis.com/en-de/products/petits-fours-violetta?_pos=79&_sid=7a187920b&_ss=r",
     "middle-4-peche": "https://viseartparis.com/en-de/products/petits-fours-peche?_pos=4&_sid=91ac4c63a&_ss=r",
     "middle-15-structure-brow-eyeshadow-palette": "https://viseartparis.com/en-de/products/structure-brow-eyeshadow-palette?_pos=10&_sid=a44f35d0c&_ss=r",

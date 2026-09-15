@@ -8,8 +8,6 @@ Use: Base tone for all skin types, can be used as a highlighter for deeper tones
 ##### 色号 1：三文鱼/肉桂 — 深桃色，哑光质地。
 用途：适合所有肤色的打底色；深肤色可用作高光，极浅肤色可用作中间色。可用作腮红，或用于修饰眼角及眼下部位的青色（利用桃色调中和青色）。浅肤色人群也可将其用作腮红或修容。该色号可用作眼睑至睫毛根部的底色、提亮眼头，以及面部高光（建议涂抹于颧骨上方、鼻梁及下颌线处）。
 
-##### 某些版本这个色号也叫做
-
 ## Shade 2: Beige — Warm peach beige with a matte finish.
 ![Shade 2 Beige](./slices/02.png)
 

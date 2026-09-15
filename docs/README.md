@@ -1,6 +1,8 @@
 # Color Library 色彩库
 Color cards and palette slices prepared for GitHub Pages.
 
+[Git Repo](https://github-shiya/cosmetic-shiya/color)
+
 ### 眼影 Viseart
 - 📄 [12色 大号/小号 哑光中性盘 Mattes Neutral](./viseart/big-12-mattes-neutral/README.md)
 - 📄 [12色 大号/小号 哑光冷调盘 Mattes Cool 2](./viseart/big-12-mattes-cool2/README.md)

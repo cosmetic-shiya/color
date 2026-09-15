@@ -306,6 +306,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "巴黎裸光盘",
         "en_name": "Petites Shimmers Paris Nudes",
     },
+    "small-12-shimmers-sultry-muse": {
+        "shade_count": "12色",
+        "size_label": "小号",
+        "cn_name": "魅惑微光盘",
+        "en_name": "Petites Shimmers Sultry Muse",
+    },
     "middle-12-cashmerie-charmeuse-etendu": {
         "shade_count": "12色",
         "size_label": "中号",
@@ -338,6 +344,7 @@ HOMEPAGE_LABELS = {
     "middle-4-violetta": "4色 中号 紫罗兰盘 Petits Fours Violetta",
     "small-12-matte-cool": "12色 小号 哑光冷调盘 Petites Mattes Cool",
     "small-12-shimmers-paris-nudes": "12色 小号 巴黎裸光盘 Petites Shimmers Paris Nudes",
+    "small-12-shimmers-sultry-muse": "12色 小号 魅惑微光盘 Petites Shimmers Sultry Muse",
     "middle-12-cashmerie-charmeuse-etendu": "12色 中号 羊绒魅缎盘 Cashmerie Charmeuse Etendu",
     "middle-12-sireneuse-etendu": "12色 中号 海妖绮梦盘 Sireneuse Etendu",
     "middle-12-sireneuse-nocturne-etendu": "12色 中号 海妖夜曲盘 Sireneuse Nocturne Etendu",
@@ -350,6 +357,7 @@ HOMEPAGE_SECTION = "### 眼影 Viseart"
 PRODUCT_URLS = {
     "small-12-matte-cool": "https://viseartparis.com/en-de/products/petites-mattes-cool",
     "small-12-shimmers-paris-nudes": "https://viseartparis.com/en-de/products/petites-shimmers-paris-nudes?_pos=67&_sid=7a187920b&_ss=r",
+    "small-12-shimmers-sultry-muse": "https://viseartparis.com/en-de/products/petites-shimmer-sultry-muse?_pos=78&_sid=7a187920b&_ss=r",
     "middle-4-violetta": "https://viseartparis.com/en-de/products/petits-fours-violetta?_pos=79&_sid=7a187920b&_ss=r",
     "big-12-mattes-neutral": "https://viseartparis.com/en-de/products/petites-mattes-neutral",
     "big-12-mattes-cool-original": "https://viseartparis.com/en-de/collections/visepro/products/visepro-cool-mattes-original",

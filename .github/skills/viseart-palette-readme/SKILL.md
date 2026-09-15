@@ -28,6 +28,13 @@ README title convention in this repo:
 - English palette name
 - for neutral palettes, the size label can be written as `大号/小号` when the repository already uses that combined form
 
+README structure convention in this repo:
+- normalize the page structure to the palette family, shade count, and model name before translating the shade blocks
+- 4-pan `Petits Fours` palettes should use the compact quad layout: one cover image, one section per shade, no extra wrapper sections, and `2 x 2` slicing
+- 12-pan and 35-pan palettes keep the standard long-form layout with one `## Shade N` section per pan in reading order
+- the title, homepage label, and folder slug should agree on the same shade count and size label, so the page reads consistently as a specific model rather than a generic palette page
+- do not leave generation-only notes in the final published README unless the user explicitly asks to keep them
+
 Preferred format:
 
 ```text
@@ -202,6 +209,7 @@ Rules:
 - Insert the matching slice directly under the shade heading.
 - Preserve important warnings in English and Chinese.
 - Keep the Chinese translation concise and product-facing.
+- Match the overall page shape to the palette family: quads should stay compact, 12-pan palettes should stay uniform and expanded, and 35-pan palettes should preserve the larger grid-driven flow.
 - If the slices were generated from `id.*` instead of `icons.*`, add a short note near the top explaining that the first row may be slightly occluded.
 - Format the main page title using the repo title convention unless the user explicitly asks for a different naming style.
 

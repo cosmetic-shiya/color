@@ -141,6 +141,18 @@ NAME_TRANSLATIONS = {
     "Sureau": "接骨木雾紫",
     "Charoïte": "查罗石裸灰",
     "Prunelle": "野李深莓",
+    "Perle D'or": "珍珠蜜粉",
+    "Rosée": "玫露香槟",
+    "Soft Pink": "柔粉",
+    "Isolde": "浅石裸棕",
+    "Tiramisu": "提拉米苏灰褐",
+    "Argenté": "银霜",
+    "Burlesque": "魅舞焦糖",
+    "Fondant": "糖霜银玫",
+    "Pompidou": "蓬皮杜丁香粉",
+    "Dulce": "焦糖古铜",
+    "Cambresine": "灰石褐紫",
+    "Espresso": "浓缩苦棕",
 }
 
 
@@ -275,6 +287,18 @@ DESCRIPTION_TRANSLATIONS = {
     "Cool-toned smoky lilac grey with a matte finish.": "冷调烟熏丁香灰色，哑光质地。",
     "Cool-toned stone nude with a matte finish.": "冷调石感裸色，哑光质地。",
     "Deep elderberry purple-brown with a matte finish.": "深接骨木莓紫棕色，哑光质地。",
+    "Light champagne blush pink with a matte finish.": "浅香槟腮红粉色，哑光质地。",
+    "Light pink champagne with a high-shine, metallic finish.": "浅粉香槟色，高闪金属质地。",
+    "Soft light pink with a matte finish": "柔和浅粉色，哑光质地。",
+    "Light stone-brown nude with a matte finish.": "浅石棕裸色，哑光质地。",
+    "Light cool taupe with a matte finish.": "浅冷灰褐色，哑光质地。",
+    "Silver with a shimmer finish.": "银色，闪光质地。",
+    "Metallic satin caramel hue with a duochromatic finish.": "焦糖金属缎光色，双偏光质地。",
+    "Iced silver rose with a shimmer finish.": "冰银玫瑰色，闪光质地。",
+    "Muted, cool-toned pink lilac with a matte finish.": "柔雾冷丁香粉色，哑光质地。",
+    "Warm, midtone burnished bronze with a shimmer finish.": "暖调中调抛光古铜色，闪光质地。",
+    "Midtone greige stone hue with a matte finish": "中调灰米石色，哑光质地。",
+    "Bitter brown with a matte finish": "深苦棕色，哑光质地。",
 }
 
 
@@ -397,6 +421,18 @@ USE_TRANSLATIONS = {
     "Use as an all-over base, to sculpt the crease and outer corners, or as a softly diffused liner. Layer beneath reflective shades to deepen and intensify a smoky look. Blend with ‘Violine‘ and ‘Prunelle‘ for a sultry smoked violet.": "可作全眼打底色、眼窝与眼尾塑形色，或作为柔雾眼线色。叠在反光色下方可加深并强化烟熏效果。与 `Violine` 和 `Prunelle` 搭配，可呈现魅惑烟熏紫妆感。",
     "Define the crease, deepen the outer corners, or softly contour the eye for natural-looking depth. Blend with ‘Prisme‘ and ‘Prunelle‘ for a softly shadowed mauve-plum eye.": "可用于勾勒眼窝、加深眼尾，或柔和修饰眼部轮廓，打造自然深度。与 `Prisme` 和 `Prunelle` 搭配，可呈现柔雾阴影感的豆沙李子妆效。",
     "Sweep across the lid for dramatic depth, blend into the crease and outer corners to sculpt dimension, or use as a softly diffused liner. Can also be worn as a contour on deeper complexions. Wear with ‘Violine‘ and ‘Opaline‘ for plum-lit shimmer and shadow.": "可全眼铺色打造戏剧化深度，也可晕染在眼窝与眼尾塑造立体层次，或作为柔雾眼线色。深肤色也可作修容。与 `Violine` 和 `Opaline` 搭配，可呈现李子色微光与阴影交织的妆效。",
+    "This light blush pink shade can be used as an all-over lid colour or as a base tone beneath complementary tones, it can be used to highlight the brow bone. It can be mixed with any of the other tones to brighten and lighten to create over 12 new hues. Apply with fingertips or a dense brush for your desired level of intensity.": "可作全眼铺色，或作为互补色下方的打底色，也可用于眉骨提亮。还能与盘中其他颜色混合，提亮并调浅，延展出 12 种以上新色。可用指腹或扎实刷具按需叠加显色度。",
+    "This high-shine, pink champagne shade can be used as an all-over base tone or layered over complementary tones for a refined wash of reflectivity. Combine with a mixing medium for an ultra-foiled effect. This shade can also be mixed into gloss to add a kiss of brilliance to any lip look.": "可作全眼打底色，或叠加在互补色之上，带出细腻反光层次。搭配调和液可获得更强烈的箔光效果，也可混入唇蜜，为唇妆增添一抹亮泽。",
+    "This soft light pink shade can be used as an all-over lid colour or as a base tone beneath complementary shades. It can also be used to highlight the brow bone and inner corners of the eyes. Additionally, it can be mixed with any of the other tones to brighten, lighten to create over 12 new hues.": "可作全眼铺色，或作为互补色下方的打底色。也可用于眉骨和眼头提亮。还能与盘中其他颜色混合，提亮并调浅，延展出 12 种以上新色。",
+    "This light stone-brown nude shade can be used as an all-over lid colour, as a transitional shade to build out the crease and socket, as a soft liner, or as a base tone beneath complementary tones for increased depth and saturation. Can also be used in brows on light complexions.": "可作全眼铺色、眼窝过渡色、柔和眼线色，或作为互补色下方的打底色以增强深度与饱和度。浅肤色也可用于眉部修饰。",
+    "On light skin tones, this is a taupe, on darker skin tones, this is a grey. Use it on the lid or in the crease.": "在浅肤色上呈现灰褐调，在深肤色上则更偏灰色。可用于眼皮主色或眼窝过渡色。",
+    "All over the lid for a flash of shine, or layer it over a matte color to intensify both. For maximum reflection, use a damp brush.": "可全眼铺色，带来一抹闪耀光感，也可叠加在哑光色上，同时增强两者表现。想要最大反光效果，建议使用微湿刷具。",
+    "This metallic duochromatic shade can be used as an all-over lid color for all complexions or layer it over any of the matte shades as a topper. This shade can be lightened with any pale satin shimmer tones to create four new shades! All skin tones.": "可作全眼铺色，适合所有肤色，也可叠加在任一哑光色之上作为提亮层。还可与浅色缎光珠光混合，延展出更多新色变化。",
+    "Lid to lash base color, to brighten up the inner corner of the eye, and to highlight on the face - try using it on top of the cheekbone, down the nose, and along the jawline.": "可作从眼皮到睫毛根部的打底色，也适合提亮眼头和面部高点，可尝试用于颧骨、鼻梁和下颌线位置。",
+    "This shade can be used as an all-over lid tone. Mix with “Beaubourg” or “Archives” for increased depth and luminosity! Can also be worn as blush on light complexions! Mix with any shimmer for a new hue!": "可作全眼铺色。与 `Beaubourg` 或 `Archives` 混合，可增强深度与光泽感；浅肤色也可作腮红使用；再与任意珠光色混合，还能延展出新的色调变化。",
+    "This midtone burnished bronze shade can be used as an all-over base colour, layered over complementary tones for additional warmth and dimension, or used as a liner for subtle definition. Can also be worn as a highlighter on medium to deep skin tones. Apply with a dense brush for your desired level of intensity. Use with the Viseart Seamless Eye Primer or other preferred mixing medium for a foiled effect.": "可作全眼打底色，或叠加在互补色之上增加暖感与层次，也可作为眼线色带出柔和轮廓。中等至深肤色也可作高光使用。可用扎实刷具按需叠加显色度；搭配 Viseart Seamless Eye Primer 或其他调和液可获得箔光效果。",
+    "This midtone shade can be used as an all-over lid colour, as a transition shade to build out the crease and socket, as a soft liner, or as a base tone beneath complementary tones for increased depth and saturation. Can be used in brows. Mix this hue with other matte shades to create 12 new shades. Apply with fingertips or a dense brush for your desired level of intensity.": "可作全眼铺色、眼窝过渡色、柔和眼线色，或作为互补色下方的打底色以增强深度与饱和度。也可用于眉部修饰。与其他哑光色混合，可延展出 12 种新色。可用指腹或扎实刷具按需叠加显色度。",
+    "This espresso matte is used to create a deep, smokey eye all over the lid and as an eyeliner with a damp brush. Hue can be tapped with a brush in brows and muted down with other matte tones for darker to lighter brows, depending on skin tone. Can be layered with all shimmers for a multitude of different looks.": "适合全眼铺色打造深邃烟熏感，也可配合微湿刷具作为眼线色使用。也可轻拍于眉部，并与其他哑光色混合，调出适合不同肤色的深浅眉色；与所有珠光色叠搭也能延展出多种妆效。",
 }
 
 
@@ -509,6 +545,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "紫罗兰流辉盘",
         "en_name": "Violette Lumière Étendu",
     },
+    "middle-12-lilas-lumiere-etendu": {
+        "shade_count": "12色",
+        "size_label": "中号",
+        "cn_name": "丁香流辉盘",
+        "en_name": "Lilas Lumière Étendu",
+    },
 }
 
 
@@ -531,6 +573,7 @@ HOMEPAGE_LABELS = {
     "middle-12-paris-nuit-etoilee-etendu": "12色 中号 巴黎星夜盘 Paris Nuit Étoilée Étendu",
     "middle-12-violette-nocturne-etendu": "12色 中号 紫罗兰夜曲盘 Violette Nocturne Étendu",
     "middle-12-violette-lumiere-etendu": "12色 中号 紫罗兰流辉盘 Violette Lumière Étendu",
+    "middle-12-lilas-lumiere-etendu": "12色 中号 丁香流辉盘 Lilas Lumière Étendu",
 }
 
 
@@ -554,6 +597,7 @@ PRODUCT_URLS = {
     "middle-12-paris-nuit-etoilee-etendu": "https://viseartparis.com/en-de/products/paris-nuit-etoilee-etendu?_pos=73&_sid=7a187920b&_ss=r",
     "middle-12-violette-nocturne-etendu": "https://viseartparis.com/en-de/products/violette-nocturne-etendu?_pos=70&_sid=7a187920b&_ss=r",
     "middle-12-violette-lumiere-etendu": "https://viseartparis.com/en-de/products/violette-lumiere-etendu?_pos=1&_psq=viol&_psid=7db8d6167&_ss=e",
+    "middle-12-lilas-lumiere-etendu": "https://viseartparis.com/en-de/products/visepro-lilas-lumiere-etendu?_pos=3&_psq=viol&_psid=7db8d6167&_ss=e",
 }
 
 

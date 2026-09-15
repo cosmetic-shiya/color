@@ -1,9 +1,6 @@
 # Viseart 12色 中号 海妖夜曲盘 Sireneuse Nocturne Etendu
 ![id](id.jpg)
 
-> 提示：本页切片来自官网开盖图 `id`，并非独立的带描述色板图 `icons`。
-> 第一排色块可能会受到盖子边缘轻微遮挡；如果后续拿到带描述色板图，应优先用 `icons` 重新切图。
-
 ## Shade 1: Voile — Iced silver rosé with a shimmer finish.
 ![Shade 1 Voile](./slices/01_Voile.jpg)
 

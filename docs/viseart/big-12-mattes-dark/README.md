@@ -1,9 +1,6 @@
 # Viseart 12色 大号/小号 哑光深调盘 Mattes Dark
 ![id](id.jpg)
 
-> 提示：本页切片来自官网开盖图 `id`，并非独立的带描述色板图 `icons`。
-> 第一排色块可能会受到盖子边缘轻微遮挡；如果后续拿到带描述色板图，应优先用 `icons` 重新切图。
-
 ## Shade 1: Toffee — Warm light brown with a matte finish.
 ![Shade 1 Toffee](./slices/01_Toffee.jpg)
 

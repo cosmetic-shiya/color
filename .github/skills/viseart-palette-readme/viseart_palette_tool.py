@@ -21,6 +21,18 @@ USE_RE = re.compile(r"^Use:\s*(.*)$")
 
 
 NAME_TRANSLATIONS = {
+    "White": "纯白",
+    "Lime": "青柠绿",
+    "Kelly": "凯利绿",
+    "Aqua": "水蓝绿",
+    "Pink": "亮玫粉",
+    "Orange": "亮橙",
+    "Yellow": "亮黄",
+    "Periwinkle": "长春花蓝",
+    "Red": "霓虹红",
+    "Raspberry": "树莓粉",
+    "Grape": "葡萄紫",
+    "Azure": "天青蓝",
     "Toffee": "太妃棕",
     "Hazelnut": "榛果棕",
     "Sienna": "赭石棕",
@@ -73,6 +85,18 @@ NAME_TRANSLATIONS = {
 
 
 DESCRIPTION_TRANSLATIONS = {
+    "Bright white with a matte finish.": "明亮纯白色，哑光质地。",
+    "Neon yellow green with a matte finish.": "霓虹黄绿色，哑光质地。",
+    "Bright green with a matte finish.": "明亮绿色，哑光质地。",
+    "Bright aqua with a matte finish.": "明亮水蓝绿色，哑光质地。",
+    "Bright fuchsia pink with a matte finish.": "明亮洋红粉色，哑光质地。",
+    "Primary orange with a matte finish.": "原色橙，哑光质地。",
+    "Primary yellow with a matte finish.": "原色黄，哑光质地。",
+    "Cyan blue with a matte finish.": "青蓝色，哑光质地。",
+    "Neon red with a matte finish.": "霓虹红色，哑光质地。",
+    "Bright raspberry with a matte finish.": "明亮树莓色，哑光质地。",
+    "Bright magenta purple with a matte finish.": "明亮洋红紫色，哑光质地。",
+    "Cerulean blue with a matte finish.": "天青蓝色，哑光质地。",
     "Warm light brown with a matte finish.": "暖调浅棕色，哑光质地。",
     "Deep taupe brown with a matte finish.": "深灰棕色，哑光质地。",
     "Muted rosy brown with a matte finish.": "柔和玫瑰棕色，哑光质地。",
@@ -149,6 +173,18 @@ DESCRIPTION_TRANSLATIONS = {
 
 
 USE_TRANSLATIONS = {
+    "The most versatile! This can be mixed with any of the other colors to make pastels, or blended in as a matte opaque color.": "这是一支用途最广的颜色。可与盘中任何颜色混合，调出粉彩效果，也可单独作为高遮盖哑光色使用。",
+    "This is a tertiary color, as it’s a yellow-green, Mix with white to make pale lime, or with Clover to intensify the depth of the green. This color is also analogous to both blues and yellows.": "这是一支三次色，属于黄绿色。与白色混合可调出浅青柠色；与更深的绿色混合则可增强绿色深度。它也很适合与蓝色和黄色系搭配使用。",
+    "This is a secondary color, mix with white to make pale green, with yellow to make a lighter green, or with blue to make Teal.": "这是一支二次色。与白色混合可调出浅绿色；与黄色混合可做出更轻亮的绿色；与蓝色混合则可得到蓝绿色。",
+    "This is a tertiary color, it’s a blue-green. Mix with white to make anything from pastel teal to turquoise.": "这是一支三次色，属于蓝绿色。与白色混合后，可从粉彩蓝绿一路调到绿松石色。",
+    "A tertiary color, mix with white to make anything from pastel to bubble gum pink, or use to brighten up blue and green eyes. This can also be used on cheeks, or mix with a blush that’s too light to intensify it. *WARNING* - In the US, this shade contains pigments that the FDA has not approved for use in the eye area.": "这是一支三次色。与白色混合可从粉彩粉一路调到泡泡糖粉；也适合用于提亮蓝色和绿色眼眸。还可作腮红使用，或与过浅的腮红混合增强颜色。 *WARNING* - In the US, this shade contains pigments that the FDA has not approved for use in the eye area.",
+    "A secondary color, mix with white to make anything from a pale orange to pastel. Orange is amazing against blue eyes, or use analogous colors with it, like Red and Yellow. *WARNING* - In the US, this shade contains pigments that the FDA has not approved for use in the eye area.": "这是一支二次色。与白色混合可从浅橙调到粉彩橙。橙色尤其能衬托蓝色眼眸，也适合与红色、黄色等邻近色搭配。 *WARNING* - In the US, this shade contains pigments that the FDA has not approved for use in the eye area.",
+    "Yellow is a primary color, which makes it ultra versatile. Mix with white to make anything from pastel to buttercup! You can also blend with orange to intensify the yellow, or blend with red to change the depth of the orange.": "黄色是原色，因此非常百搭。与白色混合可从粉彩黄调到奶油黄；也可与橙色混合增强黄色感，或与红色混合改变橙色的深浅层次。",
+    "A tertiary color, Mix with white to range from pastel to sky blue, or use with analogous colors like purples or greens.": "这是一支三次色。与白色混合可从粉彩蓝调到天蓝色；也很适合与紫色或绿色等邻近色搭配使用。",
+    "A primary color, Mix with white to make multiple shades of pink, or blend out to create purples, browns, oranges and more. *WARNING* - In the US, this shade contains pigments that the FDA has not approved for use in the eye area.": "这是一支原色。与白色混合可调出多种粉色；也可继续混色延展出紫色、棕色、橙色等更多变化。 *WARNING* - In the US, this shade contains pigments that the FDA has not approved for use in the eye area.",
+    "This is a tertiary color, it is a red-violet. It’s fantastic against brown or hazel eyes to brighten, but is a super versatile color with almost every eye shade. *WARNING* - In the US, this shade contains pigments that the FDA has not approved for use in the eye area.": "这是一支三次色，属于红紫调。特别适合提亮棕色或榛色眼眸，同时对几乎所有眼色都很百搭。 *WARNING* - In the US, this shade contains pigments that the FDA has not approved for use in the eye area.",
+    "This secondary color can be made into pastel simply by mixing with white. This is also super versatile for every eye color to intensify. *WARNING* - In the US, this shade contains pigments that the FDA has not approved for use in the eye area.": "这是一支二次色，与白色混合即可轻松调成粉彩效果。它也适合用于增强各种眼色的表现力。 *WARNING* - In the US, this shade contains pigments that the FDA has not approved for use in the eye area.",
+    "This is a primary Blue, Mix with white to make a pastel blue, or use dramatically for anything you can think of. This can be used for liner, lid, crease - the sky's the limit. Blue is also a wonderful color to brighten Brown and Hazel eyes.": "这是一支原色蓝。与白色混合可调出粉彩蓝，也可直接高强度使用，发挥各种创意。可用于眼线、眼皮主色或眼窝加深，几乎没有使用边界。蓝色也很适合提亮棕色和榛色眼眸。",
     "All over base tone for all skin types, highlight for brow bone on medium to deep skin. Use as a mix-in with other brown tones and with greens to create different light variations of khaki.": "适合所有肤色作大面积打底色；中等至深肤色也可用于眉骨提亮。还可与其他棕色或绿色混合，调出不同深浅变化的卡其色。",
     "All over base tone for all skin types. Use as a midtone to add definition.": "适合所有肤色作大面积打底色，也可作为中间色调增加轮廓与层次。",
     "All over tone for all skin types. Use it as a liner to create depth and dimension.": "适合所有肤色作大面积铺色，也可作为眼线色使用，增强深度与立体感。",
@@ -234,6 +270,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "哑光冷调盘",
         "en_name": "Mattes Cool Original",
     },
+    "big-12-editorial-brights": {
+        "shade_count": "12色",
+        "size_label": "大号/小号",
+        "cn_name": "哑光亮彩盘",
+        "en_name": "Editorial Brights",
+    },
     "big-12-mattes-dark": {
         "shade_count": "12色",
         "size_label": "大号/小号",
@@ -278,6 +320,7 @@ HOMEPAGE_LABELS = {
     "big-12-mattes-warm": "12色 大号 哑光暖调盘 Warm Mattes",
     "big-12-mattes-neutral": "12色 大号/小号 中性盘 Matte Neutral",
     "big-12-mattes-cool-original": "12色 大号/小号 哑光冷调盘 Mattes Cool Original",
+    "big-12-editorial-brights": "12色 大号/小号 哑光亮彩盘 Editorial Brights",
     "big-12-mattes-dark": "12色 大号/小号 哑光深调盘 Mattes Dark",
     "middle-35-pro-x1": "35色 中号 哑光大盘 Pro X1",
     "small-12-matte-cool": "12色 小号 哑光冷调盘 Petites Mattes Cool",
@@ -294,6 +337,7 @@ PRODUCT_URLS = {
     "small-12-matte-cool": "https://viseartparis.com/en-de/products/petites-mattes-cool",
     "big-12-mattes-neutral": "https://viseartparis.com/en-de/products/petites-mattes-neutral",
     "big-12-mattes-cool-original": "https://viseartparis.com/en-de/collections/visepro/products/visepro-cool-mattes-original",
+    "big-12-editorial-brights": "https://viseartparis.com/en-de/products/visepro-editorial-brights?_pos=8&_sid=0596684ea&_ss=r",
     "big-12-mattes-dark": "https://viseartparis.com/en-de/products/visepro-dark-mattes?_pos=6&_sid=cdce64564&_ss=r",
     "big-12-mattes-warm": "https://viseartparis.com/en-de/products/visepro-warm-mattes",
     "middle-12-cashmerie-charmeuse-etendu": "https://viseartparis.com/en-de/products/cashmerie-charmeuse-etendu",

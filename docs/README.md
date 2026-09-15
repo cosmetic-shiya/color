@@ -4,8 +4,13 @@ Color cards and palette slices prepared for GitHub Pages.
 [Git Repo](https://github.com/cosmetic-shiya/color){: .btn }
 
 ### 眼影 Viseart
+
 #### 35色 中号 Pro X
 - 📄 [35色 中号 哑光盘 Pro X1](./viseart/middle-35-pro-x1/README.md)
+
+#### 15色 中号 Structure Brow
+- 📄 [15色 中号 结构塑眉塑影修容盘 15-Pan Structure Brow, Shadow, Hairline & Contour Palette](./viseart/middle-15-structure-brow-eyeshadow-palette/README.md)
+
 
 #### 12色 大号/小号 Pro 
 - 📄 [12色 大号/小号 哑光中性盘 Mattes Neutral](./viseart/big-12-mattes-neutral/README.md)

@@ -108,6 +108,21 @@ NAME_TRANSLATIONS = {
     "Perchance": "遐想中棕",
     "Potion": "魔药酒莓",
     "Hawthorne": "山楂冷棕",
+    "Neutral Light Wax": "浅中性塑眉蜡",
+    "Light Ash": "浅灰调棕",
+    "Light Taupe": "浅灰褐",
+    "Neutral Ash": "中性灰棕",
+    "Neutral Smoke": "中性烟灰棕",
+    "Neutral Medium Wax": "中性中调塑眉蜡",
+    "Light Auburn": "浅赤褐",
+    "Medium Auburn": "中赤褐",
+    "Neutral Mink": "中性貂棕",
+    "Mink Brunette": "貂棕深褐",
+    "Neutral Dark Ash Wax": "深中性灰调塑眉蜡",
+    "Platinum": "铂灰",
+    "Sterling": "纯银灰",
+    "Dark Ash": "深灰调棕",
+    "Graphite": "石墨灰",
     "Lune de Miel": "蜜月光",
     "Nacre Blanche": "白珠光",
     "Abricotine Fraîche": "鲜杏粉",
@@ -353,6 +368,21 @@ DESCRIPTION_TRANSLATIONS = {
     "Medium brown with a matte finish.": "中调棕色，哑光质地。",
     "Muted burgundy with gold-pink reflectivity.": "柔雾酒红色，带金粉反光。",
     "Cool-toned brown with a matte finish.": "冷调棕色，哑光质地。",
+    "Neutral Light wax for light blonde to light brunette hair": "适合浅金发到浅棕发的浅中性色塑眉蜡。",
+    "Light ash with a green undertone": "浅灰调棕色，带绿色底调。",
+    "Light taupe with a neutral undertone": "浅灰褐色，带中性底调。",
+    "Neutral Ash with a green undertone": "中性灰棕色，带绿色底调。",
+    "Medium ash with a neutral undertone.": "中调灰棕色，带中性底调。",
+    "Neutral Medium wax for blonde to brunette": "适合金发到棕发的中性色中调塑眉蜡。",
+    "Light Auburn taupe with a muted red undertone": "浅赤褐灰褐色，带柔和红调底色。",
+    "Medium Auburn with a red undertone": "中赤褐色，带红调底色。",
+    "Neutral mink with a touch of green and auburn.": "中性貂棕色，带一丝绿色与赤褐调。",
+    "Neutral medium brown with a hint of aubergine": "中性中棕色，带一丝茄紫底调。",
+    "Blonde to deep tones.": "适合金发到深色发色。",
+    "Light charcoal with a cool undertone.": "浅炭灰色，带冷调底色。",
+    "Neutral medium charcoal grey ash.": "中性中调炭灰灰棕色。",
+    "Mid-toned charcoal grey with a cool undertone.": "中调炭灰色，带冷调底色。",
+    "Deep ash with a slight aubergine undertone.": "深灰调色，带轻微茄紫底调。",
 }
 
 
@@ -515,6 +545,21 @@ USE_TRANSLATIONS = {
     "This medium brown shade can be used as an all-over lid colour, as a transitional shade to build out the crease and socket, as a soft liner, or as a base tone beneath complementary tones for increased depth and saturation. Can also be used in brows on medium to deep complexions. Apply with a brush for your desired level of intensity.": "可作全眼铺色、眼窝过渡色、柔和眼线色，或作为互补色下方的打底色以增强深度与饱和度。中等至深肤色也可用于眉部修饰。可用刷具按需叠加显色度。",
     "Use this muted reflective burgundy tone as an all-over lid colour, layered overtop complementary shades, or on its own for a natural, softly shimmering effect on all complexions. This hue can be used in the crease to define the socket, as a liner, or paired with other shades to build depth and create a smouldering, multidimensional eye look.": "可作全眼铺色，叠加在互补色之上，或单独使用，呈现自然柔闪效果，适合所有肤色。也可用于眼窝加深、作为眼线色，或与其他色号搭配，打造带层次感的微熏妆效。",
     "This cool-toned brown shade can be used to create depth and dimension in the crease, socket, and lash line. Build up the colour in the outer corners of the eyes for a boldly pigmented finish or use a mixing medium and liner brush for a graphic finish. Pairs perfectly with ‘Potion’ and ‘Changeling’ for a richly pigmented duochromatic look. Use a brush for your desired level of intensity.": "适合用于眼窝、轮廓与睫毛根部加深，增强深邃度与立体感。可在眼尾逐步叠加，打造高显色效果；也可搭配调和液和眼线刷完成更利落的图形眼线。与 `Potion` 和 `Changeling` 搭配，可呈现高显色的双偏光层次妆效。可用刷具按需叠加显色度。",
+    "This nourishing wax pomade can be worn alone to lock hair into place for long-wearing hold. For a more defined brow, layer each pomade over a complimentary powder to imbue the brow with subtle color and create pigmented, buildable intensity for a sculpted look that stays all day. Suitable for light blonde to light brunette hair.": "这款滋养型眉蜡膏可单独使用，帮助毛流定型并提供持久支撑。想让眉形更利落时，可将眉蜡叠加在相配的粉状色之上，为眉毛增添柔和色感，并逐步叠出更清晰立体的塑形效果，整日保持整洁。适合浅金发到浅棕发。",
+    "To apply, use short, feathery strokes with an angled brush to outline, define, and fill in sparse areas, gradually building coverage as desired. Suitable for light blonde to light brunette hair with an ashy undertone. Can also be used to enhance the hairline, or as eyeshadow.": "建议使用斜角刷，以短而轻的羽毛状笔触勾勒眉形、填补空隙，并按需要逐步叠加显色度。适合带灰调的浅金发到浅棕发。也可用于修饰发际线，或作眼影使用。",
+    "To apply, use short, feathery strokes with an angled brush to outline, define, and fill in sparse areas, gradually building coverage as desired. Suitable for light blonde to light brunette hair with a neutral undertone. Can also be used to enhance the hairline, or as eyeshadow.": "建议使用斜角刷，以短而轻的羽毛状笔触勾勒眉形、填补空隙，并按需要逐步叠加显色度。适合带中性底调的浅金发到浅棕发。也可用于修饰发际线，或作眼影使用。",
+    "To apply, use short, feathery strokes with an angled brush to outline, define, and fill in sparse areas, gradually building coverage as desired. Suitable for light to medium brunette hair with an ashy undertone. Can also be used to enhance the hairline, or as eyeshadow.": "建议使用斜角刷，以短而轻的羽毛状笔触勾勒眉形、填补空隙，并按需要逐步叠加显色度。适合带灰调的浅棕到中棕发色。也可用于修饰发际线，或作眼影使用。",
+    "To apply, use short, feathery strokes with an angled brush to outline, define, and fill in sparse areas, gradually building coverage as desired. Suitable for medium brunette hair with an ashy undertone. Can also be used to enhance the hairline, or as eyeshadow.": "建议使用斜角刷，以短而轻的羽毛状笔触勾勒眉形、填补空隙，并按需要逐步叠加显色度。适合带灰调的中棕发色。也可用于修饰发际线，或作眼影使用。",
+    "This nourishing wax pomade can be worn alone to lock hair into place for long-wearing hold. For a more defined brow, layer each pomade over a complimentary powder to imbue the brow with subtle color and create pigmented, buildable intensity for a sculpted look that stays all day. Suitable for blonde to medium brunette hair.": "这款滋养型眉蜡膏可单独使用，帮助毛流定型并提供持久支撑。想让眉形更利落时，可将眉蜡叠加在相配的粉状色之上，为眉毛增添柔和色感，并逐步叠出更清晰立体的塑形效果，整日保持整洁。适合金发到中棕发。",
+    "To apply, use short, feathery strokes with an angled brush to outline, define, and fill in sparse areas, gradually building coverage as desired. Suitable for light auburn hair with a soft red undertone. Can also be used to enhance the hairline, or as eyeshadow.": "建议使用斜角刷，以短而轻的羽毛状笔触勾勒眉形、填补空隙，并按需要逐步叠加显色度。适合带柔和红调的浅赤褐发色。也可用于修饰发际线，或作眼影使用。",
+    "To apply, use short, feathery strokes with an angled brush to outline, define, and fill in sparse areas, gradually building coverage as desired. Suitable for medium brunette hair with an auburn undertone. Can also be used to enhance the hairline, or as eyeshadow.": "建议使用斜角刷，以短而轻的羽毛状笔触勾勒眉形、填补空隙，并按需要逐步叠加显色度。适合带赤褐调的中棕发色。也可用于修饰发际线，或作眼影使用。",
+    "To apply, use short, feathery strokes with an angled brush to outline, define, and fill in sparse areas, gradually building coverage as desired. Suitable for medium brunette hair with a greenish auburn undertone. Can also be used to enhance the hairline, or as eyeshadow.": "建议使用斜角刷，以短而轻的羽毛状笔触勾勒眉形、填补空隙，并按需要逐步叠加显色度。适合带绿感赤褐底调的中棕发色。也可用于修饰发际线，或作眼影使用。",
+    "To apply, use short, feathery strokes with an angled brush to outline, define, and fill in sparse areas, gradually building coverage as desired. Suitable for copper brunette hair with a soft aubergine undertone. Can also be used to enhance the hairline, or as eyeshadow.": "建议使用斜角刷，以短而轻的羽毛状笔触勾勒眉形、填补空隙，并按需要逐步叠加显色度。适合带柔和茄紫底调的铜棕发色。也可用于修饰发际线，或作眼影使用。",
+    "This nourishing wax pomade can be worn alone to lock hair into place for long-wearing hold. For a more defined brow, layer each pomade over a complimentary powder to imbue the brow with subtle color and create pigmented, buildable intensity for a sculpted look that stays all day. Suitable for medium brunette to dark hair.": "这款滋养型眉蜡膏可单独使用，帮助毛流定型并提供持久支撑。想让眉形更利落时，可将眉蜡叠加在相配的粉状色之上，为眉毛增添柔和色感，并逐步叠出更清晰立体的塑形效果，整日保持整洁。适合中棕发到深色发。",
+    "To apply, use short, feathery strokes with an angled brush to outline, define, and fill in sparse areas, gradually building coverage as desired. Suitable for light ash brown hair with a cool undertone. Can also be used to enhance the hairline, or as eyeshadow.": "建议使用斜角刷，以短而轻的羽毛状笔触勾勒眉形、填补空隙，并按需要逐步叠加显色度。适合带冷调底色的浅灰棕发色。也可用于修饰发际线，或作眼影使用。",
+    "To apply, use short, feathery strokes with an angled brush to outline, define, and fill in sparse areas, gradually building coverage as desired. Suitable for medium ash brown hair with a cool undertone. Can also be used to enhance the hairline, or as eyeshadow.": "建议使用斜角刷，以短而轻的羽毛状笔触勾勒眉形、填补空隙，并按需要逐步叠加显色度。适合带冷调底色的中灰棕发色。也可用于修饰发际线，或作眼影使用。",
+    "To apply, use short, feathery strokes with an angled brush to outline, define, and fill in sparse areas, gradually building coverage as desired. Suitable for medium charcoal grey hair with a cool undertone. Can also be used to enhance the hairline, or as eyeshadow.": "建议使用斜角刷，以短而轻的羽毛状笔触勾勒眉形、填补空隙，并按需要逐步叠加显色度。适合带冷调底色的中炭灰发色。也可用于修饰发际线，或作眼影使用。",
+    "To apply, use short, feathery strokes with an angled brush to outline, define, and fill in sparse areas, gradually building coverage as desired. Suitable for dark, ashy hair with a soft aubergine undertone. Can also be used to enhance the hairline, or as eyeshadow.": "建议使用斜角刷，以短而轻的羽毛状笔触勾勒眉形、填补空隙，并按需要逐步叠加显色度。适合带柔和茄紫底调的深灰发色。也可用于修饰发际线，或作眼影使用。",
 }
 
 
@@ -572,6 +617,12 @@ PALETTE_TITLE_PARTS = {
         "size_label": "中号",
         "cn_name": "蜜桃盘",
         "en_name": "Petits Fours Pêche",
+    },
+    "middle-15-structure-brow-eyeshadow-palette": {
+        "shade_count": "15色",
+        "size_label": "中号",
+        "cn_name": "结构塑眉塑影修容盘",
+        "en_name": "15-Pan Structure Brow, Shadow, Hairline & Contour Palette",
     },
     "small-12-matte-cool": {
         "shade_count": "12色",
@@ -664,6 +715,7 @@ HOMEPAGE_LABELS = {
     "middle-35-pro-x1": "35色 中号 哑光大盘 Pro X1",
     "middle-4-violetta": "4色 中号 紫罗兰盘 Petits Fours Violetta",
     "middle-4-peche": "4色 中号 蜜桃盘 Petits Fours Pêche",
+    "middle-15-structure-brow-eyeshadow-palette": "15色 中号 结构塑眉塑影修容盘 15-Pan Structure Brow, Shadow, Hairline & Contour Palette",
     "small-12-matte-cool": "12色 小号 哑光冷调盘 Petites Mattes Cool",
     "small-12-shimmers-paris-nudes": "12色 小号 巴黎裸光盘 Petites Shimmers Paris Nudes",
     "small-12-shimmers-sultry-muse": "12色 小号 魅惑微光盘 Petites Shimmers Sultry Muse",
@@ -690,6 +742,7 @@ HOMEPAGE_GROUP_HEADINGS = {
     "big-12-editorial-brights": "#### 12色 大号/小号 Pro ",
     "middle-4-violetta": "#### 4色 中号 Petites",
     "middle-4-peche": "#### 4色 中号 Petites",
+    "middle-15-structure-brow-eyeshadow-palette": "#### 15色 中号 Structure",
     "middle-12-cashmerie-charmeuse-etendu": "#### 12色 中号 Etendu",
     "middle-12-sireneuse-etendu": "#### 12色 中号 Etendu",
     "middle-12-sireneuse-nocturne-etendu": "#### 12色 中号 Etendu",
@@ -718,6 +771,7 @@ PRODUCT_URLS = {
     "small-12-shimmers-sultry-muse": "https://viseartparis.com/en-de/products/petites-shimmer-sultry-muse?_pos=78&_sid=7a187920b&_ss=r",
     "middle-4-violetta": "https://viseartparis.com/en-de/products/petits-fours-violetta?_pos=79&_sid=7a187920b&_ss=r",
     "middle-4-peche": "https://viseartparis.com/en-de/products/petits-fours-peche?_pos=4&_sid=91ac4c63a&_ss=r",
+    "middle-15-structure-brow-eyeshadow-palette": "https://viseartparis.com/en-de/products/structure-brow-eyeshadow-palette?_pos=10&_sid=a44f35d0c&_ss=r",
     "big-12-mattes-neutral": "https://viseartparis.com/en-de/products/petites-mattes-neutral",
     "big-12-mattes-cool-original": "https://viseartparis.com/en-de/collections/visepro/products/visepro-cool-mattes-original",
     "big-12-editorial-brights": "https://viseartparis.com/en-de/products/visepro-editorial-brights?_pos=8&_sid=0596684ea&_ss=r",
@@ -1133,6 +1187,8 @@ def parse_shades(source_path: Path) -> tuple[str, list[Shade]]:
 def infer_grid(shade_count: int) -> tuple[int, int]:
     if shade_count == 12:
         return 4, 3
+    if shade_count == 15:
+        return 5, 3
     if shade_count == 4:
         return 2, 2
     if shade_count == 35:
@@ -1426,8 +1482,12 @@ def update_docs_index(repo_root: Path, palette_dir: Path, homepage_label: str) -
             continue
 
         if inside_section and line.startswith("### "):
-            if not inserted and not target_heading:
-                updated_lines.insert(len(updated_lines) - 1, entry)
+            if not inserted:
+                if target_heading:
+                    updated_lines.insert(len(updated_lines) - 1, target_heading)
+                    updated_lines.insert(len(updated_lines) - 1, entry)
+                else:
+                    updated_lines.insert(len(updated_lines) - 1, entry)
                 inserted = True
             inside_section = False
 
@@ -1436,6 +1496,8 @@ def update_docs_index(repo_root: Path, palette_dir: Path, homepage_label: str) -
         inserted = True
 
     if inside_section and not inserted:
+        if target_heading:
+            updated_lines.append(target_heading)
         updated_lines.append(entry)
         inserted = True
 
@@ -1443,6 +1505,8 @@ def update_docs_index(repo_root: Path, palette_dir: Path, homepage_label: str) -
         if updated_lines and updated_lines[-1] != "":
             updated_lines.append("")
         updated_lines.append(HOMEPAGE_SECTION)
+        if target_heading:
+            updated_lines.append(target_heading)
         updated_lines.append(entry)
 
     docs_readme.write_text("\n".join(updated_lines).rstrip() + "\n", encoding="utf-8")

@@ -8,18 +8,18 @@ Color cards and palette slices prepared for GitHub Pages.
 #### 35色 中号 Pro X
 - 📄 [35色 中号 哑光盘 Pro X1](./viseart/middle-35-pro-x1/README.md)
 
-#### 15色 中号 Structure Brow
+#### 15色 中号 Structure
 - 📄 [15色 中号 结构塑眉塑影修容盘 15-Pan Structure Brow, Shadow, Hairline & Contour Palette](./viseart/middle-15-structure-brow-eyeshadow-palette/README.md)
 
 
 #### 12色 大号/小号 Pro 
-- 📄 [12色 大号/小号 哑光中性盘 Mattes Neutral](./viseart/big-12-mattes-neutral/README.md)
+- 📄 [12色 大号/小号 哑光中性盘 Matte Neutral](./viseart/big-12-mattes-neutral/README.md)
+- 📄 [12色 大号/小号 哑光中性盘 Mattes Neutral: Milieu](./viseart/big-12-mattes-neutral-milieu/README.md)
 - 📄 [12色 大号/小号 哑光冷调盘 Mattes Cool Original](./viseart/big-12-mattes-cool-original/README.md)
 - 📄 [12色 大号/小号 哑光冷调盘2 Mattes Cool 2](./viseart/big-12-mattes-cool2/README.md)
 - 📄 [12色 大号/小号 哑光暖调盘 Mattes Warm](./viseart/big-12-mattes-warm/README.md)
 - 📄 [12色 大号/小号 哑光深调盘 Mattes Dark](./viseart/big-12-mattes-dark/README.md)
 - 📄 [12色 大号/小号 哑光亮彩盘 Editorial Brights](./viseart/big-12-editorial-brights/README.md)
-
 #### 4色 中号 Petites
 - 📄 [4色 中号 蜜桃盘 Petits Fours Pêche](./viseart/middle-4-peche/README.md)
 - 📄 [4色 中号 紫罗兰盘 Petits Fours Violetta](./viseart/middle-4-violetta/README.md)

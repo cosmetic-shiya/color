@@ -195,6 +195,17 @@ NAME_TRANSLATIONS = {
     "Pecan": "山核桃棕",
     "Cire": "蜡灰丁香",
     "Veloutine": "丝绒浓咖",
+    "Chiffon": "雪纺蜜桃",
+    "Crème Brûlée": "焦糖布蕾",
+    "Platane": "梧桐裸棕",
+    "Latte": "拿铁米棕",
+    "Sorrel": "暖肉桂",
+    "Groseille": "醋栗石榴",
+    "Nue": "裸灰棕",
+    "Cacao": "可可深棕",
+    "Dahlia": "大丽花洋红",
+    "Baie": "莓李灰紫",
+    "Pénombre": "暮影钴蓝",
 }
 
 
@@ -383,6 +394,18 @@ DESCRIPTION_TRANSLATIONS = {
     "Neutral medium charcoal grey ash.": "中性中调炭灰灰棕色。",
     "Mid-toned charcoal grey with a cool undertone.": "中调炭灰色，带冷调底色。",
     "Deep ash with a slight aubergine undertone.": "深灰调色，带轻微茄紫底调。",
+    "Muted cantaloupe with a matte finish.": "柔和哈密瓜橘色，哑光质地。",
+    "soft buttercream with a matte finish.": "柔和奶油霜色，哑光质地。",
+    "Terracotta with a matte finish.": "陶土色，哑光质地。",
+    "Caramel nude with a matte finish.": "焦糖裸色，哑光质地。",
+    "Tawny beige with a matte finish.": "黄褐米色，哑光质地。",
+    "Warm cinnamon with a matte finish.": "暖肉桂色，哑光质地。",
+    "Soft garnet with a matte finish.": "柔和石榴红色，哑光质地。",
+    "Taupe brown with a matte finish.": "灰褐棕色，哑光质地。",
+    "Dark chocolate with a matte finish.": "深巧克力色，哑光质地。",
+    "Magenta with a matte finish.": "洋红色，哑光质地。",
+    "Dusty plum with a matte finish.": "灰调李子色，哑光质地。",
+    "Cobalt blue with a matte finish.": "钴蓝色，哑光质地。",
 }
 
 
@@ -560,6 +583,16 @@ USE_TRANSLATIONS = {
     "To apply, use short, feathery strokes with an angled brush to outline, define, and fill in sparse areas, gradually building coverage as desired. Suitable for medium ash brown hair with a cool undertone. Can also be used to enhance the hairline, or as eyeshadow.": "建议使用斜角刷，以短而轻的羽毛状笔触勾勒眉形、填补空隙，并按需要逐步叠加显色度。适合带冷调底色的中灰棕发色。也可用于修饰发际线，或作眼影使用。",
     "To apply, use short, feathery strokes with an angled brush to outline, define, and fill in sparse areas, gradually building coverage as desired. Suitable for medium charcoal grey hair with a cool undertone. Can also be used to enhance the hairline, or as eyeshadow.": "建议使用斜角刷，以短而轻的羽毛状笔触勾勒眉形、填补空隙，并按需要逐步叠加显色度。适合带冷调底色的中炭灰发色。也可用于修饰发际线，或作眼影使用。",
     "To apply, use short, feathery strokes with an angled brush to outline, define, and fill in sparse areas, gradually building coverage as desired. Suitable for dark, ashy hair with a soft aubergine undertone. Can also be used to enhance the hairline, or as eyeshadow.": "建议使用斜角刷，以短而轻的羽毛状笔触勾勒眉形、填补空隙，并按需要逐步叠加显色度。适合带柔和茄紫底调的深灰发色。也可用于修饰发际线，或作眼影使用。",
+    "Use as all over lid color or as a crease color - pop a champagne shimmer over this for an easy daytime look.": "可作全眼铺色或眼窝过渡色；在其上轻叠一层香槟珠光，就能快速完成日间妆容。",
+    "Use as all over lid color, or to brighten the inner corner on medium skin tones.": "可作全眼铺色；中等肤色也可用它提亮眼头。",
+    "All over lid tone for a smokey chocolate eye, use as a base tone for deeper skin, a crease color to warm up the look, and can be used in brows for redheads. This can also be blended with other tones as a blush.": "可作巧克力烟熏妆的全眼铺色；深肤色可作打底，放在眼窝能提升整体暖感，也适合红发人群作眉色。还可与其他颜色混合作腮红使用。",
+    "All over lid shade for medium to dark skin tones, use as a crease colour, and in brows. Shade can be used as a bronzer for lighter skin tones.": "适合中深肤色作全眼铺色，也可用作眼窝色和眉色；浅肤色则可拿来作修容或古铜色使用。",
+    "On fair skin, this is a dramatic garnet, on deep skin, use it to warm up the lid or the crease. This can be mixed with a lighter shade for blush. Using this to create depth against green or blue eyes will intensify the color of the eye. *WARNING* - In the US, this shade contains pigments that the FDA has not approved for use in the eye area.": "在浅肤色上，它会呈现鲜明的石榴红调；在深肤色上，则适合用来温暖眼皮或眼窝。也可与浅色混合当作腮红。若用它为绿色或蓝色眼眸增加深度，会让瞳色更突出。提示：在美国法规下，此色含有未获 FDA 批准用于眼周的色料。",
+    "Lids, creases, contour, brows - this color does it all on many skin tones.": "无论是眼皮铺色、眼窝加深、面部修容还是眉部塑形，这个颜色在多种肤色上都很实用。",
+    "Use this for liner, for a dramatic eye, for brows, for contour on deeper skin types. *WARNING* - In the US, this shade contains pigments that the FDA has not approved for use in the eye area.": "可用于眼线、加深戏剧感眼妆、眉部塑形，也适合深肤色作修容。提示：在美国法规下，此色含有未获 FDA 批准用于眼周的色料。",
+    "Use on the lid or crease for drama, use on the lid and pop a metallic color over it, blend out as a blush, mix with white to make a super natural flush on the eyelids or cheeks. *WARNING* - In the US, this shade contains pigments that the FDA has not approved for use in the eye area.": "可用于眼皮或眼窝，营造更强烈的妆感；也可先铺在眼皮上，再叠加金属色增强层次。还能晕染作腮红，或与白色混合，调出眼皮和双颊都适合的自然红晕。提示：在美国法规下，此色含有未获 FDA 批准用于眼周的色料。",
+    "This super versatile color works for almost everything - try it wet as a liner, dry for a smokey eye or in the crease for depth. This plum looks good against every eye color! *WARNING* - In the US, this shade contains pigments that the FDA has not approved for use in the eye area.": "这是一支几乎无所不能的多用途色。可湿用作眼线，干用打造烟熏妆，或放在眼窝增加深度。这支李子紫几乎能衬托所有眼色。提示：在美国法规下，此色含有未获 FDA 批准用于眼周的色料。",
+    "Use this for a rich cobalt smokey eye, or a drop of water/mixing medium for a liner. This color also pops a brown or hazel eye.": "可用来打造浓郁的钴蓝烟熏妆，也可加一滴清水或调和液作眼线使用。这一色调尤其能衬托棕色或榛色眼眸。",
 }
 
 
@@ -581,6 +614,12 @@ PALETTE_TITLE_PARTS = {
         "size_label": "大号/小号",
         "cn_name": "哑光中性盘",
         "en_name": "Matte Neutral",
+    },
+    "big-12-mattes-neutral-milieu": {
+        "shade_count": "12色",
+        "size_label": "大号",
+        "cn_name": "哑光中性盘",
+        "en_name": "Neutral Mattes: Milieu Slimpro",
     },
     "big-12-mattes-cool-original": {
         "shade_count": "12色",
@@ -709,6 +748,7 @@ HOMEPAGE_LABELS = {
     "big-12-mattes-cool2": "12色 大号 哑光冷调盘 Matte Cool 2",
     "big-12-mattes-warm": "12色 大号 哑光暖调盘 Warm Mattes",
     "big-12-mattes-neutral": "12色 大号/小号 中性盘 Matte Neutral",
+    "big-12-mattes-neutral-milieu": "12色 大号 哑光中性盘 Neutral Mattes: Milieu Slimpro",
     "big-12-mattes-cool-original": "12色 大号/小号 哑光冷调盘 Mattes Cool Original",
     "big-12-editorial-brights": "12色 大号/小号 哑光亮彩盘 Editorial Brights",
     "big-12-mattes-dark": "12色 大号/小号 哑光深调盘 Mattes Dark",
@@ -735,6 +775,7 @@ HOMEPAGE_LABELS = {
 HOMEPAGE_GROUP_HEADINGS = {
     "middle-35-pro-x1": "#### 35色 中号 Pro X",
     "big-12-mattes-neutral": "#### 12色 大号/小号 Pro ",
+    "big-12-mattes-neutral-milieu": "#### 12色 大号/小号 Pro ",
     "big-12-mattes-cool-original": "#### 12色 大号/小号 Pro ",
     "big-12-mattes-cool2": "#### 12色 大号/小号 Pro ",
     "big-12-mattes-warm": "#### 12色 大号/小号 Pro ",
@@ -773,6 +814,7 @@ PRODUCT_URLS = {
     "middle-4-peche": "https://viseartparis.com/en-de/products/petits-fours-peche?_pos=4&_sid=91ac4c63a&_ss=r",
     "middle-15-structure-brow-eyeshadow-palette": "https://viseartparis.com/en-de/products/structure-brow-eyeshadow-palette?_pos=10&_sid=a44f35d0c&_ss=r",
     "big-12-mattes-neutral": "https://viseartparis.com/en-de/products/petites-mattes-neutral",
+    "big-12-mattes-neutral-milieu": "https://viseartparis.com/en-de/products/neutral-mattes-milieu-slimpro?_pos=23&_sid=a44f35d0c&_ss=r",
     "big-12-mattes-cool-original": "https://viseartparis.com/en-de/collections/visepro/products/visepro-cool-mattes-original",
     "big-12-editorial-brights": "https://viseartparis.com/en-de/products/visepro-editorial-brights?_pos=8&_sid=0596684ea&_ss=r",
     "big-12-mattes-dark": "https://viseartparis.com/en-de/products/visepro-dark-mattes?_pos=6&_sid=cdce64564&_ss=r",
@@ -1457,7 +1499,11 @@ def update_docs_index(repo_root: Path, palette_dir: Path, homepage_label: str) -
     relative_path = f"./viseart/{palette_dir.name}/README.md"
     entry = f"- 📄 [{homepage_label}]({relative_path})"
     target_heading = HOMEPAGE_GROUP_HEADINGS.get(palette_dir.name)
-    lines = [line for line in lines if line != entry]
+    lines = [
+        line
+        for line in lines
+        if not (line.startswith("- 📄 [") and line.endswith(f"]({relative_path})"))
+    ]
 
     updated_lines: list[str] = []
     inserted = False
@@ -1550,6 +1596,9 @@ def save_slices(
     first_row_offset = cell_height // 5 if use_cover_palette_bbox and rows == 3 else 0
 
     output_dir.mkdir(parents=True, exist_ok=True)
+    for existing_file in output_dir.iterdir():
+        if existing_file.is_file():
+            existing_file.unlink()
     names: list[str] = []
 
     for index, shade in enumerate(shades):
@@ -1599,7 +1648,15 @@ def main() -> None:
     if product_url:
         page_data = fetch_product_page_data(product_url)
 
-    if source_readme.exists():
+    if args.product_url and page_data and page_data.shade_text:
+        title, shades = parse_shades_from_text(
+            page_data.shade_text,
+            palette_dir.name,
+            fallback_title=default_title_for_palette(palette_dir.name)
+            if palette_dir.name in PALETTE_TITLE_PARTS
+            else page_data.title,
+        )
+    elif source_readme.exists():
         try:
             title, shades = parse_shades(source_readme)
         except ValueError:

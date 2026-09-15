@@ -22,7 +22,7 @@ In this repo, the usual source preference is:
 
 README title convention in this repo:
 - brand name
-- shade count
+- shade count, followed by a space before the size label
 - palette size in Chinese: `小号` for Viseart `1g`, `中号` for `1.5g`, `大号` for `2g`
 - Chinese palette name
 - English palette name
@@ -39,6 +39,8 @@ Examples:
 - `Viseart 12色 小号 哑光冷调盘 Petites Mattes Cool`
 - `Viseart 35色 中号 哑光大盘 Grande Pro 1X`
 - `Viseart 12色 大号 哑光冷调盘 Matte Cool 2`
+
+Homepage labels should also keep a space after the shade count, for example `12色 中号 海妖夜曲盘 Sireneuse Nocturne Etendu`.
 
 ## Use When
 - A folder under `docs/viseart/` has an `id` image, an `icons` image, and English shade text.

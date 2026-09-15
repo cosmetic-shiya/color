@@ -61,6 +61,18 @@ NAME_TRANSLATIONS = {
 
 
 DESCRIPTION_TRANSLATIONS = {
+    "Iced silver rosé with a shimmer finish.": "冰银玫瑰色，闪光质地。",
+    "Cool-toned light beige with a matte finish.": "冷调浅米色，哑光质地。",
+    "Mid-tone clay rose with a matte finish.": "中调陶土玫瑰色，哑光质地。",
+    "Patinaed silver-green with a metallic finish.": "铜锈银绿色，金属质地。",
+    "Mid-tone, chestnut-blushed brown with a matte finish.": "中调栗棕色，带红晕，哑光质地。",
+    "Nude mauve with blue duochromatic flecks.": "裸紫红色，带蓝色双偏光闪片。",
+    "Corraline-blushed sienna with a duochromatic finish.": "珊瑚红晕赭色，双偏光质地。",
+    "Basalt silver brown with a duochromatic finish.": "玄武岩银棕色，双偏光质地。",
+    "Light, cool-toned nude slate with a matte finish.": "浅冷调裸灰蓝石色，哑光质地。",
+    "Antiqued gold-green with a shimmer finish.": "古金绿，闪光质地。",
+    "Muted kelp green with a matte finish.": "柔和海带绿，哑光质地。",
+    "Espresso-bitter brown with a matte finish.": "浓缩苦咖棕，哑光质地。",
     "Champagne rose with a metallic finish.": "香槟玫瑰色，金属光泽。",
     "Soft, mid-tone neutral pink with a matte finish.": "柔和中调中性粉色，哑光质地。",
     "Mid-tone nude rose with a matte finish.": "中调裸玫瑰色，哑光质地。",
@@ -101,6 +113,18 @@ DESCRIPTION_TRANSLATIONS = {
 
 
 USE_TRANSLATIONS = {
+    "This iced silver rosé shade can be used as an all-over lid color or along the high points of the face as a highlighter on all complexions. For a brightening, eye-catching effect, apply to the inner corners of the eyes, or layer over complementary hues for extra dimension. Apply with a brush for your desired level of intensity. This shade can also be blended with gloss or balm for a dewy, multi-use glow. Pair with shades ‘Harpia’ and ‘Echo’ for a tide-swept nude wash of creamy oyster and pearl.": "可作全眼铺色，也可用于面部高点提亮，适合所有肤色。想要更明亮吸睛的效果，可用于眼头，或叠加在互补色上增强层次。可用刷具按需叠加显色度。也可与唇蜜或润唇膏混合，做出水润、多用途的光泽感。与 `Harpia`、`Echo` 搭配，可呈现被潮汐洗过般的奶感牡蛎与珍珠裸色妆效。",
+    "This cool-toned light beige shade can be used as an all-over lid colour or as a base tone beneath complementary hues. It can also be used to highlight the brow bone and inner corners of the eyes, or as a transitional shade in the socket of the eye. Apply with a brush for your desired level of intensity. Use as a base tone beneath shades ‘Lûlène ’ and ’Tritonia’ for a burnished rose look steeped in tidal shimmer.": "可作全眼铺色，或作为互补色下方的打底色。也可用于眉骨和眼头提亮，或作为眼窝位置的过渡色。可用刷具按需叠加显色度。与 `Lûlène`、`Tritonia` 叠擦，可打造带潮汐微光的焦玫瑰妆效。",
+    "This mid-tone clay rose shade can be used as an all-over lid colour, beneath complementary tones for increased depth and saturation, or as a transitional tone in the crease and socket. Apply with a brush for your desired level of intensity. Pair with ‘Echo’ and ‘Tritonia’ for an iridescent tide of muted mauve and soft sand.": "可作全眼铺色，或作为互补色下方的打底加深色，也可用于眼窝和轮廓位置做过渡。可用刷具按需叠加显色度。搭配 `Echo` 与 `Tritonia`，可呈现带虹彩感的柔雾豆沙与细沙调妆感。",
+    "Use this patinaed silver-green shade as an all-over lid colour, layered over complementary hues, or in the center of the lid and corners of the eyes for an icy green gleam. Use with a mixing medium for a foiled effect. Apply with a brush for your desired level of intensity. Wear with shades ‘Voile’ and ‘Lûlène’ for a sea-lit cascade of crystalline shimmer.": "可作全眼铺色，叠加在互补色之上，或用于眼皮中央和眼角，营造冰感绿光。搭配调和液可获得更强烈的箔光效果。可用刷具按需叠加显色度。与 `Voile`、`Lûlène` 搭配，可呈现海光照亮般的晶莹闪泽。",
+    "Use this mid-tone, chestnut-blushed brown shade as an all-over lid colour on all complexions, in the crease as a transitional shade, or to build out depth and dimension in the outer corners of the eyes. Can be used as a soft eyeliner on all skin tones, in the brows and hairline, or as a subtle contour shade on light to medium complexions. Apply with a brush for your desired level of intensity. Blend with shades ‘Harpia’ and ‘Tideborn’ for a tide-washed trio of shell, sand, and stone.": "可作全眼铺色，适合所有肤色；也可用于眼窝作过渡色，或在眼尾叠加出深度与立体感。适合所有肤色当柔和眼线，也可用于眉部和发际线；浅至中等肤色还可作为自然修容。可用刷具按需叠加显色度。与 `Harpia`、`Tideborn` 搭配，可组成贝壳、细沙与礁石般的潮汐三重奏。",
+    "This nude rose duochromatic shade can be worn alone for a wash of brilliant reflectivity or layered over complementary tones to accentuate its duochromatic dimension. For a high-shine, foiled effect, use with a mixing medium. It can also be mixed with a nude gloss for a wet, prismatic look. Apply with a brush for your desired level of intensity. Pair with “Echo” and “Ciel Figé” for a moonlit mutichrome look that shimmers like the midnight sea.": "可单独使用，呈现明亮反光感；也可叠加在互补色之上，强化双偏光层次。搭配调和液可做出更强烈的箔光效果，也可与裸色唇蜜混合，营造湿润棱彩感。可用刷具按需叠加显色度。与 `Echo`、`Ciel Figé` 搭配，可做出月光下般的多变光泽。",
+    "Use this coralline-blushed sienna shade as an all-over lid color, in the center of the lid for spell-binding luminosity, or over top similar shades for an incandescent sheen. Use with a mixing medium for a foiled effect. Apply with a brush for your desired level of intensity. Blend with shade ‘Voile’ and ‘Harpia’ for a nude moonlit pool of prismatic perfection.": "可作全眼铺色，或用于眼皮中央打造吸睛光感，也可叠加在相近色之上做出炽亮光泽。搭配调和液可获得箔光效果。可用刷具按需叠加显色度。与 `Voile`、`Harpia` 搭配，可做出如月光映照的裸色棱彩光池。",
+    "Use this duochromatic basalt silver brown shade as an all-over lid colour for sea-glass finish, or layered over complementary tones for a wet, tide-lit pop. Use with a mixing medium for a foiled effect. Apply with a brush for your desired level of intensity. Wear with shades ‘Tritonia’ and ‘Empyrée’ for an opaline finish that glints like starlight on water.": "可作全眼铺色，呈现海玻璃般的质感；也可叠加在互补色之上，做出湿润、被潮汐照亮的亮点。搭配调和液可获得箔光效果。可用刷具按需叠加显色度。与 `Tritonia`、`Empyrée` 搭配，可完成如水面星光般闪烁的蛋白石光泽。",
+    "This light, cool-toned nude slate shade can be used as an all-over lid colour, a transitional shade to build out the crease and socket, a soft liner, or as a base tone beneath complementary shades for increased depth and saturation. Apply with a brush for your desired level of intensity.": "可作全眼铺色、眼窝过渡色、柔和眼线，或作为互补色下方的打底色，增强深度与饱和度。可用刷具按需叠加显色度。",
+    "Use this antiqued gold-green as an all-over lid colour, layered over complementary hues, or in the center of the lid and corners of the eyes for a gilded, sea-glint effect. Apply with a brush for your desired level of intensity. Use with a mixing medium for a foiled effect. Wear with shades ‘Tideborn’ and ‘Nautilus’ for a tide-forged blend of kelp, stone, and bronze.": "可作全眼铺色，叠加在互补色之上，或用于眼皮中央和眼角，打造带金属感的海光效果。可用刷具按需叠加显色度。搭配调和液可做出箔光妆效。与 `Tideborn`、`Nautilus` 搭配，可调出海藻、石色与青铜感交织的潮汐色调。",
+    "Use this muted kelp green shade as an all-over lid colour, in the sockets and corners of the eyes for depth and definition, or along the lash line as an eyeliner. Apply with a brush for your desired level of intensity. Blend with shades ‘Cyrene’ and ‘Seirēn’ for a sea-tossed surge of moss, gilt, and tidal frost.": "可作全眼铺色，也可用于眼窝和眼角加深轮廓，或沿睫毛根部当眼线使用。可用刷具按需叠加显色度。与 `Cyrene`、`Seirēn` 搭配，可调出海浪翻涌般的苔绿、金属与潮霜感。",
+    "This espresso-bitter brown shade can be used to create depth and dimension in the crease, socket, and lash line. Build up the colour in the outer corners of the eyes for a boldly pigmented finish, or use a mixing medium and liner brush for a graphic finish. Apply with a brush for your desired level of intensity. Pairs perfectly with ‘Ciel Figé’ and ‘Nautilus’ for a tide-washed sheen of kelp green and earthen brown.": "适合用于眼窝、轮廓和睫毛根部加深，增强深邃度与立体感。可在眼尾逐步叠加，做出高饱和显色；也可搭配调和液和眼线刷完成更利落的图形眼线。可用刷具按需叠加显色度。与 `Ciel Figé`、`Nautilus` 搭配，可做出海带绿与大地棕交织的潮痕光泽。",
     "This metallic champagne rose shade can be worn as an all-over lid colour or layered over complementary tones for an elevated everyday look. Use this shade with a mixing medium for a wash of colour or a foiled, high-shine effect. Pair with shades ‘Serenade’ and ‘Triton’ for a shimmering second-skin sheen! Apply with fingertips or a dense brush for your desired level of intensity.": "可作全眼铺色，或叠加在互补色之上，打造更精致的日常妆感。搭配调和液可获得轻透染色感或更强烈的金属箔光效果。与 `Serenade`、`Triton` 搭配，可呈现闪耀贴肤的光泽感。可用指腹或扎实眼影刷按需叠加显色度。",
     "This soft, mid-tone shade can be used as an all-over lid colour or as a base tone beneath complementary hues. It can also be used to highlight the brow bone and inner corners of the eyes, or as a transitional shade in the socket of the eye. Use as a base tone beneath shades ‘Murmur’ and ‘Mélusine’ for a glistening, natural finish. Apply with a brush for your desired level of intensity.": "可作全眼铺色或作为互补色下方的打底色。也可用于眉骨和眼头提亮，或作为眼窝位置的过渡色。搭配 `Murmur` 与 `Mélusine` 作打底，可完成自然通透的微光妆感。可用刷具按需叠加显色度。",
     "This mid-tone nude rose shade can be used as an all-over lid colour, beneath complementary tones for increased depth and saturation, or as a transitional tone in the crease and socket. Mix this hue with other matte shades to create 12 new colours. Can also be worn as a blush on light to medium complexions. Pair with ‘Sylph’ and ‘Mélusine’ for a soft and shimmering romantic nude rose look. Apply with a brush for your desired level of intensity.": "可作全眼铺色、作为互补色下方的打底加深色，或用于眼窝和轮廓位置做过渡。与其他哑光色混合，可调出 12 种新色。浅至中等肤色也可当腮红使用。搭配 `Sylph` 与 `Mélusine`，可完成柔和微闪的浪漫裸玫瑰妆感。可用刷具按需叠加显色度。",
@@ -176,17 +200,24 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "海妖绮梦盘",
         "en_name": "Sireneuse Etendu",
     },
+    "middle-12-sireneuse-nocturne-etendu": {
+        "shade_count": "12色",
+        "size_label": "中号",
+        "cn_name": "海妖夜曲盘",
+        "en_name": "Sireneuse Nocturne Etendu",
+    },
 }
 
 
 HOMEPAGE_LABELS = {
-    "big-12-mattes-cool2": "12色大号 哑光冷调盘 Matte Cool 2",
-    "big-12-mattes-warm": "12色大号 哑光暖调盘 Warm Mattes",
-    "big-12-mattes-neutral": "12色大号/小号中性盘 Matte Neutral",
-    "middle-35-pro-x1": "35色中号铁盘哑光盘 Pro X1",
-    "small-12-matte-cool": "12色小号 哑光冷调盘 Petites Mattes Cool",
-    "middle-12-cashmerie-charmeuse-etendu": "12色中号 羊绒魅缎盘 Cashmerie Charmeuse Etendu",
-    "middle-12-sireneuse-etendu": "12色中号 海妖绮梦盘 Sireneuse Etendu",
+    "big-12-mattes-cool2": "12色 大号 哑光冷调盘 Matte Cool 2",
+    "big-12-mattes-warm": "12色 大号 哑光暖调盘 Warm Mattes",
+    "big-12-mattes-neutral": "12色 大号/小号 中性盘 Matte Neutral",
+    "middle-35-pro-x1": "35色 中号 哑光大盘 Pro X1",
+    "small-12-matte-cool": "12色 小号 哑光冷调盘 Petites Mattes Cool",
+    "middle-12-cashmerie-charmeuse-etendu": "12色 中号 羊绒魅缎盘 Cashmerie Charmeuse Etendu",
+    "middle-12-sireneuse-etendu": "12色 中号 海妖绮梦盘 Sireneuse Etendu",
+    "middle-12-sireneuse-nocturne-etendu": "12色 中号 海妖夜曲盘 Sireneuse Nocturne Etendu",
 }
 
 
@@ -199,6 +230,7 @@ PRODUCT_URLS = {
     "big-12-mattes-warm": "https://viseartparis.com/en-de/products/visepro-warm-mattes",
     "middle-12-cashmerie-charmeuse-etendu": "https://viseartparis.com/en-de/products/cashmerie-charmeuse-etendu",
     "middle-12-sireneuse-etendu": "https://viseartparis.com/en-de/products/visepro-sireneuse-etendu",
+    "middle-12-sireneuse-nocturne-etendu": "https://viseartparis.com/en-de/products/sireneuse-nocturne-etendu",
 }
 
 
@@ -433,6 +465,12 @@ def preferred_gallery_images(gallery_images: list[tuple[str, str]]) -> tuple[str
 
     cover_url = gallery_images[0][0]
     icons_url = None
+
+    for url, _alt in gallery_images:
+        url_lower = url.lower()
+        if "final_open" in url_lower or "web_final_open" in url_lower or "final-open" in url_lower:
+            cover_url = url
+            break
 
     for url, alt in gallery_images:
         alt_lower = alt.lower()

@@ -6,8 +6,10 @@ Color cards and palette slices prepared for GitHub Pages.
 ### 眼影 Viseart
 #### 35色 中号 Pro X
 - 📄 [35色 中号 哑光盘 Pro X1](./viseart/middle-35-pro-x1/README.md)
+
 #### 15色 中号 Structure
 - 📄 [15色 中号 结构塑眉塑影修容盘 15-Pan Structure Brow, Shadow, Hairline & Contour Palette](./viseart/middle-15-structure-brow-eyeshadow-palette/README.md)
+
 #### 12色 大号/小号 Pro 
 - 📄 [12色 大号/小号 哑光中性盘 Mattes Neutral](./viseart/big-12-mattes-neutral/README.md)
 - 📄 [12色 大号/小号 哑光中性盘 Mattes Neutral: Milieu](./viseart/big-12-mattes-neutral-milieu/README.md)
@@ -16,9 +18,11 @@ Color cards and palette slices prepared for GitHub Pages.
 - 📄 [12色 大号/小号 哑光暖调盘 Mattes Warm](./viseart/big-12-mattes-warm/README.md)
 - 📄 [12色 大号/小号 哑光深调盘 Mattes Dark](./viseart/big-12-mattes-dark/README.md)
 - 📄 [12色 大号/小号 哑光亮彩盘 Editorial Brights](./viseart/big-12-editorial-brights/README.md)
+
 #### 4色 中号 Petites
 - 📄 [4色 中号 蜜桃盘 Petits Fours Pêche](./viseart/middle-4-peche/README.md)
 - 📄 [4色 中号 紫罗兰盘 Petits Fours Violetta](./viseart/middle-4-violetta/README.md)
+
 #### 12色 中号 Etendu
 - 📄 [12色 中号 索莱依海滩盘 Soleil La Plage Etendu](./viseart/middle-12-soleil-la-plage-etendu/README.md)
 - 📄 [12色 中号 羊绒魅缎盘 Cashmerie Charmeuse Etendu](./viseart/middle-12-cashmerie-charmeuse-etendu/README.md)
@@ -33,6 +37,7 @@ Color cards and palette slices prepared for GitHub Pages.
 - 📄 [12色 中号 糖果果仁盘 Bon Bon Praline Étendu](./viseart/middle-12-bon-bon-praline-etendu/README.md)
 - 📄 [12色 中号 杏光流辉盘 Apricotine Lumière Étendu](./viseart/middle-12-apricotine-lumiere-etendu/README.md)
 - 📄 [12色 中号 仲夏流辉盘 Midsommer Lumière Étendu](./viseart/middle-12-midsommer-lumiere-etendu/README.md)
+
 #### 12色 小号 Petites
 - 📄 [12色 小号 巴黎裸光盘 Petites Shimmers Paris Nudes](./viseart/small-12-shimmers-paris-nudes/README.md)
 - 📄 [12色 小号 魅惑微光盘 Petites Shimmers Sultry Muse](./viseart/small-12-shimmers-sultry-muse/README.md)

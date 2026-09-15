@@ -61,6 +61,18 @@ NAME_TRANSLATIONS = {
 
 
 DESCRIPTION_TRANSLATIONS = {
+    "Pale vanilla nude with a matte finish.": "香草米白裸色，哑光质地。",
+    "Nude rose-brown with a matte finish.": "裸玫瑰棕色，哑光质地。",
+    "Sandy taupe with a matte finish.": "沙感灰棕色，哑光质地。",
+    "Medium-deep cool taupe brown with a matte finish.": "中深调冷灰棕色，哑光质地。",
+    "Deep, cool-toned shale brown with a matte finish": "深冷调页岩棕色，哑光质地。",
+    "Bright bubblegum pink with a matte finish.": "明亮泡泡糖粉色，哑光质地。",
+    "Midtone, magenta-aubergine with a matte finish.": "中调洋红茄紫色，哑光质地。",
+    "Deep, charcoal blue-grey with a matte finish.": "深炭蓝灰色，哑光质地。",
+    "Zenith blue with a matte finish.": "天穹蓝色，哑光质地。",
+    "Dusty midtone plum-grey with a matte finish.": "雾感中调李子灰色，哑光质地。",
+    "Midtoned, cool-toned dove grey with a matte finish.": "中调冷鸽灰色，哑光质地。",
+    "Dark charcoal grey-black with a matte finish.": "深炭灰黑色，哑光质地。",
     "Iced silver rosé with a shimmer finish.": "冰银玫瑰色，闪光质地。",
     "Cool-toned light beige with a matte finish.": "冷调浅米色，哑光质地。",
     "Mid-tone clay rose with a matte finish.": "中调陶土玫瑰色，哑光质地。",
@@ -113,6 +125,18 @@ DESCRIPTION_TRANSLATIONS = {
 
 
 USE_TRANSLATIONS = {
+    "This pale vanilla shade can be used as an all over lid colour or as a base tone beneath complementary shades. It can also be used to highlight the brow bone and inner corners of the eyes on light to medium complexions. Additionally, mix it with any of the other tones to brighten, lighten, and create over 12 new hues. Pair with shades ‘Slate’ and ‘Sandstone’ for a quick and easy cool-toned tantalizing taupe eye look. Apply with a brush for your desired level of intensity.": "可作全眼铺色，或作为互补色下方的打底色。浅至中等肤色可用于眉骨和眼头提亮。也可与盘中其他色调混合，提亮、调浅并延展出 12 种以上新色。与 `Slate`、`Sandstone` 搭配，可快速完成冷调迷人的灰棕眼妆。可用刷具按需叠加显色度。",
+    "This nude rose-brown shade can be used to add subtle definition to contours of the face. It can also be used as a nude blush on light to medium complexions. Apply with a brush for your desired level of intensity.": "可用于面部轮廓的轻柔加深，也可在浅至中等肤色上作裸感腮红。可用刷具按需叠加显色度。",
+    "This sandy taupe shade can be used to highlight and bring forth the contours of the face. Apply it under the brow bone or in the inner corners of the eyes on all complexions, or down the bridge of the nose and on the cheekbones on medium to deep complexions to add brightness to the face.": "可用于提亮并强化面部轮廓。适合所有肤色用于眉骨和眼头；中等至深肤色也可用于鼻梁和颧骨提亮，让面部更显明亮。",
+    "This taupe brown shade can be used as an all-over lid colour for all complexions, focused in the socket and outer corners of the eyes for buildable intensity, or applied along the lash lines to add definition. Pair with shades ‘Drift’ and ‘Pewter’ for a cool-toned, neutral look. Apply with a brush for your desired level of intensity.": "适合所有肤色作全眼铺色，也可集中于眼窝和眼尾逐步加深，或沿睫毛根部勾勒轮廓。与 `Drift`、`Pewter` 搭配，可完成冷调中性色眼妆。可用刷具按需叠加显色度。",
+    "This deep, cool-toned shale brown shade can be used as an all over lid colour for all complexions, focused in the socket and outer corners of the eyes for buildable intensity, or applied along the lash lines to add definition. Wear with shades ‘Mauvewood’ and ‘Sediment’ for the perfect, richly pigmented, sooty smokey eye. Apply with a brush for your desired level of intensity.": "适合所有肤色作全眼铺色，也可集中于眼窝和眼尾逐步加深，或沿睫毛根部勾勒轮廓。与 `Mauvewood`、`Sediment` 搭配，可打造浓郁烟灰感的完美烟熏眼妆。可用刷具按需叠加显色度。",
+    "This bubblegum pink shade can be used as an all over lid colour, as a base tone beneath complementary shades, or anywhere you want to add brightness and vibrancy. Can also be worn as a blush shade on light complexions. Wear with shades ‘Saltsone’ and ‘Sandstone’’ for soft nude look with a regal rose twist! Apply with a brush for your desired level of intensity.": "可作全眼铺色、互补色下方的打底色，或用于任何需要提亮和增添活力的位置。浅肤色也可当腮红使用。与 `Saltsone`、`Sandstone` 搭配，可完成带高贵玫瑰感的柔和裸妆。可用刷具按需叠加显色度。",
+    "This midtone magenta-aubergine shade can be used to add a pop of vibrancy or as a blush shade on all complexions. Blend with the shade ‘Shell’ for a beautiful, gradated look. Apply with a brush for your desired level of intensity.": "可用于增强妆容活力，也适合所有肤色当腮红使用。与 `Shell` 晕染，可呈现柔和渐层效果。可用刷具按需叠加显色度。",
+    "This deep, charcoal blue-grey shadow can be used as an all-over lid colour for drama and intensity, or focused in the crease and outer corners of the eyes for a sensual smokey look. Can also be used along the upper and lower lashline as eyeliner or in the brows on dark brows shades. Pair with shades ‘Sediment’ and ‘Sandstone’ for a cool-toned, charcoal effect! Apply with a brush for your desired level of intensity.": "可作全眼铺色，打造戏剧感和高强度妆效；也可集中于眼窝和眼尾，塑造性感烟熏感。还可沿上下睫毛根部当眼线，或用于深色眉毛的眉部修饰。与 `Sediment`、`Sandstone` 搭配，可完成冷调炭灰效果。可用刷具按需叠加显色度。",
+    "This zenith blue shade can be used to add a pop of cool-toned saturation to the face. Apply with a brush for your desired level of intensity.": "可用于为面部增加一抹冷调饱和度。可用刷具按需叠加显色度。",
+    "This dusty, midtone plum-grey shade can be used to add subtle definition to contours of the face. Apply with a brush for your desired level of intensity.": "可用于面部轮廓的柔和加深，营造雾感层次。可用刷具按需叠加显色度。",
+    "This midtone dove grey shade can be used as an all-over lid colour, in the crease and socket for buildable dimension, or beneath of any of the complementary shades in the palette for increased depth and saturation. Pair with shades ‘Saltstone’’ and ‘Sediment’ for the perfect sleek slate shadow look! Apply with a brush your desired level of intensity.": "可作全眼铺色，也可在眼窝和轮廓处逐步加深，或作为盘中互补色下方的打底色，增强深度与饱和度。与 `Saltstone`、`Sediment` 搭配，可完成利落的灰石调眼妆。可用刷具按需叠加显色度。",
+    "This dark, charcoal grey-black shadow can be used as an all-over lid colour for drama and intensity, or focused in the crease and outer corners of the eyes for a sensual smokey look. Can also be used along the upper and lower lash line as eyeliner or in the brows on dark brows shades. Pair with shades ‘Drift’ and ‘Sandstone’ for a dramatic, smoldering effect! Apply with a brush for your desired level of intensity.": "可作全眼铺色，打造戏剧感与高强度妆效；也可集中于眼窝和眼尾，塑造性感烟熏感。还可沿上下睫毛根部当眼线，或用于深色眉毛的眉部修饰。与 `Drift`、`Sandstone` 搭配，可完成张力十足的深邃妆效。可用刷具按需叠加显色度。",
     "This iced silver rosé shade can be used as an all-over lid color or along the high points of the face as a highlighter on all complexions. For a brightening, eye-catching effect, apply to the inner corners of the eyes, or layer over complementary hues for extra dimension. Apply with a brush for your desired level of intensity. This shade can also be blended with gloss or balm for a dewy, multi-use glow. Pair with shades ‘Harpia’ and ‘Echo’ for a tide-swept nude wash of creamy oyster and pearl.": "可作全眼铺色，也可用于面部高点提亮，适合所有肤色。想要更明亮吸睛的效果，可用于眼头，或叠加在互补色上增强层次。可用刷具按需叠加显色度。也可与唇蜜或润唇膏混合，做出水润、多用途的光泽感。与 `Harpia`、`Echo` 搭配，可呈现被潮汐洗过般的奶感牡蛎与珍珠裸色妆效。",
     "This cool-toned light beige shade can be used as an all-over lid colour or as a base tone beneath complementary hues. It can also be used to highlight the brow bone and inner corners of the eyes, or as a transitional shade in the socket of the eye. Apply with a brush for your desired level of intensity. Use as a base tone beneath shades ‘Lûlène ’ and ’Tritonia’ for a burnished rose look steeped in tidal shimmer.": "可作全眼铺色，或作为互补色下方的打底色。也可用于眉骨和眼头提亮，或作为眼窝位置的过渡色。可用刷具按需叠加显色度。与 `Lûlène`、`Tritonia` 叠擦，可打造带潮汐微光的焦玫瑰妆效。",
     "This mid-tone clay rose shade can be used as an all-over lid colour, beneath complementary tones for increased depth and saturation, or as a transitional tone in the crease and socket. Apply with a brush for your desired level of intensity. Pair with ‘Echo’ and ‘Tritonia’ for an iridescent tide of muted mauve and soft sand.": "可作全眼铺色，或作为互补色下方的打底加深色，也可用于眼窝和轮廓位置做过渡。可用刷具按需叠加显色度。搭配 `Echo` 与 `Tritonia`，可呈现带虹彩感的柔雾豆沙与细沙调妆感。",
@@ -176,6 +200,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "哑光中性盘",
         "en_name": "Matte Neutral",
     },
+    "big-12-mattes-cool-original": {
+        "shade_count": "12色",
+        "size_label": "大号/小号",
+        "cn_name": "哑光冷调盘",
+        "en_name": "Mattes Cool Original",
+    },
     "middle-35-pro-x1": {
         "shade_count": "35色",
         "size_label": "中号",
@@ -213,6 +243,7 @@ HOMEPAGE_LABELS = {
     "big-12-mattes-cool2": "12色 大号 哑光冷调盘 Matte Cool 2",
     "big-12-mattes-warm": "12色 大号 哑光暖调盘 Warm Mattes",
     "big-12-mattes-neutral": "12色 大号/小号 中性盘 Matte Neutral",
+    "big-12-mattes-cool-original": "12色 大号/小号 哑光冷调盘 Mattes Cool Original",
     "middle-35-pro-x1": "35色 中号 哑光大盘 Pro X1",
     "small-12-matte-cool": "12色 小号 哑光冷调盘 Petites Mattes Cool",
     "middle-12-cashmerie-charmeuse-etendu": "12色 中号 羊绒魅缎盘 Cashmerie Charmeuse Etendu",
@@ -227,6 +258,7 @@ HOMEPAGE_SECTION = "### 眼影 Viseart"
 PRODUCT_URLS = {
     "small-12-matte-cool": "https://viseartparis.com/en-de/products/petites-mattes-cool",
     "big-12-mattes-neutral": "https://viseartparis.com/en-de/products/petites-mattes-neutral",
+    "big-12-mattes-cool-original": "https://viseartparis.com/en-de/collections/visepro/products/visepro-cool-mattes-original",
     "big-12-mattes-warm": "https://viseartparis.com/en-de/products/visepro-warm-mattes",
     "middle-12-cashmerie-charmeuse-etendu": "https://viseartparis.com/en-de/products/cashmerie-charmeuse-etendu",
     "middle-12-sireneuse-etendu": "https://viseartparis.com/en-de/products/visepro-sireneuse-etendu",

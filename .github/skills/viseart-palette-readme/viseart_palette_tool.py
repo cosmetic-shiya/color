@@ -88,11 +88,14 @@ NAME_TRANSLATIONS = {
     "Mirabelle": "蜜李杏金",
     "Millefeuille": "千层酥",
     "Biscuit": "饼干奶棕",
+    "Antoinette": "安托瓦内特奶霜",
+    "Confiture": "蜜桃果酱",
     "Roussillon": "鲁西永陶土",
     "Calisson": "杏仁糖",
     "Soleil": "日曜暖金",
     "Clafoutis": "法式水果塔",
     "Ganache": "甘纳许深棕",
+    "Pêche": "蜜桃糖釉",
     "Lune de Miel": "蜜月光",
     "Nacre Blanche": "白珠光",
     "Abricotine Fraîche": "鲜杏粉",
@@ -323,6 +326,10 @@ DESCRIPTION_TRANSLATIONS = {
     "Sienna brown with a matte finish.": "赭石棕色，哑光质地。",
     "Light bark lilac taupe with a metallic finish.": "浅树皮丁香灰褐色，金属质地。",
     "Espresso bitter brown with a matte finish": "浓缩苦棕色，哑光质地。",
+    "Soft cream with a matte finish": "柔和奶霜色，哑光质地。",
+    "Nude peach with a matte finish": "裸蜜桃色，哑光质地。",
+    "Bright champagne peach with a shimmer finish": "明亮香槟蜜桃色，闪光质地。",
+    "Glistening candied peach with a shimmer finish": "闪耀糖渍蜜桃色，闪光质地。",
 }
 
 
@@ -394,6 +401,10 @@ USE_TRANSLATIONS = {
     "Base tone for light to medium skin tones.": "适合浅至中等肤色的底色。",
     "Base tone for light to medium skin tones. Use as a highlight on brow bone for deeper tones. Mix-in with lighter tones and deeper tones to create variegated base tones in an array of depth.": "适合浅至中等肤色的底色；深肤色可作为眉骨提亮；可与更浅或更深的颜色混合，调出不同深浅层次的底色。",
     "Base tone for all skin tones.": "适合所有肤色的底色。",
+    "All over base tone for all skin types. For deep skin, use as highlight on brow bone. Mix this tone into the other matte shades to create a multitude of sorbet type shades.": "适合所有肤色作全眼打底；深肤色也可用于眉骨提亮。还可与其他哑光色混合，调出多种轻甜柔雾的雪葩色调。",
+    "Base tone for all skin types, can be used as a highlighter for deeper tones or a midtone for the lightest complexions. This super versatile color can be mixed with of the other tones to add depth and brightness..": "适合所有肤色作底色；深肤色可作提亮色，极浅肤色也可作中间过渡色。这一色非常百搭，可与盘中其他颜色混合，增加深度与明亮感。",
+    "This tone can be used as an all over wash of nude shimmer for all complexions, can also be worn as a cheek and brow bone highlighter.": "适合所有肤色作全眼裸闪铺色，也可用作面部与眉骨提亮。",
+    "This shade can be worn alone or as a topper over matte hues to add brightness and luminousity! *WARNING* - In the US, this shade contains pigments that the FDA has not approved for use in the eye area.": "可单独使用，或叠加在哑光色上增强明亮度与光泽感。提示：在美国法规下，此色含有未获 FDA 批准用于眼周的色料。",
     "All over solid tone for all skin types. Base tone, as well as midtone for eyeshadow depth and dimension. Also can be used in brows, and as contour.": "适合所有肤色的大面积实色铺陈；可作底色或中间色调，增强眼影深度与立体感；也可用于眉部与修容。",
     "All over tone for all skin types, use as a soft eyeliner for light to medium tones.": "适合所有肤色的大面积铺色；可作为浅至中等肤色的柔和眼线。",
     "Use this citron champagne shade as an all-over lid colour, to highlight the brow bone and inner corners of the eyes, or in the center of the eyes for a burst of luminosity. Wear with shades ‘Nacre Blanche’ and ‘Abricot Givré’ for a softly luminous look, touched with patisserie warmth. Apply with a brush for your desired level of intensity.": "可作全眼铺色，用于眉骨和眼头提亮，或点在眼中位置增强光感。与 `Nacre Blanche` 和 `Abricot Givré` 搭配，可呈现带法式甜点暖意的柔亮妆效。可用刷具按需叠加显色度。",
@@ -521,6 +532,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "紫罗兰盘",
         "en_name": "Petits Fours Violetta",
     },
+    "middle-4-peche": {
+        "shade_count": "4色",
+        "size_label": "中号",
+        "cn_name": "蜜桃盘",
+        "en_name": "Petits Fours Pêche",
+    },
     "small-12-matte-cool": {
         "shade_count": "12色",
         "size_label": "小号",
@@ -605,6 +622,7 @@ HOMEPAGE_LABELS = {
     "big-12-mattes-dark": "12色 大号/小号 哑光深调盘 Mattes Dark",
     "middle-35-pro-x1": "35色 中号 哑光大盘 Pro X1",
     "middle-4-violetta": "4色 中号 紫罗兰盘 Petits Fours Violetta",
+    "middle-4-peche": "4色 中号 蜜桃盘 Petits Fours Pêche",
     "small-12-matte-cool": "12色 小号 哑光冷调盘 Petites Mattes Cool",
     "small-12-shimmers-paris-nudes": "12色 小号 巴黎裸光盘 Petites Shimmers Paris Nudes",
     "small-12-shimmers-sultry-muse": "12色 小号 魅惑微光盘 Petites Shimmers Sultry Muse",
@@ -620,6 +638,34 @@ HOMEPAGE_LABELS = {
 }
 
 
+HOMEPAGE_GROUP_HEADINGS = {
+    "middle-35-pro-x1": "#### 35色 中号 Pro X",
+    "big-12-mattes-neutral": "#### 12色 大号/小号 Pro ",
+    "big-12-mattes-cool-original": "#### 12色 大号/小号 Pro ",
+    "big-12-mattes-cool2": "#### 12色 大号/小号 Pro ",
+    "big-12-mattes-warm": "#### 12色 大号/小号 Pro ",
+    "big-12-mattes-dark": "#### 12色 大号/小号 Pro ",
+    "big-12-editorial-brights": "#### 12色 大号/小号 Pro ",
+    "middle-4-violetta": "#### 4色 中号 Petites",
+    "middle-4-peche": "#### 4色 中号 Petites",
+    "middle-12-cashmerie-charmeuse-etendu": "#### 12色 中号 Etendu",
+    "middle-12-sireneuse-etendu": "#### 12色 中号 Etendu",
+    "middle-12-sireneuse-nocturne-etendu": "#### 12色 中号 Etendu",
+    "middle-12-apricotine-lumiere-etendu": "#### 12色 中号 Etendu",
+    "middle-12-praline-etendu": "#### 12色 中号 Etendu",
+    "middle-12-paris-nuit-etoilee-etendu": "#### 12色 中号 Etendu",
+    "middle-12-violette-nocturne-etendu": "#### 12色 中号 Etendu",
+    "middle-12-violette-lumiere-etendu": "#### 12色 中号 Etendu",
+    "middle-12-lilas-lumiere-etendu": "#### 12色 中号 Etendu",
+    "middle-12-soleil-la-plage-etendu": "#### 12色 中号 Etendu",
+    "middle-12-visepro-paris-mattes-etendu": "#### 12色 中号 Etendu",
+    "middle-12-bon-bon-praline-etendu": "#### 12色 中号 Etendu",
+    "small-12-matte-cool": "#### 12色 小号 Petites",
+    "small-12-shimmers-paris-nudes": "#### 12色 小号 Petites",
+    "small-12-shimmers-sultry-muse": "#### 12色 小号 Petites",
+}
+
+
 HOMEPAGE_SECTION = "### 眼影 Viseart"
 
 
@@ -628,6 +674,7 @@ PRODUCT_URLS = {
     "small-12-shimmers-paris-nudes": "https://viseartparis.com/en-de/products/petites-shimmers-paris-nudes?_pos=67&_sid=7a187920b&_ss=r",
     "small-12-shimmers-sultry-muse": "https://viseartparis.com/en-de/products/petites-shimmer-sultry-muse?_pos=78&_sid=7a187920b&_ss=r",
     "middle-4-violetta": "https://viseartparis.com/en-de/products/petits-fours-violetta?_pos=79&_sid=7a187920b&_ss=r",
+    "middle-4-peche": "https://viseartparis.com/en-de/products/petits-fours-peche?_pos=4&_sid=91ac4c63a&_ss=r",
     "big-12-mattes-neutral": "https://viseartparis.com/en-de/products/petites-mattes-neutral",
     "big-12-mattes-cool-original": "https://viseartparis.com/en-de/collections/visepro/products/visepro-cool-mattes-original",
     "big-12-editorial-brights": "https://viseartparis.com/en-de/products/visepro-editorial-brights?_pos=8&_sid=0596684ea&_ss=r",
@@ -708,7 +755,7 @@ def parse_args() -> argparse.Namespace:
         type=int,
         nargs=2,
         metavar=("COLS", "ROWS"),
-        help="Grid size override. Defaults to 4 3 for 12 shades and 7 5 for 35 shades.",
+        help="Grid size override. Defaults to 2 2 for 4 shades, 4 3 for 12 shades, and 7 5 for 35 shades.",
     )
     parser.add_argument(
         "--slice-ext",
@@ -1309,24 +1356,40 @@ def update_docs_index(repo_root: Path, palette_dir: Path, homepage_label: str) -
     lines = docs_readme.read_text(encoding="utf-8").splitlines()
     relative_path = f"./viseart/{palette_dir.name}/README.md"
     entry = f"- 📄 [{homepage_label}]({relative_path})"
-
-    if entry in lines:
-        return docs_readme
+    target_heading = HOMEPAGE_GROUP_HEADINGS.get(palette_dir.name)
+    lines = [line for line in lines if line != entry]
 
     updated_lines: list[str] = []
     inserted = False
     inside_section = False
+    inside_target_group = False
 
     for line in lines:
+        stripped = line.strip()
+
+        if inside_target_group and (line.startswith("#### ") or line.startswith("### ")):
+            updated_lines.append(entry)
+            inserted = True
+            inside_target_group = False
+
         updated_lines.append(line)
-        if line.strip() == HOMEPAGE_SECTION:
+        if stripped == HOMEPAGE_SECTION:
             inside_section = True
             continue
 
+        if inside_section and target_heading and line == target_heading:
+            inside_target_group = True
+            continue
+
         if inside_section and line.startswith("### "):
-            updated_lines.insert(len(updated_lines) - 1, entry)
-            inserted = True
+            if not inserted and not target_heading:
+                updated_lines.insert(len(updated_lines) - 1, entry)
+                inserted = True
             inside_section = False
+
+    if inside_target_group and not inserted:
+        updated_lines.append(entry)
+        inserted = True
 
     if inside_section and not inserted:
         updated_lines.append(entry)

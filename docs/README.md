@@ -16,6 +16,7 @@ Color cards and palette slices prepared for GitHub Pages.
 - 📄 [12色 大号/小号 哑光亮彩盘 Editorial Brights](./viseart/big-12-editorial-brights/README.md)
 
 #### 4色 中号 Petites
+- 📄 [4色 中号 蜜桃盘 Petits Fours Pêche](./viseart/middle-4-peche/README.md)
 - 📄 [4色 中号 紫罗兰盘 Petits Fours Violetta](./viseart/middle-4-violetta/README.md)
 
 #### 12色 中号 Etendu

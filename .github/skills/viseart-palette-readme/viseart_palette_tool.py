@@ -21,6 +21,18 @@ USE_RE = re.compile(r"^Use:\s*(.*)$")
 
 
 NAME_TRANSLATIONS = {
+    "Sylph": "海雾银玫",
+    "Serenade": "轻吟粉",
+    "Murmure": "低语玫瑰",
+    "Mélusine": "美露曦涟",
+    "Ethos": "气韵粉桃",
+    "Luminary": "流光贝金",
+    "Triton": "特里同",
+    "Oceanic": "海潮蓝绿",
+    "Glinting": "闪银光",
+    "Siren": "海妖紫蓝",
+    "Abyss": "深渊灰紫",
+    "Brine": "盐海棕",
     "Beurre": "奶油黄",
     "Croissant": "可颂暖黄",
     "Bisque": "杏饼棕",
@@ -49,6 +61,18 @@ NAME_TRANSLATIONS = {
 
 
 DESCRIPTION_TRANSLATIONS = {
+    "Champagne rose with a metallic finish.": "香槟玫瑰色，金属光泽。",
+    "Soft, mid-tone neutral pink with a matte finish.": "柔和中调中性粉色，哑光质地。",
+    "Mid-tone nude rose with a matte finish.": "中调裸玫瑰色，哑光质地。",
+    "Midtone sandy nude with blue-green duochromatic flecks.": "中调沙感裸色，带蓝绿双偏光闪片。",
+    "Light, muted neutral pink-peach with a matte finish": "浅柔和中性粉桃色，哑光质地。",
+    "Nude quartz with a metallic finish.": "裸色石英光感，金属质地。",
+    "Second-skin nude, topper with silver duochromatic flecks.": "贴肤裸色叠擦色，带银色双偏光闪片。",
+    "Rich navy blue-green with blue duochromatic flecks.": "浓郁海军蓝绿色，带蓝色双偏光闪片。",
+    "Nude silver with a metallic finish.": "裸银色，金属光泽。",
+    "Violet-blue with turquoise duochromatic flecks.": "紫蓝色，带绿松石双偏光闪片。",
+    "Mid-tone greige-purple with a matte finish.": "中调灰米紫色，哑光质地。",
+    "Bitter brown-quartz with copper reflectivity and a metallic finish.": "苦棕石英色，带铜色反光，金属质地。",
     "Buttery yellow with warm undertones and a matte finish.": "奶油黄，带暖调底色，哑光质地。",
     "Medium yellow with warm undertones and a matte finish.": "中调暖黄，哑光质地。",
     "Soft brown with warm, yellow-orange undertones and a matte finish.": "柔和棕色，带暖调黄橘底色，哑光质地。",
@@ -77,6 +101,18 @@ DESCRIPTION_TRANSLATIONS = {
 
 
 USE_TRANSLATIONS = {
+    "This metallic champagne rose shade can be worn as an all-over lid colour or layered over complementary tones for an elevated everyday look. Use this shade with a mixing medium for a wash of colour or a foiled, high-shine effect. Pair with shades ‘Serenade’ and ‘Triton’ for a shimmering second-skin sheen! Apply with fingertips or a dense brush for your desired level of intensity.": "可作全眼铺色，或叠加在互补色之上，打造更精致的日常妆感。搭配调和液可获得轻透染色感或更强烈的金属箔光效果。与 `Serenade`、`Triton` 搭配，可呈现闪耀贴肤的光泽感。可用指腹或扎实眼影刷按需叠加显色度。",
+    "This soft, mid-tone shade can be used as an all-over lid colour or as a base tone beneath complementary hues. It can also be used to highlight the brow bone and inner corners of the eyes, or as a transitional shade in the socket of the eye. Use as a base tone beneath shades ‘Murmur’ and ‘Mélusine’ for a glistening, natural finish. Apply with a brush for your desired level of intensity.": "可作全眼铺色或作为互补色下方的打底色。也可用于眉骨和眼头提亮，或作为眼窝位置的过渡色。搭配 `Murmur` 与 `Mélusine` 作打底，可完成自然通透的微光妆感。可用刷具按需叠加显色度。",
+    "This mid-tone nude rose shade can be used as an all-over lid colour, beneath complementary tones for increased depth and saturation, or as a transitional tone in the crease and socket. Mix this hue with other matte shades to create 12 new colours. Can also be worn as a blush on light to medium complexions. Pair with ‘Sylph’ and ‘Mélusine’ for a soft and shimmering romantic nude rose look. Apply with a brush for your desired level of intensity.": "可作全眼铺色、作为互补色下方的打底加深色，或用于眼窝和轮廓位置做过渡。与其他哑光色混合，可调出 12 种新色。浅至中等肤色也可当腮红使用。搭配 `Sylph` 与 `Mélusine`，可完成柔和微闪的浪漫裸玫瑰妆感。可用刷具按需叠加显色度。",
+    "This duochromatic sandy nude shade can be worn as an all-over lid colour or layered over complementary tones for an unexpected duochromatic shine. Use this shade with a mixing medium for a wash of colour or a foiled, high-shine effect. Pair with shades ‘Oceanic’ and ‘Glinting’ for an alluring aquatic finish! Apply with fingertips or a dense brush for your desired level of intensity.": "可作全眼铺色，或叠加在互补色之上，呈现意想不到的双偏光闪耀。搭配调和液可获得轻透染色感或更强烈的箔光效果。与 `Oceanic`、`Glinting` 搭配，可完成迷人的水感妆效。可用指腹或扎实眼影刷按需叠加显色度。",
+    "This light, muted neutral pink-peach shade can be used as an all-over lid colour or as a base tone beneath complementary hues. It can also be used to highlight the brow bone and inner corners of the eyes or as a transitional shade in the socket of the eye. Use as a base tone beneath shades Sylph’ and ‘Glinting’ for a luminous, shimmering glow. Apply with a brush for your desired level of intensity.": "可作全眼铺色，或作为互补色下方的打底色。也可用于眉骨和眼头提亮，或作为眼窝位置的过渡色。搭配 `Sylph` 与 `Glinting` 作打底，可呈现明亮通透的微闪光泽。可用刷具按需叠加显色度。",
+    "This nude quartz metallic shade can be used as an all-over base colour, layered over complementary tones for a burst of high shine shimmer, or used as a liner for smokey, subtle definition. Pairs perfectly with shades ‘Glinting’ and ‘Brine’ for a glimmering grey soft smokey eye! Apply with fingertips or a dense brush for your desired level of intensity or use with a mixing medium for a foiled effect.": "可作全眼打底色，叠加在互补色之上增强高光闪泽，也可作为眼线带出柔和精致轮廓。与 `Glinting`、`Brine` 搭配，适合打造带灰调光泽的柔雾烟熏眼妆。可用指腹或扎实眼影刷上色，也可搭配调和液营造更强烈的箔光效果。",
+    "This second-skin nude topper can be worn as an all-over lid colour for a natural veil of luminosity or over any shade in the palette for a radiant wash of reflectivity. It can also be used to highlight the brow bone, inner corners of the eyes, cheekbones, and the bridge of the nose. Pairs perfectly over top of “Serenade”, “Murmure” and “Ethos” for a burst of shimmering brilliance.": "可作全眼铺色，营造自然通透的贴肤光泽，也可叠加在盘中任何颜色之上，增强反光感。还可用于眉骨、眼头、颧骨和鼻梁提亮。叠加在 `Serenade`、`Murmure`、`Ethos` 上，能带出更明亮的闪耀感。",
+    "This rich navy blue-green shade can be worn alone for a striking monochromatic look or layered on top of complementary tones for a high-shine shift of shimmering pigment. Can also be used to build out the outer crease of the eye, as a liner, or in conjunction with a mixing medium for a foiled effect. Pair with shades ‘Mélusine’ and ‘Glinting’ for a tidal wave of prismatic pigment. Apply with fingertips or a dense brush for your desired level of intensity.": "可单独使用打造强烈的单色妆效，也可叠加在互补色之上，呈现高光泽偏光变化。也可用于加深眼尾眼窝、作为眼线，或搭配调和液打造金属箔感。与 `Mélusine`、`Glinting` 搭配，可完成如潮汐般的棱彩妆效。可用指腹或扎实眼影刷按需叠加显色度。",
+    "This nude silver metallic shade can be used as an all-over base colour, layered over complementary tones for a burst of high shine shimmer, or used as a liner for luminous definition. Pair perfectly with shades ‘Siren’ and ‘Abyss’ for oceanic, crystalline candescence. Apply with fingertips or a dense brush for your desired level of intensity or use with a mixing medium for a foiled effect.": "可作全眼打底色，叠加在互补色之上增强高亮闪泽，也可作为眼线带出清透轮廓。与 `Siren`、`Abyss` 搭配，适合打造海洋感、晶莹感的妆效。可用指腹或扎实眼影刷上色，也可搭配调和液营造更强烈的箔光效果。",
+    "This bright viloet-blue duochromatic shade can be used as an all-over lid color or layered on top of complementary tones for a high-shine sheen. Up the ante by mixing this shade with a mixing medium for an ultra-saturated foiled flip! Apply with fingertips or a dense brush for your desired level of intensity. Can also be used as liner. Pair with shades ‘Oceanic’ and ‘Mélusine’ for hypnotic tides of luminosity!": "可作全眼铺色，或叠加在互补色之上，呈现高光泽的偏光亮感。搭配调和液可强化饱和度，做出更强烈的金属箔光变化。也可用作眼线。与 `Oceanic`、`Mélusine` 搭配，可营造迷人的海潮光感。可用指腹或扎实眼影刷按需叠加显色度。",
+    "This mid-tone shade can be used as an all-over lid colour, as a transitional shade to build out the crease and socket, as a soft liner, or as a base tone beneath complementary tones for increased depth and saturation. Mix this hue with any of the other matte shades to create 12 new hues. Pairs perfectly with ‘Luminary’ and ‘Brine’ to channel the lure of the deep sea. Apply with a brush for your desired level of intensity.": "可作全眼铺色、眼窝过渡色、柔和眼线色，或作为互补色下方的打底加深色，增强层次与饱和度。与盘中其他哑光色混合，可延展出更多色调。搭配 `Luminary`、`Brine`，能呼应深海般的神秘气息。可用刷具按需叠加显色度。",
+    "This bitter brown-quartz metallic shade can be used to create depth and dimension in the crease, socket, and lash line. Build up the colour in the outer corners of the eyes for a boldly pigmented finish or use a mixing medium and liner brush for a graphic finish. Pairs perfectly with ‘Abyss’ and ‘Luminary’ for a richly pigmented smokey siren sheen. Use with a brush to achieve your desired level of intensity.": "可用于加深眼窝、轮廓和睫毛根部，增强整体立体度与深邃感。可在眼尾逐步叠加，打造更浓郁饱和的显色效果；也可搭配调和液和眼线刷完成更利落的图形眼线。与 `Abyss`、`Luminary` 搭配，可塑造高显色的浓郁海妖烟熏光泽。建议使用刷具按需叠加显色度。",
     "All over-lid shade for light to medium skin tones, or a pale yellow for darker ones. Can be used to brighten the inner corner of the eye, or under the brow.": "适合浅至中等肤色作全眼铺色；对深肤色则可作为浅黄色提亮色，也可用于眼头或眉骨提亮。",
     "All over lid shade for medium skin tones, can also be used for inner corner or under brow highlighting.": "适合中等肤色作全眼铺色，也可用于眼头或眉骨提亮。",
     "Use as a base color all over the lid for medium skin tones. Can be used in crease for fair to light medium skin.": "适合中等肤色作全眼打底色；浅肤到浅中等肤色也可用于眼窝加深与过渡。",
@@ -134,6 +170,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "羊绒魅缎盘",
         "en_name": "Cashmerie Charmeuse Etendu",
     },
+    "middle-12-sireneuse-etendu": {
+        "shade_count": "12色",
+        "size_label": "中号",
+        "cn_name": "海妖绮梦盘",
+        "en_name": "Sireneuse Etendu",
+    },
 }
 
 
@@ -144,6 +186,7 @@ HOMEPAGE_LABELS = {
     "middle-35-pro-x1": "35色中号铁盘哑光盘 Pro X1",
     "small-12-matte-cool": "12色小号 哑光冷调盘 Petites Mattes Cool",
     "middle-12-cashmerie-charmeuse-etendu": "12色中号 羊绒魅缎盘 Cashmerie Charmeuse Etendu",
+    "middle-12-sireneuse-etendu": "12色中号 海妖绮梦盘 Sireneuse Etendu",
 }
 
 
@@ -155,6 +198,7 @@ PRODUCT_URLS = {
     "big-12-mattes-neutral": "https://viseartparis.com/en-de/products/petites-mattes-neutral",
     "big-12-mattes-warm": "https://viseartparis.com/en-de/products/visepro-warm-mattes",
     "middle-12-cashmerie-charmeuse-etendu": "https://viseartparis.com/en-de/products/cashmerie-charmeuse-etendu",
+    "middle-12-sireneuse-etendu": "https://viseartparis.com/en-de/products/visepro-sireneuse-etendu",
 }
 
 
@@ -333,6 +377,15 @@ def normalize_product_image_url(url: str) -> str:
     return clean
 
 
+def prefer_full_size_image_url(image_url: str) -> str:
+    if "width=750" in image_url:
+        return image_url
+    if "width=" in image_url:
+        return re.sub(r"width=\d+", "width=750", image_url)
+    separator = "&" if "?" in image_url else "?"
+    return f"{image_url}{separator}width=750"
+
+
 def extract_gallery_images(html_text: str) -> list[tuple[str, str]]:
     images: list[tuple[str, str]] = []
     seen: set[str] = set()
@@ -348,6 +401,32 @@ def extract_gallery_images(html_text: str) -> list[tuple[str, str]]:
     return images
 
 
+def is_true_icons_board(alt_text: str, image_url: str) -> bool:
+    combined = f"{alt_text} {image_url}".lower()
+    swatch_hints = (
+        "single shades",
+        "swatch",
+        "swatches",
+        "open palette",
+        "open palettes",
+        "single shadow",
+        "single shadows",
+    )
+    board_hints = (
+        "shade description",
+        "printed descriptions",
+        "shade board",
+        "icons",
+        "numbered shade",
+        "shade numbers",
+    )
+    if any(hint in combined for hint in swatch_hints) and not any(
+        hint in combined for hint in board_hints
+    ):
+        return False
+    return any(hint in combined for hint in board_hints)
+
+
 def preferred_gallery_images(gallery_images: list[tuple[str, str]]) -> tuple[str | None, str | None]:
     if not gallery_images:
         return None, None
@@ -357,13 +436,16 @@ def preferred_gallery_images(gallery_images: list[tuple[str, str]]) -> tuple[str
 
     for url, alt in gallery_images:
         alt_lower = alt.lower()
-        url_lower = url.lower()
-        if "single shadows" in alt_lower or "crushed" in url_lower:
-            icons_url = url
+        if alt_lower.startswith("open ") or "open palette" in alt_lower or "open palettes" in alt_lower:
+            cover_url = url
             break
 
-    if not icons_url and len(gallery_images) >= 2:
-        icons_url = gallery_images[-2][0]
+    for url, alt in gallery_images:
+        alt_lower = alt.lower()
+        url_lower = url.lower()
+        if is_true_icons_board(alt_lower, url_lower):
+            icons_url = url
+            break
 
     return cover_url, icons_url
 
@@ -377,6 +459,7 @@ def inferred_download_path(target_dir: Path, stem: str, image_url: str) -> Path:
 
 
 def download_product_image(image_url: str, target_dir: Path, stem: str) -> Path:
+    image_url = prefer_full_size_image_url(image_url)
     target_path = inferred_download_path(target_dir, stem, image_url)
     target_path.parent.mkdir(parents=True, exist_ok=True)
     urllib.request.urlretrieve(image_url, target_path)
@@ -414,6 +497,7 @@ def download_primary_product_image(product_url: str, target_path: Path) -> Path:
     if gallery_images:
         cover_url, _ = preferred_gallery_images(gallery_images)
         if cover_url:
+            cover_url = prefer_full_size_image_url(cover_url)
             target_path.parent.mkdir(parents=True, exist_ok=True)
             urllib.request.urlretrieve(cover_url, target_path)
             return target_path
@@ -428,7 +512,7 @@ def download_primary_product_image(product_url: str, target_path: Path) -> Path:
     if not unique_matches:
         raise ValueError(f"No product images found at {product_url}")
 
-    image_url = unique_matches[0]
+    image_url = prefer_full_size_image_url(unique_matches[0])
     target_path.parent.mkdir(parents=True, exist_ok=True)
     urllib.request.urlretrieve(image_url, target_path)
     return target_path

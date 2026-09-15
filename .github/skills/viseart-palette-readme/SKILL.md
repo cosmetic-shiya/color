@@ -138,6 +138,7 @@ Preferred strategies:
 - Expect weaker results than a real `icons.*` board because the first row may be partially covered by the lid.
 - When this happens, record the limitation in `README.md` and prefer a later re-run from `icons.*`.
 - For 3-row palettes, align rows 2 and 3 first from the lower visible area, then derive row 1 using the same row height.
+- Swatch sheets or contact-sheet images that only show painted strips without shade numbers/descriptions do not count as `icons`; in that case, slice `id.*` directly.
 
 ### 3.5. Download source assets from the product page when needed
 If local assets are incomplete, prefer the official product page as the source of truth.
@@ -245,6 +246,7 @@ ls docs/viseart/<palette-slug>/slices | wc -l
 
 ## Repository-Specific Notes
 - This repo publishes from `docs/` for GitHub Pages.
+- `docs/README.md` currently uses a short intro followed by a Git Repo button link before the palette section list; preserve that structure when updating the homepage.
 - Work directly under `docs/viseart/<palette-slug>/`.
 - Keep the README ready for static Markdown rendering.
 - Use relative image links only.

@@ -26,6 +26,7 @@ README title convention in this repo:
 - palette size in Chinese: `小号` for Viseart `1g`, `中号` for `1.5g`, `大号` for `2g`
 - Chinese palette name
 - English palette name
+- for neutral palettes, the size label can be written as `大号/小号` when the repository already uses that combined form
 
 Preferred format:
 
@@ -34,6 +35,7 @@ Viseart <几色> <铁盘大小> <中文盘名> <英文盘名>
 ```
 
 Examples:
+- `Viseart 12色 大号/小号 哑光中性盘 Mattes Neutral`
 - `Viseart 12色 小号 哑光冷调盘 Petites Mattes Cool`
 - `Viseart 35色 中号 哑光大盘 Grande Pro 1X`
 - `Viseart 12色 大号 哑光冷调盘 Matte Cool 2`
@@ -252,6 +254,7 @@ ls docs/viseart/<palette-slug>/slices | wc -l
 Potential references:
 - `docs/viseart/big-12-mattes-neutral/README.md`
 - `docs/viseart/big-12-mattes-neutral/icons.png`
+- `docs/viseart/big-12-mattes-cool2/README.md`
 - `docs/viseart/middle-35-pro-x1/README.md`
 - `.github/skills/viseart-palette-readme/viseart_palette_tool.py`
 

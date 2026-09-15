@@ -1,4 +1,4 @@
-# Viseart 12色大号/小号 哑光中性盘 Mattes Neutral 
+# Viseart 12色 大号/小号 哑光中性盘 Mattes Neutral 
 ![id](id.jpg)
 ## Shade 1: Saumon/Canelle — Deep peach wth a matte finish. 
 ![Shade 1 Saumon](./slices/01.png)

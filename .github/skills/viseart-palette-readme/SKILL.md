@@ -35,6 +35,18 @@ README structure convention in this repo:
 - the title, homepage label, and folder slug should agree on the same shade count and size label, so the page reads consistently as a specific model rather than a generic palette page
 - do not leave generation-only notes in the final published README unless the user explicitly asks to keep them
 
+Homepage grouping convention in this repo:
+- keep `docs/README.md` grouped by family line rather than as one flat Viseart list
+- use these normalized section headings when adding or reorganizing Viseart homepage entries:
+- `#### 35色 中号 Pro X`
+- `#### 12色 大号/小号 Pro`
+- `#### 4色 中号 Petites`
+- `#### 12色 中号 Etendu`
+- `#### 12色 小号 Petites`
+- when a palette belongs to one of these families, place its homepage link under the matching heading instead of inventing a new nearby label
+- `Petits Fours` quads belong under the `Petites` family even though this repo currently describes their size as `中号`
+- `Étendu` and `Etendu` should follow the spelling already used by the target page or existing homepage entry; do not mass-normalize unrelated entries unless the user asks
+
 Preferred format:
 
 ```text
@@ -48,6 +60,13 @@ Examples:
 - `Viseart 12色 大号 哑光冷调盘 Matte Cool 2`
 
 Homepage labels should also keep a space after the shade count, for example `12色 中号 海妖夜曲盘 Sireneuse Nocturne Etendu`.
+
+Homepage heading examples:
+- `35色 中号 Pro X`
+- `12色 大号/小号 Pro`
+- `4色 中号 Petites`
+- `12色 中号 Etendu`
+- `12色 小号 Petites`
 
 ## Use When
 - A folder under `docs/viseart/` has an `id` image, an `icons` image, and English shade text.
@@ -245,6 +264,8 @@ Rules:
 - link directly to `./viseart/<palette-slug>/README.md`
 - keep the homepage list concise and human-readable
 - do not add unfinished palette folders to the homepage
+- preserve the grouped Viseart heading structure already used in `docs/README.md`
+- if a new Viseart palette fits an existing family heading, append it under that heading instead of creating a duplicate family block
 
 Useful checks:
 

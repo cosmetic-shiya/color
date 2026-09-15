@@ -16,7 +16,7 @@ from PIL import Image
 from PIL import ImageDraw
 
 
-SHADE_RE = re.compile(r"^(?:##\s+)?Shade\s+(\d+):\s+(.*?)\s+(?:-|—)\s+(.*)$")
+SHADE_RE = re.compile(r"^(?:##\s+)?Shade\s+(\d+):\s+(.*?)\s+(?:-|–|—)\s+(.*)$")
 USE_RE = re.compile(r"^Use:\s*(.*)$")
 
 
@@ -96,6 +96,18 @@ NAME_TRANSLATIONS = {
     "Clafoutis": "法式水果塔",
     "Ganache": "甘纳许深棕",
     "Pêche": "蜜桃糖釉",
+    "Eglantine": "野蔷薇米杏",
+    "Mirth": "欢愉柔棕",
+    "Puck": "玫瑰裸棕",
+    "Dewdrop": "露珠香槟",
+    "Faerie": "仙灵香粉",
+    "Orbs": "星珠光纱",
+    "Titania": "仙后雾紫",
+    "Changeling": "幻形玫偏光",
+    "Cupidon": "丘比特粉棕",
+    "Perchance": "遐想中棕",
+    "Potion": "魔药酒莓",
+    "Hawthorne": "山楂冷棕",
     "Lune de Miel": "蜜月光",
     "Nacre Blanche": "白珠光",
     "Abricotine Fraîche": "鲜杏粉",
@@ -330,6 +342,17 @@ DESCRIPTION_TRANSLATIONS = {
     "Nude peach with a matte finish": "裸蜜桃色，哑光质地。",
     "Bright champagne peach with a shimmer finish": "明亮香槟蜜桃色，闪光质地。",
     "Glistening candied peach with a shimmer finish": "闪耀糖渍蜜桃色，闪光质地。",
+    "Soft, mid-tone brown with a matte finish.": "柔和中调棕色，哑光质地。",
+    "Mid-tone nude rose-brown with a matte finish.": "中调裸玫瑰棕色，哑光质地。",
+    "Champagne nude rosé with a shimmer finish.": "香槟裸玫瑰色，闪光质地。",
+    "Light champagne pink with a shimmer finish.": "浅香槟粉色，闪光质地。",
+    "Second-skin nude topper with reflectivity.": "贴肤裸色提亮叠擦色，带反光感。",
+    "Muted purple-grey with a matte finish.": "柔雾紫灰色，哑光质地。",
+    "Nude rose with a blue duochrome finish.": "裸玫瑰色，带蓝调双偏光质地。",
+    "Light pink-brown with a matte finish.": "浅粉棕色，哑光质地。",
+    "Medium brown with a matte finish.": "中调棕色，哑光质地。",
+    "Muted burgundy with gold-pink reflectivity.": "柔雾酒红色，带金粉反光。",
+    "Cool-toned brown with a matte finish.": "冷调棕色，哑光质地。",
 }
 
 
@@ -480,6 +503,18 @@ USE_TRANSLATIONS = {
     "Can be blended all over the lid or in the crease. Smudge it over a darker pencil for a soft smokey eye, or push it into the lash line for subtle definition.": "可用于全眼铺色或眼窝过渡。叠在更深色眼线笔上可做出柔和烟熏感，也可压在睫毛根部带出细致轮廓。",
     "This metallic shade can be worn as an all over lid colour, or layered on top of complementary tones for an everyday nude satin sheen finish. Mix this shade with water for a wash of colour or combine with a mixing medium for a foiled effect. Apply with fingertips or a dense brush for your desired level of intensity.": "可作全眼铺色，也可叠加在互补色之上，打造适合日常的裸感缎光效果。与水混合可获得轻透染色感，搭配调和液则可做出箔光效果。可用指腹或扎实刷具按需叠加显色度。",
     "This espresso bitter brown shade can be used to create depth and dimension in the crease, socket and lash line. Build up the colour in the outer corners of the eyes for a boldly pigmented finish or use a mixing medium and liner brush for a graphic finish. Use a brush for your desired level of intensity.": "适合用于眼窝、轮廓和睫毛根部加深，增强深邃度与立体感。可在眼尾逐步叠加，打造高显色效果；也可搭配调和液和眼线刷完成更利落的图形眼线。可用刷具按需叠加显色度。",
+    "This cool-toned light beige shade can be used as an all-over lid colour or as a base tone beneath complementary hues. It can also be used to highlight the brow bone and inner corners of the eyes or as a transitional shade in the socket of the eye. Use as a base tone beneath shades ‘Dewdrop’ and ‘Faerie’ for a luminous, shimmering glow. Apply with a brush for your desired level of intensity.": "可作全眼铺色，或作为互补色下方的打底色；也可用于眉骨和眼头提亮，或作为眼窝过渡色。以它打底再叠加 `Dewdrop` 与 `Faerie`，可呈现明亮透光的微闪妆效。可用刷具按需叠加显色度。",
+    "This soft, mid-tone brown shade can be used as an all-over lid colour or as a base tone beneath complementary hues. It can also be used to highlight the brow bone and inner corners of the eyes, or as a transitional shade in the socket of the eye. Use as a base tone beneath shades ‘Faerie’ and ‘Perchance’ for a glistening, natural finish. Apply with a brush for your desired level of intensity.": "可作全眼铺色，或作为互补色下方的打底色；也可用于眉骨和眼头提亮，或作为眼窝过渡色。以它打底再叠加 `Faerie` 与 `Perchance`，可呈现自然透亮的微光妆感。可用刷具按需叠加显色度。",
+    "This mid-tone matte rose-brown shade can be used as an all-over lid colour or as a base tone beneath complementary hues. It can also be used as a transitional shade to contour the socket to create depth and dimension. Additionally, this color can be used in the brows or as a contour on light to medium complexions.": "可作全眼铺色，或作为互补色下方的打底色；也可作为眼窝过渡色勾勒轮廓，增强深度与立体感。浅至中等肤色还可用于眉部或修容。",
+    "This champagne rosé shade can be used as an all-over lid color or along the high points of the face as a highlighter on all complexions. Apply to the inner corners of the eyes for a or on top of complementary hues in the center of the lid for an eye-catching effect. Combine this shade with a mixing medium for a foiled effect. Apply with a brush for your desired level of intensity. Can also be used as a liner or mixed with gloss for a luminous finish.": "可作全眼铺色，也可用于面部高点提亮，适合所有肤色。点在眼头，或叠在眼皮中央与互补色之上，都能带来更吸睛的光感。搭配调和液可获得箔光效果；也可作眼线，或混入唇蜜增添明亮釉泽。可用刷具按需叠加显色度。",
+    "This light champagne pink shade can be used as an all-over lid color or along the high points of the face as a highlighter on all complexions. For a brightening, eye-catching effect, apply to the inner corners of the eyes, or layer over complementary hues for extra dimension. Apply with a brush for your desired level of intensity. This shade can also be blended with gloss or balm for a dewy, multi-use glow.": "可作全眼铺色，也可用于面部高点提亮，适合所有肤色。点在眼头或叠加在互补色之上，可增强明亮度与层次感。可用刷具按需叠加显色度；也可与唇蜜或润唇膏混合，呈现水润多用途光泽。",
+    "This sheer, second-skin nude can be swept across the lids for a soft veil of light or layered over any shade in the palette to enhance luminosity. Use it to highlight the brow bone, inner corners of the eyes, cheekbones, or bridge of the nose for a subtle glow. For a radiant, multi-dimensional finish, layer over “Mirth” and “Perchance” to amplify their brilliance with a touch of shimmer. Apply with a brush for your desired level of intensity. Can also be used as a liner or mixed with gloss for a luminous finish.": "可轻扫全眼，带来柔和透光感，也可叠加在盘中任何颜色之上增强明亮度。还可用于眉骨、眼头、颧骨和鼻梁提亮，营造细腻光泽。叠在 `Mirth` 与 `Perchance` 之上，可进一步放大它们的闪耀层次。可用刷具按需叠加显色度；也可作眼线，或混入唇蜜增添亮泽。",
+    "This muted purple-grey matte shade can be used as an all-over lid colour, in the crease to contour and create dimension, or as a liner for a soft, diffused effect on all complexions.": "可作全眼铺色，也可用于眼窝塑形、增强立体感，或作为柔雾眼线色，适合所有肤色。",
+    "This nude rose duochromatic shade can be worn alone for a wash of brillant reflectivity or layer over complementary tones to accentuate its pearlescent dimension. For a high-shine, foiled effect, pair with a mixing medium. Apply with a brush for your desired level of intensity. Pair with “Faerie” and “Titania” for an ethereal eye look that glimmers with luminosity.": "可单独使用，呈现明亮偏光；也可叠加在互补色上，强化珠光层次。搭配调和液可获得更强烈的箔光效果。可用刷具按需叠加显色度。与 `Faerie` 和 `Titania` 搭配，可完成空灵发光的眼妆效果。",
+    "This light pink-brown matte shade can be used as an all-over lid colour or as a base tone beneath complementary hues. It can also be used as a transitional shade to contour the socket to create depth and dimension. Pair with shimmering toppers like “Dewdrop” or deeper mattes such as “Perchance” to create seamless, softly sculpted eye looks.": "可作全眼铺色，或作为互补色下方的打底色；也可用于眼窝过渡，勾勒更柔和的深度与轮廓。搭配 `Dewdrop` 这类珠光提亮色，或 `Perchance` 这类更深哑光色，可完成自然衔接的雕塑感眼妆。",
+    "This medium brown shade can be used as an all-over lid colour, as a transitional shade to build out the crease and socket, as a soft liner, or as a base tone beneath complementary tones for increased depth and saturation. Can also be used in brows on medium to deep complexions. Apply with a brush for your desired level of intensity.": "可作全眼铺色、眼窝过渡色、柔和眼线色，或作为互补色下方的打底色以增强深度与饱和度。中等至深肤色也可用于眉部修饰。可用刷具按需叠加显色度。",
+    "Use this muted reflective burgundy tone as an all-over lid colour, layered overtop complementary shades, or on its own for a natural, softly shimmering effect on all complexions. This hue can be used in the crease to define the socket, as a liner, or paired with other shades to build depth and create a smouldering, multidimensional eye look.": "可作全眼铺色，叠加在互补色之上，或单独使用，呈现自然柔闪效果，适合所有肤色。也可用于眼窝加深、作为眼线色，或与其他色号搭配，打造带层次感的微熏妆效。",
+    "This cool-toned brown shade can be used to create depth and dimension in the crease, socket, and lash line. Build up the colour in the outer corners of the eyes for a boldly pigmented finish or use a mixing medium and liner brush for a graphic finish. Pairs perfectly with ‘Potion’ and ‘Changeling’ for a richly pigmented duochromatic look. Use a brush for your desired level of intensity.": "适合用于眼窝、轮廓与睫毛根部加深，增强深邃度与立体感。可在眼尾逐步叠加，打造高显色效果；也可搭配调和液和眼线刷完成更利落的图形眼线。与 `Potion` 和 `Changeling` 搭配，可呈现高显色的双偏光层次妆效。可用刷具按需叠加显色度。",
 }
 
 
@@ -604,6 +639,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "紫罗兰流辉盘",
         "en_name": "Violette Lumière Étendu",
     },
+    "middle-12-midsommer-lumiere-etendu": {
+        "shade_count": "12色",
+        "size_label": "中号",
+        "cn_name": "仲夏流辉盘",
+        "en_name": "Midsommer Lumière Étendu",
+    },
     "middle-12-lilas-lumiere-etendu": {
         "shade_count": "12色",
         "size_label": "中号",
@@ -634,6 +675,7 @@ HOMEPAGE_LABELS = {
     "middle-12-paris-nuit-etoilee-etendu": "12色 中号 巴黎星夜盘 Paris Nuit Étoilée Étendu",
     "middle-12-violette-nocturne-etendu": "12色 中号 紫罗兰夜曲盘 Violette Nocturne Étendu",
     "middle-12-violette-lumiere-etendu": "12色 中号 紫罗兰流辉盘 Violette Lumière Étendu",
+    "middle-12-midsommer-lumiere-etendu": "12色 中号 仲夏流辉盘 Midsommer Lumière Étendu",
     "middle-12-lilas-lumiere-etendu": "12色 中号 丁香流辉盘 Lilas Lumière Étendu",
 }
 
@@ -656,6 +698,7 @@ HOMEPAGE_GROUP_HEADINGS = {
     "middle-12-paris-nuit-etoilee-etendu": "#### 12色 中号 Etendu",
     "middle-12-violette-nocturne-etendu": "#### 12色 中号 Etendu",
     "middle-12-violette-lumiere-etendu": "#### 12色 中号 Etendu",
+    "middle-12-midsommer-lumiere-etendu": "#### 12色 中号 Etendu",
     "middle-12-lilas-lumiere-etendu": "#### 12色 中号 Etendu",
     "middle-12-soleil-la-plage-etendu": "#### 12色 中号 Etendu",
     "middle-12-visepro-paris-mattes-etendu": "#### 12色 中号 Etendu",
@@ -688,6 +731,7 @@ PRODUCT_URLS = {
     "middle-12-paris-nuit-etoilee-etendu": "https://viseartparis.com/en-de/products/paris-nuit-etoilee-etendu?_pos=73&_sid=7a187920b&_ss=r",
     "middle-12-violette-nocturne-etendu": "https://viseartparis.com/en-de/products/violette-nocturne-etendu?_pos=70&_sid=7a187920b&_ss=r",
     "middle-12-violette-lumiere-etendu": "https://viseartparis.com/en-de/products/violette-lumiere-etendu?_pos=1&_psq=viol&_psid=7db8d6167&_ss=e",
+    "middle-12-midsommer-lumiere-etendu": "https://viseartparis.com/en-de/products/visepro%E2%84%A2-midsommer-lumiere-etendu?_pos=2&_psq=viol&_psid=7db8d6167&_ss=e",
     "middle-12-lilas-lumiere-etendu": "https://viseartparis.com/en-de/products/visepro-lilas-lumiere-etendu?_pos=3&_psq=viol&_psid=7db8d6167&_ss=e",
 }
 

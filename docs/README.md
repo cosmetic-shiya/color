@@ -32,7 +32,7 @@ Color cards and palette slices prepared for GitHub Pages.
 - 📄 [12色 中号 果仁糖盘 Praline Étendu](./viseart/middle-12-praline-etendu/README.md)
 - 📄 [12色 中号 糖果果仁盘 Bon Bon Praline Étendu](./viseart/middle-12-bon-bon-praline-etendu/README.md)
 - 📄 [12色 中号 杏光流辉盘 Apricotine Lumière Étendu](./viseart/middle-12-apricotine-lumiere-etendu/README.md)
-
+- 📄 [12色 中号 仲夏流辉盘 Midsommer Lumière Étendu](./viseart/middle-12-midsommer-lumiere-etendu/README.md)
 #### 12色 小号 Petites
 - 📄 [12色 小号 巴黎裸光盘 Petites Shimmers Paris Nudes](./viseart/small-12-shimmers-paris-nudes/README.md)
 - 📄 [12色 小号 魅惑微光盘 Petites Shimmers Sultry Muse](./viseart/small-12-shimmers-sultry-muse/README.md)

@@ -81,6 +81,30 @@ NAME_TRANSLATIONS = {
     "Elk": "麋鹿棕",
     "Bluebells": "风铃草蓝",
     "Iris": "鸢尾紫蓝",
+    "Macaron": "马卡龙杏粉",
+    "Brûlée": "焦糖布蕾",
+    "Rococo": "洛可可蜜桃",
+    "Financier": "费南雪金棕",
+    "Mirabelle": "蜜李杏金",
+    "Millefeuille": "千层酥",
+    "Biscuit": "饼干奶棕",
+    "Roussillon": "鲁西永陶土",
+    "Calisson": "杏仁糖",
+    "Soleil": "日曜暖金",
+    "Clafoutis": "法式水果塔",
+    "Ganache": "甘纳许深棕",
+    "Lune de Miel": "蜜月光",
+    "Nacre Blanche": "白珠光",
+    "Abricotine Fraîche": "鲜杏粉",
+    "Nougatine": "牛轧糖",
+    "Fleur d’Or": "金杏花",
+    "Abricot Givré": "霜杏辉",
+    "Abricot Sauvage": "野杏桃",
+    "Bois d’Ambre": "琥珀木",
+    "Nectar Brûlé": "焦蜜铜",
+    "Abricot Doré": "金杏釉",
+    "Cacao Serein": "静夜可可",
+    "Ganache Noire": "黑甘纳许",
 }
 
 
@@ -169,6 +193,18 @@ DESCRIPTION_TRANSLATIONS = {
     "Bitter brown matte finish.": "深苦棕，哑光质地。",
     "Deep fresh blue matte finish.": "深清爽蓝，哑光质地。",
     "Deep purple-blue matte finish.": "深紫蓝色，哑光质地。",
+    "Light, citron champagne with a shimmer finish.": "浅柠香槟色，闪光质地。",
+    "Soft pearl crème with a matte finish.": "柔和珍珠奶霜色，哑光质地。",
+    "Light nude pink with a matte finish.": "浅裸粉色，哑光质地。",
+    "Light, taupe fawn brown with a matte finish.": "浅灰褐小鹿棕，哑光质地。",
+    "Soft, beige-pink crème with a matte finish.": "柔和米粉奶霜色，哑光质地。",
+    "Nude plum-rose quartz with silver, pink, and gold duochromatic flecks.": "裸梅玫瑰石英色，带银、粉、金双偏光闪片。",
+    "Soft, sugared peach with a satin finish.": "柔和糖霜蜜桃色，缎光质地。",
+    "Rosewood taupe with a blue, pink, and gold duochromatic finish.": "玫瑰木灰褐色，带蓝、粉、金双偏光光泽。",
+    "Honeyed bronze with a metallic finish.": "蜜糖古铜色，金属质地。",
+    "Iced apricot glaze with a satin finish.": "冰杏釉光色，缎光质地。",
+    "Midtone brown-plum with a matte finish.": "中调棕梅子色，哑光质地。",
+    "Dark cocoa brown with a satin finish.": "深可可棕色，缎光质地。",
 }
 
 
@@ -242,6 +278,18 @@ USE_TRANSLATIONS = {
     "Base tone for all skin tones.": "适合所有肤色的底色。",
     "All over solid tone for all skin types. Base tone, as well as midtone for eyeshadow depth and dimension. Also can be used in brows, and as contour.": "适合所有肤色的大面积实色铺陈；可作底色或中间色调，增强眼影深度与立体感；也可用于眉部与修容。",
     "All over tone for all skin types, use as a soft eyeliner for light to medium tones.": "适合所有肤色的大面积铺色；可作为浅至中等肤色的柔和眼线。",
+    "Use this citron champagne shade as an all-over lid colour, to highlight the brow bone and inner corners of the eyes, or in the center of the eyes for a burst of luminosity. Wear with shades ‘Nacre Blanche’ and ‘Abricot Givré’ for a softly luminous look, touched with patisserie warmth. Apply with a brush for your desired level of intensity.": "可作全眼铺色，用于眉骨和眼头提亮，或点在眼中位置增强光感。与 `Nacre Blanche` 和 `Abricot Givré` 搭配，可呈现带法式甜点暖意的柔亮妆效。可用刷具按需叠加显色度。",
+    "Use this soft pearl crème shade as an all-over lid colour, to highlight the brow bone and inner corners of the eyes, or as an adjustor tone above or below complementary shades. Wear with shades ‘Fleur d’Or’ and ‘Abricot Sauvage’ for a soft, peach-lit eye, kissed by French morning light. Apply with a brush for your desired level of intensity.": "可作全眼铺色，用于眉骨和眼头提亮，或作为互补色上下方的调和色。与 `Fleur d’Or` 和 `Abricot Sauvage` 搭配，可营造法式晨光轻吻般的柔和蜜桃眼妆。可用刷具按需叠加显色度。",
+    "This nude light pink shade can be used as an all-over lid colour, to highlight the brow bone and inner corners of the eyes, or as an adjustor tone above or below complementary shades. Pair with shades ‘Nougatine’ and ‘Bois d’Ambre’ for a rosewood nude eye look, reminiscent of diffused Parisian light at dusk. Apply with a brush for your desired level of intensity.": "可作全眼铺色，用于眉骨和眼头提亮，或作为互补色上下方的调和色。与 `Nougatine` 和 `Bois d’Ambre` 搭配，可呈现暮色巴黎般柔散光线中的玫瑰木裸妆感。可用刷具按需叠加显色度。",
+    "This light, taupe fawn brown shade can be used as an all-over lid colour, as a base tone beneath complementary shades, or as a transitional shade to build soft depth and dimension. Pair with shades ‘Nectar Brûlé’ and ‘Cacao Serein’ for a decadent trio of cocoa-dusted browns, silken, and richly indulgent. Apply with a brush for your desired level of intensity.": "可作全眼铺色、互补色下方的打底色，或作为过渡色叠出柔和深度与层次。与 `Nectar Brûlé` 和 `Cacao Serein` 搭配，可组成丝滑浓郁的可可棕三重奏。可用刷具按需叠加显色度。",
+    "This soft, beige-pink crème shade can be used as an all-over lid colour, to highlight the brow bone and inner corners of the eyes, or as an adjustor tone above or below complementary shades. It can also be used as a blush on light to medium complexions. Pair with shades ‘Abricot Sauvage’ and ‘Abricot Doré’ for a sumptuous trio of peach tones, soft-matte and gently glazed. Apply with a brush for your desired level of intensity.": "可作全眼铺色，用于眉骨和眼头提亮，或作为互补色上下方的调和色；浅至中等肤色也可作腮红使用。与 `Abricot Sauvage` 和 `Abricot Doré` 搭配，可呈现柔雾又微釉感的丰润蜜桃色调。可用刷具按需叠加显色度。",
+    "This nude rose quartz shade can be used as an all-over lid colour, placed at the center of the lid for a touch of luminosity, or worn in the inner corners of the eyes for a kiss of brightness. For a high-shine, foiled effect, use with a mixing medium or add to gloss for a dewy, glistening finish. Wear with shades ‘Abricot Sauvage’ and ‘Bois d’Ambre’ for a shimmering velvet peach, second-skin effect.": "可作全眼铺色，点在眼皮中央增强光感，或用于眼头提亮。搭配调和液可获得更强烈的箔光效果，也可混入唇蜜带出水润闪泽。与 `Abricot Sauvage` 和 `Bois d’Ambre` 搭配，可呈现带天鹅绒质感的贴肤蜜桃微闪效果。",
+    "This soft, sugared peach shade can be used as an all-over lid colour, to highlight the brow bone and inner corners of the eyes, as a blush on light to medium complexions, or as a highlighter on medium to deep complexions. Pair with shades ‘Abricotine Fraîche’ and ‘Fleur d’Or’ for a decadent look with brûléed peach warmth. Apply with a brush for your desired level of intensity.": "可作全眼铺色，用于眉骨和眼头提亮；浅至中等肤色可作腮红，中等至深肤色可作高光。与 `Abricotine Fraîche` 和 `Fleur d’Or` 搭配，可呈现焦糖蜜桃般的丰润暖感。可用刷具按需叠加显色度。",
+    "This duochromatic rosewood shade can be worn alone for a wash of brilliant luminosity or layered over complementary tones to accentuate its duochromatic dimension. For a high-shine, foiled effect, use with a mixing medium. It can also be mixed with a gloss for a wet, prismatic look or used as a highlighter. Pair with shades “Abricot Givré” and “Lune de Miel” for a tantalizing glaze of sugared sweetness. Apply with a brush for your desired level of intensity.": "可单独使用呈现明亮光泽，也可叠加在互补色上强化双偏光层次。搭配调和液可获得更强烈的箔光效果，也可与唇蜜混合营造湿润棱彩感，或作高光使用。与 `Abricot Givré` 和 `Lune de Miel` 搭配，可带出糖釉般诱人的甜润光感。可用刷具按需叠加显色度。",
+    "This honeyed bronze shade can be used as an all-over lid colour, to build depth and dimension in the outer corners of the eyes, or as an eyeliner on all complexions. Use with a mixing medium for a foiled effect. Wear with shades ‘Cacao Serein’ and ‘Ganache Noire’ for a shimmering caramelized look, refined with pâtisserie richness. Apply with a brush for your desired level of intensity.": "可作全眼铺色，用于眼尾加深层次，也适合所有肤色作眼线色。搭配调和液可获得箔光效果。与 `Cacao Serein` 和 `Ganache Noire` 搭配，可呈现带法式甜点浓郁感的焦糖微闪妆效。可用刷具按需叠加显色度。",
+    "This iced apricot shade can be used as an all-over lid colour, to highlight the brow bone and inner corners of the eyes, as a blush on light to medium complexions, or as a highlighter on medium to deep complexions. Use with a mixing medium for a foiled effect or mix into gloss for a luminous sheen. Pair with shades ‘Abricotine Fraîche’ and ‘Abricot Givré’ for a glacé peach look, cool and softly luminous. Apply with a brush for your desired level of intensity.": "可作全眼铺色，用于眉骨和眼头提亮；浅至中等肤色可作腮红，中等至深肤色可作高光。搭配调和液可获得箔光效果，也可混入唇蜜增添明亮釉泽。与 `Abricotine Fraîche` 和 `Abricot Givré` 搭配，可呈现清凉柔亮的冰蜜桃妆感。可用刷具按需叠加显色度。",
+    "This midtone brown-plum shade can be used as an all over lid colour, as a transition shade to build out the crease and socket, as a soft liner, or as a base tone beneath complementary tones for increased depth and saturation. Pair with shades ‘Nectar Brûlé’ and ‘Ganache Noire’ for a rich and sumptuous look inspired by the indulgence of a chocolate ganache dessert. Apply with a brush for your desired level of intensity.": "可作全眼铺色、眼窝过渡色、柔和眼线色，或作为互补色下方的打底加深色，增强深度与饱和度。与 `Nectar Brûlé` 和 `Ganache Noire` 搭配，可呈现如巧克力甘纳许甜点般浓郁丰厚的妆效。可用刷具按需叠加显色度。",
+    "This dark cocoa-brown shade can be used to create depth and dimension in the crease, socket, and lash line. Build up the colour in the outer corners of the eyes for a boldly pigmented finish or use with a mixing medium and liner brush for a graphic finish. Pairs perfectly with ‘Nougatine’ and ‘Bois d’Ambre’ for a richly pigmented, duochromatic look. Use a brush for your desired level of intensity.": "适合用于眼窝、轮廓和睫毛根部加深，增强深邃度与立体感。可在眼尾逐步叠加做出高显色效果，也可搭配调和液和眼线刷完成更利落的图形眼线。与 `Nougatine` 和 `Bois d’Ambre` 搭配，可呈现高显色的双偏光深邃妆感。可用刷具按需叠加显色度。",
 }
 
 
@@ -330,6 +378,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "海妖夜曲盘",
         "en_name": "Sireneuse Nocturne Etendu",
     },
+    "middle-12-apricotine-lumiere-etendu": {
+        "shade_count": "12色",
+        "size_label": "中号",
+        "cn_name": "杏光流辉盘",
+        "en_name": "Apricotine Lumière Étendu",
+    },
 }
 
 
@@ -348,6 +402,7 @@ HOMEPAGE_LABELS = {
     "middle-12-cashmerie-charmeuse-etendu": "12色 中号 羊绒魅缎盘 Cashmerie Charmeuse Etendu",
     "middle-12-sireneuse-etendu": "12色 中号 海妖绮梦盘 Sireneuse Etendu",
     "middle-12-sireneuse-nocturne-etendu": "12色 中号 海妖夜曲盘 Sireneuse Nocturne Etendu",
+    "middle-12-apricotine-lumiere-etendu": "12色 中号 杏光流辉盘 Apricotine Lumière Étendu",
 }
 
 
@@ -367,6 +422,7 @@ PRODUCT_URLS = {
     "middle-12-cashmerie-charmeuse-etendu": "https://viseartparis.com/en-de/products/cashmerie-charmeuse-etendu",
     "middle-12-sireneuse-etendu": "https://viseartparis.com/en-de/products/visepro-sireneuse-etendu",
     "middle-12-sireneuse-nocturne-etendu": "https://viseartparis.com/en-de/products/sireneuse-nocturne-etendu",
+    "middle-12-apricotine-lumiere-etendu": "https://viseartparis.com/en-de/products/apricotine-lumiere-etendu?_pos=75&_sid=7a187920b&_ss=r",
 }
 
 
@@ -905,34 +961,7 @@ def translate_use(text: str) -> str:
         return USE_TRANSLATIONS[normalized]
     if text in USE_TRANSLATIONS:
         return USE_TRANSLATIONS[text]
-
-    replacements = [
-        ("All over-lid shade", "全眼铺色"),
-        ("all-over lid shade", "全眼铺色"),
-        ("All-over lid shade", "全眼铺色"),
-        ("Base tone", "底色"),
-        ("base tone", "底色"),
-        ("transitional shade", "过渡色"),
-        ("inner corner", "眼头"),
-        ("inner corners", "眼头"),
-        ("brow bone", "眉骨"),
-        ("highlight", "提亮"),
-        ("smokey eye", "烟熏妆"),
-        ("soft eyeliner", "柔和眼线"),
-        ("outer corners", "眼尾"),
-        ("creases", "眼窝"),
-        ("crease", "眼窝"),
-        ("blush", "腮红"),
-        ("contour", "修容"),
-        ("brows", "眉部"),
-        ("mix", "混合"),
-        ("lighten", "提亮"),
-        ("soften", "柔和"),
-    ]
-    result = text
-    for source, target in replacements:
-        result = re.sub(source, target, result, flags=re.IGNORECASE)
-    return result
+    return text
 
 
 def detect_visible_pan_bbox(tile: Image.Image, ignore_top_px: int = 0) -> tuple[int, int, int, int] | None:

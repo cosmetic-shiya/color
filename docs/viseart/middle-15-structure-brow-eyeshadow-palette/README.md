@@ -1,9 +1,6 @@
 # Viseart 15色 中号 结构塑眉塑影修容盘 15-Pan Structure Brow, Shadow, Hairline & Contour Palette
 ![id](id.jpg)
 
-> 提示：本页切片来自官网开盖图 `id`，并非独立的带描述色板图 `icons`。
-> 第一排色块可能会受到盖子边缘轻微遮挡；如果后续拿到带描述色板图，应优先用 `icons` 重新切图。
-
 ## Shade 1: Neutral Light Wax — Neutral Light wax for light blonde to light brunette hair
 ![Shade 1 Neutral Light Wax](./slices/01_Neutral_Light_Wax.jpg)
 

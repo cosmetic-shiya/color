@@ -12,5 +12,6 @@ Color cards and palette slices prepared for GitHub Pages.
 - 📄 [12色 大号/小号 哑光深调盘 Mattes Dark](./viseart/big-12-mattes-dark/README.md)
 - 📄 [12色 大号/小号 哑光亮彩盘 Editorial Brights](./viseart/big-12-editorial-brights/README.md)
 - 📄 [12色 中号 羊绒魅缎盘 Cashmerie Charmeuse Etendu](./viseart/middle-12-cashmerie-charmeuse-etendu/README.md)
+- 📄 [12色 中号 索莱依海滩盘 Soleil La Plage Etendu](./viseart/middle-12-soleil-la-plage-etendu/README.md)
 - 📄 [12色 中号 海妖绮梦盘 Sireneuse Etendu](./viseart/middle-12-sireneuse-etendu/README.md)
 - 📄 [12色 中号 海妖夜曲盘 Sireneuse Nocturne Etendu](./viseart/middle-12-sireneuse-nocturne-etendu/README.md)

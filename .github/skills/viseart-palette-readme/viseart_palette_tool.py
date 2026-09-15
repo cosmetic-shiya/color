@@ -153,6 +153,18 @@ NAME_TRANSLATIONS = {
     "Dulce": "焦糖古铜",
     "Cambresine": "灰石褐紫",
     "Espresso": "浓缩苦棕",
+    "Folies": "幻金",
+    "Pigalle": "香草蜜桃",
+    "Mousseline": "焦梅绒",
+    "Sucré": "糖晶棕",
+    "Muscade": "肉豆蔻棕",
+    "Jazz": "爵士玫金",
+    "Laughter": "裸香槟",
+    "Cabaret": "歌舞铜金",
+    "Archives": "古典香槟",
+    "Pecan": "山核桃棕",
+    "Cire": "蜡灰丁香",
+    "Veloutine": "丝绒浓咖",
 }
 
 
@@ -299,6 +311,18 @@ DESCRIPTION_TRANSLATIONS = {
     "Warm, midtone burnished bronze with a shimmer finish.": "暖调中调抛光古铜色，闪光质地。",
     "Midtone greige stone hue with a matte finish": "中调灰米石色，哑光质地。",
     "Bitter brown with a matte finish": "深苦棕色，哑光质地。",
+    "Light gold with a metallic finish.": "浅金色，金属质地。",
+    "Pale vanilla-peach with a matte finish.": "浅香草蜜桃色，哑光质地。",
+    "Burnt-plum with a matte finish.": "焦梅子色，哑光质地。",
+    "Warm brown with a shimmer finish.": "暖棕色，闪光质地。",
+    "A nutmeg brown with a matte finish": "肉豆蔻棕色，哑光质地。",
+    "Light rose gold with a duochromatic finish.": "浅玫瑰金色，双偏光质地。",
+    "Nude beige satin metallic with a shimmer finish.": "裸米色缎金属光，闪光质地。",
+    "Golden bronze with a metallic finish.": "金古铜色，金属质地。",
+    "Nude champagne with a metallic satin finish.": "裸香槟色，金属缎光质地。",
+    "Sienna brown with a matte finish.": "赭石棕色，哑光质地。",
+    "Light bark lilac taupe with a metallic finish.": "浅树皮丁香灰褐色，金属质地。",
+    "Espresso bitter brown with a matte finish": "浓缩苦棕色，哑光质地。",
 }
 
 
@@ -433,6 +457,18 @@ USE_TRANSLATIONS = {
     "This midtone burnished bronze shade can be used as an all-over base colour, layered over complementary tones for additional warmth and dimension, or used as a liner for subtle definition. Can also be worn as a highlighter on medium to deep skin tones. Apply with a dense brush for your desired level of intensity. Use with the Viseart Seamless Eye Primer or other preferred mixing medium for a foiled effect.": "可作全眼打底色，或叠加在互补色之上增加暖感与层次，也可作为眼线色带出柔和轮廓。中等至深肤色也可作高光使用。可用扎实刷具按需叠加显色度；搭配 Viseart Seamless Eye Primer 或其他调和液可获得箔光效果。",
     "This midtone shade can be used as an all-over lid colour, as a transition shade to build out the crease and socket, as a soft liner, or as a base tone beneath complementary tones for increased depth and saturation. Can be used in brows. Mix this hue with other matte shades to create 12 new shades. Apply with fingertips or a dense brush for your desired level of intensity.": "可作全眼铺色、眼窝过渡色、柔和眼线色，或作为互补色下方的打底色以增强深度与饱和度。也可用于眉部修饰。与其他哑光色混合，可延展出 12 种新色。可用指腹或扎实刷具按需叠加显色度。",
     "This espresso matte is used to create a deep, smokey eye all over the lid and as an eyeliner with a damp brush. Hue can be tapped with a brush in brows and muted down with other matte tones for darker to lighter brows, depending on skin tone. Can be layered with all shimmers for a multitude of different looks.": "适合全眼铺色打造深邃烟熏感，也可配合微湿刷具作为眼线色使用。也可轻拍于眉部，并与其他哑光色混合，调出适合不同肤色的深浅眉色；与所有珠光色叠搭也能延展出多种妆效。",
+    "Apply a sweep of this hue with a brush or finger for a sexy 'wet skin' effect or pair with any of the other shades in the palette for a glamorous golden finish. Can also be foiled or worn as a highlighter on all complexions.": "可用刷具或指腹扫在眼皮上，打造带光泽的湿润妆感；也可与盘中其他色号搭配，呈现华丽金光效果。还可搭配调和液增强箔光感，或作为适合所有肤色的高光使用。",
+    "Use this warm cream shade all over as a base tone on light to medium skin tones. Can be used to brighten the inner corners of the eyes on all complexions. Can also be used to set under-eye concealer on light to medium complexions.": "浅至中等肤色可作全眼打底色；所有肤色都可用于眼头提亮。浅至中等肤色也可用于定妆眼下遮瑕。",
+    "This midtone shade can be used as an all over lid colour, as a transition shade to build out the crease and socket, as a soft liner, or as a base tone beneath complementary tones for increased depth and saturation on all complexions. Mix this hue with other matte shades to create 12 new shades. Apply with fingertips or a dense brush for your desired level of intensity.": "可作全眼铺色、眼窝过渡色、柔和眼线色，或作为互补色下方的打底色，以增强深度与饱和度，适合所有肤色。与其他哑光色混合，可延展出 12 种新色。可用指腹或扎实刷具按需叠加显色度。",
+    "Use this to brighten the lid or inner corner, or use a damp brush to intensify the metallic tone. This can be used as a highlighter as well for a golden glow.": "可用于提亮眼皮或眼头；搭配微湿刷具可增强金属光泽。也可作为高光，带出金色光感。",
+    "All over solid tone for all skin types. Base tone, as well as midtone for eyeshadow depth and dimension. Also can be used in brows, and as a contour.": "适合所有肤色大面积铺色；既可作打底色，也可作为增强眼影深度与立体感的中间色调；同时也可用于眉部与修容。",
+    "This rose gold duochromatic hue is used as an all-over lid tone. It can also be mixed with other matte and shimmer hues to create more defined, richly toned shades and used with lighter metallic tones to create a duochromatic look. Use a mixing medium to foil this hue for ultimate shine, or create a mix of hues- can also be used with a damp brush all over lid, or as an eyeliner.": "可作全眼铺色，也可与其他哑光或珠光色混合，调出更浓郁、更有层次的色调；与更浅的金属色搭配，还能做出双偏光效果。搭配调和液可获得更强烈的箔光感，也可用微湿刷具全眼上色或当眼线使用。",
+    "This satin shade can be used as an all-over lid tone, as a highlight in the inner corner of the eyes, on the brow bone, and on top of any cream eyeliner, or conversely use a wet brush, or mixing medium to intensify the tone for high definition shine. All skin tones.": "可作全眼铺色，也可用于眼头、眉骨提亮，或叠加在膏状眼线之上。使用微湿刷具或调和液可增强光泽与显色，适合所有肤色。",
+    "Use this golden bronze hue as an all-over lid color on all complexions or tap onto the center of the lid for an eye-catching finish. Can be foiled or worn as liner.": "可作全眼铺色，适合所有肤色；也可点在眼皮中央，打造吸睛亮点。可搭配调和液做出箔光效果，也可作为眼线色。",
+    "This shade can be used as a wash of color all over the lid, layered over your favorite matte shades- can be used in the inner corners for a pop of luminosity, in the center of the eyelid to accentuate the glow or as a highlighter on tops of the cheekbones, add to the cupids bow and into any lipgloss to add a pearl! Additionally, foil this shade for all day wear with a mixing medium or damp brush to intensify the hue.": "可全眼铺色，或叠加在喜欢的哑光色上；也适合用于眼头提亮、点亮眼皮中央，或作为颧骨高光，还可点在唇峰，甚至混入唇蜜增添珍珠光泽。搭配调和液或微湿刷具可增强显色并获得更持久的箔光效果。",
+    "Can be blended all over the lid or in the crease. Smudge it over a darker pencil for a soft smokey eye, or push it into the lash line for subtle definition.": "可用于全眼铺色或眼窝过渡。叠在更深色眼线笔上可做出柔和烟熏感，也可压在睫毛根部带出细致轮廓。",
+    "This metallic shade can be worn as an all over lid colour, or layered on top of complementary tones for an everyday nude satin sheen finish. Mix this shade with water for a wash of colour or combine with a mixing medium for a foiled effect. Apply with fingertips or a dense brush for your desired level of intensity.": "可作全眼铺色，也可叠加在互补色之上，打造适合日常的裸感缎光效果。与水混合可获得轻透染色感，搭配调和液则可做出箔光效果。可用指腹或扎实刷具按需叠加显色度。",
+    "This espresso bitter brown shade can be used to create depth and dimension in the crease, socket and lash line. Build up the colour in the outer corners of the eyes for a boldly pigmented finish or use a mixing medium and liner brush for a graphic finish. Use a brush for your desired level of intensity.": "适合用于眼窝、轮廓和睫毛根部加深，增强深邃度与立体感。可在眼尾逐步叠加，打造高显色效果；也可搭配调和液和眼线刷完成更利落的图形眼线。可用刷具按需叠加显色度。",
 }
 
 
@@ -527,6 +563,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "杏光流辉盘",
         "en_name": "Apricotine Lumière Étendu",
     },
+    "middle-12-praline-etendu": {
+        "shade_count": "12色",
+        "size_label": "中号",
+        "cn_name": "果仁糖盘",
+        "en_name": "Praline Étendu",
+    },
     "middle-12-paris-nuit-etoilee-etendu": {
         "shade_count": "12色",
         "size_label": "中号",
@@ -570,6 +612,7 @@ HOMEPAGE_LABELS = {
     "middle-12-sireneuse-etendu": "12色 中号 海妖绮梦盘 Sireneuse Etendu",
     "middle-12-sireneuse-nocturne-etendu": "12色 中号 海妖夜曲盘 Sireneuse Nocturne Etendu",
     "middle-12-apricotine-lumiere-etendu": "12色 中号 杏光流辉盘 Apricotine Lumière Étendu",
+    "middle-12-praline-etendu": "12色 中号 果仁糖盘 Praline Étendu",
     "middle-12-paris-nuit-etoilee-etendu": "12色 中号 巴黎星夜盘 Paris Nuit Étoilée Étendu",
     "middle-12-violette-nocturne-etendu": "12色 中号 紫罗兰夜曲盘 Violette Nocturne Étendu",
     "middle-12-violette-lumiere-etendu": "12色 中号 紫罗兰流辉盘 Violette Lumière Étendu",
@@ -594,6 +637,7 @@ PRODUCT_URLS = {
     "middle-12-sireneuse-etendu": "https://viseartparis.com/en-de/products/visepro-sireneuse-etendu",
     "middle-12-sireneuse-nocturne-etendu": "https://viseartparis.com/en-de/products/sireneuse-nocturne-etendu",
     "middle-12-apricotine-lumiere-etendu": "https://viseartparis.com/en-de/products/apricotine-lumiere-etendu?_pos=75&_sid=7a187920b&_ss=r",
+    "middle-12-praline-etendu": "https://viseartparis.com/en-de/products/visepro-praline-etendu",
     "middle-12-paris-nuit-etoilee-etendu": "https://viseartparis.com/en-de/products/paris-nuit-etoilee-etendu?_pos=73&_sid=7a187920b&_ss=r",
     "middle-12-violette-nocturne-etendu": "https://viseartparis.com/en-de/products/violette-nocturne-etendu?_pos=70&_sid=7a187920b&_ss=r",
     "middle-12-violette-lumiere-etendu": "https://viseartparis.com/en-de/products/violette-lumiere-etendu?_pos=1&_psq=viol&_psid=7db8d6167&_ss=e",

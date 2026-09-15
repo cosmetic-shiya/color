@@ -28,6 +28,7 @@ Color cards and palette slices prepared for GitHub Pages.
 - 📄 [12色 中号 紫罗兰夜曲盘 Violette Nocturne Étendu](./viseart/middle-12-violette-nocturne-etendu/README.md)
 - 📄 [12色 中号 海妖绮梦盘 Sireneuse Etendu](./viseart/middle-12-sireneuse-etendu/README.md)
 - 📄 [12色 中号 海妖夜曲盘 Sireneuse Nocturne Etendu](./viseart/middle-12-sireneuse-nocturne-etendu/README.md)
+- 📄 [12色 中号 果仁糖盘 Praline Étendu](./viseart/middle-12-praline-etendu/README.md)
 - 📄 [12色 中号 糖果果仁盘 Bon Bon Praline Étendu](./viseart/middle-12-bon-bon-praline-etendu/README.md)
 - 📄 [12色 中号 杏光流辉盘 Apricotine Lumière Étendu](./viseart/middle-12-apricotine-lumiere-etendu/README.md)
 

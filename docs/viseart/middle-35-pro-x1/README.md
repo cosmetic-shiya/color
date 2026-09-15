@@ -1,5 +1,5 @@
 # Viseart 35色 中号 哑光大盘 GRANDE PRO 1X
-![big-pic](./icons.jpg)
+![id](id.webp)
 
 ## Shade 1: Eggshell - White with a whisper of peach
 ![Shade 1 Eggshell](./slices/01.jpg)

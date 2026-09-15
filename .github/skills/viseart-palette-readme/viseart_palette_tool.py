@@ -9,6 +9,7 @@ import unicodedata
 import urllib.request
 from dataclasses import dataclass
 from pathlib import Path
+from urllib.parse import urlsplit
 
 from PIL import Image
 from PIL import ImageDraw
@@ -19,6 +20,18 @@ USE_RE = re.compile(r"^Use:\s*(.*)$")
 
 
 NAME_TRANSLATIONS = {
+    "Beurre": "奶油黄",
+    "Croissant": "可颂暖黄",
+    "Bisque": "杏饼棕",
+    "Saffron": "番红花黄",
+    "Brioche": "奶油面包棕",
+    "Cantaloup": "蜜瓜橘",
+    "Cidre": "苹果酒棕",
+    "Flame": "焰橘红",
+    "Brûlée": "焦糖炙棕",
+    "Nutmeg": "肉豆蔻棕",
+    "Mocha": "摩卡深棕",
+    "Brick": "砖红棕",
     "Salt": "盐白",
     "Sand": "沙色",
     "Seashell": "贝壳粉",
@@ -35,6 +48,18 @@ NAME_TRANSLATIONS = {
 
 
 DESCRIPTION_TRANSLATIONS = {
+    "Buttery yellow with warm undertones and a matte finish.": "奶油黄，带暖调底色，哑光质地。",
+    "Medium yellow with warm undertones and a matte finish.": "中调暖黄，哑光质地。",
+    "Soft brown with warm, yellow-orange undertones and a matte finish.": "柔和棕色，带暖调黄橘底色，哑光质地。",
+    "Bright yellow with a satin finish.": "明亮黄色，缎光质地。",
+    "Soft brown with warm, yellowish undertones and a matte finish.": "柔和棕色，带偏黄暖调底色，哑光质地。",
+    "Tangerine orange with warm, yellow undertones and a matte finish.": "橘橙色，带暖调黄色底色，哑光质地。",
+    "Medium brown with warm, yellow undertones and a matte finish.": "中调棕色，带暖调黄色底色，哑光质地。",
+    "Burnt orange with warm, red undertones and a matte finish.": "焦橘色，带暖调红色底色，哑光质地。",
+    "Medium-dark taupe-brown with warm undertones and a matte finish.": "中深调灰棕色，带暖调底色，哑光质地。",
+    "Medium-dark brown with subtle, reddish undertones and a matte finish.": "中深调棕色，带细微红调底色，哑光质地。",
+    "Dark brown with subtle, warm undertones and a matte finish.": "深棕色，带细微暖调底色，哑光质地。",
+    "Deep muted red with warm undertones and a matte finish.": "深柔雾红色，带暖调底色，哑光质地。",
     "Pale bone matte finish.": "淡骨色，哑光质地。",
     "Cool light beige matte finish.": "冷调浅米色，哑光质地。",
     "Light pink matte finish.": "浅粉色，哑光质地。",
@@ -51,6 +76,17 @@ DESCRIPTION_TRANSLATIONS = {
 
 
 USE_TRANSLATIONS = {
+    "All over-lid shade for light to medium skin tones, or a pale yellow for darker ones. Can be used to brighten the inner corner of the eye, or under the brow.": "适合浅至中等肤色作全眼铺色；对深肤色则可作为浅黄色提亮色，也可用于眼头或眉骨提亮。",
+    "All over lid shade for medium skin tones, can also be used for inner corner or under brow highlighting.": "适合中等肤色作全眼铺色，也可用于眼头或眉骨提亮。",
+    "Use as a base color all over the lid for medium skin tones. Can be used in crease for fair to light medium skin.": "适合中等肤色作全眼打底色；浅肤到浅中等肤色也可用于眼窝加深与过渡。",
+    "Can be used as lid or crease for fair skin, or lid for medium to dark.": "浅肤色可用于眼皮或眼窝位置；中等至深肤色可作眼皮主色。",
+    "A great everyday lid/crease color for light/mid-toned skins, or this can actually be used as a grey/brown on darker skins.": "适合浅肤和中等肤色作为日常眼皮主色或眼窝过渡色；在深肤色上也可呈现柔和灰棕效果。",
+    "A great inner eye highlight for dark skins, or warm all over lid or crease for light to medium. This is also a secret weapon for darkness on the lids - since orange neutralizes blue, try this to brighten up darkness on the lid.": "深肤色可用于眼头提亮；浅至中等肤色可作暖调全眼铺色或眼窝过渡色。它也适合修饰眼皮暗沉，因为橘色能中和蓝调，可用于提亮发暗部位。",
+    "A super versatile color! This is an AMAZING brow color for redheads, but also as a lid color for medium tones, or a crease color to build depth and dimension for fair to medium skin.": "非常百搭的颜色。既适合红发人群作眉色，也适合中等肤色作眼皮主色，或用于浅至中等肤色的眼窝加深，增强立体层次。",
+    "This can be used for lid or crease. Build depth and dimension, or brighten darker skin tones.": "可用于眼皮或眼窝位置，帮助建立深度与立体感，也能更好衬托较深肤色上的暖调表现。",
+    "Use all over the lid and crease on all complexions or as a base tone for deeper complexions.": "适合所有肤色用于眼皮与眼窝的大面积铺陈；对深肤色也可作为打底色使用。",
+    "This ultra versatile tone is perfect for a smokey eye on almost all skin tones, and can be used for liner, or for brows for brunettes and black hair.": "这是一支适用于大多数肤色的高适配深色，可用于打造烟熏眼妆，也可作为眼线色；深棕发或黑发人群也可用于眉部。",
+    "Use in the crease and outer corner for a dimensional wash of warm burgundy.": "适合用于眼窝与眼尾，铺出带暖酒红调的层次感与晕染效果。",
     "Use to highlight and blend into all other tones to soften shades, use on brow bone to highlight.": "可用作高光，并与其他色号混合以柔和整体色调，也可用于眉骨提亮。",
     "Base tone for light to medium skin tones.": "适合浅至中等肤色的底色。",
     "Base tone for light to medium skin tones. Use as a highlight on brow bone for deeper tones. Mix-in with lighter tones and deeper tones to create variegated base tones in an array of depth.": "适合浅至中等肤色的底色；深肤色可作为眉骨提亮；可与更浅或更深的颜色混合，调出不同深浅层次的底色。",
@@ -66,6 +102,12 @@ PALETTE_TITLE_PARTS = {
         "size_label": "大号",
         "cn_name": "哑光冷调盘",
         "en_name": "Matte Cool 2",
+    },
+    "big-12-warm-mattes": {
+        "shade_count": "12色",
+        "size_label": "大号",
+        "cn_name": "哑光暖调盘",
+        "en_name": "Warm Mattes",
     },
     "big-12-matte-neutral": {
         "shade_count": "12色",
@@ -96,6 +138,7 @@ PALETTE_TITLE_PARTS = {
 
 HOMEPAGE_LABELS = {
     "big-12-matte-cool2": "12色大号 哑光冷调盘 Matte Cool 2",
+    "big-12-warm-mattes": "12色大号 哑光暖调盘 Warm Mattes",
     "big-12-matte-neutral": "12色大号/小号中性盘 Matte Neutral",
     "middle-35-pro-x1": "35色中号铁盘哑光盘 Pro X1",
     "small-12-matte-cool": "12色小号 哑光冷调盘 Petites Mattes Cool",
@@ -109,6 +152,7 @@ HOMEPAGE_SECTION = "### 眼影 Viseart"
 PRODUCT_URLS = {
     "small-12-matte-cool": "https://viseartparis.com/en-de/products/petites-mattes-cool",
     "big-12-matte-neutral": "https://viseartparis.com/en-de/products/petites-mattes-neutral",
+    "big-12-warm-mattes": "https://viseartparis.com/en-de/products/visepro-warm-mattes",
     "middle-12-cashmerie-charmeuse-etendu": "https://viseartparis.com/en-de/products/cashmerie-charmeuse-etendu",
 }
 
@@ -118,6 +162,10 @@ SHADE_BLOCK_RE = re.compile(
     r'<span class="metafield-multi_line_text_field">(.*?)</span>', re.DOTALL
 )
 H1_RE = re.compile(r"<h1[^>]*>(.*?)</h1>", re.DOTALL | re.IGNORECASE)
+GALLERY_IMG_RE = re.compile(
+    r'<img[^>]+src="([^"]*(?:/cdn/shop/files/)[^"]+)"[^>]+alt="([^"]*)"',
+    re.IGNORECASE,
+)
 
 
 @dataclass
@@ -139,6 +187,7 @@ class SliceContext:
 class ProductPageData:
     title: str | None
     shade_text: str | None
+    gallery_images: list[tuple[str, str]]
 
 
 def default_title_for_palette(folder_name: str) -> str:
@@ -274,6 +323,65 @@ def clean_html_text(value: str) -> str:
     return text.strip()
 
 
+def normalize_product_image_url(url: str) -> str:
+    clean = html.unescape(url)
+    if clean.startswith("//"):
+        return f"https:{clean}"
+    if clean.startswith("/"):
+        return f"https://viseartparis.com{clean}"
+    return clean
+
+
+def extract_gallery_images(html_text: str) -> list[tuple[str, str]]:
+    images: list[tuple[str, str]] = []
+    seen: set[str] = set()
+    for raw_url, raw_alt in GALLERY_IMG_RE.findall(html_text):
+        url = normalize_product_image_url(raw_url)
+        if "/cdn/shop/files/" not in url or "/preview_images/" in url:
+            continue
+        alt = clean_html_text(raw_alt)
+        if url in seen:
+            continue
+        seen.add(url)
+        images.append((url, alt))
+    return images
+
+
+def preferred_gallery_images(gallery_images: list[tuple[str, str]]) -> tuple[str | None, str | None]:
+    if not gallery_images:
+        return None, None
+
+    cover_url = gallery_images[0][0]
+    icons_url = None
+
+    for url, alt in gallery_images:
+        alt_lower = alt.lower()
+        url_lower = url.lower()
+        if "single shadows" in alt_lower or "crushed" in url_lower:
+            icons_url = url
+            break
+
+    if not icons_url and len(gallery_images) >= 2:
+        icons_url = gallery_images[-2][0]
+
+    return cover_url, icons_url
+
+
+def inferred_download_path(target_dir: Path, stem: str, image_url: str) -> Path:
+    path = urlsplit(image_url).path
+    suffix = Path(path).suffix.lower()
+    if suffix not in {".png", ".jpg", ".jpeg", ".webp"}:
+        suffix = ".jpg"
+    return target_dir / f"{stem}{suffix}"
+
+
+def download_product_image(image_url: str, target_dir: Path, stem: str) -> Path:
+    target_path = inferred_download_path(target_dir, stem, image_url)
+    target_path.parent.mkdir(parents=True, exist_ok=True)
+    urllib.request.urlretrieve(image_url, target_path)
+    return target_path
+
+
 def fetch_product_page_data(product_url: str) -> ProductPageData:
     with urllib.request.urlopen(product_url) as response:
         html_text = response.read().decode("utf-8", errors="ignore")
@@ -290,12 +398,24 @@ def fetch_product_page_data(product_url: str) -> ProductPageData:
             shade_text = cleaned
             break
 
-    return ProductPageData(title=title, shade_text=shade_text)
+    return ProductPageData(
+        title=title,
+        shade_text=shade_text,
+        gallery_images=extract_gallery_images(html_text),
+    )
 
 
 def download_primary_product_image(product_url: str, target_path: Path) -> Path:
     with urllib.request.urlopen(product_url) as response:
         html = response.read().decode("utf-8", errors="ignore")
+
+    gallery_images = extract_gallery_images(html)
+    if gallery_images:
+        cover_url, _ = preferred_gallery_images(gallery_images)
+        if cover_url:
+            target_path.parent.mkdir(parents=True, exist_ok=True)
+            urllib.request.urlretrieve(cover_url, target_path)
+            return target_path
 
     matches = CDN_IMAGE_RE.findall(html)
     unique_matches: list[str] = []
@@ -307,13 +427,7 @@ def download_primary_product_image(product_url: str, target_path: Path) -> Path:
     if not unique_matches:
         raise ValueError(f"No product images found at {product_url}")
 
-    preferred = None
-    for url in unique_matches:
-        if "width=750" in url:
-            preferred = url
-            break
-    image_url = preferred or unique_matches[0]
-
+    image_url = unique_matches[0]
     target_path.parent.mkdir(parents=True, exist_ok=True)
     urllib.request.urlretrieve(image_url, target_path)
     return target_path
@@ -402,13 +516,12 @@ def infer_grid(shade_count: int) -> tuple[int, int]:
 def content_bbox(image: Image.Image, threshold: int = 245) -> tuple[int, int, int, int]:
     rgb = image.convert("RGB")
     width, height = rgb.size
-    pixels = rgb.load()
     xs: list[int] = []
     ys: list[int] = []
 
     for y in range(height):
         for x in range(width):
-            red, green, blue = pixels[x, y]
+            red, green, blue = rgb.getpixel((x, y))
             if red < threshold or green < threshold or blue < threshold:
                 xs.append(x)
                 ys.append(y)
@@ -481,14 +594,13 @@ def palette_bbox_from_cover(image: Image.Image, threshold: int = 80) -> tuple[in
     rgb = image.convert("RGB")
     outer_left, outer_top, outer_right, outer_bottom = content_bbox(rgb)
     _, height = rgb.size
-    pixels = rgb.load()
     content_width = outer_right - outer_left
 
     row_activity: list[tuple[int, int]] = []
     for y in range(outer_top, outer_bottom):
         active_pixels = 0
         for x in range(outer_left, outer_right):
-            red, green, blue = pixels[x, y]
+            red, green, blue = rgb.getpixel((x, y))
             average = (red + green + blue) // 3
             if average < 245:
                 active_pixels += 1
@@ -514,12 +626,22 @@ def palette_bbox_from_cover(image: Image.Image, threshold: int = 80) -> tuple[in
 
 
 def translate_description(text: str) -> str:
+    normalized = " ".join(text.split())
+    if normalized in DESCRIPTION_TRANSLATIONS:
+        return DESCRIPTION_TRANSLATIONS[normalized]
     if text in DESCRIPTION_TRANSLATIONS:
         return DESCRIPTION_TRANSLATIONS[text]
     return text
 
 
 def translate_use(text: str) -> str:
+    normalized = " ".join(text.split())
+    if normalized.startswith(
+        "All over solid tone for all skin types. Base tone, as well as midtone for eyeshadow depth and dimension. Also can be used in brows, and as a contour."
+    ):
+        return "适合所有肤色大面积铺色；既可作打底色，也可作为增强眼影深度与立体感的中间色调；同时也可用于眉部与修容。"
+    if normalized in USE_TRANSLATIONS:
+        return USE_TRANSLATIONS[normalized]
     if text in USE_TRANSLATIONS:
         return USE_TRANSLATIONS[text]
 
@@ -555,13 +677,12 @@ def translate_use(text: str) -> str:
 def detect_visible_pan_bbox(tile: Image.Image, ignore_top_px: int = 0) -> tuple[int, int, int, int] | None:
     rgb = tile.convert("RGB")
     width, height = rgb.size
-    pixels = rgb.load()
     visited: set[tuple[int, int]] = set()
     best_bbox: tuple[int, int, int, int] | None = None
     best_area = 0
 
     def is_pan_pixel(x: int, y: int) -> bool:
-        red, green, blue = pixels[x, y]
+        red, green, blue = rgb.getpixel((x, y))
         avg = (red + green + blue) // 3
         return 18 < avg < 250
 
@@ -832,7 +953,22 @@ def main() -> None:
         except FileNotFoundError:
             if not product_url:
                 raise ValueError("No local id image and no product URL available for download")
-            cover_path = download_primary_product_image(product_url, palette_dir / "id.jpg")
+            if page_data and page_data.gallery_images:
+                cover_url, _ = preferred_gallery_images(page_data.gallery_images)
+                if cover_url:
+                    cover_path = download_product_image(cover_url, palette_dir, "id")
+                else:
+                    cover_path = download_primary_product_image(product_url, palette_dir / "id.jpg")
+            else:
+                cover_path = download_primary_product_image(product_url, palette_dir / "id.jpg")
+
+        try:
+            detect_file(palette_dir, ["icons.png", "icons.jpg", "icons.jpeg", "icons.webp"])
+        except FileNotFoundError:
+            if page_data and page_data.gallery_images:
+                _, icons_url = preferred_gallery_images(page_data.gallery_images)
+                if icons_url:
+                    download_product_image(icons_url, palette_dir, "icons")
     else:
         cover_path = detect_file(palette_dir, ["id.png", "id.jpg", "id.jpeg", "id.webp"])
 

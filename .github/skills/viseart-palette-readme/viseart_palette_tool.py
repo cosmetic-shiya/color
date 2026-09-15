@@ -21,6 +21,18 @@ USE_RE = re.compile(r"^Use:\s*(.*)$")
 
 
 NAME_TRANSLATIONS = {
+    "Toffee": "太妃棕",
+    "Hazelnut": "榛果棕",
+    "Sienna": "赭石棕",
+    "Sepia": "棕褐",
+    "Pinot": "黑皮诺紫棕",
+    "Beaujolais": "博若莱紫",
+    "Curcumin": "姜黄橘",
+    "Persimmon": "柿橘",
+    "Myrtille": "蓝莓紫",
+    "Minuit": "午夜蓝",
+    "Fôret": "森林绿",
+    "Olive": "橄榄绿",
     "Sylph": "海雾银玫",
     "Serenade": "轻吟粉",
     "Murmure": "低语玫瑰",
@@ -61,6 +73,18 @@ NAME_TRANSLATIONS = {
 
 
 DESCRIPTION_TRANSLATIONS = {
+    "Warm light brown with a matte finish.": "暖调浅棕色，哑光质地。",
+    "Deep taupe brown with a matte finish.": "深灰棕色，哑光质地。",
+    "Muted rosy brown with a matte finish.": "柔和玫瑰棕色，哑光质地。",
+    "Muted orange-brown with a matte finish.": "柔和橘棕色，哑光质地。",
+    "Deep rosy plum with a matte finish.": "深玫瑰李子色，哑光质地。",
+    "Eggplant purple with a matte finish.": "茄紫色，哑光质地。",
+    "Muted yellow-orange with a matte finish.": "柔和黄橘色，哑光质地。",
+    "Deep orange with a matte finish.": "深橘色，哑光质地。",
+    "Blue purple with a matte finish.": "蓝紫色，哑光质地。",
+    "Deep navy blue with a matte finish.": "深海军蓝色，哑光质地。",
+    "Forest green with a matte finish.": "森林绿色，哑光质地。",
+    "Olive green with a matte finish.": "橄榄绿色，哑光质地。",
     "Pale vanilla nude with a matte finish.": "香草米白裸色，哑光质地。",
     "Nude rose-brown with a matte finish.": "裸玫瑰棕色，哑光质地。",
     "Sandy taupe with a matte finish.": "沙感灰棕色，哑光质地。",
@@ -125,6 +149,10 @@ DESCRIPTION_TRANSLATIONS = {
 
 
 USE_TRANSLATIONS = {
+    "All over base tone for all skin types, highlight for brow bone on medium to deep skin. Use as a mix-in with other brown tones and with greens to create different light variations of khaki.": "适合所有肤色作大面积打底色；中等至深肤色也可用于眉骨提亮。还可与其他棕色或绿色混合，调出不同深浅变化的卡其色。",
+    "All over base tone for all skin types. Use as a midtone to add definition.": "适合所有肤色作大面积打底色，也可作为中间色调增加轮廓与层次。",
+    "All over tone for all skin types. Use it as a liner to create depth and dimension.": "适合所有肤色作大面积铺色，也可作为眼线色使用，增强深度与立体感。",
+    "All-over tone for all skin types. Use it as a liner to create depth and dimension.": "适合所有肤色作大面积铺色，也可作为眼线色使用，增强深度与立体感。",
     "This pale vanilla shade can be used as an all over lid colour or as a base tone beneath complementary shades. It can also be used to highlight the brow bone and inner corners of the eyes on light to medium complexions. Additionally, mix it with any of the other tones to brighten, lighten, and create over 12 new hues. Pair with shades ‘Slate’ and ‘Sandstone’ for a quick and easy cool-toned tantalizing taupe eye look. Apply with a brush for your desired level of intensity.": "可作全眼铺色，或作为互补色下方的打底色。浅至中等肤色可用于眉骨和眼头提亮。也可与盘中其他色调混合，提亮、调浅并延展出 12 种以上新色。与 `Slate`、`Sandstone` 搭配，可快速完成冷调迷人的灰棕眼妆。可用刷具按需叠加显色度。",
     "This nude rose-brown shade can be used to add subtle definition to contours of the face. It can also be used as a nude blush on light to medium complexions. Apply with a brush for your desired level of intensity.": "可用于面部轮廓的轻柔加深，也可在浅至中等肤色上作裸感腮红。可用刷具按需叠加显色度。",
     "This sandy taupe shade can be used to highlight and bring forth the contours of the face. Apply it under the brow bone or in the inner corners of the eyes on all complexions, or down the bridge of the nose and on the cheekbones on medium to deep complexions to add brightness to the face.": "可用于提亮并强化面部轮廓。适合所有肤色用于眉骨和眼头；中等至深肤色也可用于鼻梁和颧骨提亮，让面部更显明亮。",
@@ -206,6 +234,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "哑光冷调盘",
         "en_name": "Mattes Cool Original",
     },
+    "big-12-mattes-dark": {
+        "shade_count": "12色",
+        "size_label": "大号/小号",
+        "cn_name": "哑光深调盘",
+        "en_name": "Mattes Dark",
+    },
     "middle-35-pro-x1": {
         "shade_count": "35色",
         "size_label": "中号",
@@ -244,6 +278,7 @@ HOMEPAGE_LABELS = {
     "big-12-mattes-warm": "12色 大号 哑光暖调盘 Warm Mattes",
     "big-12-mattes-neutral": "12色 大号/小号 中性盘 Matte Neutral",
     "big-12-mattes-cool-original": "12色 大号/小号 哑光冷调盘 Mattes Cool Original",
+    "big-12-mattes-dark": "12色 大号/小号 哑光深调盘 Mattes Dark",
     "middle-35-pro-x1": "35色 中号 哑光大盘 Pro X1",
     "small-12-matte-cool": "12色 小号 哑光冷调盘 Petites Mattes Cool",
     "middle-12-cashmerie-charmeuse-etendu": "12色 中号 羊绒魅缎盘 Cashmerie Charmeuse Etendu",
@@ -259,6 +294,7 @@ PRODUCT_URLS = {
     "small-12-matte-cool": "https://viseartparis.com/en-de/products/petites-mattes-cool",
     "big-12-mattes-neutral": "https://viseartparis.com/en-de/products/petites-mattes-neutral",
     "big-12-mattes-cool-original": "https://viseartparis.com/en-de/collections/visepro/products/visepro-cool-mattes-original",
+    "big-12-mattes-dark": "https://viseartparis.com/en-de/products/visepro-dark-mattes?_pos=6&_sid=cdce64564&_ss=r",
     "big-12-mattes-warm": "https://viseartparis.com/en-de/products/visepro-warm-mattes",
     "middle-12-cashmerie-charmeuse-etendu": "https://viseartparis.com/en-de/products/cashmerie-charmeuse-etendu",
     "middle-12-sireneuse-etendu": "https://viseartparis.com/en-de/products/visepro-sireneuse-etendu",

@@ -2,8 +2,10 @@
 from __future__ import annotations
 
 import argparse
+import html
 import re
 import unicodedata
+import urllib.request
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -56,11 +58,56 @@ USE_TRANSLATIONS = {
 }
 
 
-TITLE_TRANSLATIONS = {
-    "big-12-matte-cool2": "Viseart 12色 大号 哑光冷调盘 Matte Cool 2",
-    "big-12-matte-neutral": "Viseart 12色 大号/小号 哑光中性盘 Matte Neutral",
-    "middle-35-pro-x1": "Viseart 35色 中盘 Grande Pro 1x",
+PALETTE_TITLE_PARTS = {
+    "big-12-matte-cool2": {
+        "shade_count": "12色",
+        "size_label": "大号",
+        "cn_name": "哑光冷调盘",
+        "en_name": "Matte Cool 2",
+    },
+    "big-12-matte-neutral": {
+        "shade_count": "12色",
+        "size_label": "大号/小号",
+        "cn_name": "哑光中性盘",
+        "en_name": "Matte Neutral",
+    },
+    "middle-35-pro-x1": {
+        "shade_count": "35色",
+        "size_label": "中号",
+        "cn_name": "哑光大盘",
+        "en_name": "Grande Pro 1X",
+    },
+    "small-12-matte-cool": {
+        "shade_count": "12色",
+        "size_label": "小号",
+        "cn_name": "哑光冷调盘",
+        "en_name": "Petites Mattes Cool",
+    },
 }
+
+
+HOMEPAGE_LABELS = {
+    "big-12-matte-cool2": "12色大号 哑光冷调盘 Matte Cool 2",
+    "big-12-matte-neutral": "12色大号/小号中性盘 Matte Neutral",
+    "middle-35-pro-x1": "35色中号铁盘哑光盘 Pro X1",
+    "small-12-matte-cool": "12色小号 哑光冷调盘 Petites Mattes Cool",
+}
+
+
+HOMEPAGE_SECTION = "### 眼影 Viseart"
+
+
+PRODUCT_URLS = {
+    "small-12-matte-cool": "https://viseartparis.com/en-de/products/petites-mattes-cool",
+    "big-12-matte-neutral": "https://viseartparis.com/en-de/products/petites-mattes-neutral",
+}
+
+
+CDN_IMAGE_RE = re.compile(r"https://viseartparis\.com/cdn/shop/[^\"' )]+")
+SHADE_BLOCK_RE = re.compile(
+    r'<span class="metafield-multi_line_text_field">(.*?)</span>', re.DOTALL
+)
+H1_RE = re.compile(r"<h1[^>]*>(.*?)</h1>", re.DOTALL | re.IGNORECASE)
 
 
 @dataclass
@@ -70,6 +117,28 @@ class Shade:
     description: str
     use: str
     warning: str = ""
+
+
+@dataclass
+class SliceContext:
+    source_kind: str
+    has_occluded_top_row_risk: bool = False
+
+
+@dataclass
+class ProductPageData:
+    title: str | None
+    shade_text: str | None
+
+
+def default_title_for_palette(folder_name: str) -> str:
+    parts = PALETTE_TITLE_PARTS.get(folder_name)
+    if not parts:
+        return folder_name
+    return (
+        f"Viseart {parts['shade_count']} {parts['size_label']} "
+        f"{parts['cn_name']} {parts['en_name']}"
+    )
 
 
 def parse_args() -> argparse.Namespace:
@@ -110,6 +179,31 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Rewrite README.md with generated sections.",
     )
+    parser.add_argument(
+        "--update-docs-index",
+        action="store_true",
+        help="Update docs/README.md to include this palette on the Pages homepage.",
+    )
+    parser.add_argument(
+        "--homepage-label",
+        help="Optional label text to use in docs/README.md instead of the default mapped label.",
+    )
+    parser.add_argument(
+        "--download-product-assets",
+        action="store_true",
+        help="Download an id image from the mapped or provided product page when local assets are missing.",
+    )
+    parser.add_argument(
+        "--product-url",
+        help="Optional Viseart product page URL to fetch images from.",
+    )
+    parser.add_argument(
+        "--crop-bbox",
+        type=int,
+        nargs=4,
+        metavar=("LEFT", "TOP", "RIGHT", "BOTTOM"),
+        help="Optional manual crop box override for slicing difficult source images.",
+    )
     return parser.parse_args()
 
 
@@ -133,15 +227,85 @@ def detect_file(folder: Path, candidates: list[str]) -> Path:
     raise FileNotFoundError(f"Could not find any of: {candidates} in {folder}")
 
 
-def parse_shades(source_path: Path) -> tuple[str, list[Shade]]:
-    lines = source_path.read_text(encoding="utf-8").splitlines()
-    folder_name = source_path.parent.name
-    title = TITLE_TRANSLATIONS.get(folder_name, folder_name)
+def product_url_for_palette(palette_dir: Path, explicit_url: str | None) -> str | None:
+    if explicit_url:
+        return explicit_url
+    return PRODUCT_URLS.get(palette_dir.name)
+
+
+def clean_html_text(value: str) -> str:
+    text = value.replace("<br />", "\n")
+    text = text.replace("<br/>", "\n")
+    text = text.replace("<br>", "\n")
+    text = re.sub(r"<[^>]+>", "", text)
+    text = html.unescape(text)
+    text = text.replace("\u2028", "\n")
+    text = text.replace("\xa0", " ")
+    text = re.sub(r"\r\n?", "\n", text)
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
+
+
+def fetch_product_page_data(product_url: str) -> ProductPageData:
+    with urllib.request.urlopen(product_url) as response:
+        html_text = response.read().decode("utf-8", errors="ignore")
+
+    title = None
+    title_match = H1_RE.search(html_text)
+    if title_match:
+        title = clean_html_text(title_match.group(1))
+
+    shade_text = None
+    for block in SHADE_BLOCK_RE.findall(html_text):
+        cleaned = clean_html_text(block)
+        if "Shade 1:" in cleaned and "Use:" in cleaned:
+            shade_text = cleaned
+            break
+
+    return ProductPageData(title=title, shade_text=shade_text)
+
+
+def download_primary_product_image(product_url: str, target_path: Path) -> Path:
+    with urllib.request.urlopen(product_url) as response:
+        html = response.read().decode("utf-8", errors="ignore")
+
+    matches = CDN_IMAGE_RE.findall(html)
+    unique_matches: list[str] = []
+    for match in matches:
+        clean = match.replace("&amp;", "&")
+        if clean not in unique_matches:
+            unique_matches.append(clean)
+
+    if not unique_matches:
+        raise ValueError(f"No product images found at {product_url}")
+
+    preferred = None
+    for url in unique_matches:
+        if "width=750" in url:
+            preferred = url
+            break
+    image_url = preferred or unique_matches[0]
+
+    target_path.parent.mkdir(parents=True, exist_ok=True)
+    urllib.request.urlretrieve(image_url, target_path)
+    return target_path
+
+
+def parse_shades_from_text(
+    source_text: str,
+    folder_name: str,
+    fallback_title: str | None = None,
+) -> tuple[str, list[Shade]]:
+    source_text = re.sub(r"(?<!\n)Shade\s*\n+\s*(\d+:)", r"\nShade \1", source_text)
+    source_text = re.sub(r"(Use:\s+[^\n]+?)Shade\s*\n+\s*(\d+:)", r"\1\n\nShade \2", source_text)
+    lines = source_text.splitlines()
+    title = fallback_title or default_title_for_palette(folder_name)
     for line in lines:
         if line.startswith("# "):
             heading_title = line[2:].strip()
-            if heading_title == folder_name and folder_name in TITLE_TRANSLATIONS:
-                title = TITLE_TRANSLATIONS[folder_name]
+            if heading_title == folder_name and folder_name in PALETTE_TITLE_PARTS:
+                title = default_title_for_palette(folder_name)
             else:
                 title = heading_title
             break
@@ -191,8 +355,13 @@ def parse_shades(source_path: Path) -> tuple[str, list[Shade]]:
             )
         )
     if not shades:
-        raise ValueError(f"No shade entries found in {source_path}")
+        raise ValueError("No shade entries found in the source text")
     return title, shades
+
+
+def parse_shades(source_path: Path) -> tuple[str, list[Shade]]:
+    source_text = source_path.read_text(encoding="utf-8")
+    return parse_shades_from_text(source_text, source_path.parent.name)
 
 
 def infer_grid(shade_count: int) -> tuple[int, int]:
@@ -256,6 +425,42 @@ def fitted_bbox(bbox: tuple[int, int, int, int], cols: int, rows: int) -> tuple[
     return (left, top, left + fitted_width, top + fitted_height)
 
 
+def palette_bbox_from_cover(image: Image.Image, threshold: int = 80) -> tuple[int, int, int, int]:
+    rgb = image.convert("RGB")
+    outer_left, outer_top, outer_right, outer_bottom = content_bbox(rgb)
+    _, height = rgb.size
+    pixels = rgb.load()
+    content_width = outer_right - outer_left
+
+    row_activity: list[tuple[int, int]] = []
+    for y in range(outer_top, outer_bottom):
+        active_pixels = 0
+        for x in range(outer_left, outer_right):
+            red, green, blue = pixels[x, y]
+            average = (red + green + blue) // 3
+            if average < 245:
+                active_pixels += 1
+        row_activity.append((y, active_pixels))
+
+    upper_rows = row_activity[: max(2, len(row_activity) // 3)]
+    strongest_drop_y = outer_top
+    strongest_drop = 0
+    for index in range(1, len(upper_rows)):
+        prev_y, prev_count = upper_rows[index - 1]
+        curr_y, curr_count = upper_rows[index]
+        drop = prev_count - curr_count
+        if drop > strongest_drop:
+            strongest_drop = drop
+            strongest_drop_y = curr_y
+
+    if strongest_drop == 0:
+        return fitted_bbox((outer_left, outer_top, outer_right, outer_bottom), 4, 3)
+
+    top = max(0, strongest_drop_y - 42)
+    bottom = min(height, outer_bottom - 8)
+    return (outer_left, top, outer_right, bottom)
+
+
 def translate_description(text: str) -> str:
     if text in DESCRIPTION_TRANSLATIONS:
         return DESCRIPTION_TRANSLATIONS[text]
@@ -295,8 +500,23 @@ def translate_use(text: str) -> str:
     return result
 
 
-def build_readme(title: str, cover_name: str, shades: list[Shade], slice_names: list[str]) -> str:
+def build_readme(
+    title: str,
+    cover_name: str,
+    shades: list[Shade],
+    slice_names: list[str],
+    slice_context: SliceContext,
+) -> str:
     blocks = [f"# {title}", f"![id]({cover_name})", ""]
+    if slice_context.source_kind == "id":
+        blocks.append(
+            "> 提示：本页切片来自官网开盖图 `id`，并非独立的带描述色板图 `icons`。"
+        )
+        if slice_context.has_occluded_top_row_risk:
+            blocks.append(
+                "> 第一排色块可能会受到盖子边缘轻微遮挡；如果后续拿到带描述色板图，应优先用 `icons` 重新切图。"
+            )
+        blocks.append("")
     for shade, slice_name in zip(shades, slice_names):
         chinese_name = NAME_TRANSLATIONS.get(shade.name, shade.name)
         chinese_description = translate_description(shade.description)
@@ -318,6 +538,52 @@ def build_readme(title: str, cover_name: str, shades: list[Shade], slice_names: 
     return "\n".join(blocks).strip() + "\n"
 
 
+def derive_homepage_label(palette_dir: Path, title: str, explicit_label: str | None) -> str:
+    if explicit_label:
+        return explicit_label.strip()
+    if palette_dir.name in HOMEPAGE_LABELS:
+        return HOMEPAGE_LABELS[palette_dir.name]
+    return title.removeprefix("Viseart ").strip()
+
+
+def update_docs_index(repo_root: Path, palette_dir: Path, homepage_label: str) -> Path:
+    docs_readme = repo_root / "docs" / "README.md"
+    lines = docs_readme.read_text(encoding="utf-8").splitlines()
+    relative_path = f"./viseart/{palette_dir.name}/README.md"
+    entry = f"- 📄 [{homepage_label}]({relative_path})"
+
+    if entry in lines:
+        return docs_readme
+
+    updated_lines: list[str] = []
+    inserted = False
+    inside_section = False
+
+    for line in lines:
+        updated_lines.append(line)
+        if line.strip() == HOMEPAGE_SECTION:
+            inside_section = True
+            continue
+
+        if inside_section and line.startswith("### "):
+            updated_lines.insert(len(updated_lines) - 1, entry)
+            inserted = True
+            inside_section = False
+
+    if inside_section and not inserted:
+        updated_lines.append(entry)
+        inserted = True
+
+    if not inserted:
+        if updated_lines and updated_lines[-1] != "":
+            updated_lines.append("")
+        updated_lines.append(HOMEPAGE_SECTION)
+        updated_lines.append(entry)
+
+    docs_readme.write_text("\n".join(updated_lines).rstrip() + "\n", encoding="utf-8")
+    return docs_readme
+
+
 def save_slices(
     icons_path: Path,
     output_dir: Path,
@@ -327,9 +593,15 @@ def save_slices(
     reference_icons: Path | None,
     slice_ext: str,
     slice_name_mode: str,
+    use_cover_palette_bbox: bool,
+    crop_bbox: tuple[int, int, int, int] | None,
 ) -> list[str]:
     image = Image.open(icons_path)
-    if reference_icons:
+    if crop_bbox:
+        bbox = crop_bbox
+    elif use_cover_palette_bbox:
+        bbox = palette_bbox_from_cover(image)
+    elif reference_icons:
         reference = Image.open(reference_icons)
         bbox = scaled_reference_bbox(reference, image)
     else:
@@ -371,12 +643,63 @@ def save_slices(
 def main() -> None:
     args = parse_args()
     palette_dir = args.palette_dir.resolve()
+    repo_root = palette_dir.parents[2]
     source_readme = (args.source_readme or palette_dir / "README.md").resolve()
-    title, shades = parse_shades(source_readme)
+    product_url = product_url_for_palette(palette_dir, args.product_url)
+
+    page_data: ProductPageData | None = None
+    if product_url:
+        page_data = fetch_product_page_data(product_url)
+
+    if source_readme.exists():
+        try:
+            title, shades = parse_shades(source_readme)
+        except ValueError:
+            if not page_data or not page_data.shade_text:
+                raise
+            title, shades = parse_shades_from_text(
+                page_data.shade_text,
+                palette_dir.name,
+                fallback_title=default_title_for_palette(palette_dir.name)
+                if palette_dir.name in PALETTE_TITLE_PARTS
+                else page_data.title,
+            )
+    else:
+        if not page_data or not page_data.shade_text:
+            raise FileNotFoundError(
+                f"No local shade text found at {source_readme} and no parsable product page data available"
+            )
+        title, shades = parse_shades_from_text(
+            page_data.shade_text,
+            palette_dir.name,
+            fallback_title=default_title_for_palette(palette_dir.name)
+            if palette_dir.name in PALETTE_TITLE_PARTS
+            else page_data.title,
+        )
 
     cols, rows = tuple(args.grid) if args.grid else infer_grid(len(shades))
-    icons_path = detect_file(palette_dir, ["icons.png", "icons.jpg", "icons.jpeg", "icons.webp"])
-    cover_path = detect_file(palette_dir, ["id.png", "id.jpg", "id.jpeg", "id.webp"])
+
+    if args.download_product_assets:
+        try:
+            cover_path = detect_file(palette_dir, ["id.png", "id.jpg", "id.jpeg", "id.webp"])
+        except FileNotFoundError:
+            if not product_url:
+                raise ValueError("No local id image and no product URL available for download")
+            cover_path = download_primary_product_image(product_url, palette_dir / "id.jpg")
+    else:
+        cover_path = detect_file(palette_dir, ["id.png", "id.jpg", "id.jpeg", "id.webp"])
+
+    use_cover_palette_bbox = False
+    try:
+        icons_path = detect_file(palette_dir, ["icons.png", "icons.jpg", "icons.jpeg", "icons.webp"])
+    except FileNotFoundError:
+        icons_path = cover_path
+        use_cover_palette_bbox = True
+
+    slice_context = SliceContext(
+        source_kind="id" if use_cover_palette_bbox else "icons",
+        has_occluded_top_row_risk=use_cover_palette_bbox,
+    )
 
     if args.slice_ext:
         slice_ext = args.slice_ext
@@ -393,14 +716,21 @@ def main() -> None:
         reference_icons=args.reference_icons.resolve() if args.reference_icons else None,
         slice_ext=slice_ext,
         slice_name_mode=args.slice_name_mode,
+        use_cover_palette_bbox=use_cover_palette_bbox,
+        crop_bbox=tuple(args.crop_bbox) if args.crop_bbox else None,
     )
 
-    readme_body = build_readme(title, cover_path.name, shades, slice_names)
+    readme_body = build_readme(title, cover_path.name, shades, slice_names, slice_context)
     if args.rewrite_readme:
         (palette_dir / "README.md").write_text(readme_body, encoding="utf-8")
         print(f"Rewrote README: {palette_dir / 'README.md'}")
     else:
         print(readme_body)
+
+    if args.update_docs_index:
+        homepage_label = derive_homepage_label(palette_dir, title, args.homepage_label)
+        docs_readme = update_docs_index(repo_root, palette_dir, homepage_label)
+        print(f"Updated docs index: {docs_readme}")
 
     print(f"Generated {len(slice_names)} slices in {palette_dir / 'slices'}")
 

@@ -757,8 +757,8 @@ PALETTE_TITLE_PARTS = {
     "middle-12-lisa-says-gah-x-aqua-etendu": {
         "shade_count": "12色",
         "size_label": "中号",
-        "cn_name": "Aqua联名盘",
-        "en_name": "Lisa Says Gah x Aqua Étendu",
+        "cn_name": "AQUA联名盘",
+        "en_name": "Lisa Says Gah x AQUA Étendu",
     },
 }
 
@@ -790,7 +790,7 @@ HOMEPAGE_LABELS = {
     "middle-12-violette-lumiere-etendu": "12色 中号 紫罗兰流辉盘 Violette Lumière Étendu",
     "middle-12-midsommer-lumiere-etendu": "12色 中号 仲夏流辉盘 Midsommer Lumière Étendu",
     "middle-12-lilas-lumiere-etendu": "12色 中号 丁香流辉盘 Lilas Lumière Étendu",
-    "middle-12-lisa-says-gah-x-aqua-etendu": "12色 中号 Aqua联名盘 Lisa Says Gah x Aqua Étendu",
+    "middle-12-lisa-says-gah-x-aqua-etendu": "12色 中号 AQUA联名盘 Lisa Says Gah x AQUA Étendu",
 }
 
 

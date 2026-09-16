@@ -255,6 +255,17 @@ NAME_TRANSLATIONS = {
     "Nymphaeum": "睡莲柔粉",
     "Parnassus": "帕纳苏斯玫棕",
     "Grotto": "幽窟深棕",
+    "Relic": "遗珍灰褐",
+    "Aureate": "鎏金古铜",
+    "Invocation": "咒引铜橘",
+    "Effigy": "土俑陶棕",
+    "Verdigris": "铜锈幽青",
+    "Reliquary": "圣匣橄榄铜",
+    "Viridian": "蛇毒黄绿",
+    "Aegis": "神盾茄紫",
+    "Patina": "铜苔赭黄",
+    "Basilisk": "蛇蜥橄榄",
+    "Sigil": "秘符桑莓",
 }
 
 
@@ -437,6 +448,18 @@ DESCRIPTION_TRANSLATIONS = {
     "Muted waterlily pink with a matte finish,": "柔雾睡莲粉色，哑光质地。",
     "Muted waterlily pink with a matte finish.": "柔雾睡莲粉色，哑光质地。",
     "Muted rose-brown with a matte finish.": "柔雾玫瑰棕色，哑光质地。",
+    "Beige taupe with a matte finish.": "米灰褐色，哑光质地。",
+    "Gilded, warm antiqued copper with a metallic finish.": "鎏金暖调复古铜色，金属质地。",
+    "Burnished poppy-orange with a metallic finish.": "抛光罂粟橘色，金属质地。",
+    "Smoky amethyst-pewter with a shimmer finish.": "烟熏紫晶锡灰色，闪光质地。",
+    "Earthen terracotta brown with a matte finish.": "大地陶土棕色，哑光质地。",
+    "Spectral teal with a golden duochromatic finish.": "幽灵蓝绿色，带金色双偏光质地。",
+    "Antiqued olive-bronze with a shimmer finish.": "复古橄榄古铜色，闪光质地。",
+    "Venomous chartreuse with a shimmering metallic finish.": "毒感黄绿色，闪耀金属质地。",
+    "Aubergine with a matte finish.": "茄紫色，哑光质地。",
+    "Antiqued ochre with a matte finish.": "复古赭黄色，哑光质地。",
+    "Patinated olive with a matte finish.": "铜锈橄榄色，哑光质地。",
+    "Muted mulberry with a matte finish.": "柔雾桑莓色，哑光质地。",
     "Neutral Light wax for light blonde to light brunette hair": "适合浅金发到浅棕发的浅中性色塑眉蜡。",
     "Light ash with a green undertone": "浅灰调棕色，带绿色底调。",
     "Light taupe with a neutral undertone": "浅灰褐色，带中性底调。",
@@ -686,6 +709,18 @@ USE_TRANSLATIONS = {
     "Sweep this delicate waterlily pink across the lid for a soft flush of petal colour, or diffuse through the crease for rosy dimension. Romantic yet slightly wild, Nymphaeum captures the faded beauty of flowers blooming among ancient stone and still water. Apply with a brush for your desired level of intensity. Pair with shades ‘Moonpetal’ and ‘Parnassus’ for an enchanted floral eye in shades of waterlily pink, soft earth, and shimmering light.": "将这抹细腻的睡莲粉色铺于眼皮，可晕出柔和花瓣红晕；扫入眼窝，则能带来带玫调的立体层次。浪漫却略带野性，Nymphaeum 像是古老石壁与静水之间悄然盛放的花朵，呈现微微褪色却更动人的美感。可用刷具按需叠加显色。与 ‘Moonpetal’ 和 ‘Parnassus’ 搭配，可打造睡莲粉、柔土色与闪烁微光交织的梦幻花境眼妆。",
     "Sweep this earthen rose-brown shade across the lid for a warm, muted wash of colour, or blend through the crease and outer corner to sculpt and deepen the eye. Its balance of rose and earth creates a natural bridge between Nymphaia’s floral tones and shadowed neutrals. Apply with a brush for your desired level of intensity. Pair with shades ‘Nymphaeum’ and ‘Petalcrown’ for a romantic, antiqued rose look.": "将这抹大地玫瑰棕色扫于眼皮，可铺出温暖而柔和的色雾；晕染于眼窝和眼尾，则能雕塑眼型并加深轮廓。它在玫瑰调与土色之间取得平衡，自然衔接 Nymphaia 盘中的花卉色彩与阴影中性色。可用刷具按需叠加显色。与 ‘Nymphaeum’ 和 ‘Petalcrown’ 组合，可呈现浪漫的复古玫瑰妆效。",
     "Blend this espresso-bitter brown shade along the outer corner of the eye to create rich depth and definition, or sweep through the crease and along the lash line for a softly smoked effect. Grotto anchors the palette’s diaphanous pinks, silvery taupes, and luminous metallics with the mysterious depth of wet stone and still water. Apply with a brush for your desired level of intensity. Use with a dampened liner brush or mixing medium for increased saturation and precision. Pair with shades ‘Argyra’ and ‘Aéris’ for a cool, moonlit smoky eye that recalls silver light slipping into the depths of a hidden grotto.": "将这抹浓缩苦棕色晕染于眼尾，可营造浓郁深度与清晰轮廓；扫入眼窝并贴近睫毛根部，则能带来柔和烟熏感。Grotto 以湿石与静水般神秘幽深的基调，稳稳托住盘中轻透粉色、银灰褐色与发光金属色。可用刷具按需叠加显色；若想提升饱和度与描画精度，可搭配微湿眼线刷或调和液使用。与 ‘Argyra’ 和 ‘Aéris’ 搭配，可打造仿佛银光滑入隐秘洞窟深处的冷调月光烟熏眼妆。",
+    "This beige taupe shade recalls the softened gleam of a timeworn artifact and can be used as an all-over lid colour or as a base tone beneath complementary hues. It can also be used to highlight the brow bone and inner corners of the eyes, or as a transitional shade in the socket of the eye. Apply with a brush for your desired level of intensity. Pair with shades ‘Effigy’ and ‘Reliquary’ for an nude gilded look evocative of unearthed treasures.": "这抹米灰褐色让人联想到岁月打磨过的古器柔光，可作全眼铺色，也可作为互补色下方的打底色。也适合用于眉骨和眼头提亮，或作为眼窝过渡色。可用刷具按需叠加显色度。与 ‘Effigy’ 和 ‘Reliquary’ 搭配，可呈现宛如出土珍藏般的裸调鎏金妆效。",
+    "Sweep this gilded copper shade across the lid for a rich wash of metallic luminosity, or tap onto the center of the eye to enhance dimension and light. Its burnished finish recalls ancient molten gold, polished smooth by centuries of touch. Apply with a brush for your desired level of intensity or with fingertips to amplify the metallic effect. Can be foiled with a mixing medium for an ultra-reflective sheen. Pair with shades ‘Effigy’ and ‘Patina’ for a gilded gleam.": "将这抹鎏金铜色扫于眼皮，可铺出浓郁的金属光泽；点在眼皮中央，则能增强立体感与光线感。它抛光后的表面仿佛古老熔金，被岁月与触碰反复磨亮。可用刷具按需叠加显色度，也可用指腹加强金属反射效果；搭配调和液还能获得更高闪的箔光感。与 ‘Effigy’ 和 ‘Patina’ 搭配，可呈现耀眼的鎏金光泽。",
+    "Sweep this burnished copper shade across the lid for smoldering warmth, or tap onto the center and outer lid to create rich, metallic dimension. Glowing like embers, this shade brings heat and transformation to any eye look. Apply with a brush for your desired level of intensity. Can be used with a mixing medium for an ultra-reflective finish. Pair with shades ‘Aureate’ and ‘Sigil’ for a ritualistic wash of copper and plum.": "将这抹抛光铜橘色扫于眼皮，可带来炽热暖意；点在眼皮中央与外侧，则能叠出浓郁金属层次。它像余烬般发光，为任何眼妆注入热度与变化。可用刷具按需叠加显色度，搭配调和液可获得更高反射的闪耀效果。与 ‘Aureate’ 和 ‘Sigil’ 搭配，可呈现带有仪式感的铜橘与李子色妆效。",
+    "Sweep this smoky amethyst-pewter shade across the lid for a mysterious wash of metallic colour, or tap onto the center of the eye for a light catching effect. Its shifting finish evokes moonlight reflected across darkened metal. Apply with a brush for a diffused effect or with fingertips to enhance its reflective sheen. Can be used with a mixing medium for a high-shine finish. Pair with shades ‘Aegis’ and ‘Sigil’ for a smoky, nocturnal look of deep plum and shimmering violet.": "将这抹烟熏紫晶锡灰色铺于眼皮，可呈现神秘金属光泽；点在眼皮中央，则能制造吸光聚焦效果。它流转的光感仿佛月光掠过暗色金属表面。可用刷具打造柔雾效果，也可用指腹加强反射光泽；搭配调和液可获得更高闪的光感。与 ‘Aegis’ 和 ‘Sigil’ 搭配，可营造深李子色与紫光微闪交织的夜幕烟熏妆。",
+    "Sweep this warm terracotta shade across the lid or through the crease to create earthy warmth and sculpted dimension. Its muted, clay-like tone is inspired by ancient forms shaped from pigment and earth. Apply with a brush for your desired level of intensity. Layer beneath metallic and shimmering shades to enhance their warmth and saturation. Pair with shades ‘Invocation’ and ‘Reliquary’ for a richly burnished look of terracotta, copper and antiqued bronze.": "将这抹暖陶土色扫于眼皮或眼窝，可带来大地暖意与雕塑般的立体感。它柔和如陶土的色调，灵感来自以矿物颜料与泥土塑成的古老器物。可用刷具按需叠加显色度。叠在金属与闪光色下方，可进一步增强暖感与饱和度。与 ‘Invocation’ 和 ‘Reliquary’ 搭配，可呈现陶土、铜光与复古古铜交织的浓郁妆效。",
+    "Sweep this spectral teal shade across the lid for a wash of colour, or tap onto the center of the eye for dimensional light. Apply with a brush for your desired level of intensity or with fingertips to intensify its metallic finish. Pair with shades ‘Reliquary’ and ‘Basilisk’ for a sea-washed patinated look, shimmering like ancient bronze reclaimed by the earth.": "将这抹幽灵蓝绿色扫于眼皮，可铺出冷冽变幻的色泽；点在眼皮中央，则能增强立体光感。可用刷具按需叠加显色度，也可用指腹加强其金属质感。与 ‘Reliquary’ 和 ‘Basilisk’ 搭配，可营造如海水冲刷过的铜锈妆效，闪耀得像被大地重新吞没又显露的古老青铜。",
+    "Use this antiqued olive-bronze shade as an all-over lid colour, layered over complementary hues, or in the center of the lid and corners of the eyes for a gilded, sea-glint effect. Apply with a brush for your desired level of intensity. Use with a mixing medium for a foiled effect. Wear with shades ‘Viridian’ and ‘Basilisk’ for a hypnotic blend of gold, bronze, and mossy green.": "这抹复古橄榄古铜色可作全眼铺色，叠加在互补色之上，或用于眼皮中央与眼角，打造带海光感的鎏金闪烁。可用刷具按需叠加显色度；搭配调和液可获得箔光效果。与 ‘Viridian’ 和 ‘Basilisk’ 搭配，可调出金色、古铜与苔绿色交织的迷幻色泽。",
+    "Sweep this vivid chartreuse shade across the lid for an electric wash of green-gold radiance, tap onto the center for a dramatic finish, or wear as a liner along the lashline. Apply with a brush for a diffused look or with fingertips to intensify its reflective finish. Pair with shades ‘Basilisk’ and ‘Sigil’ for a striking serpentine sheen of acid green and smokey plum.": "将这抹鲜亮黄绿色扫于眼皮，可带来电光般的绿金光泽；点在眼皮中央可强化戏剧感，也可沿睫毛根部作眼线使用。用刷具可打造柔和晕染感，用指腹则能增强反射效果。与 ‘Basilisk’ 和 ‘Sigil’ 搭配，可呈现酸绿与烟熏李子色交织的灵蛇光泽。",
+    "Blend this deep aubergine shade along the lash line and outer corner of the eye to create dramatic depth and definition, or sweep through the crease to intensify and sculpt. Apply with a brush for your desired level of intensity. Pair with shades ‘Noctis’ and ‘Sigil’ for a sinuous sweep of mulberry mist and violet smoke.": "将这抹深茄紫色晕染在睫毛根部和眼尾，可营造戏剧化深度与清晰轮廓；扫入眼窝则能进一步加深并雕塑眼型。可用刷具按需叠加显色度。与 ‘Noctis’ 和 ‘Sigil’ 搭配，可呈现桑莓雾影与紫烟流动交织的妆效。",
+    "Sweep this antique ochre shade across the lid or through the crease to add dimension, or layer beneath complementary shades. This unusual matte bridges the palette’s earthen browns, burnished metals and serpentine greens. Apply with a brush for your desired level of intensity. Pair with shades ‘Basilisk’ and ‘Reliquary’ for an antiqued finish reminiscent of metalwork entwined with moss.": "将这抹复古赭黄色扫于眼皮或眼窝，可增添层次感，也可叠在互补色下方打底。这块别致的哑光色连接了整盘中的大地棕、抛光金属与灵蛇绿调。可用刷具按需叠加显色度。与 ‘Basilisk’ 和 ‘Reliquary’ 搭配，可呈现如苔藓缠绕金属器物般的复古质感。",
+    "Sweep this olive shade across the lid or through the crease for a softly diffused wash of colour, or layer beneath metallic greens and bronzes to enhance their depth and saturation. Its earthy green tone recalls moss, mineral pigment and the muted scales of an ancient serpent. Apply with a brush for your desired level of intensity. Pair with shades ‘Aureate’ and ‘Patina’ for a verdant veil of moss, ochre, and molten copper.": "将这抹橄榄绿色扫于眼皮或眼窝，可铺出柔和晕染的色幕；叠在金属绿与古铜色下方，则能增强深度与饱和度。它的大地绿调让人联想到苔藓、矿物颜料，以及古蛇低调却危险的鳞片。可用刷具按需叠加显色度。与 ‘Aureate’ 和 ‘Patina’ 搭配，可呈现苔绿、赭黄与熔铜交织的葱郁色幕。",
+    "Blend this muted mulberry shade along the outer corner and lash line to create depth and definition, or sweep through the crease to sculpt and intensify the eye. Apply with a brush for your desired level of intensity. Pair with shades ‘Invocation’ and ‘Noctis’ for an otherworldly eye of embered copper, dark plum and spectral violet.": "将这抹柔雾桑莓色晕染在眼尾与睫毛根部，可增强深度与轮廓；扫入眼窝则能进一步塑形并强化眼神。可用刷具按需叠加显色度。与 ‘Invocation’ 和 ‘Noctis’ 搭配，可呈现余烬铜光、深李子色与幽紫微光交织的异界感眼妆。",
 }
 
 
@@ -888,6 +923,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "丁香流辉盘",
         "en_name": "Lilas Lumière Étendu",
     },
+    "middle-12-serpentine-etendu": {
+        "shade_count": "12色",
+        "size_label": "中号",
+        "cn_name": "灵蛇秘符盘",
+        "en_name": "Serpentine Étendu",
+    },
     "middle-12-nymphaia-etendu": {
         "shade_count": "12色",
         "size_label": "中号",
@@ -943,6 +984,7 @@ HOMEPAGE_LABELS = {
     "middle-12-violette-lumiere-etendu": "12色 中号 紫罗兰流辉盘 Violette Lumière Étendu",
     "middle-12-midsommer-lumiere-etendu": "12色 中号 仲夏流辉盘 Midsommer Lumière Étendu",
     "middle-12-lilas-lumiere-etendu": "12色 中号 丁香流辉盘 Lilas Lumière Étendu",
+    "middle-12-serpentine-etendu": "12色 中号 灵蛇秘符盘 Serpentine Étendu",
     "middle-12-nymphaia-etendu": "12色 中号 睡莲秘境盘 Nymphaía Étendu",
     "middle-12-minxette-etendu": "12色 中号 狐魅暖棕盘 Minxette Étendu",
     "middle-12-lisa-says-gah-x-aqua-etendu": "12色 中号 AQUA联名盘 Lisa Says Gah x AQUA Étendu",
@@ -979,6 +1021,7 @@ HOMEPAGE_GROUP_HEADINGS = {
     "middle-12-violette-lumiere-etendu": "#### 12色 中号 Étendu",
     "middle-12-midsommer-lumiere-etendu": "#### 12色 中号 Étendu",
     "middle-12-lilas-lumiere-etendu": "#### 12色 中号 Étendu",
+    "middle-12-serpentine-etendu": "#### 12色 中号 Étendu",
     "middle-12-nymphaia-etendu": "#### 12色 中号 Étendu",
     "middle-12-minxette-etendu": "#### 12色 中号 Étendu",
     "middle-12-lisa-says-gah-x-aqua-etendu": "#### 12色 中号 Étendu",
@@ -1027,6 +1070,7 @@ PRODUCT_URLS = {
     "middle-12-violette-lumiere-etendu": "https://viseartparis.com/en-de/products/violette-lumiere-etendu?_pos=1&_psq=viol&_psid=7db8d6167&_ss=e",
     "middle-12-midsommer-lumiere-etendu": "https://viseartparis.com/en-de/products/visepro%E2%84%A2-midsommer-lumiere-etendu?_pos=2&_psq=viol&_psid=7db8d6167&_ss=e",
     "middle-12-lilas-lumiere-etendu": "https://viseartparis.com/en-de/products/visepro-lilas-lumiere-etendu?_pos=3&_psq=viol&_psid=7db8d6167&_ss=e",
+    "middle-12-serpentine-etendu": "https://viseartparis.com/en-de/products/serpentine-etendu?_pos=78&_sid=a44f35d0c&_ss=r",
     "middle-12-nymphaia-etendu": "https://viseartparis.com/en-de/products/nymphaia-etendu?_pos=80&_sid=a44f35d0c&_ss=r",
     "middle-12-minxette-etendu": "https://viseartparis.com/en-de/products/minxette-etendu?_pos=90&_sid=a44f35d0c&_ss=r",
     "middle-12-lisa-says-gah-x-aqua-etendu": "https://viseartparis.com/en-de/products/lisa-says-gah-x-aqua-etendu?_pos=91&_sid=a44f35d0c&_ss=r",
@@ -1361,6 +1405,30 @@ def parse_shades_from_text(
     folder_name: str,
     fallback_title: str | None = None,
 ) -> tuple[str, list[Shade]]:
+    source_text = source_text.replace(
+        "Pair with shades ‘Aureate’ and ‘Sigil for a ritualistic wash of copper and plum.",
+        "Pair with shades ‘Aureate’ and ‘Sigil’ for a ritualistic wash of copper and plum.",
+    )
+    source_text = source_text.replace(
+        "for an nude gilded look evocative of unearthed treasures.",
+        "for a nude gilded look evocative of unearthed treasures.",
+    )
+    source_text = source_text.replace(
+        "Pair with shades 'Reliquary’ and ‘Basilisk’ a sea-washed patinated look, shimmering like ancient bronze reclaimed by the earth.",
+        "Pair with shades ‘Reliquary’ and ‘Basilisk’ for a sea-washed patinated look, shimmering like ancient bronze reclaimed by the earth.",
+    )
+    source_text = source_text.replace(
+        "Pair with shades ‘Noctis’ and ‘Sigil’ for a sinuous sweep of mulberry mist and violet smoke.”",
+        "Pair with shades ‘Noctis’ and ‘Sigil’ for a sinuous sweep of mulberry mist and violet smoke.",
+    )
+    source_text = source_text.replace(
+        "Pair with shades ’Basilisk’ and ‘Reliquary’ for an antiqued finish reminiscent of metalwork entwined with moss.",
+        "Pair with shades ‘Basilisk’ and ‘Reliquary’ for an antiqued finish reminiscent of metalwork entwined with moss.",
+    )
+    source_text = source_text.replace(
+        "Pair with shades ‘Aureate’ and ’Patina’ for a verdant veil of moss, ochre, and molten copper.",
+        "Pair with shades ‘Aureate’ and ‘Patina’ for a verdant veil of moss, ochre, and molten copper.",
+    )
     source_text = source_text.replace(
         "Shade 10: Nyphaeum - Muted waterlily pink with a matte finish,",
         "Shade 10: Nymphaeum - Muted waterlily pink with a matte finish.",

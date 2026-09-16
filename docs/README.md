@@ -48,6 +48,7 @@ Color cards and palette slices prepared for GitHub Pages.
 - 📄 [12色 中号 AQUA联名盘 Lisa Says Gah x AQUA Étendu](./viseart/middle-12-lisa-says-gah-x-aqua-etendu/README.md)
 - 📄 [12色 中号 狐魅暖棕盘 Minxette Étendu](./viseart/middle-12-minxette-etendu/README.md)
 - 📄 [12色 中号 睡莲秘境盘 Nymphaía Étendu](./viseart/middle-12-nymphaia-etendu/README.md)
+- 📄 [12色 中号 灵蛇秘符盘 Serpentine Étendu](./viseart/middle-12-serpentine-etendu/README.md)
 
 #### 12色 小号 Petites
 - 📄 [12色 小号 巴黎裸光盘 Petites Shimmers Paris Nudes](./viseart/small-12-shimmers-paris-nudes/README.md)

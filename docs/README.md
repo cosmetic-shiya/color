@@ -23,6 +23,7 @@ Color cards and palette slices prepared for GitHub Pages.
 - 📄 [4色 中号 蜜桃盘 Petits Fours Pêche](./viseart/middle-4-peche/README.md)
 - 📄 [4色 中号 紫罗兰盘 Petits Fours Violetta](./viseart/middle-4-violetta/README.md)
 - 📄 [4色 中号 赫斯珀里得斯盘 Petits Fours Hesperides](./viseart/middle-4-hesperides/README.md)
+- 📄 [4色 中号 提尔紫盘 Petits Fours Tyrian](./viseart/middle-4-tyrian/README.md)
 
 #### 12色 中号 Étendu
 - 📄 [12色 中号 索莱依海滩盘 Soleil La Plage Étendu](./viseart/middle-12-soleil-la-plage-etendu/README.md)

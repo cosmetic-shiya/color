@@ -22,6 +22,19 @@ USE_RE = re.compile(r"^Use:\s*(.*)$")
 
 
 NAME_TRANSLATIONS = {
+    # Petites Shimmers Coy (Japanese-themed names)
+    "Kokai": "湖海",
+    "Pond": "水塘",
+    "Koi": "锦鲤",
+    "Gin": "银",
+    "Sakura": "樱",
+    "Tokyo": "东京",
+    "Midori": "碧",
+    "Murasaki": "紫",
+    "Taiko": "太鼓",
+    "Kamakura": "镰仓",
+    "Lotus": "莲",
+    "Yamabuki": "山吹",
     "White": "纯白",
     "Lime": "青柠绿",
     "Kelly": "凯利绿",
@@ -1707,6 +1720,129 @@ def palette_bbox_from_cover(image: Image.Image, threshold: int = 80) -> tuple[in
     return (outer_left, top, outer_right, bottom)
 
 
+def _dark_projection(
+    image: Image.Image,
+    dark_threshold: int = 40,
+) -> tuple[list[int], list[int]]:
+    """Return (hproj, vproj): per-row and per-column counts of very-dark pixels."""
+    rgb = image.convert("RGB")
+    w, h = rgb.size
+    hproj = [0] * h
+    vproj = [0] * w
+    for y in range(h):
+        for x in range(w):
+            r, g, b = cast(tuple[int, int, int], rgb.getpixel((x, y)))
+            if r < dark_threshold and g < dark_threshold and b < dark_threshold:
+                hproj[y] += 1
+                vproj[x] += 1
+    return hproj, vproj
+
+
+def _find_dark_bands(
+    proj: list[int],
+    skip_start: int = 0,
+    min_span: int = 5,
+    peak_ratio: float = 2.0,
+    gap_merge: int = 8,
+) -> list[tuple[int, int]]:
+    """Return (start, end) for runs where count exceeds median * peak_ratio.
+
+    Consecutive bands separated by a gap of <= gap_merge pixels are merged
+    into one band, handling minor dips within a wide tray border.
+    """
+    window = proj[skip_start:]
+    nonzero = sorted(v for v in window if v > 0)
+    if not nonzero:
+        return []
+    median_val = nonzero[len(nonzero) // 2]
+    threshold = max(median_val * peak_ratio, median_val + 60, 50)
+
+    bands: list[tuple[int, int]] = []
+    in_band = False
+    band_start = 0
+    for i, v in enumerate(window):
+        if v >= threshold:
+            if not in_band:
+                in_band = True
+                band_start = i
+        else:
+            if in_band:
+                in_band = False
+                if i - band_start >= min_span:
+                    bands.append((band_start + skip_start, i - 1 + skip_start))
+    if in_band and len(window) - band_start >= min_span:
+        bands.append((band_start + skip_start, len(window) - 1 + skip_start))
+
+    # Merge bands with a tiny gap (dips within a single wide border)
+    if len(bands) > 1:
+        merged: list[tuple[int, int]] = [bands[0]]
+        for s, e in bands[1:]:
+            if s - merged[-1][1] <= gap_merge:
+                merged[-1] = (merged[-1][0], e)
+            else:
+                merged.append((s, e))
+        bands = merged
+
+    return bands
+
+
+def detect_grid_by_dark_projection(
+    image: Image.Image,
+    cols: int,
+    rows: int,
+    dark_threshold: int = 40,
+    skip_top_fraction: float = 0.35,
+) -> tuple[list[int], list[int]] | None:
+    """
+    Detect grid cut-line positions from dark-pixel projections.
+
+    Designed for open-palette product photos where pans sit in a dark tray
+    separated by dark borders, with the first row possibly occluded by the lid.
+
+    Strategy
+    --------
+    1. Count very-dark pixels (all channels < dark_threshold) in each row/column.
+    2. Find column separator bands: expect exactly cols+1
+       (left tray wall + cols-1 inner separators + right tray wall).
+       Cut at each band's midpoint.
+    3. Find row separator bands after skipping the top skip_top_fraction of the
+       image (excludes lid-edge artefacts): expect exactly rows bands
+       (rows-1 inner separators + bottom tray wall).
+    4. Measure consistent row height from the detected separator spacings, then
+       extrapolate backward to recover the top edge of row 1 even when the lid
+       partially occludes it.
+
+    Returns (col_cuts, row_cuts) where each list has len+1 boundary positions
+    for cropping individual tiles, or None if the expected band count is not met.
+    """
+    hproj, vproj = _dark_projection(image, dark_threshold=dark_threshold)
+    h = len(hproj)
+
+    col_bands = _find_dark_bands(vproj)
+    if len(col_bands) != cols + 1:
+        return None
+
+    row_skip = int(h * skip_top_fraction)
+    row_bands = _find_dark_bands(hproj, skip_start=row_skip)
+    if len(row_bands) != rows:
+        return None
+
+    col_cuts = [(s + e) // 2 for s, e in col_bands]
+    row_mids = [(s + e) // 2 for s, e in row_bands]
+
+    if rows >= 2:
+        spacings = [row_mids[i + 1] - row_mids[i] for i in range(len(row_mids) - 1)]
+        row_height = sum(spacings) // len(spacings)
+    else:
+        row_height = row_mids[-1] - row_skip
+
+    if row_height <= 0:
+        return None
+
+    row_cuts = [max(0, row_mids[0] - row_height)] + row_mids
+    return col_cuts, row_cuts
+
+
 def translate_description(text: str) -> str:
     normalized = " ".join(text.split())
     if normalized in DESCRIPTION_TRANSLATIONS:
@@ -1932,6 +2068,51 @@ def save_slices(
     pan_border_px: int,
 ) -> list[str]:
     image = Image.open(icons_path)
+
+    # Prefer dark-projection grid detection for cover-image fallback (no icons file).
+    # This finds the black tray borders and inter-pan separators directly, then
+    # extrapolates row 1's top edge even when the lid partially occludes it.
+    explicit_cuts: tuple[list[int], list[int]] | None = None
+    if use_cover_palette_bbox and not crop_bbox:
+        explicit_cuts = detect_grid_by_dark_projection(image, cols, rows)
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    for existing_file in output_dir.iterdir():
+        if existing_file.is_file():
+            existing_file.unlink()
+    names: list[str] = []
+
+    if explicit_cuts:
+        col_cuts, row_cuts = explicit_cuts
+        for index, shade in enumerate(shades):
+            row = index // cols
+            col = index % cols
+            tile = image.crop((col_cuts[col], row_cuts[row], col_cuts[col + 1], row_cuts[row + 1]))
+            if trim_to_pan_boxes:
+                tile = crop_tile_to_pan(
+                    tile,
+                    border_px=pan_border_px,
+                    ignore_top_px=first_row_mask_px if row == 0 else 0,
+                )
+            elif first_row_mask_px and row == 0:
+                draw = ImageDraw.Draw(tile)
+                draw.rectangle((0, 0, tile.width, min(first_row_mask_px, tile.height)), fill=(0, 0, 0))
+
+            prefix = f"{shade.number:02d}"
+            filename = (
+                f"{prefix}_{sanitize_name(shade.name)}.{slice_ext}"
+                if slice_name_mode == "number-name"
+                else f"{prefix}.{slice_ext}"
+            )
+            save_path = output_dir / filename
+            if slice_ext == "jpg":
+                tile.convert("RGB").save(save_path, quality=95)
+            else:
+                tile.save(save_path)
+            names.append(filename)
+        return names
+
+    # Fallback: bbox-based equal-division slicing.
     if crop_bbox:
         bbox = crop_bbox
     elif use_cover_palette_bbox:
@@ -1951,12 +2132,6 @@ def save_slices(
     cell_width = content.width // cols
     cell_height = content.height // rows
     first_row_offset = cell_height // 5 if use_cover_palette_bbox and rows == 3 else 0
-
-    output_dir.mkdir(parents=True, exist_ok=True)
-    for existing_file in output_dir.iterdir():
-        if existing_file.is_file():
-            existing_file.unlink()
-    names: list[str] = []
 
     for index, shade in enumerate(shades):
         row = index // cols

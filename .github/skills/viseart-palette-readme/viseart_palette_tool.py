@@ -91,6 +91,18 @@ NAME_TRANSLATIONS = {
     "Biscuit": "饼干奶棕",
     "Antoinette": "安托瓦内特奶霜",
     "Confiture": "蜜桃果酱",
+    "Pêche II": "蜜桃米杏",
+    "Suede": "麂皮香槟",
+    "Savarin": "萨瓦兰奶棕",
+    "Cognac": "干邑陶棕",
+    "Sable": "暖貂巧棕",
+    "Ember": "余烬铜橘",
+    "Apricot": "杏金微光",
+    "Roseus": "柔雾桃粉",
+    "Chocolat II": "黑巧深棕",
+    "Mahogany": "桃心木紫棕",
+    "Cointreau": "君度铜金",
+    "Ode to Hannah": "汉娜古金",
     "Roussillon": "鲁西永陶土",
     "Calisson": "杏仁糖",
     "Soleil": "日曜暖金",
@@ -754,6 +766,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "丁香流辉盘",
         "en_name": "Lilas Lumière Étendu",
     },
+    "middle-12-minxette-etendu": {
+        "shade_count": "12色",
+        "size_label": "中号",
+        "cn_name": "狐魅暖棕盘",
+        "en_name": "Minxette Étendu",
+    },
     "middle-12-lisa-says-gah-x-aqua-etendu": {
         "shade_count": "12色",
         "size_label": "中号",
@@ -790,6 +808,7 @@ HOMEPAGE_LABELS = {
     "middle-12-violette-lumiere-etendu": "12色 中号 紫罗兰流辉盘 Violette Lumière Étendu",
     "middle-12-midsommer-lumiere-etendu": "12色 中号 仲夏流辉盘 Midsommer Lumière Étendu",
     "middle-12-lilas-lumiere-etendu": "12色 中号 丁香流辉盘 Lilas Lumière Étendu",
+    "middle-12-minxette-etendu": "12色 中号 狐魅暖棕盘 Minxette Étendu",
     "middle-12-lisa-says-gah-x-aqua-etendu": "12色 中号 AQUA联名盘 Lisa Says Gah x AQUA Étendu",
 }
 
@@ -817,6 +836,7 @@ HOMEPAGE_GROUP_HEADINGS = {
     "middle-12-violette-lumiere-etendu": "#### 12色 中号 Etendu",
     "middle-12-midsommer-lumiere-etendu": "#### 12色 中号 Etendu",
     "middle-12-lilas-lumiere-etendu": "#### 12色 中号 Etendu",
+    "middle-12-minxette-etendu": "#### 12色 中号 Etendu",
     "middle-12-lisa-says-gah-x-aqua-etendu": "#### 12色 中号 Etendu",
     "middle-12-soleil-la-plage-etendu": "#### 12色 中号 Etendu",
     "middle-12-visepro-paris-mattes-etendu": "#### 12色 中号 Etendu",
@@ -856,6 +876,7 @@ PRODUCT_URLS = {
     "middle-12-violette-lumiere-etendu": "https://viseartparis.com/en-de/products/violette-lumiere-etendu?_pos=1&_psq=viol&_psid=7db8d6167&_ss=e",
     "middle-12-midsommer-lumiere-etendu": "https://viseartparis.com/en-de/products/visepro%E2%84%A2-midsommer-lumiere-etendu?_pos=2&_psq=viol&_psid=7db8d6167&_ss=e",
     "middle-12-lilas-lumiere-etendu": "https://viseartparis.com/en-de/products/visepro-lilas-lumiere-etendu?_pos=3&_psq=viol&_psid=7db8d6167&_ss=e",
+    "middle-12-minxette-etendu": "https://viseartparis.com/en-de/products/minxette-etendu?_pos=90&_sid=a44f35d0c&_ss=r",
     "middle-12-lisa-says-gah-x-aqua-etendu": "https://viseartparis.com/en-de/products/lisa-says-gah-x-aqua-etendu?_pos=91&_sid=a44f35d0c&_ss=r",
 }
 

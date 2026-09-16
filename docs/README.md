@@ -24,21 +24,22 @@ Color cards and palette slices prepared for GitHub Pages.
 - 📄 [4色 中号 紫罗兰盘 Petits Fours Violetta](./viseart/middle-4-violetta/README.md)
 - 📄 [4色 中号 赫斯珀里得斯盘 Petits Fours Hesperides](./viseart/middle-4-hesperides/README.md)
 
-#### 12色 中号 Etendu
-- 📄 [12色 中号 索莱依海滩盘 Soleil La Plage Etendu](./viseart/middle-12-soleil-la-plage-etendu/README.md)
-- 📄 [12色 中号 羊绒魅缎盘 Cashmerie Charmeuse Etendu](./viseart/middle-12-cashmerie-charmeuse-etendu/README.md)
+#### 12色 中号 Étendu
+- 📄 [12色 中号 索莱依海滩盘 Soleil La Plage Étendu](./viseart/middle-12-soleil-la-plage-etendu/README.md)
+- 📄 [12色 中号 羊绒魅缎盘 Cashmerie Charmeuse Étendu](./viseart/middle-12-cashmerie-charmeuse-etendu/README.md)
 - 📄 [12色 中号 巴黎星夜盘 Paris Nuit Étoilée Étendu](./viseart/middle-12-paris-nuit-etoilee-etendu/README.md)
 - 📄 [12色 中号 巴黎哑光盘 Paris Mattes Étendu](./viseart/middle-12-visepro-paris-mattes-etendu/README.md)
 - 📄 [12色 中号 丁香流辉盘 Lilas Lumière Étendu](./viseart/middle-12-lilas-lumiere-etendu/README.md)
 - 📄 [12色 中号 紫罗兰流辉盘 Violette Lumière Étendu](./viseart/middle-12-violette-lumiere-etendu/README.md)
 - 📄 [12色 中号 紫罗兰夜曲盘 Violette Nocturne Étendu](./viseart/middle-12-violette-nocturne-etendu/README.md)
 - 📄 [12色 中号 海妖绮梦盘 Sireneuse Etendu](./viseart/middle-12-sireneuse-etendu/README.md)
-- 📄 [12色 中号 海妖夜曲盘 Sireneuse Nocturne Etendu](./viseart/middle-12-sireneuse-nocturne-etendu/README.md)
+- 📄 [12色 中号 海妖夜曲盘 Sireneuse Nocturne Étendu](./viseart/middle-12-sireneuse-nocturne-etendu/README.md)
 - 📄 [12色 中号 果仁糖盘 Praline Étendu](./viseart/middle-12-praline-etendu/README.md)
 - 📄 [12色 中号 糖果果仁盘 Bon Bon Praline Étendu](./viseart/middle-12-bon-bon-praline-etendu/README.md)
 - 📄 [12色 中号 杏光流辉盘 Apricotine Lumière Étendu](./viseart/middle-12-apricotine-lumiere-etendu/README.md)
 - 📄 [12色 中号 仲夏流辉盘 Midsommer Lumière Étendu](./viseart/middle-12-midsommer-lumiere-etendu/README.md)
 - 📄 [12色 中号 AQUA联名盘 Lisa Says Gah x AQUA Étendu](./viseart/middle-12-lisa-says-gah-x-aqua-etendu/README.md)
+- 📄 [12色 中号 狐魅暖棕盘 Minxette Étendu](./viseart/middle-12-minxette-etendu/README.md)
 
 #### 12色 小号 Petites
 - 📄 [12色 小号 巴黎裸光盘 Petites Shimmers Paris Nudes](./viseart/small-12-shimmers-paris-nudes/README.md)

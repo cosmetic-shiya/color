@@ -17,6 +17,7 @@ from PIL import ImageDraw
 
 
 SHADE_RE = re.compile(r"^(?:##\s+)?Shade\s+(\d+):\s+(.*?)\s+(?:-|–|—)\s+(.*)$")
+SHADE_DESCRIPTION_ONLY_RE = re.compile(r"^(?:##\s+)?Shade\s+(\d+):\s+(.*\S)\s*$")
 USE_RE = re.compile(r"^Use:\s*(.*)$")
 
 
@@ -753,6 +754,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "丁香流辉盘",
         "en_name": "Lilas Lumière Étendu",
     },
+    "middle-12-lisa-says-gah-x-aqua-etendu": {
+        "shade_count": "12色",
+        "size_label": "中号",
+        "cn_name": "Aqua联名盘",
+        "en_name": "Lisa Says Gah x Aqua Étendu",
+    },
 }
 
 
@@ -783,6 +790,7 @@ HOMEPAGE_LABELS = {
     "middle-12-violette-lumiere-etendu": "12色 中号 紫罗兰流辉盘 Violette Lumière Étendu",
     "middle-12-midsommer-lumiere-etendu": "12色 中号 仲夏流辉盘 Midsommer Lumière Étendu",
     "middle-12-lilas-lumiere-etendu": "12色 中号 丁香流辉盘 Lilas Lumière Étendu",
+    "middle-12-lisa-says-gah-x-aqua-etendu": "12色 中号 Aqua联名盘 Lisa Says Gah x Aqua Étendu",
 }
 
 
@@ -809,6 +817,7 @@ HOMEPAGE_GROUP_HEADINGS = {
     "middle-12-violette-lumiere-etendu": "#### 12色 中号 Etendu",
     "middle-12-midsommer-lumiere-etendu": "#### 12色 中号 Etendu",
     "middle-12-lilas-lumiere-etendu": "#### 12色 中号 Etendu",
+    "middle-12-lisa-says-gah-x-aqua-etendu": "#### 12色 中号 Etendu",
     "middle-12-soleil-la-plage-etendu": "#### 12色 中号 Etendu",
     "middle-12-visepro-paris-mattes-etendu": "#### 12色 中号 Etendu",
     "middle-12-bon-bon-praline-etendu": "#### 12色 中号 Etendu",
@@ -847,6 +856,7 @@ PRODUCT_URLS = {
     "middle-12-violette-lumiere-etendu": "https://viseartparis.com/en-de/products/violette-lumiere-etendu?_pos=1&_psq=viol&_psid=7db8d6167&_ss=e",
     "middle-12-midsommer-lumiere-etendu": "https://viseartparis.com/en-de/products/visepro%E2%84%A2-midsommer-lumiere-etendu?_pos=2&_psq=viol&_psid=7db8d6167&_ss=e",
     "middle-12-lilas-lumiere-etendu": "https://viseartparis.com/en-de/products/visepro-lilas-lumiere-etendu?_pos=3&_psq=viol&_psid=7db8d6167&_ss=e",
+    "middle-12-lisa-says-gah-x-aqua-etendu": "https://viseartparis.com/en-de/products/lisa-says-gah-x-aqua-etendu?_pos=91&_sid=a44f35d0c&_ss=r",
 }
 
 
@@ -1217,6 +1227,26 @@ def parse_shades_from_text(
             }
             warning_lines = []
             continue
+        shade_description_only_match = SHADE_DESCRIPTION_ONLY_RE.match(line)
+        if shade_description_only_match:
+            if current is not None:
+                shades.append(
+                    Shade(
+                        number=int(current["number"]),
+                        name=current["name"],
+                        description=current["description"],
+                        use=current.get("use", ""),
+                        warning=" ".join(warning_lines).strip(),
+                    )
+                )
+            description = shade_description_only_match.group(2).strip()
+            current = {
+                "number": shade_description_only_match.group(1),
+                "name": infer_shade_name_from_description(description),
+                "description": description,
+            }
+            warning_lines = []
+            continue
         use_match = USE_RE.match(line)
         if use_match and current is not None:
             current["use"] = use_match.group(1).strip()
@@ -1242,6 +1272,17 @@ def parse_shades_from_text(
 def parse_shades(source_path: Path) -> tuple[str, list[Shade]]:
     source_text = source_path.read_text(encoding="utf-8")
     return parse_shades_from_text(source_text, source_path.parent.name)
+
+
+def infer_shade_name_from_description(description: str) -> str:
+    base = description.strip().rstrip(".")
+    if " with " in base:
+        base = base.split(" with ", 1)[0]
+    base = base.replace(",", " ")
+    base = re.sub(r"\s+", " ", base).strip()
+    if not base:
+        return "Unnamed Shade"
+    return base.title()
 
 
 def infer_grid(shade_count: int) -> tuple[int, int]:

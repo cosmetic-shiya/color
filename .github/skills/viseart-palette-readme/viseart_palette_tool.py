@@ -198,6 +198,10 @@ NAME_TRANSLATIONS = {
     "Whirling": "旋樱偏光",
     "Blossoming": "盛樱玫瑰",
     "Hanami": "花见洋莓",
+    "Picasso": "毕加索棕",
+    "Carnavalet": "卡纳瓦莱桃金",
+    "Fontaines": "喷泉玫金",
+    "Marais": "玛黑棕",
     "Isolde": "浅石裸棕",
     "Lilas": "丁香雾紫",
     "Amande": "杏仁奶霜",
@@ -446,6 +450,10 @@ DESCRIPTION_TRANSLATIONS = {
     "Iced pink with a purple duochromatic flip": "冰粉色，带紫调双偏光。",
     "Soft dusty rose with a matte finish": "柔雾玫瑰色，哑光质地。",
     "Bright magenta with a blue duochromatic flip": "明亮洋红色，带蓝调双偏光。",
+    "Warm toned medium brown with a matte finish.": "暖调中棕色，哑光质地。",
+    "Soft warm peach with a metallic shimmer finish.": "柔和暖桃色，金属闪光质地。",
+    "Rose gold mid-tone with a metallic finish.": "中调玫瑰金色，金属质地。",
+    "Medium neutral-toned brown with a matte finish.": "中调中性棕色，哑光质地。",
 }
 
 
@@ -466,6 +474,10 @@ USE_TRANSLATIONS = {
     "All over base tone for all skin types. Use as a midtone to add definition.": "适合所有肤色作大面积打底色，也可作为中间色调增加轮廓与层次。",
     "All over tone for all skin types. Use it as a liner to create depth and dimension.": "适合所有肤色作大面积铺色，也可作为眼线色使用，增强深度与立体感。",
     "All-over tone for all skin types. Use it as a liner to create depth and dimension.": "适合所有肤色作大面积铺色，也可作为眼线色使用，增强深度与立体感。",
+    "This shade can be used as an all over lid or base tone on all complexions. Use it to create soft definition in the crease of the eye or layer with ‘Marais’ for added definition.": "这支颜色可作全眼铺色或打底色，适合所有肤色。可用于眼窝位置打造柔和轮廓，也可与 `Marais` 叠搭，进一步增强层次感。",
+    "This soft peach shade can be used as an all over lid color, in the inner corners for a pop of luminosity, in the center of the eyelid to accentuate the glow or as a highlighter on tops of the cheekbones, the cupids bow and into any lipgloss to add a pearl! Additionally, foil this shade for all day wear with a mixing medium or damp brush to intensify the hue.": "这支柔和桃色可作全眼铺色，也可用于眼头提亮、点在眼皮中央增强光泽，或作为颧骨、唇峰高光，甚至混入唇蜜增添珍珠感。搭配调和液或微湿刷具可增强显色并获得更持久的箔光效果。",
+    "This rose gold shade can be used as an all over lid color, in the center of the eyelid to accentuate the glow or as a highlighter on tops of the cheekbones, the cupids bow and into any lipgloss to add a pearl! Additionally, foil this shade for all day wear with a mixing medium or damp brush to intensify the hue.": "这支玫瑰金色可作全眼铺色，也可点在眼皮中央增强光泽，或作为颧骨、唇峰高光，甚至混入唇蜜增添珍珠感。搭配调和液或微湿刷具可增强显色并获得更持久的箔光效果。",
+    "This shade can be used as an all over lid shade, in the outer corners of the eyes to add soft definition, as a contour, or in the brows for light to medium complexions.": "这支颜色可作全眼铺色，也可用于眼尾增加柔和轮廓，作为修容色，或在浅至中等肤色上作眉色使用。",
     "This beige pink matte shade can be used as an all over lid tone, beneath complimentary shadows as a base shade, or along the lashline for soft definition. Can also be worn as nude blush on light to medium complexions!": "这支米粉哑光色可作全眼铺色，或作为互补眼影下方的打底色，也可沿睫毛根部轻扫，带来柔和轮廓。浅至中等肤色也可作裸感腮红使用。",
     "This iced pink duochromatic shade can be used as an all over lid color or along the high points of the face as a highlighter on lighter complexions. Apply to the inner corners of the eyes for a fresh burst of luminosity or as a base beneath any of the other shades in the palette. Mix this shade with water for a wash of color or combine with a mixing medium for a foiled effect. Apply with fingertips or a dense brush for your desired level of intensity.": "这支冰粉双偏光色可作全眼铺色，也可在浅肤色上用于面部高点提亮。点在眼头可带来清透明亮感，也可作为盘中其他颜色下方的打底色。与清水混合可获得轻透染色感，搭配调和液则可做出箔光效果。可用指腹或扎实刷具按需叠加显色度。",
     "This soft dusty rose matte shade can be used as an all over lid tone, beneath complimentary shadows as a base shade, or along with lashline for soft definition. Can also be worn as nude blush on light to medium complexions!": "这支柔雾玫瑰哑光色可作全眼铺色，或作为互补眼影下方的打底色，也可沿睫毛根部轻扫，带来柔和轮廓。浅至中等肤色也可作裸感腮红使用。",
@@ -709,6 +721,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "赫斯珀里得斯盘",
         "en_name": "Petits Fours Hesperides",
     },
+    "middle-4-amelie": {
+        "shade_count": "4色",
+        "size_label": "中号",
+        "cn_name": "艾米丽盘",
+        "en_name": "Petits Fours Amélie",
+    },
     "middle-4-sakura-lotus": {
         "shade_count": "4色",
         "size_label": "中号",
@@ -862,6 +880,7 @@ HOMEPAGE_LABELS = {
     "middle-4-violetta": "4色 中号 紫罗兰盘 Petits Fours Violetta",
     "middle-4-peche": "4色 中号 蜜桃盘 Petits Fours Pêche",
     "middle-4-hesperides": "4色 中号 赫斯珀里得斯盘 Petits Fours Hesperides",
+    "middle-4-amelie": "4色 中号 艾米丽盘 Petits Fours Amélie",
     "middle-4-sakura-lotus": "4色 中号 樱花莲盘 Petits Fours Sakura Lotus",
     "middle-4-garnet": "4色 中号 石榴石盘 Petits Fours Garnet",
     "middle-4-pastille": "4色 中号 糖片盘 Petits Fours Pastille",
@@ -900,6 +919,7 @@ HOMEPAGE_GROUP_HEADINGS = {
     "middle-4-violetta": "#### 4色 中号 Petites",
     "middle-4-peche": "#### 4色 中号 Petites",
     "middle-4-hesperides": "#### 4色 中号 Petites",
+    "middle-4-amelie": "#### 4色 中号 Petites",
     "middle-4-sakura-lotus": "#### 4色 中号 Petites",
     "middle-4-garnet": "#### 4色 中号 Petites",
     "middle-4-pastille": "#### 4色 中号 Petites",
@@ -940,6 +960,7 @@ PRODUCT_URLS = {
     "middle-4-violetta": "https://viseartparis.com/en-de/products/petits-fours-violetta?_pos=79&_sid=7a187920b&_ss=r",
     "middle-4-peche": "https://viseartparis.com/en-de/products/petits-fours-peche?_pos=4&_sid=91ac4c63a&_ss=r",
     "middle-4-hesperides": "https://viseartparis.com/en-de/products/petits-fours-hesperides?_pos=92&_sid=a44f35d0c&_ss=r",
+    "middle-4-amelie": "https://viseartparis.com/en-de/products/petits-fours-amelie?_pos=52&_sid=a44f35d0c&_ss=r",
     "middle-4-sakura-lotus": "https://viseartparis.com/en-de/products/petits-fours-sakura-lotus?_pos=45&_sid=a44f35d0c&_ss=r",
     "middle-4-garnet": "https://viseartparis.com/en-de/products/petits-four-garnet?_pos=50&_sid=a44f35d0c&_ss=r",
     "middle-4-pastille": "https://viseartparis.com/en-de/products/petits-fours-pastille?_pos=61&_sid=a44f35d0c&_ss=r",
@@ -1298,6 +1319,7 @@ def parse_shades_from_text(
 ) -> tuple[str, list[Shade]]:
     source_text = re.sub(r"(?<!\n)Shade\s*\n+\s*(\d+:)", r"\nShade \1", source_text)
     source_text = re.sub(r"(Use:\s+[^\n]+?)Shade\s*\n+\s*(\d+:)", r"\1\n\nShade \2", source_text)
+    source_text = re.sub(r"(?<!\n)Use:\s*", r"\nUse: ", source_text)
     lines = source_text.splitlines()
     title = fallback_title or default_title_for_palette(folder_name)
     for line in lines:

@@ -57,3 +57,4 @@ Color cards and palette slices prepared for GitHub Pages.
 - 📄 [12色 小号 巴黎裸光盘 Petites Shimmers Paris Nudes](./viseart/small-12-shimmers-paris-nudes/README.md)
 - 📄 [12色 小号 魅惑微光盘 Petites Shimmers Sultry Muse](./viseart/small-12-shimmers-sultry-muse/README.md)
 - 📄 [12色 小号 巴黎小天使哑光盘 Petites Paris Chérubine Mattes](./viseart/small-12-mattes-paris-cherubine/README.md)
+- 📄 [12色 小号 暗调编辑盘 Dark Edit](./viseart/small-12-dark-edit/README.md)

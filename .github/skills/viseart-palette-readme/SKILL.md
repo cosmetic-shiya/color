@@ -159,13 +159,16 @@ Preferred strategies:
 - Only use this if the grid fully fills the source image.
 - Do not use this when there is visible outer margin.
 
-4. Cover-image fallback
+4. Cover-image fallback — dark-projection grid detection (preferred for `id.*` images)
 - If `icons.*` is missing, use the open-palette `id.*` image or a downloaded product image.
-- Detect the darker tray area below the lid.
-- Split only the tray region into the expected grid.
-- Expect weaker results than a real `icons.*` board because the first row may be partially covered by the lid.
-- When this happens, record the limitation in `README.md` and prefer a later re-run from `icons.*`.
-- For 3-row palettes, align rows 2 and 3 first from the lower visible area, then derive row 1 using the same row height.
+- The companion script automatically tries `detect_grid_by_dark_projection` first:
+  - Count very-dark pixels (all channels < 40) per row and per column.
+  - Find separator bands (runs where count >> local median) in the vertical projection → `cols+1` bands (left wall + inner separators + right wall).
+  - Find separator bands in the horizontal projection, skipping the top 35% to exclude the lid border → `rows` bands (inner separators + bottom wall).
+  - Measure row height from inter-separator spacings and extrapolate backward to find row 1's top edge.
+  - Cut tiles at band midpoints, not at equal fractions.
+- If the expected band count is not met, fall back to the equal-division method below.
+- For 3-row palettes this approach recovers row 1 correctly even when the lid partially occludes it, because it measures actual pan boundaries rather than guessing from a bounding box.
 - Swatch sheets or contact-sheet images that only show painted strips without shade numbers/descriptions do not count as `icons`; in that case, slice `id.*` directly.
 
 ### 3.5. Download source assets from the product page when needed

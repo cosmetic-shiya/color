@@ -294,6 +294,19 @@ NAME_TRANSLATIONS = {
 
 
 DESCRIPTION_TRANSLATIONS = {
+    # Petites Shimmers Coy
+    "Dandelion yellow with a metallic finish.": "蒲公英黄色，金属光泽。",
+    "Aquamarine seafoam with a metallic finish.": "水蓝海沫色，金属光泽。",
+    "Melon with gold reflects with a duochrome finish.": "蜜瓜色，金色双偏光光泽。",
+    "Icy violet with silver reflects with a duochrome finish.": "冰感紫罗兰色，银色双偏光光泽。",
+    "Cherry blossom vermillion with a metallic finish.": "樱花朱砂红，金属光泽。",
+    "Pale gold with a metallic finish.": "浅金色，金属光泽。",
+    "Sprout green-gold with a metallic finish.": "新芽绿金色，金属光泽。",
+    "Iced purple with a metallic finish.": "冰感紫色，金属光泽。",
+    "White with purple-pink reflects with a duochrome finish.": "白色调，紫粉双偏光光泽。",
+    "Seafoam green-blue with gold reflects with a duochrome finish.": "海沫蓝绿色，金色双偏光光泽。",
+    "Lilac with silver reflects with a duochrome finish.": "淡紫色，银色双偏光光泽。",
+    "Peach with green-gold reflects with a duochrome finish.": "蜜桃色，绿金双偏光光泽。",
     "Bright white with a matte finish.": "明亮纯白色，哑光质地。",
     "Neon yellow green with a matte finish.": "霓虹黄绿色，哑光质地。",
     "Bright green with a matte finish.": "明亮绿色，哑光质地。",

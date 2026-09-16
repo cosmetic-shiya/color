@@ -200,10 +200,12 @@ NAME_TRANSLATIONS = {
     "Haskap": "哈斯卡普暖棕",
     "Majeste": "焦糖华彩",
     "Pastille": "糖片钴蓝",
+    "Vedette": "主秀铜光",
     "Tiramisu": "提拉米苏灰褐",
     "Argenté": "银霜",
     "Argentée": "银霜",
     "Burlesque": "魅舞焦糖",
+    "Cordial": "酒心勃艮第",
     "Fondant": "糖霜银玫",
     "Pompidou": "蓬皮杜丁香粉",
     "Dulce": "焦糖古铜",
@@ -432,6 +434,10 @@ DESCRIPTION_TRANSLATIONS = {
     "Magenta with a matte finish.": "洋红色，哑光质地。",
     "Dusty plum with a matte finish.": "灰调李子色，哑光质地。",
     "Cobalt blue with a matte finish.": "钴蓝色，哑光质地。",
+    "Copper with a metallic finish.": "铜金色，金属质地。",
+    "Golden bronze with a metallic finish.": "金铜古铜色，金属质地。",
+    "Pale vanilla-peach with a matte finish.": "浅香草蜜桃色，哑光质地。",
+    "Rich burgundy with a metallic finish.": "浓郁勃艮第酒红色，金属质地。",
 }
 
 
@@ -578,6 +584,7 @@ USE_TRANSLATIONS = {
     "This rose gold duochromatic hue is used as an all-over lid tone. It can also be mixed with other matte and shimmer hues to create more defined, richly toned shades and used with lighter metallic tones to create a duochromatic look. Use a mixing medium to foil this hue for ultimate shine, or create a mix of hues- can also be used with a damp brush all over lid, or as an eyeliner.": "可作全眼铺色，也可与其他哑光或珠光色混合，调出更浓郁、更有层次的色调；与更浅的金属色搭配，还能做出双偏光效果。搭配调和液可获得更强烈的箔光感，也可用微湿刷具全眼上色或当眼线使用。",
     "This satin shade can be used as an all-over lid tone, as a highlight in the inner corner of the eyes, on the brow bone, and on top of any cream eyeliner, or conversely use a wet brush, or mixing medium to intensify the tone for high definition shine. All skin tones.": "可作全眼铺色，也可用于眼头、眉骨提亮，或叠加在膏状眼线之上。使用微湿刷具或调和液可增强光泽与显色，适合所有肤色。",
     "Use this golden bronze hue as an all-over lid color on all complexions or tap onto the center of the lid for an eye-catching finish. Can be foiled or worn as liner.": "可作全眼铺色，适合所有肤色；也可点在眼皮中央，打造吸睛亮点。可搭配调和液做出箔光效果，也可作为眼线色。",
+    "Use this metallic copper as an all-over lid color or layered over your favorite matte or shimmer shades for additional intensity. Tap onto the center of the lid for a pop of color. Can be foiled or worn as liner. Try pairing with shade 'Cabaret' for a warm, smokey finish.": "可作全眼铺色，也可叠加在喜爱的哑光或珠光色之上增强强度。点在眼皮中央可带来更鲜明的亮点；可搭配调和液做出箔光效果，也可作为眼线色。与 `Cabaret` 搭配，可完成温暖的烟熏妆效。",
     "This shade can be used as a wash of color all over the lid, layered over your favorite matte shades- can be used in the inner corners for a pop of luminosity, in the center of the eyelid to accentuate the glow or as a highlighter on tops of the cheekbones, add to the cupids bow and into any lipgloss to add a pearl! Additionally, foil this shade for all day wear with a mixing medium or damp brush to intensify the hue.": "可全眼铺色，或叠加在喜欢的哑光色上；也适合用于眼头提亮、点亮眼皮中央，或作为颧骨高光，还可点在唇峰，甚至混入唇蜜增添珍珠光泽。搭配调和液或微湿刷具可增强显色并获得更持久的箔光效果。",
     "Can be blended all over the lid or in the crease. Smudge it over a darker pencil for a soft smokey eye, or push it into the lash line for subtle definition.": "可用于全眼铺色或眼窝过渡。叠在更深色眼线笔上可做出柔和烟熏感，也可压在睫毛根部带出细致轮廓。",
     "This metallic shade can be worn as an all over lid colour, or layered on top of complementary tones for an everyday nude satin sheen finish. Mix this shade with water for a wash of colour or combine with a mixing medium for a foiled effect. Apply with fingertips or a dense brush for your desired level of intensity.": "可作全眼铺色，也可叠加在互补色之上，打造适合日常的裸感缎光效果。与水混合可获得轻透染色感，搭配调和液则可做出箔光效果。可用指腹或扎实刷具按需叠加显色度。",
@@ -618,6 +625,7 @@ USE_TRANSLATIONS = {
     "Use this for liner, for a dramatic eye, for brows, for contour on deeper skin types. *WARNING* - In the US, this shade contains pigments that the FDA has not approved for use in the eye area.": "可用于眼线、加深戏剧感眼妆、眉部塑形，也适合深肤色作修容。提示：在美国法规下，此色含有未获 FDA 批准用于眼周的色料。",
     "Use on the lid or crease for drama, use on the lid and pop a metallic color over it, blend out as a blush, mix with white to make a super natural flush on the eyelids or cheeks. *WARNING* - In the US, this shade contains pigments that the FDA has not approved for use in the eye area.": "可用于眼皮或眼窝，营造更强烈的妆感；也可先铺在眼皮上，再叠加金属色增强层次。还能晕染作腮红，或与白色混合，调出眼皮和双颊都适合的自然红晕。提示：在美国法规下，此色含有未获 FDA 批准用于眼周的色料。",
     "This super versatile color works for almost everything - try it wet as a liner, dry for a smokey eye or in the crease for depth. This plum looks good against every eye color! *WARNING* - In the US, this shade contains pigments that the FDA has not approved for use in the eye area.": "这是一支几乎无所不能的多用途色。可湿用作眼线，干用打造烟熏妆，或放在眼窝增加深度。这支李子紫几乎能衬托所有眼色。提示：在美国法规下，此色含有未获 FDA 批准用于眼周的色料。",
+    "Use this rich metallic burgundy as an all-over lid color or concentrate the shade in the outer corners of the eyes for a warm smoky finish. Can be foiled or worn as liner.": "可作全眼铺色，也可集中在眼尾位置，打造温暖的烟熏妆效。可搭配调和液做出箔光效果，也可作为眼线色。",
     "Use this for a rich cobalt smokey eye, or a drop of water/mixing medium for a liner. This color also pops a brown or hazel eye.": "可用来打造浓郁的钴蓝烟熏妆，也可加一滴清水或调和液作眼线使用。这一色调尤其能衬托棕色或榛色眼眸。",
 }
 
@@ -688,6 +696,12 @@ PALETTE_TITLE_PARTS = {
         "size_label": "中号",
         "cn_name": "赫斯珀里得斯盘",
         "en_name": "Petits Fours Hesperides",
+    },
+    "middle-4-garnet": {
+        "shade_count": "4色",
+        "size_label": "中号",
+        "cn_name": "石榴石盘",
+        "en_name": "Petits Fours Garnet",
     },
     "middle-4-pastille": {
         "shade_count": "4色",
@@ -830,6 +844,7 @@ HOMEPAGE_LABELS = {
     "middle-4-violetta": "4色 中号 紫罗兰盘 Petits Fours Violetta",
     "middle-4-peche": "4色 中号 蜜桃盘 Petits Fours Pêche",
     "middle-4-hesperides": "4色 中号 赫斯珀里得斯盘 Petits Fours Hesperides",
+    "middle-4-garnet": "4色 中号 石榴石盘 Petits Fours Garnet",
     "middle-4-pastille": "4色 中号 糖片盘 Petits Fours Pastille",
     "middle-4-lilas": "4色 中号 丁香盘 Petits Fours Lilas",
     "middle-4-isolde": "4色 中号 伊索德盘 Petits Fours Isolde",
@@ -866,6 +881,7 @@ HOMEPAGE_GROUP_HEADINGS = {
     "middle-4-violetta": "#### 4色 中号 Petites",
     "middle-4-peche": "#### 4色 中号 Petites",
     "middle-4-hesperides": "#### 4色 中号 Petites",
+    "middle-4-garnet": "#### 4色 中号 Petites",
     "middle-4-pastille": "#### 4色 中号 Petites",
     "middle-4-lilas": "#### 4色 中号 Petites",
     "middle-4-isolde": "#### 4色 中号 Petites",
@@ -904,6 +920,7 @@ PRODUCT_URLS = {
     "middle-4-violetta": "https://viseartparis.com/en-de/products/petits-fours-violetta?_pos=79&_sid=7a187920b&_ss=r",
     "middle-4-peche": "https://viseartparis.com/en-de/products/petits-fours-peche?_pos=4&_sid=91ac4c63a&_ss=r",
     "middle-4-hesperides": "https://viseartparis.com/en-de/products/petits-fours-hesperides?_pos=92&_sid=a44f35d0c&_ss=r",
+    "middle-4-garnet": "https://viseartparis.com/en-de/products/petits-four-garnet?_pos=50&_sid=a44f35d0c&_ss=r",
     "middle-4-pastille": "https://viseartparis.com/en-de/products/petits-fours-pastille?_pos=61&_sid=a44f35d0c&_ss=r",
     "middle-4-lilas": "https://viseartparis.com/en-de/products/petits-fours-lilas?_pos=85&_sid=a44f35d0c&_ss=r",
     "middle-4-isolde": "https://viseartparis.com/en-de/products/petits-fours-isolde?_pos=86&_sid=a44f35d0c&_ss=r",

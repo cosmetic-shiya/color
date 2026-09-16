@@ -27,6 +27,7 @@ Color cards and palette slices prepared for GitHub Pages.
 - 📄 [4色 中号 伊索德盘 Petits Fours Isolde](./viseart/middle-4-isolde/README.md)
 - 📄 [4色 中号 丁香盘 Petits Fours Lilas](./viseart/middle-4-lilas/README.md)
 - 📄 [4色 中号 糖片盘 Petits Fours Pastille](./viseart/middle-4-pastille/README.md)
+- 📄 [4色 中号 石榴石盘 Petits Fours Garnet](./viseart/middle-4-garnet/README.md)
 
 #### 12色 中号 Étendu
 - 📄 [12色 中号 索莱依海滩盘 Soleil La Plage Étendu](./viseart/middle-12-soleil-la-plage-etendu/README.md)

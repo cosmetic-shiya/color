@@ -16,7 +16,7 @@ from PIL import Image
 from PIL import ImageDraw
 
 
-SHADE_RE = re.compile(r"^(?:##\s+)?Shade\s+(\d+):\s+(.*?)\s+(?:-|–|—)\s+(.*)$")
+SHADE_RE = re.compile(r"^(?:##\s+)?Shade\s+(\d+):\s+(.*?)\s*(?:-|–|—)\s+(.*)$")
 SHADE_DESCRIPTION_ONLY_RE = re.compile(r"^(?:##\s+)?Shade\s+(\d+):\s+(.*\S)\s*$")
 USE_RE = re.compile(r"^Use:\s*(.*)$")
 
@@ -194,6 +194,10 @@ NAME_TRANSLATIONS = {
     "Perle D'or": "珍珠蜜粉",
     "Rosée": "玫露香槟",
     "Soft Pink": "柔粉",
+    "Cherry Petals": "樱瓣柔粉",
+    "Whirling": "旋樱偏光",
+    "Blossoming": "盛樱玫瑰",
+    "Hanami": "花见洋莓",
     "Isolde": "浅石裸棕",
     "Lilas": "丁香雾紫",
     "Amande": "杏仁奶霜",
@@ -438,6 +442,10 @@ DESCRIPTION_TRANSLATIONS = {
     "Golden bronze with a metallic finish.": "金铜古铜色，金属质地。",
     "Pale vanilla-peach with a matte finish.": "浅香草蜜桃色，哑光质地。",
     "Rich burgundy with a metallic finish.": "浓郁勃艮第酒红色，金属质地。",
+    "Muted, cool-toned beige pink with a matte finish.": "柔和冷调米粉色，哑光质地。",
+    "Iced pink with a purple duochromatic flip": "冰粉色，带紫调双偏光。",
+    "Soft dusty rose with a matte finish": "柔雾玫瑰色，哑光质地。",
+    "Bright magenta with a blue duochromatic flip": "明亮洋红色，带蓝调双偏光。",
 }
 
 
@@ -458,6 +466,10 @@ USE_TRANSLATIONS = {
     "All over base tone for all skin types. Use as a midtone to add definition.": "适合所有肤色作大面积打底色，也可作为中间色调增加轮廓与层次。",
     "All over tone for all skin types. Use it as a liner to create depth and dimension.": "适合所有肤色作大面积铺色，也可作为眼线色使用，增强深度与立体感。",
     "All-over tone for all skin types. Use it as a liner to create depth and dimension.": "适合所有肤色作大面积铺色，也可作为眼线色使用，增强深度与立体感。",
+    "This beige pink matte shade can be used as an all over lid tone, beneath complimentary shadows as a base shade, or along the lashline for soft definition. Can also be worn as nude blush on light to medium complexions!": "这支米粉哑光色可作全眼铺色，或作为互补眼影下方的打底色，也可沿睫毛根部轻扫，带来柔和轮廓。浅至中等肤色也可作裸感腮红使用。",
+    "This iced pink duochromatic shade can be used as an all over lid color or along the high points of the face as a highlighter on lighter complexions. Apply to the inner corners of the eyes for a fresh burst of luminosity or as a base beneath any of the other shades in the palette. Mix this shade with water for a wash of color or combine with a mixing medium for a foiled effect. Apply with fingertips or a dense brush for your desired level of intensity.": "这支冰粉双偏光色可作全眼铺色，也可在浅肤色上用于面部高点提亮。点在眼头可带来清透明亮感，也可作为盘中其他颜色下方的打底色。与清水混合可获得轻透染色感，搭配调和液则可做出箔光效果。可用指腹或扎实刷具按需叠加显色度。",
+    "This soft dusty rose matte shade can be used as an all over lid tone, beneath complimentary shadows as a base shade, or along with lashline for soft definition. Can also be worn as nude blush on light to medium complexions!": "这支柔雾玫瑰哑光色可作全眼铺色，或作为互补眼影下方的打底色，也可沿睫毛根部轻扫，带来柔和轮廓。浅至中等肤色也可作裸感腮红使用。",
+    "This duochromatic bright magenta shade can be used as an all over lid color or anywhere you want a pop of vibrant saturation. Mix this shade with water for a wash of color or combine with a mixing medium for a foiled effect. Apply with fingertips or a dense brush for your desired level of intensity. Can also be used as liner or added to gloss for a pearlized effect. Pair with any of the matte shades in the palette for even more saturation.": "这支明亮洋红双偏光色可作全眼铺色，也适合用于任何想增强鲜活饱和度的位置。与清水混合可获得轻透染色感，搭配调和液则可做出箔光效果。可用指腹或扎实刷具按需叠加显色度。也可作为眼线色，或混入唇蜜增添珠泽效果。与盘中任一哑光色搭配，都能进一步提升饱和感。",
     "This pale vanilla shade can be used as an all over lid colour or as a base tone beneath complementary shades. It can also be used to highlight the brow bone and inner corners of the eyes on light to medium complexions. Additionally, mix it with any of the other tones to brighten, lighten, and create over 12 new hues. Pair with shades ‘Slate’ and ‘Sandstone’ for a quick and easy cool-toned tantalizing taupe eye look. Apply with a brush for your desired level of intensity.": "可作全眼铺色，或作为互补色下方的打底色。浅至中等肤色可用于眉骨和眼头提亮。也可与盘中其他色调混合，提亮、调浅并延展出 12 种以上新色。与 `Slate`、`Sandstone` 搭配，可快速完成冷调迷人的灰棕眼妆。可用刷具按需叠加显色度。",
     "This nude rose-brown shade can be used to add subtle definition to contours of the face. It can also be used as a nude blush on light to medium complexions. Apply with a brush for your desired level of intensity.": "可用于面部轮廓的轻柔加深，也可在浅至中等肤色上作裸感腮红。可用刷具按需叠加显色度。",
     "This sandy taupe shade can be used to highlight and bring forth the contours of the face. Apply it under the brow bone or in the inner corners of the eyes on all complexions, or down the bridge of the nose and on the cheekbones on medium to deep complexions to add brightness to the face.": "可用于提亮并强化面部轮廓。适合所有肤色用于眉骨和眼头；中等至深肤色也可用于鼻梁和颧骨提亮，让面部更显明亮。",
@@ -697,6 +709,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "赫斯珀里得斯盘",
         "en_name": "Petits Fours Hesperides",
     },
+    "middle-4-sakura-lotus": {
+        "shade_count": "4色",
+        "size_label": "中号",
+        "cn_name": "樱花莲盘",
+        "en_name": "Petits Fours Sakura Lotus",
+    },
     "middle-4-garnet": {
         "shade_count": "4色",
         "size_label": "中号",
@@ -844,6 +862,7 @@ HOMEPAGE_LABELS = {
     "middle-4-violetta": "4色 中号 紫罗兰盘 Petits Fours Violetta",
     "middle-4-peche": "4色 中号 蜜桃盘 Petits Fours Pêche",
     "middle-4-hesperides": "4色 中号 赫斯珀里得斯盘 Petits Fours Hesperides",
+    "middle-4-sakura-lotus": "4色 中号 樱花莲盘 Petits Fours Sakura Lotus",
     "middle-4-garnet": "4色 中号 石榴石盘 Petits Fours Garnet",
     "middle-4-pastille": "4色 中号 糖片盘 Petits Fours Pastille",
     "middle-4-lilas": "4色 中号 丁香盘 Petits Fours Lilas",
@@ -881,6 +900,7 @@ HOMEPAGE_GROUP_HEADINGS = {
     "middle-4-violetta": "#### 4色 中号 Petites",
     "middle-4-peche": "#### 4色 中号 Petites",
     "middle-4-hesperides": "#### 4色 中号 Petites",
+    "middle-4-sakura-lotus": "#### 4色 中号 Petites",
     "middle-4-garnet": "#### 4色 中号 Petites",
     "middle-4-pastille": "#### 4色 中号 Petites",
     "middle-4-lilas": "#### 4色 中号 Petites",
@@ -920,6 +940,7 @@ PRODUCT_URLS = {
     "middle-4-violetta": "https://viseartparis.com/en-de/products/petits-fours-violetta?_pos=79&_sid=7a187920b&_ss=r",
     "middle-4-peche": "https://viseartparis.com/en-de/products/petits-fours-peche?_pos=4&_sid=91ac4c63a&_ss=r",
     "middle-4-hesperides": "https://viseartparis.com/en-de/products/petits-fours-hesperides?_pos=92&_sid=a44f35d0c&_ss=r",
+    "middle-4-sakura-lotus": "https://viseartparis.com/en-de/products/petits-fours-sakura-lotus?_pos=45&_sid=a44f35d0c&_ss=r",
     "middle-4-garnet": "https://viseartparis.com/en-de/products/petits-four-garnet?_pos=50&_sid=a44f35d0c&_ss=r",
     "middle-4-pastille": "https://viseartparis.com/en-de/products/petits-fours-pastille?_pos=61&_sid=a44f35d0c&_ss=r",
     "middle-4-lilas": "https://viseartparis.com/en-de/products/petits-fours-lilas?_pos=85&_sid=a44f35d0c&_ss=r",
@@ -1105,6 +1126,7 @@ def clean_html_text(value: str) -> str:
     text = text.replace("<br>", "\n")
     text = re.sub(r"<[^>]+>", "", text)
     text = html.unescape(text)
+    text = "".join(ch for ch in text if unicodedata.category(ch) != "Cf")
     text = text.replace("\u2028", "\n")
     text = text.replace("\xa0", " ")
     text = re.sub(r"\r\n?", "\n", text)

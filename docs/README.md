@@ -33,6 +33,7 @@ Color cards and palette slices prepared for GitHub Pages.
 
 #### 12色 中号 Étendu
 - [x] [12色 中号 索莱依海滩盘 Soleil La Plage Étendu](./viseart/middle-12-soleil-la-plage-etendu/README.md)
+- [x] [12色 中号 羊绒盘 Cashmerie Etendu](./viseart/middle-12-cashmerie-etendu/README.md)
 - [x] [12色 中号 羊绒魅缎盘 Cashmerie Charmeuse Étendu](./viseart/middle-12-cashmerie-charmeuse-etendu/README.md)
 - [x] [12色 中号 巴黎星夜盘 Paris Nuit Étoilée Étendu](./viseart/middle-12-paris-nuit-etoilee-etendu/README.md)
 - [x] [12色 中号 巴黎哑光盘 Paris Mattes Étendu](./viseart/middle-12-visepro-paris-mattes-etendu/README.md)

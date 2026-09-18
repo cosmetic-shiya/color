@@ -10,7 +10,7 @@
 
 ## Shade 1: Mind Solace - Ivory Cream Matte
 
-![Shade 1 Mind Solace](./slices/01.jpg)
+![Shade 1 Mind Solace](./slices/01_Mind_Solace.jpg)
 
 Use: A pure, soft ivory-cream matte. The perfect all-over lid base for all skin tones, it brightens and primes the eye. Blend through the inner corner and brow bone to open up the eye.
 
@@ -21,7 +21,7 @@ Use: A pure, soft ivory-cream matte. The perfect all-over lid base for all skin 
 
 ## Shade 2: Wordsmith - Warm Copper Bronze Metallic
 
-![Shade 2 Wordsmith](./slices/02.jpg)
+![Shade 2 Wordsmith](./slices/02_Wordsmith.jpg)
 
 Use: A rich, warm copper-bronze metallic evoking aged literary craft. Apply across the lid for an artisan, editorial look, or concentrate on the centre of the lid as a focal point.
 
@@ -32,7 +32,7 @@ Use: A rich, warm copper-bronze metallic evoking aged literary craft. Apply acro
 
 ## Shade 3: Librarium - Deep Wine Metallic
 
-![Shade 3 Librarium](./slices/03.jpg)
+![Shade 3 Librarium](./slices/03_Librarium.jpg)
 
 Use: A deep, dark wine-red metallic like the covers of antique leather-bound books. Use on the outer lid and crease for dramatic intensity, or blend into the lower lashline as a moody liner accent.
 
@@ -43,7 +43,7 @@ Use: A deep, dark wine-red metallic like the covers of antique leather-bound boo
 
 ## Shade 4: Chronicle - Medium Warm Brown Satin
 
-![Shade 4 Chronicle](./slices/04.jpg)
+![Shade 4 Chronicle](./slices/04_Chronicle.jpg)
 
 Use: A versatile, medium warm-brown satin. Blend through the crease as a transitional shade, apply all over the lid for a wearable everyday look, or deepen the outer corners for subtle definition.
 
@@ -54,7 +54,7 @@ Use: A versatile, medium warm-brown satin. Blend through the crease as a transit
 
 ## Shade 5: Epitome - Bright Copper Metallic
 
-![Shade 5 Epitome](./slices/05.jpg)
+![Shade 5 Epitome](./slices/05_Epitome.jpg)
 
 Use: A vivid, intense copper metallic — the signature statement shade of the palette. Apply on the centre of the lid for maximum impact, or use across the entire eye for a burnished, copper-glazed look.
 
@@ -65,7 +65,7 @@ Use: A vivid, intense copper metallic — the signature statement shade of the p
 
 ## Shade 6: Archivist - Deep Burgundy Wine Satin
 
-![Shade 6 Archivist](./slices/06.jpg)
+![Shade 6 Archivist](./slices/06_Archivist.jpg)
 
 Use: A rich, deep burgundy-wine with a satin sheen. Use on the outer lid and crease to anchor the look with depth, or layer over matte browns for a polished, library-red finish.
 
@@ -76,7 +76,7 @@ Use: A rich, deep burgundy-wine with a satin sheen. Use on the outer lid and cre
 
 ## Shade 7: Epilogue - Soft Peachy Salmon Matte
 
-![Shade 7 Epilogue](./slices/07.jpg)
+![Shade 7 Epilogue](./slices/07_Epilogue.jpg)
 
 Use: A soft, peachy-salmon matte with warm undertones. Blend through the crease as a warm transition shade, or apply across the entire lid for a sun-touched, natural everyday finish.
 
@@ -87,7 +87,7 @@ Use: A soft, peachy-salmon matte with warm undertones. Blend through the crease 
 
 ## Shade 8: Bibliophile - Medium Rose Mauve Satin
 
-![Shade 8 Bibliophile](./slices/08.jpg)
+![Shade 8 Bibliophile](./slices/08_Bibliophile.jpg)
 
 Use: A medium rose-mauve satin — the heart of the palette. Use as an all-over lid colour for a romantic, reader's reverie, or blend at the crease and outer corner for gentle dimension.
 
@@ -98,7 +98,7 @@ Use: A medium rose-mauve satin — the heart of the palette. Use as an all-over 
 
 ## Shade 9: Authors Note - Dark Chocolate Brown Matte
 
-![Shade 9 Authors Note](./slices/09.jpg)
+![Shade 9 Authors Note](./slices/09_Authors_Note.jpg)
 
 Use: A deep, dark chocolate-brown matte. Use to define the crease, deepen the outer corners, and line the upper lash line. Works as a rich base beneath metallics and satins for dramatic depth.
 
@@ -109,7 +109,7 @@ Use: A deep, dark chocolate-brown matte. Use to define the crease, deepen the ou
 
 ## Shade 10: Alliteration - Light Lavender Grey Matte
 
-![Shade 10 Alliteration](./slices/10.jpg)
+![Shade 10 Alliteration](./slices/10_Alliteration.jpg)
 
 Use: A soft, cool lavender-grey matte. Blend across the lid as an understated base, or use in the crease as a cool-toned transition. Pairs with wine and mauve tones for a literary, grey-purple look.
 
@@ -120,7 +120,7 @@ Use: A soft, cool lavender-grey matte. Blend across the lid as an understated ba
 
 ## Shade 11: Gateway - Medium Taupe Grey Matte
 
-![Shade 11 Gateway](./slices/11.jpg)
+![Shade 11 Gateway](./slices/11_Gateway.jpg)
 
 Use: A neutral, medium taupe-grey matte. An ideal transitional shade that works on any look — blend through the crease, use as a shadow base, or layer beneath deeper shades for extra depth.
 
@@ -131,7 +131,7 @@ Use: A neutral, medium taupe-grey matte. An ideal transitional shade that works 
 
 ## Shade 12: Pages of Wisdom - Dark Espresso Matte
 
-![Shade 12 Pages of Wisdom](./slices/12.jpg)
+![Shade 12 Pages of Wisdom](./slices/12_Pages_of_Wisdom.jpg)
 
 Use: A deep, velvety espresso-brown matte. Use to build intensity in the outer corner and crease, line the upper and lower lash lines, or fill in brows for brunettes and those with dark hair.
 
@@ -142,7 +142,7 @@ Use: A deep, velvety espresso-brown matte. Use to build intensity in the outer c
 
 ## Shade 13: Book Shop - Cream Gold Shimmer Metallic
 
-![Shade 13 Book Shop](./slices/13.jpg)
+![Shade 13 Book Shop](./slices/13_Book_Shop.jpg)
 
 Use: A warm, cream-white with golden shimmer — evoking the cosy glow of a bookshop window. Apply on the inner corner and brow bone as a highlight, or over the entire lid for a luminous, antique-gold base look.
 
@@ -153,7 +153,7 @@ Use: A warm, cream-white with golden shimmer — evoking the cosy glow of a book
 
 ## Shade 14: Manuscript - Medium Sand Tan Matte
 
-![Shade 14 Manuscript](./slices/14.jpg)
+![Shade 14 Manuscript](./slices/14_Manuscript.jpg)
 
 Use: A warm, sandy-tan matte like aged parchment. Blend through the crease as a soft, neutral transition, apply all over the lid for a light, natural finish, or use as a base beneath metallics.
 
@@ -164,7 +164,7 @@ Use: A warm, sandy-tan matte like aged parchment. Blend through the crease as a 
 
 ## Shade 15: Passage of Time - Dark Charcoal Brown Matte
 
-![Shade 15 Passage of Time](./slices/15.jpg)
+![Shade 15 Passage of Time](./slices/15_Passage_of_Time.jpg)
 
 Use: A very deep, dark charcoal-brown matte. The darkest shade in the palette — use for dramatic liner, outer-corner deepening, or a bold smoky eye base across the lid on deeper skin tones.
 
@@ -175,7 +175,7 @@ Use: A very deep, dark charcoal-brown matte. The darkest shade in the palette �
 
 ## Shade 16: Mind Reader - Rose Gold Champagne Metallic
 
-![Shade 16 Mind Reader](./slices/16.jpg)
+![Shade 16 Mind Reader](./slices/16_Mind_Reader.jpg)
 
 Use: A romantic rose-gold champagne metallic. Apply across the lid for an intuitive, feminine shimmer, or pair with berry tones at the outer corner for a warm, rosy eye finish.
 
@@ -186,7 +186,7 @@ Use: A romantic rose-gold champagne metallic. Apply across the lid for an intuit
 
 ## Shade 17: Soul Escape - Light Beige Sand Metallic
 
-![Shade 17 Soul Escape](./slices/17.jpg)
+![Shade 17 Soul Escape](./slices/17_Soul_Escape.jpg)
 
 Use: A soft, light beige-sand metallic with gentle luminosity. Use as an inner-corner highlight, brow bone brightener, or apply all over the lid for an effortless, warm-neutral everyday glow.
 
@@ -197,7 +197,7 @@ Use: A soft, light beige-sand metallic with gentle luminosity. Use as an inner-c
 
 ## Shade 18: Bibliotheca - Warm Golden Metallic
 
-![Shade 18 Bibliotheca](./slices/18.jpg)
+![Shade 18 Bibliotheca](./slices/18_Bibliotheca.jpg)
 
 Use: A rich, warm golden metallic — the grand finale of the palette, like the gilded spines of a library collection. Apply across the lid for full-on golden glamour, or layer in the centre over deeper tones for a collector's-gold focal point.
 

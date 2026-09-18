@@ -10,7 +10,7 @@
 
 ## Shade 1: Volcanic Aura - Dark Charcoal Glitter Metallic
 
-![Shade 1 Volcanic Aura](./slices/01.jpg)
+![Shade 1 Volcanic Aura](./slices/01_Volcanic_Aura.jpg)
 
 Use: A dramatic, near-black charcoal metallic with dense glitter. Apply over the entire lid for a high-impact smoky effect, or concentrate in the crease and outer corners for depth. Works beautifully as an eyeliner with a damp fine brush.
 
@@ -21,7 +21,7 @@ Use: A dramatic, near-black charcoal metallic with dense glitter. Apply over the
 
 ## Shade 2: Burnt Umber - Chocolate Brown Matte
 
-![Shade 2 Burnt Umber](./slices/02.jpg)
+![Shade 2 Burnt Umber](./slices/02_Burnt_Umber.jpg)
 
 Use: A rich chocolate-brown matte shade. Use as an all-over lid colour on medium to deep skin tones, blend through the crease as a transitional shade, or build definition at the outer corners. Also works as a brow filler for brunettes.
 
@@ -32,7 +32,7 @@ Use: A rich chocolate-brown matte shade. Use as an all-over lid colour on medium
 
 ## Shade 3: Flowing Horizon - Silver Grey Metallic
 
-![Shade 3 Flowing Horizon](./slices/03.jpg)
+![Shade 3 Flowing Horizon](./slices/03_Flowing_Horizon.jpg)
 
 Use: A cool, luminous silver-grey metallic. Layer over the lid for a polished, editorial look, or blend into the outer corner as a shadow. Pairs with darker metallics for a dimensional smoked grey effect.
 
@@ -43,7 +43,7 @@ Use: A cool, luminous silver-grey metallic. Layer over the lid for a polished, e
 
 ## Shade 4: Smoky Blue - Ice Blue Shimmer
 
-![Shade 4 Smoky Blue](./slices/04.jpg)
+![Shade 4 Smoky Blue](./slices/04_Smoky_Blue.jpg)
 
 Use: A hazy ice-blue shimmer inspired by volcanic haze. Apply on the lid for a cool, ethereal effect. Blend with silver shades for a wintry look, or place at the inner corner as a highlight.
 
@@ -54,7 +54,7 @@ Use: A hazy ice-blue shimmer inspired by volcanic haze. Apply on the lid for a c
 
 ## Shade 5: Blurred Sky - Silver Grey Metallic
 
-![Shade 5 Blurred Sky](./slices/05.jpg)
+![Shade 5 Blurred Sky](./slices/05_Blurred_Sky.jpg)
 
 Use: A softer silver-grey metallic with a hazy quality. Blend across the lid for a diffused, atmospheric effect. Ideal as a transitional tone between deeper shades and a bright inner-corner highlight.
 
@@ -65,7 +65,7 @@ Use: A softer silver-grey metallic with a hazy quality. Blend across the lid for
 
 ## Shade 6: Volcanic Purple - Deep Burgundy Wine Shimmer
 
-![Shade 6 Volcanic Purple](./slices/06.jpg)
+![Shade 6 Volcanic Purple](./slices/06_Volcanic_Purple.jpg)
 
 Use: A deep, volcanic burgundy-wine shimmer. Use on the outer third of the lid or the crease for rich, moody intensity. Layer over a primer for maximum pigmentation.
 
@@ -76,7 +76,7 @@ Use: A deep, volcanic burgundy-wine shimmer. Use on the outer third of the lid o
 
 ## Shade 7: Eternal Vesuvio - Sage Teal Shimmer
 
-![Shade 7 Eternal Vesuvio](./slices/07.jpg)
+![Shade 7 Eternal Vesuvio](./slices/07_Eternal_Vesuvio.jpg)
 
 Use: A unique sage-teal shimmer evoking the seascape surrounding Vesuvius. Apply across the lid as a statement colour or in the crease for a subtle cooler dimension. A versatile accent tone.
 
@@ -87,7 +87,7 @@ Use: A unique sage-teal shimmer evoking the seascape surrounding Vesuvius. Apply
 
 ## Shade 8: Painting - Warm Copper Rust Matte
 
-![Shade 8 Painting](./slices/08.jpg)
+![Shade 8 Painting](./slices/08_Painting.jpg)
 
 Use: A warm, terracotta-copper matte evoking 18th-century Neapolitan pigments. Blend through the crease and outer corners to add warmth and depth, or use as an all-over lid colour for an earthy, artistic effect.
 
@@ -98,7 +98,7 @@ Use: A warm, terracotta-copper matte evoking 18th-century Neapolitan pigments. B
 
 ## Shade 9: Violet Veil - Dusty Mauve Metallic
 
-![Shade 9 Violet Veil](./slices/09.jpg)
+![Shade 9 Violet Veil](./slices/09_Violet_Veil.jpg)
 
 Use: A soft, dusty mauve-purple metallic. Perfect for a romantic, diffused eye look. Apply on the lid for a veiled, violet haze effect, or layer in the outer corner over deeper tones.
 
@@ -109,7 +109,7 @@ Use: A soft, dusty mauve-purple metallic. Perfect for a romantic, diffused eye l
 
 ## Shade 10: Vesuvius Veil - Cool Grey Metallic
 
-![Shade 10 Vesuvius Veil](./slices/10.jpg)
+![Shade 10 Vesuvius Veil](./slices/10_Vesuvius_Veil.jpg)
 
 Use: A cool, slate-grey metallic recalling volcanic ash and stone. Apply on the lid for a graphic, polished effect. Deepen with darker metallics at the outer corners for a volcanic grey look.
 
@@ -120,7 +120,7 @@ Use: A cool, slate-grey metallic recalling volcanic ash and stone. Apply on the 
 
 ## Shade 11: Magma Orange - Burnt Orange Shimmer
 
-![Shade 11 Magma Orange](./slices/11.jpg)
+![Shade 11 Magma Orange](./slices/11_Magma_Orange.jpg)
 
 Use: A vivid burnt-orange shimmer evoking flowing lava. Apply across the lid for a fiery, volcanic statement look. Blend with gold tones for a molten sunset effect.
 
@@ -131,7 +131,7 @@ Use: A vivid burnt-orange shimmer evoking flowing lava. Apply across the lid for
 
 ## Shade 12: Fiery Pink - Deep Berry Cherry Shimmer
 
-![Shade 12 Fiery Pink](./slices/12.jpg)
+![Shade 12 Fiery Pink](./slices/12_Fiery_Pink.jpg)
 
 Use: A deep, intense berry-crimson shimmer. Concentrate on the outer lid and crease for a bold, passionate look. Pairs with violet or mauve metallics for a rich, volcanic intensity.
 
@@ -142,7 +142,7 @@ Use: A deep, intense berry-crimson shimmer. Concentrate on the outer lid and cre
 
 ## Shade 13: Golden Halo - Gold Metallic
 
-![Shade 13 Golden Halo](./slices/13.jpg)
+![Shade 13 Golden Halo](./slices/13_Golden_Halo.jpg)
 
 Use: A warm, luminous gold metallic. Apply over the entire lid for a golden, Neapolitan sun effect. Works beautifully as a highlighter on the brow bone or inner corner. Layer with orange shades for a molten look.
 
@@ -153,7 +153,7 @@ Use: A warm, luminous gold metallic. Apply over the entire lid for a golden, Nea
 
 ## Shade 14: Gold Lava - Dark Burnt Copper Metallic
 
-![Shade 14 Gold Lava](./slices/14.jpg)
+![Shade 14 Gold Lava](./slices/14_Gold_Lava.jpg)
 
 Use: A deep, smouldering burnt-copper metallic evoking solidified lava. Apply on the outer lid and crease for dimension, or use as a transition between orange and deeper tones.
 
@@ -164,7 +164,7 @@ Use: A deep, smouldering burnt-copper metallic evoking solidified lava. Apply on
 
 ## Shade 15: Delicate Pastel - Blush Pink Satin
 
-![Shade 15 Delicate Pastel](./slices/15.jpg)
+![Shade 15 Delicate Pastel](./slices/15_Delicate_Pastel.jpg)
 
 Use: A soft, delicate blush-pink satin. Apply over the entire lid for a fresh, wearable everyday look. Ideal as a base tone beneath shimmer shades or as a soft highlight on the brow bone.
 
@@ -175,7 +175,7 @@ Use: A soft, delicate blush-pink satin. Apply over the entire lid for a fresh, w
 
 ## Shade 16: Pastel Cloud - Ivory Cream Satin
 
-![Shade 16 Pastel Cloud](./slices/16.jpg)
+![Shade 16 Pastel Cloud](./slices/16_Pastel_Cloud.jpg)
 
 Use: A soft, cloud-like ivory-cream satin. Use as an all-over lid base, inner corner highlight, or brow bone brightener. Layering beneath shimmers and metallics enhances their luminosity.
 
@@ -186,7 +186,7 @@ Use: A soft, cloud-like ivory-cream satin. Use as an all-over lid base, inner co
 
 ## Shade 17: Painted Memories - Warm Gold Yellow Metallic
 
-![Shade 17 Painted Memories](./slices/17.jpg)
+![Shade 17 Painted Memories](./slices/17_Painted_Memories.jpg)
 
 Use: A warm, antique-gold metallic with a yellow-gold tone. Apply on the central lid for a sun-drenched, Neapolitan fresco effect. Layer with orange or copper tones for a warm, gilded look.
 
@@ -197,7 +197,7 @@ Use: A warm, antique-gold metallic with a yellow-gold tone. Apply on the central
 
 ## Shade 18: Painted Horizon - Pale Nude Shimmer
 
-![Shade 18 Painted Horizon](./slices/18.jpg)
+![Shade 18 Painted Horizon](./slices/18_Painted_Horizon.jpg)
 
 Use: A soft, pale nude-pink shimmer evoking the gentle tones of a painted Italian horizon. Wear across the entire lid for a luminous, ethereal finish, or use as an inner corner and brow bone highlight.
 

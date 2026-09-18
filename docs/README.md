@@ -3,6 +3,10 @@ Color cards and palette slices prepared for GitHub Pages.
 
 [Git Repo](https://github.com/cosmetic-shiya/color){: .btn }
 
+### 眼影 Byredo
+- [x] [18色 VESUVIO 火山眼影盘](./byredo/vesuvio/README.md)
+- [x] [18色 BIBLIOPHILIA 图书馆眼影盘](./byredo/bibliophilia/README.md)
+
 ### 眼影 Viseart
 #### 35色 中号 Pro X
 - [x] [35色 中号 哑光盘 Pro X1](./viseart/middle-35-pro-x1/README.md)
@@ -12,8 +16,8 @@ Color cards and palette slices prepared for GitHub Pages.
 
 #### 12色 大号/小号 Pro 
 - [x] [12色 大号/小号 哑光中性盘 Mattes Neutral](./viseart/big-12-mattes-neutral/README.md)
-- [ ] [12色 大号/小号 哑光中性盘 Mattes Neutral: Milieu](./viseart/big-12-mattes-neutral-milieu/README.md)
-- [ ] [12色 大号/小号 哑光冷调盘 Mattes Cool Original](./viseart/big-12-mattes-cool-original/README.md)
+- [x] [12色 大号/小号 哑光中性盘 Mattes Neutral: Milieu](./viseart/big-12-mattes-neutral-milieu/README.md)
+- [x] [12色 大号 哑光冷调盘 Mattes Cool Original](./viseart/big-12-mattes-cool-original/README.md)
 - [ ] [12色 大号/小号 哑光冷调盘2 Mattes Cool 2](./viseart/big-12-mattes-cool2/README.md)
 - [ ] [12色 大号/小号 哑光暖调盘 Mattes Warm](./viseart/big-12-mattes-warm/README.md)
 - [ ] [12色 大号/小号 哑光深调盘 Mattes Dark](./viseart/big-12-mattes-dark/README.md)

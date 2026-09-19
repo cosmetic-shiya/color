@@ -1,9 +1,6 @@
 # Viseart 12色 小号 巴黎小天使哑光盘 Petites Paris Chérubine Mattes
 ![id](id.jpg)
 
-> 提示：本页切片来自官网开盖图 `id`，并非独立的带描述色板图 `icons`。
-> 第一排色块可能会受到盖子边缘轻微遮挡；如果后续拿到带描述色板图，应优先用 `icons` 重新切图。
-
 ## Shade 1: Plâtre — Soft vanilla cream with a matte finish.
 ![Shade 1 Plâtre](./slices/01_Platre.jpg)
 

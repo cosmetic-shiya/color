@@ -16,11 +16,13 @@ Color cards and palette slices prepared for GitHub Pages.
 
 #### 12色 大号/小号 Pro 
 - [x] [12色 大号/小号 01 哑光中性盘 Mattes Neutral](./viseart/big-12-01-mattes-neutral/README.md)
+- [x] [12色 大号/小号 02 梦幻波西米亚盘 Shimmers Bohème Dream](./viseart/big-12-02-shimmers-boheme-dream/README.md)
 - [x] [12色 大号/小号 04 哑光深调盘 Mattes Dark](./viseart/big-12-04-mattes-dark/README.md)
 - [x] [12色 大号/小号 05 魅惑微光盘 Shimmers Sultry Muse](./viseart/big-12-05-shimmers-sultry-muse/README.md)
 - [x] [12色 大号/小号 06 巴黎裸光盘 Shimmers Paris Nudes](./viseart/big-12-06-shimmers-paris-nudes/README.md)
 - [x] [12色 大号/小号 07 哑光冷调盘 Mattes Cool Original](./viseart/big-12-07-mattes-cool-original/README.md)
 - [x] [12色 大号/小号 08 哑光亮彩盘 Editorial Brights](./viseart/big-12-08-mattes-editorial-brights/README.md)
+- [x] [12色 大号/小号 09 珠宝皇室盘 Shimmers Bijoux Royal](./viseart/big-12-09-shimmers-bijoux-royal/README.md)
 - [x] [12色 大号/小号 10 哑光暖调盘 Mattes Warm](./viseart/big-12-10-mattes-warm/README.md)
 - [x] [12色 大号/小号 11 哑光冷调盘2 Mattes Cool 2](./viseart/big-12-11-mattes-cool2/README.md)
 - [x] [12色 大号/小号 12 娇羞和色盘 Shimmers Coy](./viseart/big-12-12-shimmers-coy/README.md)

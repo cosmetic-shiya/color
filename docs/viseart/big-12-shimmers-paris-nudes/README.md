@@ -1,4 +1,4 @@
-# Viseart 12色 小号 巴黎裸光盘 Petites Shimmers Paris Nudes
+# Viseart 12色 大号/小号 巴黎裸光盘 Shimmers Paris Nudes
 ![id](id.jpg)
 
 ## Shade 1: Pont des Arts — Soft peachy pink with a soft metallic satin shimmer finish.

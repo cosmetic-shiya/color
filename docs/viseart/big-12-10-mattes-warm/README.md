@@ -1,4 +1,4 @@
-# Viseart 12色 大号/小号 哑光暖调盘 Mattes Warm
+# Viseart 12色 大号/小号 哑光暖调盘 10 Mattes Warm
 ![id](id.jpg)
 
 ## Shade 1: Beurre — Buttery yellow with warm undertones and a matte finish.

@@ -1,4 +1,4 @@
-# Viseart 12色 小号 娇羞和色盘 Petites Shimmers Coy
+# Viseart 12色 大号/小号 娇羞和色盘 12 Shimmers Coy
 ![id](id.jpg)
 
 > 提示：本页切片来自官网开盖图 `id`，并非独立的带描述色板图 `icons`。

@@ -15,15 +15,16 @@ Color cards and palette slices prepared for GitHub Pages.
 - [x] [15色 中号 结构塑眉塑影修容盘 15-Pan Structure Brow, Shadow, Hairline & Contour Palette](./viseart/middle-15-structure-brow-eyeshadow-palette/README.md)
 
 #### 12色 大号/小号 Pro 
-- [x] [12色 大号/小号 哑光中性盘 Mattes Neutral](./viseart/big-12-mattes-neutral/README.md)
-- [x] [12色 大号/小号 哑光中性盘 Mattes Neutral: Milieu](./viseart/big-12-mattes-neutral-milieu/README.md)
-- [x] [12色 大号 哑光冷调盘 Mattes Cool Original](./viseart/big-12-mattes-cool-original/README.md)
-- [ ] [12色 大号/小号 哑光冷调盘2 Mattes Cool 2](./viseart/big-12-mattes-cool2/README.md)
-- [ ] [12色 大号/小号 哑光暖调盘 Mattes Warm](./viseart/big-12-mattes-warm/README.md)
-- [ ] [12色 大号/小号 哑光深调盘 Mattes Dark](./viseart/big-12-mattes-dark/README.md)
-- [ ] [12色 大号/小号 哑光亮彩盘 Editorial Brights](./viseart/big-12-editorial-brights/README.md)
-- [ ] [12色 大号/小号 巴黎裸光盘 Shimmers Paris Nudes](./viseart/big-12-shimmers-paris-nudes/README.md)
-- [x] [12色 大号/小号 魅惑微光盘 Shimmers Sultry Muse](./viseart/big-12-shimmers-sultry-muse/README.md)
+- [x] [12色 大号/小号 哑光中性盘 01 Mattes Neutral](./viseart/big-12-01-mattes-neutral/README.md)
+- [x] [12色 大号/小号 哑光中性盘 Mattes Neutral: Milieu](./viseart/big-12-14-mattes-neutral-milieu/README.md)
+- [x] [12色 大号 哑光冷调盘 07 Mattes Cool Original](./viseart/big-12-07-mattes-cool-original/README.md)
+- [ ] [12色 大号/小号 哑光冷调盘2 11 Mattes Cool 2](./viseart/big-12-11-mattes-cool2/README.md)
+- [ ] [12色 大号/小号 哑光暖调盘 10 Mattes Warm](./viseart/big-12-10-mattes-warm/README.md)
+- [ ] [12色 大号/小号 哑光深调盘 04 Mattes Dark](./viseart/big-12-04-mattes-dark/README.md)
+- [ ] [12色 大号/小号 哑光亮彩盘 08 Editorial Brights](./viseart/big-12-08-editorial-brights/README.md)
+- [ ] [12色 大号/小号 巴黎裸光盘 06 Shimmers Paris Nudes](./viseart/big-12-06-shimmers-paris-nudes/README.md)
+- [x] [12色 大号/小号 魅惑微光盘 05 Shimmers Sultry Muse](./viseart/big-12-05-shimmers-sultry-muse/README.md)
+- [x] [12色 大号/小号 娇羞和色盘 12 Shimmers Coy](./viseart/big-12-12-shimmers-coy/README.md)
 
 #### 4色 中号 Petites
 - [x] [4色 中号 蜜桃盘 Petits Fours Pêche](./viseart/middle-4-peche/README.md)
@@ -63,4 +64,3 @@ Color cards and palette slices prepared for GitHub Pages.
 #### 12色 小号 Petites
 - [ ] [12色 小号 巴黎小天使哑光盘 Petites Paris Chérubine Mattes](./viseart/small-12-mattes-paris-cherubine/README.md)
 - [ ] [12色 小号 暗调编辑盘 Dark Edit](./viseart/small-12-dark-edit/README.md)
-- [x] [12色 小号 娇羞和色盘 Petites Shimmers Coy](./viseart/small-12-shimmers-coy/README.md)

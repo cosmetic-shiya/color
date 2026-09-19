@@ -1,4 +1,4 @@
-# Viseart 12色 大号/小号 哑光冷调盘 11 Mattes Cool 2
+# Viseart 12色 大号/小号 11 哑光冷调盘 Mattes Cool 2
 ![id](id.webp)
 
 ## Shade 1: Salt — Pale bone matte finish.

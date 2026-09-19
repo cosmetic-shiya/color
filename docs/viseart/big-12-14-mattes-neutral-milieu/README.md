@@ -1,4 +1,4 @@
-# Viseart 12色 大号 哑光中性盘 14 Neutral Mattes: Milieu Slimpro
+# Viseart 12色 大号/小号 14 哑光中性盘 Neutral Mattes: Milieu Slimpro
 ![id](id.jpg)
 
 ## Shade 1: Chiffon — Muted cantaloupe with a matte finish.

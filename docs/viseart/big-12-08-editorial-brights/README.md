@@ -1,4 +1,4 @@
-# Viseart 12色 大号/小号 哑光亮彩盘 08 Editorial Brights
+# Viseart 12色 大号/小号 08 哑光亮彩盘 Editorial Brights
 ![id](id.jpg)
 
 ## Shade 1: White — Bright white with a matte finish.

@@ -5,3 +5,4 @@
 - [x] [15色 裸粉哑光盘 I Need a Nude Eyeshadow Palette](./nude-15/README.md)
 - [x] [15色 暖调哑光盘 I Need a Warm Eyeshadow Palette](./warm-15/README.md)
 - [x] [15色 紫罗兰梦幻盘 Roxa Eyeshadow Palette](./roxa-15/README.md)
+- [x] [15色 黄金金属盘 Golden Eyeshadow Palette](./golden-15/README.md)

@@ -16,13 +16,13 @@ Color cards and palette slices prepared for GitHub Pages.
 
 #### 12色 大号/小号 Pro 
 - [x] [12色 大号/小号 01 哑光中性盘 Mattes Neutral](./viseart/big-12-01-mattes-neutral/README.md)
-- [x] [12色 大号/小号 02 梦幻波西米亚盘 Shimmers Bohème Dream](./viseart/big-12-02-shimmers-boheme-dream/README.md)
+- [ ] [12色 大号/小号 02 梦幻波西米亚盘 Shimmers Bohème Dream](./viseart/big-12-02-shimmers-boheme-dream/README.md)
 - [x] [12色 大号/小号 04 哑光深调盘 Mattes Dark](./viseart/big-12-04-mattes-dark/README.md)
-- [x] [12色 大号/小号 05 魅惑微光盘 Shimmers Sultry Muse](./viseart/big-12-05-shimmers-sultry-muse/README.md)
+- [ ] [12色 大号/小号 05 魅惑微光盘 Shimmers Sultry Muse](./viseart/big-12-05-shimmers-sultry-muse/README.md)
 - [x] [12色 大号/小号 06 巴黎裸光盘 Shimmers Paris Nudes](./viseart/big-12-06-shimmers-paris-nudes/README.md)
 - [x] [12色 大号/小号 07 哑光冷调盘 Mattes Cool Original](./viseart/big-12-07-mattes-cool-original/README.md)
-- [x] [12色 大号/小号 08 哑光亮彩盘 Editorial Brights](./viseart/big-12-08-mattes-editorial-brights/README.md)
-- [x] [12色 大号/小号 09 珠宝皇室盘 Shimmers Bijoux Royal](./viseart/big-12-09-shimmers-bijoux-royal/README.md)
+- [ ] [12色 大号/小号 08 哑光亮彩盘 Editorial Brights](./viseart/big-12-08-mattes-editorial-brights/README.md)
+- [ ] [12色 大号/小号 09 珠宝皇室盘 Shimmers Bijoux Royal](./viseart/big-12-09-shimmers-bijoux-royal/README.md)
 - [x] [12色 大号/小号 10 哑光暖调盘 Mattes Warm](./viseart/big-12-10-mattes-warm/README.md)
 - [x] [12色 大号/小号 11 哑光冷调盘2 Mattes Cool 2](./viseart/big-12-11-mattes-cool2/README.md)
 - [x] [12色 大号/小号 12 娇羞和色盘 Shimmers Coy](./viseart/big-12-12-shimmers-coy/README.md)
@@ -65,4 +65,9 @@ Color cards and palette slices prepared for GitHub Pages.
 
 #### 12色 小号 Petites
 - [ ] [12色 小号 巴黎小天使哑光盘 Petites Paris Chérubine Mattes](./viseart/small-12-mattes-paris-cherubine/README.md)
-- [ ] [12色 小号 暗调编辑盘 Dark Edit](./viseart/small-12-dark-edit/README.md)
+- [x] [12色 小号 01 暖调编辑盘 Warm Edit](./viseart/small-12-ved01-warm-edit/README.md)
+- [x] [12色 小号 02 玫瑰编辑盘 Rosé Edit](./viseart/small-12-ved02-rose-edit/README.md)
+- [x] [12色 小号 03 微醺编辑盘 Spritz Edit](./viseart/small-12-ved03-spritz-edit/README.md)
+- [x] [12色 小号 04 巴黎编辑盘 Paris Edit](./viseart/small-12-ved04-paris-edit/README.md)
+- [x] [12色 小号 05 暗调编辑盘 Dark Edit](./viseart/small-12-ved05-dark-edit/README.md)
+- [x] [12色 小号 06 黎明编辑盘 Dawn Edit](./viseart/small-12-ved06-dawn-edit/README.md)

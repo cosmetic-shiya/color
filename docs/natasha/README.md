@@ -14,6 +14,9 @@
 - [x] [15色 复古玫粉盘 Retro Eyeshadow Palette](./15-retro/README.md)
 - [x] [15色 复古魅影盘 Retro Glam Eyeshadow Palette](./15-retro-glam/README.md)
 
+#### 3色 Baby 迷你盘
+- [x] [3色 Baby 黄金盘 Baby Gold Eyeshadow Palette](./3-baby-gold/README.md)
+
 #### 5色 Mini 迷你盘
 - [x] [5色 糖果彩虹盘 Mini Pastel Eyeshadow Palette](./5-mini-pastel/README.md)
 - [x] [5色 迷你暗调橄榄盘 Mini Gloom Eyeshadow Palette](./5-mini-gloom/README.md)

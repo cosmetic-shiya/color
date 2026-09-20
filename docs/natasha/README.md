@@ -6,3 +6,4 @@
 - [x] [15色 暖调哑光盘 I Need a Warm Eyeshadow Palette](./warm-15/README.md)
 - [x] [15色 紫罗兰梦幻盘 Roxa Eyeshadow Palette](./roxa-15/README.md)
 - [x] [15色 黄金金属盘 Golden Eyeshadow Palette](./golden-15/README.md)
+- [x] [15色 梦幻星空盘 My Dream Eyeshadow Palette](./dream-15/README.md)

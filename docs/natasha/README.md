@@ -16,3 +16,11 @@
 
 #### 5色 Mini 迷你盘
 - [x] [5色 糖果彩虹盘 Mini Pastel Eyeshadow Palette](./5-mini-pastel/README.md)
+- [x] [5色 迷你暗调橄榄盘 Mini Gloom Eyeshadow Palette](./5-mini-gloom/README.md)
+- [x] [5色 迷你极光冰雪盘 Mini Xenon Eyeshadow Palette](./5-mini-xenon/README.md)
+- [x] [5色 迷你玫粉盘 Mini Rose Eyeshadow Palette](./5-mini-rose/README.md)
+- [x] [5色 迷你梦幻盘 My Mini Dream Eyeshadow Palette](./5-mini-dream/README.md)
+- [x] [5色 迷你星光盘 Mini Starlette Eyeshadow Palette](./5-mini-starlette/README.md)
+- [x] [5色 迷你日落盘 Mini Sunset Eyeshadow Palette](./5-mini-sunset/README.md)
+- [x] [5色 迷你珊瑚盘 Coral Mini Eyeshadow Palette](./5-coral/README.md)
+- [x] [5色 迷你塑眼盘 Mini Eye Sculpt Palette](./5-mini-eye-sculpt/README.md)

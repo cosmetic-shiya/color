@@ -4,3 +4,4 @@
 - [x] [15色 冷调烟熏盘 I Need a Cool Eyeshadow Palette](./cool-15/README.md)
 - [x] [15色 裸粉哑光盘 I Need a Nude Eyeshadow Palette](./nude-15/README.md)
 - [x] [15色 暖调哑光盘 I Need a Warm Eyeshadow Palette](./warm-15/README.md)
+- [x] [15色 紫罗兰梦幻盘 Roxa Eyeshadow Palette](./roxa-15/README.md)

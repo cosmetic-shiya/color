@@ -5,6 +5,11 @@
 - [x] [3色 Baby 古铜盘 Baby Bronze Eyeshadow Palette](./3-baby-bronze/README.md)
 - [x] [3色 Baby 爱意盘 Baby Love Eyeshadow Palette](./3-baby-love/README.md)
 
+#### 4色 Luxe Glam Compact 奢华紧凑盘
+- [x] [4色 Luxe Glam Compact 裸调盘 Nude](./4-luxe-glam-nude/README.md)
+- [x] [4色 Luxe Glam Compact 冷调盘 Cool](./4-luxe-glam-cool/README.md)
+- [x] [4色 Luxe Glam Compact 玫粉盘 Rosy](./4-luxe-glam-rosy/README.md)
+
 #### 5色 Mini 迷你盘
 - [x] [5色 糖果彩虹盘 Mini Pastel Eyeshadow Palette](./5-mini-pastel/README.md)
 - [x] [5色 迷你暗调橄榄盘 Mini Gloom Eyeshadow Palette](./5-mini-gloom/README.md)

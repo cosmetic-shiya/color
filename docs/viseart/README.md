@@ -6,6 +6,9 @@
 #### 15色 中号 Structure
 - [x] [结构塑眉塑影修容盘 Structure Brow, Shadow, Hairline & Contour (2020)](./middle-15-structure-brow-eyeshadow-palette/README.md)
 
+#### 6色 大号 Theory
+- [x] [日落海妖盘 Theory VII Siren (2021)](./big-6-theory-vii-siren/README.md)
+
 #### 12色 大号/小号 Pro
 - [x] [01 哑光中性盘 Mattes Neutral (2013)](./big-12-01-mattes-neutral/README.md)
 - [x] [07 哑光冷调盘 Mattes Cool Original (2013)](./big-12-07-mattes-cool-original/README.md)

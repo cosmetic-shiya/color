@@ -1,5 +1,11 @@
 # Viseart 15色 中号 结构塑眉塑影修容盘 15-Pan Structure Brow, Shadow, Hairline & Contour Palette
+*发布：2020*
+
 ![id](id.jpg)
+
+> 专业造型的全能修眉神器，以3支ViseHold质感蜡膏搭配12款可叠色哑光粉盘，一盘兼顾塑眉、发际线修饰、眼影与轮廓塑型。采用法式专有配方精细研磨颜料，帮助专业艺术师与彩妆爱好者精准定型，并可与Petits Fours、Étendu及Grande Pro系列磁吸互换色盘，打造专属色彩故事。
+
+> *The professional's essential brow-styling toolkit. Three ViseHold texture balms paired with twelve blendable pressed-powder pans cover brows, hairlines, eye artistry, and contour in one compact palette. Crafted with Viseart's signature French-lab formula, the magnetized pans interchange freely with Petits Fours, Étendu, and Grande Pro for a fully bespoke color story.*
 
 ## Shade 1: Neutral Light Wax — Neutral Light wax for light blonde to light brunette hair
 ![Shade 1 Neutral Light Wax](./slices/01_Neutral_Light_Wax.jpg)

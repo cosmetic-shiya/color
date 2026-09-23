@@ -1,8 +1,11 @@
 # Viseart 12色 大号/小号 12 娇羞和色盘 Shimmers Coy
+*发布：2018*
+
 ![id](id.jpg)
 
-> 提示：本页切片来自官网开盖图 `id`，并非独立的带描述色板图 `icons`。
-> 第一排色块可能会受到盖子边缘轻微遮挡；如果后续拿到带描述色板图，应优先用 `icons` 重新切图。
+> 娇羞和色盘以蒲公英黄、水蓝海沫、锦鲤蜜瓜双偏光与冰感紫银偏光等和风灵感色调，融合金属、缎光与双色变幻光泽。这款限量版闪光调色盘色彩轻盈而富有层次，可从通透薄光叠加至满显。
+
+> *Coy is a limited-edition Japanese-inspired shimmer palette featuring twelve crystalline satin and duochrome shades — from dandelion yellow and aquamarine seafoam to melon gold and icy violet with silver shifts. Buildable from sheer to full for both subtle glimmer and statement-making shine.*
 
 ## Shade 1: Kokai — Dandelion yellow with a metallic finish.
 ![Shade 1 Kokai](./slices/01_Kokai.jpg)

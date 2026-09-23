@@ -1,5 +1,14 @@
 # Viseart 12色 中号 糖果果仁盘 Bon Bon Praline Étendu
+*发布：2026*
+
 ![id](id.png)
+
+> 糖果果仁盘是 Viseart 向蔚蓝海岸金色阳光的颂歌，12 个暖调日晒色从浅牛轧糖与蜂蜜沙砾渐变至炽烈杏橙、深紫浆果，以一抹丝绒暖棕收尾。盛夏盛情，凝于色彩之中。
+
+> *Bon Bon Praline is Viseart Paris's ode to the golden light of the Côte d'Azur — twelve warm, sun-drenched shades that move from pale nougat and honeyed sand to blazing apricot, deep cassis, and a final, velvety warm dark. A memoir of high summer, bottled in pigment.*
+
+![手臂试色](./arm_light.png)
+![手臂试色（深肤色）](./arm_deep.png)
 
 ## Shade 1: Nougat Blanc — Light, warm creme taupe with a matte finish. The colour of sun-bleached linen drying on a Provençal windowsill.
 ![Shade 1 Nougat Blanc](./slices/01_Nougat_Blanc.png)

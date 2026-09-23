@@ -1,5 +1,14 @@
 # Viseart 12色 大号/小号 07 哑光冷调盘 Mattes Cool Original
+*发布：2013*
+
 ![id](id.jpg)
+
+> 哑光冷调原版盘是 Viseart 巴黎时装周舞台上的传奇调色盘。以香草裸白、石板灰、石棕与蓝灰等冷调哑光谱系，为冷感精致妆容提供完整的专业色彩工具箱。
+
+> *Cool Mattes Original is a legend of the Paris runways — a comprehensive cool-toned matte palette spanning vanilla nude through slate grey, stone brown, and deep charcoal. The definitive professional toolkit for cool, refined, and architecturally structured makeup.*
+
+![手臂试色](./arm_light.jpg)
+![手臂试色（深肤色）](./arm_deep.jpg)
 
 ## Shade 1: Saltstone — Pale vanilla nude with a matte finish.
 ![Shade 1 Saltstone](./slices/01_Saltstone.png)

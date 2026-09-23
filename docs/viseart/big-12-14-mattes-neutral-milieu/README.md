@@ -1,5 +1,14 @@
 # Viseart 12色 大号/小号 14 哑光中性盘 Neutral Mattes: Milieu Slimpro
+*发布：2019*
+
 ![id](id.jpg)
+
+> 中性色 Milieu（中间路线）调色盘以法式田园色名为各色号命名，从雪纺杏色、焦糖奶油至富斯紫红，提供12个完整的哑光中性渐变。名字"milieu"代表"环境中的定心"，是日常妆容的冥想与定锚。
+
+> *Neutral Mattes: Milieu draws its palette from the French countryside — chiffon peach, crème brûlée, rich cacao, and a single vibrant dahlia accent — offering twelve complete matte neutrals for professional sculpting and creative blending. "Milieu" reflects a philosophy of centeredness in your environment.*
+
+![手臂试色](./arm_light.jpg)
+![手臂试色（深肤色）](./arm_deep.jpg)
 
 ## Shade 1: Chiffon — Muted cantaloupe with a matte finish.
 ![Shade 1 Chiffon](./slices/01_Chiffon.jpg)

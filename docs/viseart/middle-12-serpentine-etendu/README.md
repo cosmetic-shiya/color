@@ -1,5 +1,13 @@
 # Viseart 12色 中号 灵蛇秘符盘 Serpentine Étendu
+*发布：2026*
+
 ![id](id.png)
+
+> 一枚充满不可能之色的古老护符，召唤无限可能！灵蛇秘符盘从铜绿游向剧毒，从遗物滑入宝匣，从咒语化入符文——毒绿、笼罩幽灵烈焰的暗纱、染毒的闪光、以意图刻入的哑光符印。一件蜿蜒灵动、神话复述的奇异古器，限量小批出品。
+
+> *An ancient amulet charged with impossible color invoking potent possibilities! Serpentine Étendu slinks from patina to poison, relic to reliquary, invocation to sigil. Poisoned greens, shadowed veils steeped in spectral fire, shimmers dipped in venom and mattes carved into sigils with intention. A sinuous, slithering artefact of myth retold.*
+
+![手臂试色（深肤色）](./arm_deep.png)
 
 ## Shade 1: Relic — Beige taupe with a matte finish.
 ![Shade 1 Relic](./slices/01_Relic.png)

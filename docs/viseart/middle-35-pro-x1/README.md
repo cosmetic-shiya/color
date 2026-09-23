@@ -1,5 +1,13 @@
 # Viseart 35色 中号 哑大盘 GRANDE PRO 1X
+*发布：2016*
+
 ![id](id.webp)
+
+> 来自法式美妆大师工坊的传世经典，35格纯哑光专业大盘集编辑风情、烟熏诱惑、新娘浪漫与日常精致于一身。以三重研磨EU颜料，兼容全球所有肤色，精准塑造眼影、轮廓与自定义色彩。是全球顶尖造型师最信赖的底妆级哑光选色工具，更可与Petits Fours及Étendu系列磁吸互换自由创作。
+
+> *From the ateliers of French beauty mastery, this ultra-riche 35-pan all-matte masterwork delivers editorial ease, smokey seduction, bridal romance, and everyday sophistication. Triple-milled EU pigments sculpt, define, and blend flawlessly across every complexion — the enduring pro-artistry cornerstone trusted by award-winning artists worldwide.*
+
+![手臂试色（浅深对照）](./arm_light.jpg)
 
 ## Shade 1: Eggshell - White with a whisper of peach
 ![Shade 1 Eggshell](./slices/01.jpg)

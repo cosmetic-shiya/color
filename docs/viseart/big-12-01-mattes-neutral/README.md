@@ -1,5 +1,15 @@
 # Viseart 12色 大号/小号 01 哑光中性盘 Mattes Neutral
+*发布：2013*
+
 ![id](id.jpg)
+
+> Viseart 哑光中性盘是品牌最经典的专业调色盘，以骨白至近黑的无缝渐变，提供完整的哑光中性色谱。经过三研精磨的丝绒质地，数十年来始终是化妆师片场与秀场必备的百搭基础工具。
+
+> *The original Viseart artistry palette, Neutral Mattes delivers a seamless gradient of true neutrals from bone to near-black, all in triple-milled matte. A timeless professional foundation trusted across runways, film, and editorial for decades.*
+
+![手臂试色](./arm_light.jpg)
+![手臂试色（深肤色）](./arm_deep.jpg)
+
 ## Shade 1: Saumon/Canelle — Deep peach wth a matte finish. 
 ![Shade 1 Saumon](./slices/01.png)
 

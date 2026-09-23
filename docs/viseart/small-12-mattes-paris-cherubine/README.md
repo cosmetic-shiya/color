@@ -1,5 +1,13 @@
 # Viseart 12色 小号 巴黎小天使哑光盘 Petites Paris Chérubine Mattes
+*发布：2025*
+
 ![id](id.jpg)
+
+> 18世纪巴黎的粉彩幻想——羽翼轻柔振翅，大理石天使沐浴于黎明曙光之中。十二款限量哑光色，以瓷白、石膏、玫瑰与天蓝描绘一幕天使般的宁静画卷，是 Paris Chérubins Étendu 的小幅姐妹盘，于冬日恩典中，呼应着大师画笔的温柔触碰。磁吸盘可与Edit、Petit Pro及Petites Mattes系列自由搭配。
+
+> *A pastel reverie of 18th-century Paris, where feather-soft wings flutter and marble cherubs bathe in dawn's first light. Twelve limited-edition matte shades in porcelain, plaster, rose, and sky paint a tender tableau of angelic serenity — the petite sœur to Paris Chérubins Étendu, kissed by winter's grace and a master's gentle brush.*
+
+![手臂试色（深肤色）](./arm_deep.jpg)
 
 ## Shade 1: Plâtre — Soft vanilla cream with a matte finish.
 ![Shade 1 Plâtre](./slices/01_Platre.jpg)

@@ -1,5 +1,14 @@
 # Viseart 12色 小号 暗调编辑盘 Dark Edit
+*发布：2020*
+
 ![id](id.jpg)
+
+> 暗色编辑系列的先驱之作，以巴洛克装饰、奢华天鹅绒与宫廷色调为灵感，汇聚深紫、浓棕与镀金绿等12款色调，在小巧便携的盘体内，复刻大盘04 Dark Mattes与Grande Pro 2的核心魅力。内含磁吸可换色盘与镜面，是专业艺术师与妆迷的随行暗调创作工具。
+
+> *A baroque reverie in a petite travel case. Twelve shades of opulent purples, rich browns, and gilded greens draw inspiration from velvet drapes and gilded halls, distilling the dark artistry of the full-size 04 Dark Mattes and Grande Pro 2 palettes into a sleek, magnetic compact complete with mirror.*
+
+![手臂试色](./arm_light.jpg)
+![手臂试色（深肤色）](./arm_deep.jpg)
 
 ## Shade 1: Toffee — Warm light brown with a matte finish
 ![Shade 1 Toffee](./slices/01_Toffee.jpg)

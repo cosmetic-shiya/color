@@ -1,8 +1,14 @@
 # Viseart 4色 中号 樱花莲盘 Petits Fours Sakura Lotus
+*发布：2023*
+
 ![id](id.jpg)
 
-> 提示：本页切片来自官网开盖图 `id`，并非独立的带描述色板图 `icons`。
-> 第一排色块可能会受到盖子边缘轻微遮挡；如果后续拿到带描述色板图，应优先用 `icons` 重新切图。
+> 以自然界中樱花与莲花的纯洁、宁静与高贵为灵感，樱花莲盘构筑出一个粉嫩花瓣与双偏光幻彩并存的奇幻仙境。从柔和的哑光樱粉到灵动的偏光玫紫，每一刷都如花瓣轻落，将大自然最美的馈赠带上眼帘。
+
+> *Inspired by the purity, tranquility, and nobility of cherry blossoms and lotus in nature, Sakura Lotus creates a whimsical wonderland of pink petal hues and duochromatic delights — where shimmer dances like petals on still water.*
+
+![手臂试色](./arm_light.jpg)
+![手臂试色（深肤色）](./arm_deep.jpg)
 
 ## Shade 1: Cherry Petals — Muted, cool-toned beige pink with a matte finish.
 ![Shade 1 Cherry Petals](./slices/01_Cherry_Petals.jpg)

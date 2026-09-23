@@ -1,4 +1,6 @@
 # Viseart 4色 中号 巧克力盘 Petits Fours Chocolat
+*发布：2020*
+
 ![id](id.jpg)
 
 ## Shade 1: Café Crème — Warm café crème nude with a matte finish.

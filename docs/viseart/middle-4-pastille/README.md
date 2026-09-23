@@ -1,5 +1,14 @@
 # Viseart 4色 中号 糖片盘 Petits Fours Pastille
+*发布：2022*
+
 ![id](id.jpg)
+
+> 糖片盘以清甜的奶杏哑光与暖棕打底，配以焦糖铜光的细腻闪耀，再以一抹宝蓝点睛。如精致法式糖果般层次分明，恰到好处的色彩惊喜让日常眼妆多了一份意想不到的轻盈活泼。
+
+> *Pastille layers a soft cream matte and warm clay with burnished caramel shimmer and a bold cobalt accent — a palette as charming and playful as a box of fine French confections.*
+
+![手臂试色](./arm_light.jpg)
+![手臂试色（深肤色）](./arm_deep.jpg)
 
 ## Shade 1: Amande — Soft cream beige with a matte finish.
 ![Shade 1 Amande](./slices/01_Amande.jpg)

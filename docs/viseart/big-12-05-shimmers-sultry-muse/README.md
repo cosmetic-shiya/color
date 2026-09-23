@@ -1,5 +1,13 @@
 # Viseart 12色 大号/小号 05 魅惑微光盘 Shimmers Sultry Muse
+*发布：2015*
+
 ![id](id.jpg)
+
+> 魅惑微光盘由好莱坞、纽约与巴黎片场专业化妆师 Anastasia V. Sparrow 亲手打造，以香槟白金、玫瑰棕、铜金与深烟灰等迷人闪光调色，专为影视与高定舞台而生。
+
+> *Created backstage on Hollywood, NYC, and Parisian film sets by Anastasia V. Sparrow, Sultry Muse features twelve luscious shimmers from warm ivory golds to deep smoldering metallics. A versatile palette for both subtle glow and show-stopping smoky statement eyes.*
+
+![手臂试色（深肤色）](./arm_deep.jpg)
 
 ## Shade 1: Yves — Warm white satin with a metallic crystalline shimmer finish.
 ![Shade 1 Yves](./slices/01_Yves.jpg)

@@ -1,5 +1,14 @@
 # Viseart 12色 大号/小号 08 哑光亮彩盘 Editorial Brights
+*发布：2015*
+
 ![id](id.jpg)
+
+> 哑光亮彩盘以12色饱和原色、间色及复合色哑光颜料，为创意化妆师提供无限的色彩想象空间。从纯白到祖母绿、钴蓝、品红与葡萄紫，每一个色号都是大胆表达的出发点。
+
+> *Editorial Brights delivers 12 vivid matte primaries and brights — from white to emerald green, electric blue, neon yellow, and deep grape — purpose-built for bold, graphic editorial color work. Mix with the matte base palettes to create an infinite spectrum of custom hues.*
+
+![手臂试色](./arm_light.jpg)
+![手臂试色（深肤色）](./arm_deep.jpg)
 
 ## Shade 1: White — Bright white with a matte finish.
 ![Shade 1 White](./slices/01_White.png)

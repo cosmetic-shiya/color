@@ -1,5 +1,14 @@
-# Viseart 12色 中号 羊绒魅缎盘 Cashmerie Charmeuse Etendu
+# Viseart 12色 中号 羊绒魅缎盘 Cashmerie Charmeuse Étendu
+*发布：2023*
+
 ![id](id.jpg)
+
+> 羊绒魅缎盘以羊绒与丝绸般的拥抱将你轻轻包裹。灵感源自华丽织物，以银白麂皮灰褐、糖渍紫李、辛香生姜无花果与牛轧糖甜香为叙事，唤起依偎在绯红炉火旁、沉浸于最柔软羊绒毯中的黄昏遐想，将永恒的优雅与静谧凝炼于一盘之中。
+
+> *Cocoon yourself within the embrace of cashmere and silk with Cashmerie Charmeuse Étendu. Inspired by opulent woven fabrics, this palette evokes nuanced luxury with sublime silvery fawnlike taupes, sugared plums, spicy gingered figs, and nougat delights — conjuring reveries of eveningtide nestled by a smouldering crimson fire, snuggled in the softness of your favourite cashmere blanket.*
+
+![手臂试色](./arm_light.png)
+![手臂试色（深肤色）](./arm_deep.png)
 
 ## Shade 1: Moire Argent — Lilac rose with a metallic finish.
 ![Shade 1 Moire Argent](./slices/01_Moire_Argent.jpg)

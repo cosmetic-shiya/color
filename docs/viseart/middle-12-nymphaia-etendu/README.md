@@ -1,8 +1,13 @@
 # Viseart 12色 中号 睡莲秘境盘 Nymphaía Étendu
+*发布：2026*
+
 ![id](id.png)
 
-> 提示：本页切片来自官网开盖图 `id`，并非独立的带描述色板图 `icons`。
-> 第一排色块可能会受到盖子边缘轻微遮挡；如果后续拿到带描述色板图，应优先用 `icons` 重新切图。
+> 裸色？当然。纯真？绝非如此。睡莲秘境盘从裸肤渐变至花瓣灰粉，从月光藕紫延伸至幽深棕影。浓郁哑光、第二皮肤般的裸感色与炼金般的流光，语气轻柔，内心狂野，从不只是中性色。
+
+> *Nude? Naturellement! Innocent? Hardly. Nymphaía Étendu slips from bare skin to dusty petal, moonlit mauve to shadowed brown. Potent mattes, second-skin neutrals, and alchemical shimmers — softly spoken, wildly awake, never simply neutral.*
+
+![手臂试色（深肤色）](./arm_deep.png)
 
 ## Shade 1: Faelight — Ivory-champagne peach with a sparkling metallic finish.
 ![Shade 1 Faelight](./slices/01_Faelight.png)

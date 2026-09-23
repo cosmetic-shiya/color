@@ -1,5 +1,14 @@
 # Viseart 4色 中号 丁香盘 Petits Fours Lilas
+*发布：2020*
+
 ![id](id.jpg)
+
+> 奢华光感的极致之作——丁香盘以灵动银光为核心，将令人沉醉的哑光与闪耀糖系色彩完美融合，精心调制至臻境。银玫瑰、丁香雾紫、冷灰与纯银，四色共奏一首银色盛典，成为全球畅销的经典之作。
+
+> *The crème de la crème of luminous luxe — Lilas is a slinky silver sensation pairing mouthwatering mattes with sparkling sugary shades, expertly crafted to perfection. A global bestseller beloved for its dreamy versatility.*
+
+![手臂试色](./arm_light.jpg)
+![手臂试色（深肤色）](./arm_deep.jpg)
 
 ## Shade 1: Fondant — Iced silver rose with a shimmer finish.
 ![Shade 1 Fondant](./slices/01_Fondant.jpg)

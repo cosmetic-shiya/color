@@ -1,5 +1,14 @@
 # Viseart 12色 中号 海妖夜曲盘 Sireneuse Nocturne Etendu
+*发布：2025*
+
 ![id](id.jpg)
+
+> 诞生于暴风雨编织的梦境，海妖夜曲盘乘着星光大海的帆，以海洋哑光与双偏光的深邃驶向未知彼岸，让丝绸、烟雾与微闪在冰川幽光与月辉棱彩的流光里交融。
+
+> *Born of tempest-wrought dreams, Sireneuse Nocturne Étendu sails on starlit seas of maritime mattes and duochromatic depth, where silk, smoke, and shimmer converge between glacial glimmers and moonlit prismatic pools.*
+
+![手臂试色](./arm_light.png)
+![手臂试色（深肤色）](./arm_deep.png)
 
 ## Shade 1: Voile — Iced silver rosé with a shimmer finish.
 ![Shade 1 Voile](./slices/01_Voile.jpg)

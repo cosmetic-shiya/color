@@ -1,8 +1,11 @@
 # Viseart 12色 小号 03 微醺编辑盘 Spritz Edit
+*发布：2022*
+
 ![id](id.jpg)
 
-> 提示：本页切片来自官网开盖图 `id`，并非独立的带描述色板图 `icons`。
-> 第一排色块可能会受到盖子边缘轻微遮挡；如果后续拿到带描述色板图，应优先用 `icons` 重新切图。
+> 以一杯清爽微醺命名，12款沙漠裸棕与暖铜调色彩犹如午后阳光打落在皮肤上的柔和光影，令人联想起慵懒午后与香槟气泡。适合打造低调中性妆，也可叠出铜棕烟熏感，是全日通用的百搭之选。
+
+> *Named for a refreshing afternoon aperitif, this palette's twelve sandy taupes and warm coppers capture the golden shimmer of sunlight on skin. Understated yet versatile, it transitions effortlessly from a soft neutral daytime look to a sun-bronzed smoky evening eye.*
 
 ## Shade 1: Ciambella — Sandy taupe with a matte finish.
 ![Shade 1 Ciambella](./slices/01_Ciambella.jpg)

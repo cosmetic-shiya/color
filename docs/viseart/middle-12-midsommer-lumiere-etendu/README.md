@@ -1,5 +1,14 @@
 # Viseart 12色 中号 仲夏流辉盘 Midsommer Lumière Étendu
+*发布：2025*
+
 ![id](id.jpg)
+
+> 仲夏流辉盘如梦似幻地延续了经典原版的精髓，沉浸于暮色花开与仙灵嬉戏之间。12 个色调由黄昏与月光花瓣幻化而来——柔麂皮、玫瑰木与闪光薰衣草，点缀着带露珠般的双色魔药。
+
+> *Midsommer Lumière Étendu beguiles as an ethereal extension of the beloved original palette, steeped in twilight bloom and faerie mischief. Twelve shades spun from dusk and moonlit petals — soft fawns, rosewood, and glistening lilac — with dew-kissed duochrome potions to seal the spell.*
+
+![手臂试色](./arm_light.jpg)
+![手臂试色（深肤色）](./arm_deep.png)
 
 ## Shade 1: Eglantine — Cool-toned light beige with a matte finish.
 ![Shade 1 Eglantine](./slices/01_Eglantine.jpg)

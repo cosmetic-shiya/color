@@ -1,5 +1,14 @@
 # Viseart 12色 大号/小号 11 哑光冷调盘 Mattes Cool 2
+*发布：2018*
+
 ![id](id.webp)
+
+> 哑光冷调盘2号以薰衣草粉、矢车菊蓝、鸢尾紫与烟灰等轻柔冷调，诠释如诗如画的冷艳精致。是哑光冷调原版的浪漫延伸，主打更多紫调与蓝调的色彩表达。
+
+> *Cool Mattes 2 expands the cool matte family with twelve enchanting chapters — from softest sky blue and languid lilacs to dusky roses, tendrils of smoke, and deep sea hues. Designed by alchemists, crafted by artisans, and adored by professional artists worldwide.*
+
+![手臂试色](./arm_light.jpg)
+![手臂试色（深肤色）](./arm_deep.jpg)
 
 ## Shade 1: Salt — Pale bone matte finish.
 ![Shade 1 Salt](./slices/01_Salt.png)

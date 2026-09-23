@@ -1,5 +1,13 @@
 # Viseart 12色 中号 蜜甜果仁糖盘 Praline Dulce Étendu
+*发布：2026*
+
 ![id](id.png)
+
+> 甜？远不止于此！果仁糖系列至此画上圆满句号。从活泼的冷调到馥郁的中性，果仁糖如今升温——带来余烬亲吻的暖意、绒麂皮般的哑光与燃烧迸发的闪光，演绎从俏皮到精致再到深夜诱惑的三重妆格。
+
+> *Sweet? Hardly! Our Praline Series is complete. From playful cool tones to scrumptious neutrals, Praline now turns up the heat with cinderkissed warmth, suede-soft mattes, and incendiary shimmers.*
+
+![手臂试色（深肤色）](./arm_deep.png)
 
 ## Shade 1: Dulce d'Or — Frosted gold champagne with a shimmer finish
 ![Shade 1 Dulce d'Or](./slices/01_Dulce_d_Or.png)

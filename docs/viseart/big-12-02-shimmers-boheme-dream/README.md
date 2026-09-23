@@ -1,5 +1,11 @@
 # Viseart 12色 大号/小号 02 梦幻波西米亚盘 Shimmers Bohème Dream
+*发布：2016*
+
 ![id](id.webp)
+
+> 波西米亚梦境盘以琥珀黄、铜绿、莓粉与冰银等自由奔放的霜光色彩，诠释波西米亚灵魂的无拘无束。浓郁饱和的闪光色调，专为追求个性表达的创意妆容而生。
+
+> *Bohème Dream captures the free-spirited soul of bohemian artistry through vibrant frosted ambers, citrus greens, rose pinks, and icy metallics. A shimmer palette designed for bold, expressive looks with exceptional pigment payoff.*
 
 ## Shade 1: Amber — Warm medium-dark yellow with a frosted finish.
 ![Shade 1 Amber](./slices/01_Amber.png)

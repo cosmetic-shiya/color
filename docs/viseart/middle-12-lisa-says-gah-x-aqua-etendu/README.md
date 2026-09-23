@@ -1,5 +1,14 @@
 # Viseart 12色 中号 AQUA联名盘 Lisa Says Gah x AQUA Étendu
+*发布：2026*
+
 ![id](id.png)
+
+> 加州阳光的随性与巴黎的精致在这款与 Lisa Says Gah 及 Bloomingdale's AQUA 联名的限量盘中相遇。从日光慵懒到深夜华光，以后台的专注与前排的存在感，成为当季最耀目的彩妆主角。
+
+> *Sunlit California ease meets Parisian polish in this highly anticipated limited-edition collaboration with Lisa Says Gah and AQUA at Bloomingdale's. Spanning daylight to late-evening glow, with backstage resolve and front-row presence — the season's standout colour jewel.*
+
+![手臂试色](./arm_light.png)
+![手臂试色（深肤色）](./arm_deep.png)
 
 ## Shade 1: Pale Crème-Pink — Pale, crème-pink with a matte finish.
 ![Shade 1 Pale Crème-Pink](./slices/01_Pale_Creme_Pink.png)

@@ -1,8 +1,13 @@
 # Viseart 12色 中号 果仁糖盘 Praline Étendu
+*发布：2025*
+
 ![id](id.jpg)
 
-> 提示：本页切片来自官网开盖图 `id`，并非独立的带描述色板图 `icons`。
-> 第一排色块可能会受到盖子边缘轻微遮挡；如果后续拿到带描述色板图，应优先用 `icons` 重新切图。
+> 温暖如梦，果仁糖盘以蜂蜜铜褐、摩卡与熔融焦糖漾出柔光——如肌肤贴覆白麻，如果仁糖在唇间融化。光不是追逐，而是细细品味，在阴影与阳光间徐徐流淌，是一场被阳光温吻的慵懒沉醉。
+
+> *A reverie of warmth, Praline Étendu glows with bronzed honey, mocha, and molten caramel—like golden skin against white linen, like praline melting on the tongue. Light isn't chased, but savored, slipping between shadow and sun in a slow, gilded embrace. A palette kissed with effortless, sun-warmed indulgence.*
+
+![手臂试色](./arm_light.jpg)
 
 ## Shade 1: Folies — Light gold with a metallic finish.
 ![Shade 1 Folies](./slices/01_Folies.jpg)

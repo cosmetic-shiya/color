@@ -1,5 +1,14 @@
 # Viseart 4色 中号 提尔紫盘 Petits Fours Tyrian
+*发布：2023*
+
 ![id](id.jpg)
+
+> 传说中的提尔紫，以其神秘的皇族气息与无上华贵，在这小小四色盘中得以重现。奢华浓郁的哑光深紫、帝国灰粉过渡，配以水晶香槟棱镜光与烟熏蓝紫偏光——一场关于神话与皇权的璀璨视觉宣言。
+
+> *Tyrian celebrates the mythical allure of imperial Tyrian purple — weaving lavishly saturated matte hues with crystalline prism shimmer and smoky cerulean duochrome for a ravishingly rich, resplendent palette of regal mystique.*
+
+![手臂试色](./arm_light.jpg)
+![手臂试色（深肤色）](./arm_deep.jpg)
 
 ## Shade 1: Byzantine — Crystalline champagne reflective topper with a prismatic finish.
 ![Shade 1 Byzantine](./slices/01_Byzantine.jpg)

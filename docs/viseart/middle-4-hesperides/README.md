@@ -1,5 +1,13 @@
 # Viseart 4色 中号 赫斯珀里得斯盘 Petits Fours Hesperides
+*发布：2024*
+
 ![id](id.jpg)
+
+> 以黄昏橘园之光为引，赫斯珀里得斯系列汇聚柔雾裸色与精致双偏光，让光影在眼间如诗般流转。晨曦裸玫、暮光偏色、冷灰金属与烟粉哑光，四支色调低调而富有微光之韵。
+
+> *Inspired by the luminous twilight of the garden of Hesperides, this refined quartet weaves soft matte nudes with shimmering duochromatic tones for a quietly radiant, effortlessly sophisticated eye look.*
+
+![手臂试色](./arm_light.jpg)
 
 ## Shade 1: Aurora — Light mauve nude with a matte finish.
 ![Shade 1 Aurora](./slices/01_Aurora.jpg)

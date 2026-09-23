@@ -1,8 +1,14 @@
 # Viseart 12色 中号 巴黎绮梦盘 Paris Rêveries Étendu
+*发布：2024*
+
 ![id](id.jpg)
 
-> 提示：本页切片来自官网开盖图 `id`，并非独立的带描述色板图 `icons`。
-> 第一排色块可能会受到盖子边缘轻微遮挡；如果后续拿到带描述色板图，应优先用 `icons` 重新切图。
+> 以巴黎晴日悠闲漫步于秘密花园为灵感，这款浪漫的"绮梦"眼影盘如偶遇的甜蜜，以收敛克制的色调挑动芳心，兼具天穹般的柔美与女神光泽的盈盈闪耀。
+
+> *Inspired by dreams of idyllic Parisian days wandering through secret gardens, our romantic 'Reveries' palette is serendipitously sweet with provocatively pared-back hues, with celestial softness and glistening, goddess-worthy grace.*
+
+![手臂试色](./arm_light.png)
+![手臂试色（深肤色）](./arm_deep.png)
 
 ## Shade 1: Fleurir — Nude light pink with a matte finish.
 ![Shade 1 Fleurir](./slices/01_Fleurir.jpg)

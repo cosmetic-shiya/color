@@ -1,5 +1,13 @@
 # Viseart 4色 中号 伊索德盘 Petits Fours Isolde
+*发布：2024*
+
 ![id](id.jpg)
+
+> 致敬传说中那段爱恨交织的禁忌之恋——伊索德以迷人的浪漫玫瑰、裸色微光与柔缎质地，编织出命运与情感的奢美色彩诗篇。沉醉于这份甜蜜而宿命的拥抱之中。
+
+> *Paying homage to the legend of forbidden love, desire, fate, and duty — Isolde weaves a luxurious quartet of romantic rose, nude shimmer, and soft satin tones into an alluring, emotionally rich color story.*
+
+![手臂试色](./arm_light.jpg)
 
 ## Shade 1: Elixir — Light crystalline bright taupe with a metallic finish.
 ![Shade 1 Elixir](./slices/01_Elixir.jpg)

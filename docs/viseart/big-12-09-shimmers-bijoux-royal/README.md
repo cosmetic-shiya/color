@@ -1,5 +1,11 @@
 # Viseart 12色 大号/小号 09 珠宝皇室盘 Shimmers Bijoux Royal
+*发布：2016*
+
 ![id](id.webp)
+
+> 珠宝皇室盘以香槟金、薰衣草紫、紫水晶、青铜与深蓝等珠宝色调的霜光微光，诠释皇室珠宝的璀璨光华。每一个色号都如同一枚精制宝石，层次丰富，光芒耀眼。
+
+> *Bijoux Royal translates the brilliance of fine jewels into twelve frosted and pearlescent shimmers — from champagne and tarnished gold to amethyst purple, cobalt blue, and deep wine. Crafted for artists who seek luxurious, jewel-toned dimension.*
 
 ## Shade 1: Champagne — Light warm pewter with a frosted finish.
 ![Shade 1 Champagne](./slices/01_Champagne.png)

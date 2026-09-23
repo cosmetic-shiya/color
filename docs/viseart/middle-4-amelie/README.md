@@ -1,5 +1,11 @@
 # Viseart 4色 中号 艾米丽盘 Petits Fours Amélie
+*发布：2022*
+
 ![id](id.jpg)
+
+> 艾米丽的漫不经心与自由精神，化作玫瑰金光泽与焦糖奶油般的温柔混搭，为你打造"日常也高级"的俏皮魅力。四色精选以细腻混合度与丰沛显色力，呈现巴黎女孩无可抵挡的生命力。
+
+> *Alluring 'Amélie' captivates with her insouciant charm and esprit de corps — a delightful mélange of rose gold luminosity and caramel creaminess for an 'everyday but elevated' palette of irresistible spirit and saturated blendability.*
 
 ## Shade 1: Picasso — Warm toned medium brown with a matte finish.
 ![Shade 1 Picasso](./slices/01_Picasso.jpg)

@@ -1,8 +1,14 @@
-# Viseart 12色 中号 杏光流辉盘 Apricotine Lumiere Etendu
+# Viseart 12色 中号 杏光流辉盘 Apricotine Lumière Étendu
+*发布：2026*
+
 ![id](id.jpg)
 
-> 提示：本页切片来自官网开盖图 `id`，并非独立的带描述色板图 `icons`。
-> 第一排色块可能会受到盖子边缘轻微遮挡；如果后续拿到带描述色板图，应优先用 `icons` 重新切图。
+> 灵感源自巴黎甜点铺，杏光流辉盘以 12 个色调演绎沉浸于甜蜜之中的愉悦。柔软奶霜、糖渍杏桃与果酱调成蓬松哑光、冰霜缎光与闪耀亮光，再淋上随动作折射光芒的双色流光。浓郁焦糖铜色与奶油巧克力拿破仑交融，点燃诱人的余晖。
+
+> *Délice! Inspired by Parisian pâtisseries, Apricotine Lumière Étendu evokes the pleasure of sweet indulgence. Soft creams, sugared fruits, and apricot compôte are whipped into chiffon-soft mattes, iced satins, and shimmery toppers, drizzled with duochromatic icing that catches the light when you move. Brûléed bronzes and glowing creamy chocolate puff pastry melt and ignite a seductive lingering afterglow.*
+
+![手臂试色](./arm_light.png)
+![手臂试色（深肤色）](./arm_deep.png)
 
 ## Shade 1: Lune de Miel — Light, citron champagne with a shimmer finish.
 ![Shade 1 Lune de Miel](./slices/01_Lune_de_Miel.jpg)

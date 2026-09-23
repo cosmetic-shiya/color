@@ -1,5 +1,11 @@
 # VisePro™ 12色 中号 巴黎哑光盘 Paris Mattes Étendu
+*发布：2025*
+
 ![id](id.jpg)
+
+> VisePRO™ 巴黎哑光盘——璀璨的序章！以巴黎芭蕾艺术为灵感，旋入柔美浪漫的色调，每一抹颜色如舞者般无缝流动，带来令人沉醉的精彩演绎。
+
+> *Paris Mattes Étendu by VisePRO™—our prelude to splendor! Pirouette into soft romantic hues inspired by the artistry of Parisian ballet, each shade moves seamlessly with captivating performance.*
 
 ## Shade 1: Pointe — Pale mocha with a soft matte finish.
 ![Shade 1 Pointe](./slices/01_Pointe.jpg)

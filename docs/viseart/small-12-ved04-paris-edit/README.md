@@ -1,5 +1,11 @@
 # Viseart 12色 小号 04 巴黎编辑盘 Paris Edit
+*发布：2022*
+
 ![id](id.webp)
+
+> 以巴黎为灵感，12款粉嫩玫瑰与奶油蜜桃色调汇聚于一盘，宛如漫步在巴黎街头的轻盈心情。既可打造日间玫瑰裸妆，也能叠出柔美浪漫的巴黎夜间妆感，是便携编辑系列中最具法式风情的一章。
+
+> *Paris in a palette. Twelve soft rose and creamy peach tones capture the city's effortless feminine spirit — from a gentle Parisian daytime glow to a deeper romantic evening eye. The most quintessentially French chapter of the Edit collection.*
 
 ## Shade 1: Chéri — Light baby pink with a matte finish.
 ![Shade 1 Chéri](./slices/01_Cheri.png)

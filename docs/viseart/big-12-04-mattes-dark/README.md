@@ -1,5 +1,14 @@
 # Viseart 12色 大号/小号 04 哑光深调盘 Mattes Dark
+*发布：2015*
+
 ![id](id.jpg)
+
+> 哑光深调盘以深海蓝、暗波尔多酒红、烟熏棕与焦糖大地等戏剧性哑光深色，征服每一种烟熏与深调妆容。是化妆师打造层次感深色眼妆不可或缺的专业调色盘。
+
+> *Dark Mattes is the quintessential palette for smoky, dramatic eyes — featuring deep navies, rich wines, scorched earth browns, and forest greens in a sumptuous, layerable matte formula. Indispensable for artists who favour the provocative side of beauty.*
+
+![手臂试色](./arm_light.jpg)
+![手臂试色（深肤色）](./arm_deep.jpg)
 
 ## Shade 1: Toffee — Warm light brown with a matte finish.
 ![Shade 1 Toffee](./slices/01_Toffee.jpg)

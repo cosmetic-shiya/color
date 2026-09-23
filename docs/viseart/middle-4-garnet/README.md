@@ -1,5 +1,11 @@
 # Viseart 4色 中号 石榴石盘 Petits Fours Garnet
+*发布：~2020年代*
+
 ![id](id.jpg)
+
+> 铜光与古铜金在肌肤上燃起暖意，如巴黎夜场舞台的灼热华彩。石榴石盘以铜金、金铜与浓郁酒红勃艮第金属色为主角，配以柔和的香草哑光，是一支专为温暖烟熏妆而生的深邃四色组合。
+
+> *Garnet ignites the skin in burnished copper, golden bronze, and rich burgundy metallic, balanced by a soft vanilla matte — a palette born for warm, sultry smoky looks inspired by the radiant glow of Parisian stages.*
 
 ## Shade 1: Vedette — Copper with a metallic finish.
 ![Shade 1 Vedette](./slices/01_Vedette.jpg)

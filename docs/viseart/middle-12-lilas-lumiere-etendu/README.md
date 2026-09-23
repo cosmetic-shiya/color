@@ -1,5 +1,13 @@
 # Viseart 12色 中号 丁香流辉盘 Lilas Lumière Étendu
+*发布：2025*
+
 ![id](id.png)
+
+> 丁香流辉盘捕捉月色与晨曦之间那片寂静的流光——露珠闪耀，丁香余晖犹存，黎明的第一缕玫光轻吻世界。蜜粉、香槟与银丁香的天际和弦，凝炼于精工小批量配方之中。
+
+> *Lilas Lumière Étendu captures the fleeting hush between moonlight and morning — where dewdrops shimmer, lilac light lingers, and dawn's first blush kisses the world awake. A celestial harmony of petal pinks, champagnes, and silvery lilacs, woven into triple-milled small-batch brilliance.*
+
+![手臂试色](./arm_light.jpg)
 
 ## Shade 1: Perle D'or — Light champagne blush pink with a matte finish.
 ![Shade 1 Perle D'or](./slices/01_Perle_D_or.png)

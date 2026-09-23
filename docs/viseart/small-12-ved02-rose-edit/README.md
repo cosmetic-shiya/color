@@ -1,8 +1,11 @@
 # Viseart 12色 小号 02 玫瑰编辑盘 Rosé Edit
+*发布：2022*
+
 ![id](id.webp)
 
-> 提示：本页切片来自官网开盖图 `id`，并非独立的带描述色板图 `icons`。
-> 第一排色块可能会受到盖子边缘轻微遮挡；如果后续拿到带描述色板图，应优先用 `icons` 重新切图。
+> 便携编辑系列的玫瑰篇章，以12款玫瑰、蔷薇与裸粉色调勾勒细腻的浪漫妆感，融柔美与精致于一盘。既可打造清新日间粉妆，也能叠出浓郁夜间玫瑰眼妆，是送礼自用两相宜的轻盈旅伴。
+
+> *The romantic chapter of the Edit collection. Twelve shades spanning blush rose, dusky pink, and soft nude craft delicate feminine looks — from a gentle daytime flush all the way to a deeper evening rose. A beautiful gift, and the perfect travel companion.*
 
 ## Shade 1: Peony — Light blush pink with a satin shimmer finish.
 ![Shade 1 Peony](./slices/01_Peony.png)

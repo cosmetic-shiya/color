@@ -1,5 +1,13 @@
 # Viseart 12色 大号/小号 06 巴黎裸光盘 Shimmers Paris Nudes
+*发布：2015*
+
 ![id](id.jpg)
+
+> 巴黎裸光盘专为巴黎时装周打造，以艺术桥桃粉、香榭丽舍金、铜棕与烟熏梅紫等缎光金属色调，诠释巴黎女人浪漫而精致的妆容哲学。每一个色号都是一幅流动的光影诗篇。
+
+> *Originally created for Paris Fashion Week, Paris Nudes channels the city's romantic elegance through nude peaches, rose golds, warm coppers, and smoked plums in sumptuous satin and metallic finishes. Luminous, incandescent, and quintessentially Parisian.*
+
+![手臂试色（深肤色）](./arm_deep.jpg)
 
 ## Shade 1: Pont des Arts — Soft peachy pink with a soft metallic satin shimmer finish.
 ![Shade 1 Pont des Arts](./slices/01_Pont_des_Arts.jpg)

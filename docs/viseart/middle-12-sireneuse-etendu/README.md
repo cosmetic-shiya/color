@@ -1,5 +1,14 @@
 # Viseart 12色 中号 海妖绮梦盘 Sireneuse Etendu
+*发布：2025*
+
 ![id](id.jpg)
+
+> 汲取夜海传说与波塞冬星光王国的灵感，海妖绮梦盘带你踏上海洋水晶般的奇幻旅途，从柔美幽灵般的虹彩，到深邃的天穹双偏光，十二色共赴这场海洋晶光的秘境。
+
+> *Inspired by the legends of the night sea and Poseidon's starlit kingdom, Sireneuse Étendu VisePRO™ is your odyssey into oceanic crystalline enchantment, from soft, sylph-like iridescence to deep, celestial duochromatic hues.*
+
+![手臂试色](./arm_light.jpg)
+![手臂试色（深肤色）](./arm_deep.jpg)
 
 ## Shade 1: Sylph — Champagne rose with a metallic finish.
 ![Shade 1 Sylph](./slices/01_Sylph.jpg)

@@ -1,5 +1,11 @@
 # Viseart 12色 大号/小号 婚礼缎光盘 03 Satin Bridal
+*发布：2016*
+
 ![id](id.webp)
+
+> 婚礼缎光盘以香槟金、银钻白、牡丹粉与蓝钻白等缎光珠光色调，为婚礼与正式场合打造如薄纱般轻盈的光感妆容。每一个色号都散发着洁白婚纱般的纯洁与光华。
+
+> *Satin Bridal offers a curated collection of luminous champagne golds, sterling silvers, soft rose pinks, and ethereal blues in frosted satin finishes — purpose-built for bridal and formal occasion makeup that glows with effortless elegance.*
 
 ## Shade 1: Champagne — Lightly brightened light-medium buttery yellow gold with a frosted finish.
 ![Shade 1 Champagne](./slices/01_Champagne.png)

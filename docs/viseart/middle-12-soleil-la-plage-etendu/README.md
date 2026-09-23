@@ -1,5 +1,14 @@
 # Viseart 12色 中号 索莱依海滩盘 Soleil La Plage Etendu
+*发布：2021*
+
 ![id](id.jpg)
+
+> 随我们扬帆驶向梦幻的索莱依海滩——一套柔沙色系中点缀着晶莹剔透质感的别致系列。带着闲适的姿态与赤足的追寻，索莱依海滩盘是出自 Anastasia 遐思中的海滨白日梦。
+
+> *Come set sail with us to our dreamy Soleil La Plage, a chic collection of soft sandy hues with pops of crystalline finishes. With a laidback disposition and barefoot pursuits Soleil La Plage Étendu is a beachy daydream from Anastasia's reveries.*
+
+![手臂试色](./arm_light.png)
+![手臂试色（深肤色）](./arm_deep.png)
 
 ## Shade 1: Sunbeam — Soft, pale yellow with a luminous finish.
 ![Shade 1 Sunbeam](./slices/01_Shade_1.jpg)

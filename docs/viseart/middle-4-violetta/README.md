@@ -1,5 +1,11 @@
 # Viseart 4色 中号 紫罗兰盘 Petits Fours Violetta
+*发布：2022*
+
 ![id](id.png)
+
+> 紫罗兰盘以柔雾灰紫开幕，以午夜深莓哑光与枪灰金属珠光层层递进，最终由午夜紫双偏光画上神秘的句点。从黄昏到午夜，一支专为深邃烟熏眼妆而生的大胆色彩故事。
+
+> *Violetta unveils a captivating color story of muted mauve, deep blackberry matte, gunmetal pearl, and midnight-purple duochrome — an alluring journey from dusk to midnight in darkly glamorous tones.*
 
 ## Shade 1: Couperin — Muted mauve with flecks of gold-pink reflectivity matte hybrid finish.
 ![Shade 1 Couperin](./slices/01_Couperin.png)

@@ -1,5 +1,14 @@
 # Viseart 12色 中号 巴黎星夜盘 Paris Nuit Étoilée Étendu
+*发布：2025*
+
 ![id](id.png)
+
+> 星光与暗影在巴黎夜晚相遇——这是我们为烟熏眼妆倾力写就的诗章。从星光细如游丝到浓烈的全蚀深邃，十二色在黑曜、黑莓、锡灰与墨色间雕塑、闪耀、余烬燃烧，以月辉微闪与午夜哑光，在夜幕降临时绽放。
+
+> *Starlight and shadow meet in the Parisian night with Paris Nuit Étendu, our masterful smokey eye opus. From sheer tendrils of starlight to the full eclipse of intensity, twelve shades sculpt, shimmer, and smoulder in obsidian, blackberry, pewter, and ink, with moonlit shimmers and midnight mattes for nightfall.*
+
+![手臂试色](./arm_light.png)
+![手臂试色（深肤色）](./arm_deep.png)
 
 ## Shade 1: Lunaision — Muted dusty mauve with a matte finish.
 ![Shade 1 Lunaision](./slices/01_Lunaision.png)

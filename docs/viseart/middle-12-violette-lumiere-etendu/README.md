@@ -1,5 +1,14 @@
 # Viseart 12色 中号 紫罗兰流辉盘 Violette Lumière Étendu
+*发布：2026*
+
 ![id](id.webp)
+
+> 紫罗兰流辉盘是 Viseart Paris 献给紫罗兰时刻的颂歌。在午后最后一抹金色余晖与月亮初升的片刻之间，天空悄然蜕变——十二色以冷调粉、双偏光缎、棱彩幻色与天鹅绒哑光，捕捉那道转瞬即逝的紫光。
+
+> *Violette Lumière Étendu is Viseart Paris's ode to the violet hour. Between the last golden shimmer of afternoon and the first slip of the moon, the sky transforms across twelve shades spanning cool-toned pinks, duochromatic satins, prismatic toppers, and velvety soft mattes.*
+
+![手臂试色](./arm_light.png)
+![手臂试色（深肤色）](./arm_deep.png)
 
 ## Shade 1: Pétaline — Light, cool-toned nude pink with a matte finish.
 ![Shade 1 Pétaline](./slices/01_Petaline.png)

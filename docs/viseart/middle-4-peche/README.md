@@ -1,5 +1,14 @@
 # Viseart 4色 中号 蜜桃盘 Petits Fours Pêche
+*发布：2022*
+
 ![id](id.jpg)
+
+> 蜜桃盘以最甜软的哑光奶霜与裸蜜桃相互交融，再由香槟蜜桃与糖光蜜桃珠光托出丰盈与明亮。每一笔仿佛咬下一口成熟水蜜桃，鲜嫩、甜蜜，散发着不可抵挡的阳光气息。
+
+> *Pêche is a tempting gourmand delight — pairing the softest cream and peachy mattes with sugar-spun champagne and candied peach sparkles for a look of ripe peachy bliss that's as irresistible as it is wearable.*
+
+![手臂试色](./arm_light.jpg)
+![手臂试色（深肤色）](./arm_deep.jpg)
 
 ## Shade 1: Antoinette — Soft cream with a matte finish
 ![Shade 1 Antoinette](./slices/01_Antoinette.jpg)

@@ -1,8 +1,11 @@
 # Viseart 12色 小号 01 暖调编辑盘 Warm Edit
+*发布：2022*
+
 ![id](id.webp)
 
-> 提示：本页切片来自官网开盖图 `id`，并非独立的带描述色板图 `icons`。
-> 第一排色块可能会受到盖子边缘轻微遮挡；如果后续拿到带描述色板图，应优先用 `icons` 重新切图。
+> 专为出行设计的便携编辑系列首章，汇聚暖金、琥珀、蜜桃等12款色调，让日落般的温暖妆感随时随地唾手可得。既可单独成妆，也可与Petits Fours及Étendu系列磁吸拼盘，自由定制专属暖调色彩故事。
+
+> *The first warm chapter of Viseart's travel-ready Edit collection. Twelve curated shades in sun-drenched golds, ambers, and peachy nudes deliver golden-hour artistry anywhere, anytime. Magnetic pans interlock seamlessly with the broader Viseart ecosystem for a fully bespoke warm-toned creation.*
 
 ## Shade 1: Moonstone — Very light warm peach with a matte finish.
 ![Shade 1 Moonstone](./slices/01_Moonstone.png)

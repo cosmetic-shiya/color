@@ -1,5 +1,11 @@
 # Viseart 12色 小号 06 黎明编辑盘 Dawn Edit
+*发布：2022*
+
 ![id](id.webp)
+
+> 12款黎明色调的便携编辑盘，以沙丘裸米、柔雾粉金与曙光玫瑰描绘新生之光，轻盈细腻，是全日通用的柔美妆盘。既适合打造清晨般的通透底妆底色，也可叠出温柔粉金的层次感，是最浪漫的旅行伴侣。
+
+> *Twelve shades of dawn light in a portable Edit case. Dune beiges, soft blush golds, and rose-kissed neutrals paint the gentle warmth of first light — versatile from a luminous morning base to a softly layered evening look, and the most serene companion for any journey.*
 
 ## Shade 1: Dune — Light warm beige with a matte finish.
 ![Shade 1 Dune](./slices/01_Dune.png)

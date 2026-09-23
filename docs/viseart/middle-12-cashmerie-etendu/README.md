@@ -1,5 +1,11 @@
-# Viseart 12色 中号 羊绒盘 Cashmerie Etendu
+# Viseart 12色 中号 羊绒盘 Cashmerie Étendu
+*发布：2022*
+
 ![id](id.webp)
+
+> 羊绒盘将玫瑰金属光泽与丝质裸感相融，藕紫闪光、玫瑰金、暖铜铜红层叠交织，以柔粉缎光与哑光裸米调和，呈现如羊绒触感般温柔而精致的眼妆语言。
+
+> *Cashmerie Étendu weaves rose gold metallics with silken skin tones — mauve-pink shimmer, warm rose gold, and glowing copper balanced by soft matte nudes and a satin blush. The essence of the beloved original Cashmerie, reimagined in twelve lustrous pans.*
 
 ## Shade 1: Lilas Soyeux — Light mauve-pink with a metallic finish.
 ![Shade 1 Lilas Soyeux](./slices/01_Lilas_Soyeux.jpg)

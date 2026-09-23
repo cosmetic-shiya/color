@@ -1,5 +1,14 @@
 # Viseart 12色 中号 紫罗兰夜曲盘 Violette Nocturne Étendu
+*发布：2025*
+
 ![id](id.png)
+
+> 灵感源自巴黎冬至前夕，紫罗兰夜曲盘召唤月吻的李紫、墨染的桑葚与绸缎般的灰紫藕荷——以烟云、暗影与神话的姿态，娓娓道出冬夜的深邃韵致。
+
+> *Inspired by Paris on the cusp of winter, Violette Nocturne Étendu summons moon-kissed plums, noir-stained mulberries, and silken mauves, wrapped in smoke, shadow, and myth.*
+
+![手臂试色](./arm_light.png)
+![手臂试色（深肤色）](./arm_deep.png)
 
 ## Shade 1: Plume — Light, cool-toned nude pink with a matte finish.
 ![Shade 1 Plume](./slices/01_Plume.png)

@@ -1,8 +1,11 @@
 # Viseart 12色 中号 狐魅暖棕盘 Minxette Étendu
+*发布：2021*
+
 ![id](id.jpg)
 
-> 提示：本页切片来自官网开盖图 `id`，并非独立的带描述色板图 `icons`。
-> 第一排色块可能会受到盖子边缘轻微遮挡；如果后续拿到带描述色板图，应优先用 `icons` 重新切图。
+> 狐魅暖棕盘化身妩媚的诱惑者，以不费力的魅力吸引目光。暖调中深哑光、灼热闪泽与动感双色幻彩构成丰富的色调阵营，捕捉深秋绚烂，从慵懒白日一路摇曳至燃烧余晖的迷人傍晚。
+
+> *Meet Minxette — the sumptuous seductress! Featuring an extensive range of warm mid-tone mattes, sizzling shimmers, and dynamic duochromes, this foxy palette captures the resplendence of late autumn, sashaying her way towards winter and sassing throughout daytime meetings into glorious simmering sunsets.*
 
 ## Shade 1: Pêche II — Lightest beige with peach undertone in a matte finish.
 ![Shade 1 Pêche II](./slices/01_Peche_II.jpg)

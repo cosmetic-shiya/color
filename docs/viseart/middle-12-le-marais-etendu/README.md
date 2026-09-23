@@ -1,5 +1,13 @@
 # Viseart 12色 中号 玛黑绮彩盘 Le Marais Étendu
+*发布：2022*
+
 ![id](id.jpg)
+
+> 灵感源自巴黎玛黑区迷宫般的街巷，12 个丰盈色调——哑光、金属与双色幻彩——绘就温暖木质棕、浓郁酒红与闪亮铜金，折射出世代艺术家聚集的咖啡馆、工作室与隐秘角落，以珠宝般的流光与双色箔感画龙点睛。
+
+> *A cornucopia of twelve lusciously rich hues in matte, metallic, and duochrome shimmer finishes, inspired by the maze of Le Marais in Paris. Warm woody browns, wine-rich mattes, and glinting golden coppers reflect the cafes, ateliers, and hidden nooks that artists have created for centuries — finished with sumptuous jeweled shimmers and a duochromatic foil.*
+
+![手臂试色（深肤色）](./arm_deep.png)
 
 ## Shade 1: Verdant — White gold with a shimmer finish
 ![Shade 1 Verdant](./slices/01_Verdant.jpg)

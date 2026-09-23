@@ -1,5 +1,14 @@
 # Viseart 12色 大号/小号 10 哑光暖调盘 Mattes Warm
+*发布：2017*
+
 ![id](id.jpg)
+
+> 哑光暖调盘以奶油黄、番红花橙、肉桂、焦糖棕与深赤陶等秋日暖阳色调，构建完整的暖色哑光调色系统。是表达温暖大地与日落感妆容的核心专业工具。
+
+> *Warm Mattes celebrates the full spectrum of autumn warmth — from soft butter yellow through saffron orange, cinnamon, caramel, and deep terracotta — in Viseart's signature velvety matte formula. The essential warm-toned palette for sculpting sun-kissed, golden looks.*
+
+![手臂试色](./arm_light.jpg)
+![手臂试色（深肤色）](./arm_deep.jpg)
 
 ## Shade 1: Beurre — Buttery yellow with warm undertones and a matte finish.
 ![Shade 1 Beurre](./slices/01_Beurre.png)

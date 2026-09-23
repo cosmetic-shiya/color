@@ -59,13 +59,16 @@
 - [ ] [灵蛇秘符盘 Serpentine Étendu (2026)](./middle-12-serpentine-etendu/README.md)
 
 #### 8色 小号 Petit Pro
+- [x] [小甜心盘 Petit Pro Chou Chou (2020)](./small-8-petit-pro-chou-chou/README.md)
+- [x] [日曜艳彩盘 Petit Pro Soleil (2020)](./small-8-petit-pro-soleil/README.md)
+- [x] [莓粉绮彩盘 Petit Pro Deux (2020)](./small-8-petit-pro-deux/README.md)
 - [x] [伦敦星辰盘 Petit Pro London Étoile (2022)](./small-8-petit-pro-london-etoile/README.md)
 
 #### 12色 小号 Petites
 - [x] [05 暗调编辑盘 Dark Edit (2020)](./small-12-ved05-dark-edit/README.md)
-- [x] [01 暖调编辑盘 Warm Edit (2022)](./small-12-ved01-warm-edit/README.md)
-- [x] [02 玫瑰编辑盘 Rosé Edit (2022)](./small-12-ved02-rose-edit/README.md)
+- [ ] [01 暖调编辑盘 Warm Edit (2022)](./small-12-ved01-warm-edit/README.md)
+- [ ] [02 玫瑰编辑盘 Rosé Edit (2022)](./small-12-ved02-rose-edit/README.md)
 - [x] [03 微醺编辑盘 Spritz Edit (2022)](./small-12-ved03-spritz-edit/README.md)
 - [x] [04 巴黎编辑盘 Paris Edit (2022)](./small-12-ved04-paris-edit/README.md)
-- [x] [06 黎明编辑盘 Dawn Edit (2022)](./small-12-ved06-dawn-edit/README.md)
+- [] [06 黎明编辑盘 Dawn Edit (2022)](./small-12-ved06-dawn-edit/README.md)
 - [ ] [巴黎小天使哑光盘 Petites Paris Chérubine Mattes (2025)](./small-12-mattes-paris-cherubine/README.md)

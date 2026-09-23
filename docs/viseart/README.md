@@ -23,15 +23,16 @@
 
 #### 4色 中号 Petites
 - [x] [4色 中号 蜜桃盘 Petits Fours Pêche](./middle-4-peche/README.md)
+- [x] [4色 中号 巧克力盘 Petits Fours Chocolat](./middle-4-chocolat/README.md)
 - [x] [4色 中号 紫罗兰盘 Petits Fours Violetta](./middle-4-violetta/README.md)
 - [ ] [4色 中号 赫斯珀里得斯盘 Petits Fours Hesperides](./middle-4-hesperides/README.md)
 - [x] [4色 中号 提尔紫盘 Petits Fours Tyrian](./middle-4-tyrian/README.md)
 - [ ] [4色 中号 伊索德盘 Petits Fours Isolde](./middle-4-isolde/README.md)
-- [ ] [4色 中号 丁香盘 Petits Fours Lilas](./middle-4-lilas/README.md)
-- [ ] [4色 中号 糖片盘 Petits Fours Pastille](./middle-4-pastille/README.md)
-- [ ] [4色 中号 石榴石盘 Petits Fours Garnet](./middle-4-garnet/README.md)
-- [ ] [4色 中号 樱花莲盘 Petits Fours Sakura Lotus](./middle-4-sakura-lotus/README.md)
-- [ ] [4色 中号 艾米丽盘 Petits Fours Amélie](./middle-4-amelie/README.md)
+- [x] [4色 中号 丁香盘 Petits Fours Lilas](./middle-4-lilas/README.md)
+- [x] [4色 中号 糖片盘 Petits Fours Pastille](./middle-4-pastille/README.md)
+- [x] [4色 中号 石榴石盘 Petits Fours Garnet](./middle-4-garnet/README.md)
+- [x] [4色 中号 樱花莲盘 Petits Fours Sakura Lotus](./middle-4-sakura-lotus/README.md)
+- [x] [4色 中号 艾米丽盘 Petits Fours Amélie](./middle-4-amelie/README.md)
 
 #### 12色 中号 Étendu
 - [x] [12色 中号 索莱依海滩盘 Soleil La Plage Étendu](./middle-12-soleil-la-plage-etendu/README.md)
@@ -49,9 +50,9 @@
 - [x] [12色 中号 玛黑绮彩盘 Le Marais Étendu](./middle-12-le-marais-etendu/README.md)
 - [x] [12色 中号 糖果果仁盘 Bon Bon Praline Étendu](./middle-12-bon-bon-praline-etendu/README.md)
 - [ ] [12色 中号 果仁糖盘 Praline Étendu](./middle-12-praline-etendu/README.md)
-- [ ] [12色 中号 蜜甜果仁糖盘 Praline Dulce Étendu](./middle-12-praline-dulce-etendu/README.md)
+- [x] [12色 中号 蜜甜果仁糖盘 Praline Dulce Étendu](./middle-12-praline-dulce-etendu/README.md)
 - [ ] [12色 中号 AQUA联名盘 Lisa Says Gah x AQUA Étendu](./middle-12-lisa-says-gah-x-aqua-etendu/README.md)
-- [ ] [12色 中号 狐魅暖棕盘 Minxette Étendu](./middle-12-minxette-etendu/README.md)
+- [x] [12色 中号 狐魅暖棕盘 Minxette Étendu](./middle-12-minxette-etendu/README.md)
 - [ ] [12色 中号 睡莲秘境盘 Nymphaía Étendu](./middle-12-nymphaia-etendu/README.md)
 - [ ] [12色 中号 灵蛇秘符盘 Serpentine Étendu](./middle-12-serpentine-etendu/README.md)
 - [ ] [12色 中号 巴黎绮梦盘 Paris Rêveries Étendu](./middle-12-paris-reveries-etendu/README.md)

@@ -887,6 +887,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "伊索德盘",
         "en_name": "Petits Fours Isolde",
     },
+    "middle-4-chocolat": {
+        "shade_count": "4色",
+        "size_label": "中号",
+        "cn_name": "巧克力盘",
+        "en_name": "Petits Fours Chocolat",
+    },
     "middle-4-tyrian": {
         "shade_count": "4色",
         "size_label": "中号",

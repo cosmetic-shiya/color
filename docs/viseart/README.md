@@ -32,6 +32,7 @@
 - [x] [4色 中号 糖片盘 Petits Fours Pastille](./middle-4-pastille/README.md)
 - [x] [4色 中号 石榴石盘 Petits Fours Garnet](./middle-4-garnet/README.md)
 - [x] [4色 中号 樱花莲盘 Petits Fours Sakura Lotus](./middle-4-sakura-lotus/README.md)
+- [x] [4色 中号 玫瑰莲盘 Petits Fours Roséa Lotus](./middle-4-rosea-lotus/README.md)
 - [x] [4色 中号 艾米丽盘 Petits Fours Amélie](./middle-4-amelie/README.md)
 
 #### 12色 中号 Étendu

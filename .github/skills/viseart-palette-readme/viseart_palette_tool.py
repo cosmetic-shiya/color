@@ -887,6 +887,12 @@ PALETTE_TITLE_PARTS = {
         "cn_name": "伊索德盘",
         "en_name": "Petits Fours Isolde",
     },
+    "middle-4-rosea-lotus": {
+        "shade_count": "4色",
+        "size_label": "中号",
+        "cn_name": "玫瑰莲盘",
+        "en_name": "Petits Fours Roséa Lotus",
+    },
     "middle-4-chocolat": {
         "shade_count": "4色",
         "size_label": "中号",
@@ -1073,6 +1079,8 @@ HOMEPAGE_GROUP_HEADINGS = {
     "big-12-mattes-warm": "#### 12色 大号/小号 Pro ",
     "big-12-mattes-dark": "#### 12色 大号/小号 Pro ",
     "big-12-editorial-brights": "#### 12色 大号/小号 Pro ",
+    "middle-4-rosea-lotus": "#### 4色 中号 Petites",
+    "middle-4-chocolat": "#### 4色 中号 Petites",
     "middle-4-violetta": "#### 4色 中号 Petites",
     "middle-4-peche": "#### 4色 中号 Petites",
     "middle-4-hesperides": "#### 4色 中号 Petites",
@@ -2006,69 +2014,50 @@ def derive_homepage_label(palette_dir: Path, title: str, explicit_label: str | N
 
 
 def update_docs_index(repo_root: Path, palette_dir: Path, homepage_label: str) -> Path:
-    docs_readme = repo_root / "docs" / "README.md"
-    lines = docs_readme.read_text(encoding="utf-8").splitlines()
-    relative_path = f"./viseart/{palette_dir.name}/README.md"
-    entry = f"- 📄 [{homepage_label}]({relative_path})"
+    viseart_readme = repo_root / "docs" / "viseart" / "README.md"
+    lines = viseart_readme.read_text(encoding="utf-8").splitlines()
+    relative_path = f"./{palette_dir.name}/README.md"
+    entry = f"- [x] [{homepage_label}]({relative_path})"
     target_heading = HOMEPAGE_GROUP_HEADINGS.get(palette_dir.name)
+
+    # Remove existing entry for this palette if present (any checkbox state)
     lines = [
         line
         for line in lines
-        if not (line.startswith("- 📄 [") and line.endswith(f"]({relative_path})"))
+        if not (
+            (line.startswith("- [x] [") or line.startswith("- [ ] ["))
+            and f"]({relative_path})" in line
+        )
     ]
 
     updated_lines: list[str] = []
     inserted = False
-    inside_section = False
     inside_target_group = False
 
     for line in lines:
-        stripped = line.strip()
-
         if inside_target_group and (line.startswith("#### ") or line.startswith("### ")):
             updated_lines.append(entry)
             inserted = True
             inside_target_group = False
 
         updated_lines.append(line)
-        if stripped == HOMEPAGE_SECTION:
-            inside_section = True
-            continue
 
-        if inside_section and target_heading and line == target_heading:
+        if target_heading and line.strip() == target_heading.strip():
             inside_target_group = True
-            continue
-
-        if inside_section and line.startswith("### "):
-            if not inserted:
-                if target_heading:
-                    updated_lines.insert(len(updated_lines) - 1, target_heading)
-                    updated_lines.insert(len(updated_lines) - 1, entry)
-                else:
-                    updated_lines.insert(len(updated_lines) - 1, entry)
-                inserted = True
-            inside_section = False
 
     if inside_target_group and not inserted:
-        updated_lines.append(entry)
-        inserted = True
-
-    if inside_section and not inserted:
-        if target_heading:
-            updated_lines.append(target_heading)
         updated_lines.append(entry)
         inserted = True
 
     if not inserted:
         if updated_lines and updated_lines[-1] != "":
             updated_lines.append("")
-        updated_lines.append(HOMEPAGE_SECTION)
         if target_heading:
             updated_lines.append(target_heading)
         updated_lines.append(entry)
 
-    docs_readme.write_text("\n".join(updated_lines).rstrip() + "\n", encoding="utf-8")
-    return docs_readme
+    viseart_readme.write_text("\n".join(updated_lines).rstrip() + "\n", encoding="utf-8")
+    return viseart_readme
 
 
 def save_slices(

@@ -58,6 +58,9 @@
 - [ ] [睡莲秘境盘 Nymphaía Étendu (2026)](./middle-12-nymphaia-etendu/README.md)
 - [ ] [灵蛇秘符盘 Serpentine Étendu (2026)](./middle-12-serpentine-etendu/README.md)
 
+#### 8色 小号 Petit Pro
+- [x] [伦敦星辰盘 Petit Pro London Étoile (2022)](./small-8-petit-pro-london-etoile/README.md)
+
 #### 12色 小号 Petites
 - [x] [05 暗调编辑盘 Dark Edit (2020)](./small-12-ved05-dark-edit/README.md)
 - [x] [01 暖调编辑盘 Warm Edit (2022)](./small-12-ved01-warm-edit/README.md)

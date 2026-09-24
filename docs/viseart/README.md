@@ -7,6 +7,7 @@
 - [x] [结构塑眉塑影修容盘 Structure Brow, Shadow, Hairline & Contour (2020)](./middle-15-structure-brow-eyeshadow-palette/README.md)
 
 #### 6色 大号 Theory
+- [x] [苦艾草本盘 Theory VI Absinthe (~2020)](./big-6-theory-vi-absinthe/README.md)
 - [x] [日落海妖盘 Theory VII Siren (2021)](./big-6-theory-vii-siren/README.md)
 
 #### 12色 大号/小号 Pro
@@ -36,6 +37,7 @@
 - [x] [樱花莲盘 Petits Fours Sakura Lotus (2023)](./middle-4-sakura-lotus/README.md)
 - [ ] [赫斯珀里得斯盘 Petits Fours Hesperides (2024)](./middle-4-hesperides/README.md)
 - [ ] [伊索德盘 Petits Fours Isolde (2024)](./middle-4-isolde/README.md)
+- [x] [碧波水莲盘 Petits Fours Water Lotus (~2023)](./middle-4-water-lotus/README.md)
 - [x] [玫瑰莲盘 Petits Fours Roséa Lotus (~2024)](./middle-4-rosea-lotus/README.md)
 
 #### 12色 中号 Étendu
@@ -66,6 +68,8 @@
 - [x] [日曜艳彩盘 Petit Pro Soleil (2020)](./small-8-petit-pro-soleil/README.md)
 - [x] [莓粉绮彩盘 Petit Pro Deux (2020)](./small-8-petit-pro-deux/README.md)
 - [x] [伦敦星辰盘 Petit Pro London Étoile (2022)](./small-8-petit-pro-london-etoile/README.md)
+- [x] [杏蜜橙光盘 Petit Pro Apricotine (~2022)](./small-8-petit-pro-apricotine/README.md)
+- [x] [旧金山星辰盘 Petit Pro San Francisco Étoile (~2023)](./small-8-petit-pro-san-francisco-etoile/README.md)
 
 #### 12色 小号 Petites
 - [x] [05 暗调编辑盘 Dark Edit (2020)](./small-12-ved05-dark-edit/README.md)

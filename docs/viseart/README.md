@@ -8,13 +8,13 @@
 
 #### 6色 大号 Theory
 - [x] [苦艾草本盘 Theory VI Absinthe (~2020)](./big-6-theory-vi-absinthe/README.md)
-- [x] [日落海妖盘 Theory VII Siren (2021)](./big-6-theory-vii-siren/README.md)
+- [ ] [日落海妖盘 Theory VII Siren (2021)](./big-6-theory-vii-siren/README.md)
 
 #### 12色 大号/小号 Pro
 - [x] [01 哑光中性盘 Mattes Neutral (2013)](./big-12-01-mattes-neutral/README.md)
 - [x] [07 哑光冷调盘 Mattes Cool Original (2013)](./big-12-07-mattes-cool-original/README.md)
 - [x] [04 哑光深调盘 Mattes Dark (2015)](./big-12-04-mattes-dark/README.md)
-- [ ] [05 魅惑微光盘 Shimmers Sultry Muse (2015)](./big-12-05-shimmers-sultry-muse/README.md)
+- [x] [05 魅惑微光盘 Shimmers Sultry Muse (2015)](./big-12-05-shimmers-sultry-muse/README.md)
 - [x] [06 巴黎裸光盘 Shimmers Paris Nudes (2015)](./big-12-06-shimmers-paris-nudes/README.md)
 - [ ] [08 哑光亮彩盘 Editorial Brights (2015)](./big-12-08-mattes-editorial-brights/README.md)
 - [ ] [02 梦幻波西米亚盘 Shimmers Bohème Dream (2016)](./big-12-02-shimmers-boheme-dream/README.md)

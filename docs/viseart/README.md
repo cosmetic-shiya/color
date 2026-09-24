@@ -77,5 +77,5 @@
 - [ ] [02 玫瑰编辑盘 Rosé Edit (2022)](./small-12-ved02-rose-edit/README.md)
 - [x] [03 微醺编辑盘 Spritz Edit (2022)](./small-12-ved03-spritz-edit/README.md)
 - [x] [04 巴黎编辑盘 Paris Edit (2022)](./small-12-ved04-paris-edit/README.md)
-- [] [06 黎明编辑盘 Dawn Edit (2022)](./small-12-ved06-dawn-edit/README.md)
+- [ ] [06 黎明编辑盘 Dawn Edit (2022)](./small-12-ved06-dawn-edit/README.md)
 - [ ] [巴黎小天使哑光盘 Petites Paris Chérubine Mattes (2025)](./small-12-mattes-paris-cherubine/README.md)

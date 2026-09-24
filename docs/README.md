@@ -5,5 +5,6 @@ Color cards and palette slices prepared for GitHub Pages.
 
 - [眼影 Byredo](./byredo/README.md)
 - [眼影 Natasha Denona](./natasha/README.md)
+- [眼影 SUQQU](./suqqu/README.md)
 - [眼影 Tom Ford](./tf/README.md)
 - [眼影 Viseart](./viseart/README.md)

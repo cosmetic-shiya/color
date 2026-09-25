@@ -15,3 +15,16 @@
 - [x] [夕琥箔 Signature Color Eyes 14 Yuukohaku (2022)](./sce-4-14-yuukohaku/README.md)
 - [x] [凛覗 Signature Color Eyes 15 Rinnozoki (2022)](./sce-4-15-rinnozoki/README.md)
 - [x] [煌满 Signature Color Eyes 156 Kiramekimitashi (2026)](./sce-4-156-kiramekimitashi/README.md)
+
+#### 2025 冬季限定 Winter Collection — Hoarfrost Art 霜艺
+- [x] [霜落叶 Signature Color Eyes S01 Shimoochiba (2025)](./sce-4-S01-shimoochiba/README.md)
+- [x] [霜花 Signature Color Eyes S02 Souka (2025)](./sce-4-S02-souka/README.md)
+- [x] [霜来 Signature Color Eyes S03 Sourai (2025)](./sce-4-S03-sourai/README.md)
+
+#### 2026 夏季限定 Summer Collection — Magic Hour 魔法时刻
+- [x] [暮靛 Signature Color Eyes 154 Kureai (2026)](./sce-4-154-kureai/README.md)
+- [x] [藤双靛 Signature Color Eyes 155 Fujifutaai (2026)](./sce-4-155-fujifutaai/README.md)
+
+#### 2026 冬季限定 Winter Collection
+- [ ] [色响 Signature Color Eyes 157 Irohibiki (2026)](./sce-4-157-irohibiki/README.md)
+- [ ] [冬光 Signature Color Eyes 158 Fuyuhikari (2026)](./sce-4-158-fuyuhikari/README.md)

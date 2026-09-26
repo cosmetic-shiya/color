@@ -7,10 +7,13 @@
       "WebFetch(domain:www.viseartparis.com)",
       "Bash(curl -s \"https://irress.com/en/products/violet-vesperine-etendu-eyeshadow-palette.js\")",
       "Bash(python3 -c ' *)",
-      "Bash(python3 .github/skills/viseart-palette-readme/viseart_palette_tool.py docs/viseart/middle-12-violette-vespertine-etendu --grid 4 3 --slice-ext jpg --slice-name-mode number-name)"
+      "Bash(python3 .github/skills/viseart-palette-readme/viseart_palette_tool.py docs/viseart/middle-12-violette-vespertine-etendu --grid 4 3 --slice-ext jpg --slice-name-mode number-name)",
+      "Bash(mkdir -p /Users/I037379/.claude/skills/compare)",
+      "Edit(~/.claude/skills/compare/**)"
     ],
     "additionalDirectories": [
-      "/Users/I037379/Development/color/docs/viseart/middle-12-violette-vespertine-etendu"
+      "/Users/I037379/Development/color/docs/viseart/middle-12-violette-vespertine-etendu",
+      "/Users/I037379/.claude/skills"
     ]
   }
 }

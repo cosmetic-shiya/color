@@ -16,8 +16,12 @@
 - [x] [凛覗 Signature Color Eyes 15 Rinnozoki (2022)](./sce-4-15-rinnozoki/README.md)
 - [x] [煌满 Signature Color Eyes 156 Kiramekimitashi (2026)](./sce-4-156-kiramekimitashi/README.md)
 
-#### 2023 冬季限定 Holiday Collection — Hoshisayuru 星冴
+#### 2023 假日限定 Holiday Collection — Hoshisayuru 星冴
 - [x] [星冴 Signature Color Eyes 132 Hoshisayuru (2023)](./sce-4-132-hoshisayuru/README.md)
+
+#### 2025 假日限定 Holiday Collection — Shunka 春霞 · Hikarikazari 光飾
+- [x] [春霞 Signature Color Eyes 149 Shunka (2025)](./sce-4-149-shunka/README.md)
+- [x] [光飾 Signature Color Eyes 150 Hikarikazari (2025)](./sce-4-150-hikarikazari/README.md)
 
 #### 2025 冬季限定 Winter Collection — Hoarfrost Art 霜艺
 - [x] [霜落叶 Signature Color Eyes S01 Shimoochiba (2025)](./sce-4-S01-shimoochiba/README.md)

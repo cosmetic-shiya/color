@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -L https://irress.com/cdn/shop/files/VespertineSwatches_Light1_Labeled_11.1.23.jpg -o docs/viseart/middle-12-violette-vespertine-etendu/arm_light.jpg)",
+      "Bash(curl -L https://irress.com/cdn/shop/files/Vespertine_Swatches_Deep_Labeled_11.1.23.jpg -o docs/viseart/middle-12-violette-vespertine-etendu/arm_deep.jpg)",
+      "Bash(mv docs/viseart/middle-12-violette-vespertine-etendu/icons.jpg \\\\ *)",
+      "WebFetch(domain:www.viseartparis.com)",
+      "Bash(curl -s \"https://irress.com/en/products/violet-vesperine-etendu-eyeshadow-palette.js\")",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 .github/skills/viseart-palette-readme/viseart_palette_tool.py docs/viseart/middle-12-violette-vespertine-etendu --grid 4 3 --slice-ext jpg --slice-name-mode number-name)"
+    ],
+    "additionalDirectories": [
+      "/Users/I037379/Development/color/docs/viseart/middle-12-violette-vespertine-etendu"
+    ]
+  }
+}

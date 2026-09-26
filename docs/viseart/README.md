@@ -46,6 +46,7 @@
 - [x] [羊绒盘 Cashmerie Étendu (2022)](./middle-12-cashmerie-etendu/README.md)
 - [x] [玛黑绮彩盘 Le Marais Étendu (2022)](./middle-12-le-marais-etendu/README.md)
 - [x] [羊绒魅缎盘 Cashmerie Charmeuse Étendu (2023)](./middle-12-cashmerie-charmeuse-etendu/README.md)
+- [x] [紫罗兰暮光盘 Violette Vespertine Étendu (2023)](./middle-12-violette-vespertine-etendu/README.md)
 - [ ] [巴黎绮梦盘 Paris Rêveries Étendu (2024)](./middle-12-paris-reveries-etendu/README.md)
 - [x] [巴黎星夜盘 Paris Nuit Étoilée Étendu (2025)](./middle-12-paris-nuit-etoilee-etendu/README.md)
 - [x] [巴黎哑光盘 Paris Mattes Étendu (2025)](./middle-12-visepro-paris-mattes-etendu/README.md)

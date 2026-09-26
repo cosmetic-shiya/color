@@ -5,6 +5,7 @@
 - **L** · [紫罗兰流辉盘 Violette Lumière Étendu (2026)](./middle-12-violette-lumiere-etendu/README.md)
 - **N** · [紫罗兰夜曲盘 Violette Nocturne Étendu (2025)](./middle-12-violette-nocturne-etendu/README.md)
 - **V** · [紫罗兰暮光盘 Violette Vespertine Étendu (2023)](./middle-12-violette-vespertine-etendu/README.md)
+- **Vi** · [四色紫罗兰盘 Petits Fours Violetta (2022)](./middle-4-violetta/README.md) — 4色 中号
 
 ---
 
@@ -23,12 +24,12 @@
 
 ### 2. 深紫李棕哑光
 
-两款的官方描述均为 "deep elderberry purple-brown, matte"，色调极为接近。
+两款的官方描述均为 "deep elderberry purple-brown, matte"，色调极为接近；Châtelet 偏暖红调黑莓紫，三者同属深暗哑光。
 
-| 流辉 L12 · Prunelle | 夜曲 N12 · Nocturna |
-|:---:|:---:|
-| ![](./middle-12-violette-lumiere-etendu/slices/12_Prunelle.png) | ![](./middle-12-violette-nocturne-etendu/slices/12_Nocturna.png) |
-| 深接骨木紫棕，哑光 | 深接骨木紫棕，哑光 |
+| 流辉 L12 · Prunelle | 夜曲 N12 · Nocturna | 紫罗兰 Vi3 · Châtelet |
+|:---:|:---:|:---:|
+| ![](./middle-12-violette-lumiere-etendu/slices/12_Prunelle.png) | ![](./middle-12-violette-nocturne-etendu/slices/12_Nocturna.png) | ![](./middle-4-violetta/slices/03_Chatelet.png) |
+| 深接骨木紫棕，哑光 | 深接骨木紫棕，哑光 | 浓郁黑莓紫，哑光（偏暖红调）|
 
 ---
 
@@ -58,12 +59,12 @@
 
 ### 5. 深紫偏光缎
 
-同为带蓝移的深紫偏光缎；Violine 更亮、更偏蓝紫，Pensée 更深、更偏黑李紫。
+同为带蓝移的深紫偏光缎；Violine 更亮更偏蓝紫，Pensée 更深更偏黑李紫，Verrerie 为午夜紫底带蓝绿双偏光。
 
-| 流辉 L6 · Violine | 暮光 V6 · Pensée |
-|:---:|:---:|
-| ![](./middle-12-violette-lumiere-etendu/slices/06_Violine.png) | ![](./middle-12-violette-vespertine-etendu/slices/06_Pensee.jpg) |
-| 深紫蓝偏光，缎光，色调较亮 | 深李紫蓝偏光，缎光，色调更深 |
+| 流辉 L6 · Violine | 暮光 V6 · Pensée | 紫罗兰 Vi2 · Verrerie |
+|:---:|:---:|:---:|
+| ![](./middle-12-violette-lumiere-etendu/slices/06_Violine.png) | ![](./middle-12-violette-vespertine-etendu/slices/06_Pensee.jpg) | ![](./middle-4-violetta/slices/02_Verrerie.png) |
+| 深紫蓝偏光，缎光，色调较亮 | 深李紫蓝偏光，缎光，色调更深 | 午夜紫，蓝绿双偏光，metallic |
 
 ---
 
@@ -80,12 +81,12 @@
 
 ### 7. 灰雾紫哑光渐层
 
-三款同属"灰雾冷调紫/豆沙"哑光，依深浅成梯度：Mauve des Bois 最浅偏玫瑰，Iantha 居中偏紫，Sureau 最深偏烟灰紫。
+四款同属"灰雾冷调紫/豆沙"哑光，依深浅成梯度：Mauve des Bois 最浅偏玫瑰，Couperin 柔雾灰紫（带金粉混闪），Iantha 居中偏紫，Sureau 最深偏烟灰紫。
 
-| 暮光 V3 · Mauve des Bois | 夜曲 N7 · Iantha | 流辉 L10 · Sureau |
-|:---:|:---:|:---:|
-| ![](./middle-12-violette-vespertine-etendu/slices/03_Mauve_des_Bois.jpg) | ![](./middle-12-violette-nocturne-etendu/slices/07_Iantha.png) | ![](./middle-12-violette-lumiere-etendu/slices/10_Sureau.png) |
-| 最浅，灰雾玫瑰豆沙 | 中调，灰雾冷调紫 | 最深，烟熏冷灰紫 |
+| 暮光 V3 · Mauve des Bois | 紫罗兰 Vi1 · Couperin | 夜曲 N7 · Iantha | 流辉 L10 · Sureau |
+|:---:|:---:|:---:|:---:|
+| ![](./middle-12-violette-vespertine-etendu/slices/03_Mauve_des_Bois.jpg) | ![](./middle-4-violetta/slices/01_Couperin.png) | ![](./middle-12-violette-nocturne-etendu/slices/07_Iantha.png) | ![](./middle-12-violette-lumiere-etendu/slices/10_Sureau.png) |
+| 最浅，灰雾玫瑰豆沙 | 柔雾灰紫，混闪哑光 | 中调，灰雾冷调紫 | 最深，烟熏冷灰紫 |
 
 ---
 
@@ -145,7 +146,14 @@ Cendres Lilas 与 Lilasé / Fleur de Nuit 同属丁香紫，但 Cendres Lilas �
 
 ---
 
-## 四、速查总表
+### 四色紫罗兰 Violetta 独有
+
+| Vi4 · Perchoir |
+|:---:|
+| ![](./middle-4-violetta/slices/04_Perchoir.png) |
+| 枪灰蓝绿，metallic pearl（全系唯一的枪灰色调）|
+
+---
 
 | 色系 | 流辉 Lumière | 夜曲 Nocturne | 暮光 Vespertine |
 |---|---|---|---|

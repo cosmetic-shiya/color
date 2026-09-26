@@ -155,26 +155,29 @@ Cendres Lilas 与 Lilasé / Fleur de Nuit 同属丁香紫，但 Cendres Lilas �
 
 ---
 
-| 色系 | 流辉 Lumière | 夜曲 Nocturne | 暮光 Vespertine |
-|---|---|---|---|
-| 暖调裸粉哑光 | **L1 Pétaline** | — | **V2 Reine-des-Prés** |
-| 冷调浅粉哑光 | — | N1 Plume, N2 Violetine | — |
-| 浅粉缎光 / 反光 | L2 Orchidée | — | V1 Perle d'Or（金珍珠）|
-| 铜棕金属闪 | **L3 Améthyste** | — | **V5 Sariette** |
-| 浅冷裸灰褐哑光 | L4 Taupeline | — | — |
-| 亮丁香紫哑光 | **L5 Lilasé** | **N10 Fleur de Nuit** | — |
-| 深紫蓝偏光缎 | **L6 Violine**（浅亮）| — | **V6 Pensée**（深暗）|
-| 浅薰衣草偏光 | L7 Opaline | N3 Chimère（近白）| — |
-| 粉紫金属闪 | **L8 Ipomée**（鲜亮）| N6 Serpentine（深暗）| **V11 Belle de Nuit** |
-| 裸玫瑰偏光缎 | L9 Prisme（强蓝闪）| — | — |
-| 灰雾紫哑光（浅） | — | — | V3 Mauve des Bois |
-| 灰雾紫哑光（中） | — | N7 Iantha | — |
-| 灰雾紫哑光（深）| L10 Sureau | — | — |
-| 灰雾丁香紫哑光 | — | — | V9 Cendres Lilas |
-| 暖中调豆沙灰褐哑光 | L11 Charoïte | N8 Silène Noctiflore | V10 Liatris |
-| 深暖棕哑光 | — | N11 Mûre Sauvage | V4 Brunelle |
-| 深接骨木紫棕哑光 | **L12 Prunelle** | **N12 Nocturna** | V12 Burple Bleuet（偏蓝紫）|
-| 香槟金闪 | — | — | V8 Lys des Pyrénées |
-| 中调灰米紫哑光 | — | N4 Cendrée | — |
-| 冷灰棕哑光 | — | N5 Astraea | — |
-| 烟熏铜棕闪 | — | N9 Gris Fumé | — |
+## 四、速查总表
+
+| 色系 | 流辉 Lumière | 夜曲 Nocturne | 暮光 Vespertine | 四色紫罗兰 Vi |
+|---|---|---|---|---|
+| 暖调裸粉哑光 | **L1 Pétaline** | — | **V2 Reine-des-Prés** | — |
+| 冷调浅粉哑光 | — | N1 Plume, N2 Violetine | — | — |
+| 浅粉缎光 / 反光 | L2 Orchidée | — | V1 Perle d'Or（金珍珠）| — |
+| 铜棕金属闪 | **L3 Améthyste** | — | **V5 Sariette** | — |
+| 浅冷裸灰褐哑光 | L4 Taupeline | — | — | — |
+| 亮丁香紫哑光 | **L5 Lilasé** | **N10 Fleur de Nuit** | — | — |
+| 深紫蓝偏光缎 | **L6 Violine**（浅亮）| — | **V6 Pensée**（深暗）| Vi2 Verrerie（双偏光）|
+| 浅薰衣草偏光 | L7 Opaline | N3 Chimère（近白）| — | — |
+| 粉紫金属闪 | **L8 Ipomée**（鲜亮）| N6 Serpentine（深暗）| **V11 Belle de Nuit** | — |
+| 裸玫瑰偏光缎 | L9 Prisme（强蓝闪）| — | — | — |
+| 灰雾紫哑光（浅） | — | — | V3 Mauve des Bois | Vi1 Couperin（混闪）|
+| 灰雾紫哑光（中） | — | N7 Iantha | — | — |
+| 灰雾紫哑光（深）| L10 Sureau | — | — | — |
+| 灰雾丁香紫哑光 | — | — | V9 Cendres Lilas | — |
+| 暖中调豆沙灰褐哑光 | L11 Charoïte | N8 Silène Noctiflore | V10 Liatris | — |
+| 深暖棕哑光 | — | N11 Mûre Sauvage | V4 Brunelle | — |
+| 深接骨木紫棕哑光 | **L12 Prunelle** | **N12 Nocturna** | V12 Burple Bleuet（偏蓝紫）| Vi3 Châtelet（偏暖红）|
+| 香槟金闪 | — | — | V8 Lys des Pyrénées | — |
+| 中调灰米紫哑光 | — | N4 Cendrée | — | — |
+| 冷灰棕哑光 | — | N5 Astraea | — | — |
+| 烟熏铜棕闪 | — | N9 Gris Fumé | — | — |
+| 枪灰蓝绿金属珠光 | — | — | — | Vi4 Perchoir |

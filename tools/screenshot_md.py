@@ -112,9 +112,16 @@ async def screenshot_sections(md_path: Path, out_dir: Path, level: int = 2):
 
         for idx, (title, body) in enumerate(sections):
             html = md_to_html(body, base_dir)
-            await page.set_content(html, wait_until='networkidle')
-            # Let images load
-            await page.wait_for_timeout(500)
+            await page.set_content(html, wait_until='load')
+            # Wait for all images to finish loading (file:// are synchronous but layout takes a tick)
+            await page.evaluate("""() => {
+                const imgs = Array.from(document.querySelectorAll('img'));
+                return Promise.all(imgs.map(img =>
+                    img.complete ? Promise.resolve() :
+                    new Promise(r => { img.onload = r; img.onerror = r; })
+                ));
+            }""")
+            await page.wait_for_timeout(300)
 
             if title == '__preamble__':
                 fname = f"00_preamble.png"

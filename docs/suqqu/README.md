@@ -18,28 +18,27 @@
 - [ ] [爛漫染 Signature Color Eyes 13 Ranmanzome (2024)](./sce-4-13-ranmanzome/README.md)
 - [x] [夕琥箔 Signature Color Eyes 14 Yuukohaku (2022)](./sce-4-14-yuukohaku/README.md)
 - [x] [凛覗 Signature Color Eyes 15 Rinnozoki (2022)](./sce-4-15-rinnozoki/README.md)
+
 #### 2023 夏季限定 Summer Limited — Hikarimai 光舞 · Kousa 紅彩
 - [ ] [光舞 Signature Color Eyes 125 Hikarimai (2023)](./sce-4-125-hikarimai/README.md)
 - [ ] [紅彩 Signature Color Eyes 128 Kousa (2023)](./sce-4-128-kousa/README.md)
 
-#### 2023 秋季限定 Autumn Limited — Rikka 六花
+#### 2023 秋季限定 Autumn Limited
 - [x] [六花 Signature Color Eyes 131 Rikka (2023)](./sce-4-131-rikka/README.md)
-
-#### 2023 假日限定 Holiday Collection — Hoshisayuru 星冴
 - [x] [星冴 Signature Color Eyes 132 Hoshisayuru (2023)](./sce-4-132-hoshisayuru/README.md)
 
-#### 2024 春季限定 Spring Limited — Hinataori 日向折
+#### 2024 春季限定 Spring Limited
 - [ ] [日向折 Signature Color Eyes 135 Hinataori (2024)](./sce-4-135-hinataori/README.md)
 
-#### 2024 秋季限定 Autumn Limited — Miyabizora 雅空 · Hazamazora 狭間空
+#### 2024 秋季限定 Autumn Limited
 - [ ] [雅空 Signature Color Eyes 140 Miyabizora (2024)](./sce-4-140-miyabizora/README.md)
 - [ ] [狭間空 Signature Color Eyes 141 Hazamazora (2024)](./sce-4-141-hazamazora/README.md)
 
-#### 2025 假日限定 Holiday Collection — Shunka 春霞 · Hikarikazari 光飾
+#### 2025 假日限定 Holiday Collection
 - [ ] [春霞 Signature Color Eyes 149 Shunka (2025)](./sce-4-149-shunka/README.md)
 - [ ] [光飾 Signature Color Eyes 150 Hikarikazari (2025)](./sce-4-150-hikarikazari/README.md)
 
-#### 2025 冬季限定 Winter Collection — Hoarfrost Art 霜艺
+#### 2025 冬季限定 Winter Collection
 - [x] [霜落叶 Signature Color Eyes S01 Shimoochiba (2025)](./sce-4-S01-shimoochiba/README.md)
 - [x] [霜花 Signature Color Eyes S02 Souka (2025)](./sce-4-S02-souka/README.md)
 - [x] [霜来 Signature Color Eyes S03 Sourai (2025)](./sce-4-S03-sourai/README.md)

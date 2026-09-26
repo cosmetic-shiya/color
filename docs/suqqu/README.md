@@ -18,8 +18,6 @@
 - [ ] [爛漫染 Signature Color Eyes 13 Ranmanzome (2024)](./sce-4-13-ranmanzome/README.md)
 - [x] [夕琥箔 Signature Color Eyes 14 Yuukohaku (2022)](./sce-4-14-yuukohaku/README.md)
 - [x] [凛覗 Signature Color Eyes 15 Rinnozoki (2022)](./sce-4-15-rinnozoki/README.md)
-- [x] [煌满 Signature Color Eyes 156 Kiramekimitashi (2026)](./sce-4-156-kiramekimitashi/README.md)
-
 #### 2023 夏季限定 Summer Limited — Hikarimai 光舞 · Kousa 紅彩
 - [ ] [光舞 Signature Color Eyes 125 Hikarimai (2023)](./sce-4-125-hikarimai/README.md)
 - [ ] [紅彩 Signature Color Eyes 128 Kousa (2023)](./sce-4-128-kousa/README.md)
@@ -49,6 +47,9 @@
 #### 2026 夏季限定 Summer Collection — Magic Hour 魔法时刻
 - [x] [暮靛 Signature Color Eyes 154 Kureai (2026)](./sce-4-154-kureai/README.md)
 - [ ] [藤双靛 Signature Color Eyes 155 Fujifutaai (2026)](./sce-4-155-fujifutaai/README.md)
+
+#### 2026 秋季 Autumn Color Collection
+- [x] [煌满 Signature Color Eyes 156 Kiramekimitashi (2026)](./sce-4-156-kiramekimitashi/README.md)
 
 #### 2026 冬季限定 Winter Collection
 - [ ] [色响 Signature Color Eyes 157 Irohibiki (2026)](./sce-4-157-irohibiki/README.md)

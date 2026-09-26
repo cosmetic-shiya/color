@@ -24,6 +24,9 @@
 - [ ] [光舞 Signature Color Eyes 125 Hikarimai (2023)](./sce-4-125-hikarimai/README.md)
 - [ ] [紅彩 Signature Color Eyes 128 Kousa (2023)](./sce-4-128-kousa/README.md)
 
+#### 2023 秋季限定 Autumn Limited — Rikka 六花
+- [x] [六花 Signature Color Eyes 131 Rikka (2023)](./sce-4-131-rikka/README.md)
+
 #### 2023 假日限定 Holiday Collection — Hoshisayuru 星冴
 - [x] [星冴 Signature Color Eyes 132 Hoshisayuru (2023)](./sce-4-132-hoshisayuru/README.md)
 

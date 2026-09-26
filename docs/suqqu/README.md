@@ -26,5 +26,5 @@
 - [x] [藤双靛 Signature Color Eyes 155 Fujifutaai (2026)](./sce-4-155-fujifutaai/README.md)
 
 #### 2026 冬季限定 Winter Collection
-- [ ] [色响 Signature Color Eyes 157 Irohibiki (2026)](./sce-4-157-irohibiki/README.md)
-- [ ] [冬光 Signature Color Eyes 158 Fuyuhikari (2026)](./sce-4-158-fuyuhikari/README.md)
+- [x] [色响 Signature Color Eyes 157 Irohibiki (2026)](./sce-4-157-irohibiki/README.md)
+- [x] [冬光 Signature Color Eyes 158 Fuyuhikari (2026)](./sce-4-158-fuyuhikari/README.md)

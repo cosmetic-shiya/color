@@ -1,6 +1,8 @@
 # SUQQU 4色 四色盘 冬光 Signature Color Eyes 158 Fuyuhikari
 *发布：2026*
 
+![id](id.jpg)
+
 > 寒冬的空气澄净如玻璃，城市灯光与夜空交相辉映。雾紫与闪棕交织出精致现代的层次感，炭蓝底色中的银调珠光如冬夜灯光折射般耀目，演绎出从容自若、令人过目不忘的冬日光泽。
 
 > *Winter air, clear as glass, reflects the shimmer of city lights against the night sky. Dusty lilac and glittering brown weave a refined, modern depth, while silver pearl in a charcoal blue base refracts like winter's urban glow — a poised impression that lingers.*

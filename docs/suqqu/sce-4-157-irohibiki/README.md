@@ -1,6 +1,8 @@
 # SUQQU 4色 四色盘 色响 Signature Color Eyes 157 Irohibiki
 *发布：2026*
 
+![id](id.jpg)
+
 > 冬日澄澈的空气中，色彩如共鸣般轻声回响。中性玫粉与冷蓝珠光叠于其上，再以金调珠光统一全妆，营造出自然而精致的成熟眼神，在寒冷透明的空气中，散发宁静而引人入胜的光泽。
 
 > *In the crisp clarity of winter air, colour resonates quietly. A neutral mauve pink layered with cool blue pearl shimmer, unified by luminous gold pearls across the lids — creating a naturally refined look that radiates a poised, captivating presence in the transparent winter air.*

@@ -11,3 +11,4 @@ Color cards and palette slices prepared for GitHub Pages.
 - [眼影 Viseart](./viseart/README.md)
   - [紫罗兰系对比 Violette Compare](./viseart/compare-violette.md)
   - [丁香系对比 Lilas Compare](./viseart/compare-lilas.md)
+  - [果仁糖系对比 Praline Compare](./viseart/compare-praline.md)

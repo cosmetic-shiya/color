@@ -47,7 +47,7 @@
 - [x] [暮靛 Signature Color Eyes 154 Kureai (2026)](./sce-4-154-kureai/README.md)
 - [ ] [藤双靛 Signature Color Eyes 155 Fujifutaai (2026)](./sce-4-155-fujifutaai/README.md)
 
-#### 2026 秋季 Autumn Color Collection
+#### 2026 秋季限定 Autumn Color Collection
 - [x] [煌满 Signature Color Eyes 156 Kiramekimitashi (2026)](./sce-4-156-kiramekimitashi/README.md)
 
 #### 2026 冬季限定 Winter Collection

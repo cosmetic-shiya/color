@@ -1,5 +1,9 @@
 # 眼影 SUQQU
 
+#### 2014 圣诞限定 X'MAS Collection Blend Color Eyeshadow（早期系列）
+- [x] [雪莓 Blend Color Eyeshadow EX-22 Yukiichigo (2014)](./bce-4-ex22-yukiichigo/README.md)
+- [x] [月杏 Blend Color Eyeshadow EX-23 Tsukianzu (2014)](./bce-4-ex23-tsukianzu/README.md)
+
 #### 4色 四色盘 Designing Color Eyes（早期系列）
 - [ ] [翡翠光 Designing Color Eyes 07 Hisuikou (2017)](./dce-4-07-hisuikou/README.md)
 

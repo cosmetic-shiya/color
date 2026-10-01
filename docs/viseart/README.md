@@ -10,6 +10,10 @@
 - [x] [苦艾草本盘 Theory VI Absinthe (~2020)](./big-6-theory-vi-absinthe/README.md)
 - [ ] [日落海妖盘 Theory VII Siren (2021)](./big-6-theory-vii-siren/README.md)
 
+#### 6色 大号 Fleurette
+- [x] [花束飞吻盘 Fleurette Bisous (2023)](./big-6-fleurette-bisous/README.md)
+- [x] [花束心动盘 Fleurette Coeur (~2023)](./big-6-fleurette-coeur/README.md)
+
 #### 12色 大号/小号 Pro
 - [x] [01 哑光中性盘 Mattes Neutral (2013)](./big-12-01-mattes-neutral/README.md)
 - [x] [07 哑光冷调盘 Mattes Cool Original (2013)](./big-12-07-mattes-cool-original/README.md)

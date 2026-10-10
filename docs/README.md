@@ -4,6 +4,7 @@ Color cards and palette slices prepared for GitHub Pages.
 [Git Repo](https://github.com/cosmetic-shiya/color){: .btn }
 
 - [眼影 Danessa Myricks Beauty](./danessa/README.md)
+  - [光绘系列横向对比 Lightwork Compare](./danessa/compare-lightwork.md)
 - [眼影 Byredo](./byredo/README.md)
 - [眼影 Chantecaille](./chantecaille/README.md)
 - [眼影 Natasha Denona](./natasha/README.md)

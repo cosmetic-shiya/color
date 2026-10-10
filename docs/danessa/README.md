@@ -1,6 +1,7 @@
 # 眼影 Danessa Myricks Beauty
 
 #### 18色 Lightwork 光绘系列
+- [x] [光绘第六章·自由盘 Lightwork Volume VI Freedom (2024)](./lightwork-vi-freedom/README.md)
 - [x] [光绘第七章·自由盘 Lightwork Volume VII Freedom (2024)](./lightwork-vii-freedom/README.md)
 - [ ] [光绘第八章·自由盘 Lightwork Volume VIII Freedom (2026)](./lightwork-viii-freedom/README.md)
 
